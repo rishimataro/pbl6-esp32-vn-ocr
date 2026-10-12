@@ -1,0 +1,5 @@
+﻿method,image,time_s,characters,cer,wer
+raw,test_crop_2.png,0.506,733,0.15082,0.42073
+adaptive,test_crop_2_adaptive.png,0.443,733,0.1875,0.52439
+clahe,test_crop_2_clahe.png,0.504,741,0.15217,0.44512
+clahe_sharp,test_crop_2_clahe_sharp.png,0.555,742,0.15761,0.43902

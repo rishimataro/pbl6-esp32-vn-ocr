@@ -1,0 +1,2 @@
+﻿image_id,saved_at,page_id,condition,source,original_filename,filename,backend_path,dataset_path,content_type,width,height,file_size,sha256,note
+P001_C01_normal_20261012_164730_902612_3182f8,2026-10-12T16:47:30+07:00,P001,C01_normal,esp32_raw,,P001_C01_normal_20261012_164730_902612_3182f8.jpg,backend/uploads/P001_C01_normal_20261012_164730_902612_3182f8.jpg,dataset/raw/images/P001_C01_normal_20261012_164730_902612_3182f8.jpg,image/jpeg,720,989,155026,0b9f4aa5e96d90cb8ac000fd2b583334c3d6e2ce4108764c2feff9167d2fbd0b,
