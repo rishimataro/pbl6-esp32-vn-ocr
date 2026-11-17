@@ -1,0 +1,71 @@
+{
+ "ckpt": "models\\retrain\\m4_nafnet_all\\best.pt",
+ "mean": {
+  "psnr": 17.0919,
+  "ssim": 0.8127,
+  "psnr_input": 5.7858,
+  "ssim_input": 0.5712
+ },
+ "pages": {
+  "3": {
+   "psnr": 19.734,
+   "ssim": 0.9075,
+   "psnr_input": 4.029,
+   "ssim_input": 0.5195
+  },
+  "4": {
+   "psnr": 18.621,
+   "ssim": 0.876,
+   "psnr_input": 3.932,
+   "ssim_input": 0.5272
+  },
+  "7": {
+   "psnr": 15.867,
+   "ssim": 0.7819,
+   "psnr_input": 7.4,
+   "ssim_input": 0.6067
+  },
+  "9": {
+   "psnr": 15.348,
+   "ssim": 0.7648,
+   "psnr_input": 7.252,
+   "ssim_input": 0.6218
+  },
+  "11": {
+   "psnr": 15.749,
+   "ssim": 0.7144,
+   "psnr_input": 6.094,
+   "ssim_input": 0.5189
+  },
+  "14": {
+   "psnr": 20.372,
+   "ssim": 0.9068,
+   "psnr_input": 6.128,
+   "ssim_input": 0.6976
+  },
+  "25": {
+   "psnr": 17.763,
+   "ssim": 0.8454,
+   "psnr_input": 6.236,
+   "ssim_input": 0.6027
+  },
+  "32": {
+   "psnr": 17.389,
+   "ssim": 0.8669,
+   "psnr_input": 5.979,
+   "ssim_input": 0.6124
+  },
+  "38": {
+   "psnr": 14.349,
+   "ssim": 0.7204,
+   "psnr_input": 6.286,
+   "ssim_input": 0.5498
+  },
+  "44": {
+   "psnr": 15.727,
+   "ssim": 0.7427,
+   "psnr_input": 4.522,
+   "ssim_input": 0.4558
+  }
+ }
+}

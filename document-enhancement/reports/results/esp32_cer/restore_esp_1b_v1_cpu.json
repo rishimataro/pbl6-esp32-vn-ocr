@@ -1,0 +1,101 @@
+{
+ "ckpt": "work\\n3\\ckpt\\v1\\best.pt",
+ "mean": {
+  "psnr": 17.0601,
+  "ssim": 0.7997,
+  "psnr_input": 5.8793,
+  "ssim_input": 0.5646
+ },
+ "pages": {
+  "3": {
+   "psnr": 20.089,
+   "ssim": 0.9117,
+   "psnr_input": 4.029,
+   "ssim_input": 0.5195
+  },
+  "4": {
+   "psnr": 18.695,
+   "ssim": 0.877,
+   "psnr_input": 3.932,
+   "ssim_input": 0.5272
+  },
+  "6": {
+   "psnr": 16.011,
+   "ssim": 0.7796,
+   "psnr_input": 7.218,
+   "ssim_input": 0.6128
+  },
+  "7": {
+   "psnr": 16.48,
+   "ssim": 0.7932,
+   "psnr_input": 7.4,
+   "ssim_input": 0.6067
+  },
+  "9": {
+   "psnr": 15.586,
+   "ssim": 0.7706,
+   "psnr_input": 7.252,
+   "ssim_input": 0.6218
+  },
+  "11": {
+   "psnr": 15.822,
+   "ssim": 0.719,
+   "psnr_input": 6.094,
+   "ssim_input": 0.5189
+  },
+  "14": {
+   "psnr": 20.274,
+   "ssim": 0.9074,
+   "psnr_input": 6.128,
+   "ssim_input": 0.6976
+  },
+  "17": {
+   "psnr": 15.64,
+   "ssim": 0.7626,
+   "psnr_input": 6.088,
+   "ssim_input": 0.563
+  },
+  "21": {
+   "psnr": 14.834,
+   "ssim": 0.7048,
+   "psnr_input": 6.46,
+   "ssim_input": 0.5524
+  },
+  "25": {
+   "psnr": 18.714,
+   "ssim": 0.8582,
+   "psnr_input": 6.236,
+   "ssim_input": 0.6027
+  },
+  "29": {
+   "psnr": 16.162,
+   "ssim": 0.7773,
+   "psnr_input": 5.97,
+   "ssim_input": 0.5624
+  },
+  "32": {
+   "psnr": 18.447,
+   "ssim": 0.8777,
+   "psnr_input": 5.979,
+   "ssim_input": 0.6124
+  },
+  "38": {
+   "psnr": 14.524,
+   "ssim": 0.724,
+   "psnr_input": 6.286,
+   "ssim_input": 0.5498
+  },
+  "44": {
+   "psnr": 16.466,
+   "ssim": 0.7429,
+   "psnr_input": 4.522,
+   "ssim_input": 0.4558
+  },
+  "45": {
+   "psnr": 18.158,
+   "ssim": 0.7894,
+   "psnr_input": 4.595,
+   "ssim_input": 0.4659
+  }
+ }
+}

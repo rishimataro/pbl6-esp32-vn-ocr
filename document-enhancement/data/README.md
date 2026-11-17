@@ -1,0 +1,1 @@
+Dữ liệu không đưa lên GitHub (dung lượng lớn, có bản quyền riêng). Xem README.md ở thư mục cha và docs/HUONG_DAN_TRAIN_LAI.md để biết cách tải RealDAE, DocAligner, Jung, DocUNet và dựng dữ liệu ESP32.

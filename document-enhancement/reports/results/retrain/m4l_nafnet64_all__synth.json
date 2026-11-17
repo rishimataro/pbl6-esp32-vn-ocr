@@ -1,0 +1,7822 @@
+{
+ "set": "/content/synth_test",
+ "method": "model",
+ "ckpt": "/content/drive/MyDrive/PBL6/checkpoints/retrain/m4l_nafnet64_all/best.pt",
+ "params": 27113155,
+ "tile": 0,
+ "device": "cuda",
+ "groups": {
+  "blur/L1": {
+   "n": 60,
+   "mean": {
+    "psnr": 24.7273,
+    "ssim": 0.9235,
+    "lpips": 0.1364
+   },
+   "sec_per_image": 0.0485,
+   "resized": 0,
+   "images": [
+    {
+     "name": "esp32_test_clean_esp03.png",
+     "psnr": 29.5603,
+     "ssim": 0.98612,
+     "lpips": 0.0266
+    },
+    {
+     "name": "esp32_test_clean_esp04.png",
+     "psnr": 28.4877,
+     "ssim": 0.9816,
+     "lpips": 0.0448
+    },
+    {
+     "name": "esp32_test_clean_esp07.png",
+     "psnr": 24.9754,
+     "ssim": 0.96121,
+     "lpips": 0.07013
+    },
+    {
+     "name": "esp32_test_clean_esp09.png",
+     "psnr": 27.908,
+     "ssim": 0.97981,
+     "lpips": 0.03201
+    },
+    {
+     "name": "esp32_test_clean_esp11.png",
+     "psnr": 23.5472,
+     "ssim": 0.92592,
+     "lpips": 0.15884
+    },
+    {
+     "name": "esp32_test_clean_esp14.png",
+     "psnr": 30.1396,
+     "ssim": 0.98475,
+     "lpips": 0.03607
+    },
+    {
+     "name": "esp32_test_clean_esp25.png",
+     "psnr": 23.4855,
+     "ssim": 0.94345,
+     "lpips": 0.11849
+    },
+    {
+     "name": "esp32_test_clean_esp32.png",
+     "psnr": 29.1755,
+     "ssim": 0.98344,
+     "lpips": 0.03135
+    },
+    {
+     "name": "esp32_test_clean_esp38.png",
+     "psnr": 24.2637,
+     "ssim": 0.95118,
+     "lpips": 0.08813
+    },
+    {
+     "name": "esp32_test_clean_esp44.png",
+     "psnr": 28.2145,
+     "ssim": 0.95548,
+     "lpips": 0.0659
+    },
+    {
+     "name": "gt_506.png",
+     "psnr": 23.3776,
+     "ssim": 0.90671,
+     "lpips": 0.19588
+    },
+    {
+     "name": "gt_516.png",
+     "psnr": 22.5104,
+     "ssim": 0.90924,
+     "lpips": 0.13275
+    },
+    {
+     "name": "gt_517.png",
+     "psnr": 21.7829,
+     "ssim": 0.89858,
+     "lpips": 0.14332
+    },
+    {
+     "name": "gt_530.png",
+     "psnr": 24.5206,
+     "ssim": 0.93127,
+     "lpips": 0.1144
+    },
+    {
+     "name": "gt_534.png",
+     "psnr": 19.2578,
+     "ssim": 0.79481,
+     "lpips": 0.36977
+    },
+    {
+     "name": "gt_540.png",
+     "psnr": 22.6473,
+     "ssim": 0.916,
+     "lpips": 0.13995
+    },
+    {
+     "name": "gt_602.png",
+     "psnr": 28.8068,
+     "ssim": 0.96791,
+     "lpips": 0.0659
+    },
+    {
+     "name": "gt_638.png",
+     "psnr": 25.292,
+     "ssim": 0.93299,
+     "lpips": 0.13876
+    },
+    {
+     "name": "gt_670.png",
+     "psnr": 24.3901,
+     "ssim": 0.89527,
+     "lpips": 0.19864
+    },
+    {
+     "name": "gt_687.png",
+     "psnr": 24.3892,
+     "ssim": 0.90662,
+     "lpips": 0.14886
+    },
+    {
+     "name": "gt_696.png",
+     "psnr": 24.0204,
+     "ssim": 0.90336,
+     "lpips": 0.19301
+    },
+    {
+     "name": "gt_708.png",
+     "psnr": 23.6312,
+     "ssim": 0.8825,
+     "lpips": 0.16488
+    },
+    {
+     "name": "gt_712.png",
+     "psnr": 21.472,
+     "ssim": 0.90609,
+     "lpips": 0.19474
+    },
+    {
+     "name": "gt_717.png",
+     "psnr": 22.9197,
+     "ssim": 0.8199,
+     "lpips": 0.22526
+    },
+    {
+     "name": "gt_754.png",
+     "psnr": 22.3762,
+     "ssim": 0.88727,
+     "lpips": 0.16076
+    },
+    {
+     "name": "gt_759.png",
+     "psnr": 23.8943,
+     "ssim": 0.92993,
+     "lpips": 0.14226
+    },
+    {
+     "name": "gt_770.png",
+     "psnr": 26.0213,
+     "ssim": 0.95376,
+     "lpips": 0.06372
+    },
+    {
+     "name": "gt_771.png",
+     "psnr": 24.2776,
+     "ssim": 0.91763,
+     "lpips": 0.13168
+    },
+    {
+     "name": "gt_775.png",
+     "psnr": 22.476,
+     "ssim": 0.9223,
+     "lpips": 0.09821
+    },
+    {
+     "name": "gt_783.png",
+     "psnr": 23.3468,
+     "ssim": 0.90974,
+     "lpips": 0.17508
+    },
+    {
+     "name": "gt_811.png",
+     "psnr": 24.757,
+     "ssim": 0.93176,
+     "lpips": 0.12056
+    },
+    {
+     "name": "gt_834.png",
+     "psnr": 24.6889,
+     "ssim": 0.92887,
+     "lpips": 0.1924
+    },
+    {
+     "name": "gt_837.png",
+     "psnr": 24.0854,
+     "ssim": 0.92132,
+     "lpips": 0.16339
+    },
+    {
+     "name": "gt_840.png",
+     "psnr": 24.7656,
+     "ssim": 0.91129,
+     "lpips": 0.20388
+    },
+    {
+     "name": "gt_843.png",
+     "psnr": 23.5219,
+     "ssim": 0.85249,
+     "lpips": 0.20453
+    },
+    {
+     "name": "gt_849.png",
+     "psnr": 25.5582,
+     "ssim": 0.93718,
+     "lpips": 0.0959
+    },
+    {
+     "name": "gt_880.png",
+     "psnr": 27.0873,
+     "ssim": 0.9618,
+     "lpips": 0.07338
+    },
+    {
+     "name": "gt_926.png",
+     "psnr": 24.8256,
+     "ssim": 0.95954,
+     "lpips": 0.07407
+    },
+    {
+     "name": "gt_927.png",
+     "psnr": 27.4125,
+     "ssim": 0.9661,
+     "lpips": 0.06092
+    },
+    {
+     "name": "gt_959.png",
+     "psnr": 22.5473,
+     "ssim": 0.84921,
+     "lpips": 0.24198
+    },
+    {
+     "name": "gt_970.png",
+     "psnr": 20.2817,
+     "ssim": 0.85306,
+     "lpips": 0.2534
+    },
+    {
+     "name": "gt_972.png",
+     "psnr": 22.1354,
+     "ssim": 0.88836,
+     "lpips": 0.31128
+    },
+    {
+     "name": "gt_973.png",
+     "psnr": 21.2756,
+     "ssim": 0.89532,
+     "lpips": 0.15782
+    },
+    {
+     "name": "gt_974.png",
+     "psnr": 21.6226,
+     "ssim": 0.89573,
+     "lpips": 0.13827
+    },
+    {
+     "name": "gt_975.png",
+     "psnr": 24.7196,
+     "ssim": 0.92617,
+     "lpips": 0.13946
+    },
+    {
+     "name": "gt_976.png",
+     "psnr": 26.0736,
+     "ssim": 0.92165,
+     "lpips": 0.10749
+    },
+    {
+     "name": "gt_977.png",
+     "psnr": 23.2031,
+     "ssim": 0.91175,
+     "lpips": 0.175
+    },
+    {
+     "name": "gt_978.png",
+     "psnr": 27.8048,
+     "ssim": 0.96188,
+     "lpips": 0.06104
+    },
+    {
+     "name": "gt_980.png",
+     "psnr": 27.4737,
+     "ssim": 0.97075,
+     "lpips": 0.06745
+    },
+    {
+     "name": "gt_982.png",
+     "psnr": 25.5236,
+     "ssim": 0.88917,
+     "lpips": 0.23329
+    },
+    {
+     "name": "gt_983.png",
+     "psnr": 30.105,
+     "ssim": 0.98082,
+     "lpips": 0.04286
+    },
+    {
+     "name": "gt_986.png",
+     "psnr": 27.2663,
+     "ssim": 0.9577,
+     "lpips": 0.08417
+    },
+    {
+     "name": "gt_987.png",
+     "psnr": 26.4614,
+     "ssim": 0.96365,
+     "lpips": 0.07002
+    },
+    {
+     "name": "gt_988.png",
+     "psnr": 23.5545,
+     "ssim": 0.89083,
+     "lpips": 0.17534
+    },
+    {
+     "name": "gt_989.png",
+     "psnr": 24.5679,
+     "ssim": 0.91657,
+     "lpips": 0.14929
+    },
+    {
+     "name": "gt_992.png",
+     "psnr": 23.3811,
+     "ssim": 0.91868,
+     "lpips": 0.21738
+    },
+    {
+     "name": "gt_994.png",
+     "psnr": 24.6894,
+     "ssim": 0.94097,
+     "lpips": 0.09345
+    },
+    {
+     "name": "gt_995.png",
+     "psnr": 22.1463,
+     "ssim": 0.91271,
+     "lpips": 0.16464
+    },
+    {
+     "name": "gt_996.png",
+     "psnr": 27.1079,
+     "ssim": 0.97368,
+     "lpips": 0.03972
+    },
+    {
+     "name": "gt_999.png",
+     "psnr": 23.8268,
+     "ssim": 0.87679,
+     "lpips": 0.20441
+    }
+   ]
+  },
+  "blur/L2": {
+   "n": 60,
+   "mean": {
+    "psnr": 23.7075,
+    "ssim": 0.8909,
+    "lpips": 0.1799
+   },
+   "sec_per_image": 0.0448,
+   "resized": 0,
+   "images": [
+    {
+     "name": "esp32_test_clean_esp03.png",
+     "psnr": 26.4737,
+     "ssim": 0.97087,
+     "lpips": 0.05876
+    },
+    {
+     "name": "esp32_test_clean_esp04.png",
+     "psnr": 27.7556,
+     "ssim": 0.97683,
+     "lpips": 0.04656
+    },
+    {
+     "name": "esp32_test_clean_esp07.png",
+     "psnr": 21.3949,
+     "ssim": 0.91003,
+     "lpips": 0.21294
+    },
+    {
+     "name": "esp32_test_clean_esp09.png",
+     "psnr": 25.1739,
+     "ssim": 0.9603,
+     "lpips": 0.07533
+    },
+    {
+     "name": "esp32_test_clean_esp11.png",
+     "psnr": 24.9525,
+     "ssim": 0.9295,
+     "lpips": 0.14755
+    },
+    {
+     "name": "esp32_test_clean_esp14.png",
+     "psnr": 28.4491,
+     "ssim": 0.97638,
+     "lpips": 0.05176
+    },
+    {
+     "name": "esp32_test_clean_esp25.png",
+     "psnr": 24.5277,
+     "ssim": 0.94899,
+     "lpips": 0.09095
+    },
+    {
+     "name": "esp32_test_clean_esp32.png",
+     "psnr": 26.0623,
+     "ssim": 0.96684,
+     "lpips": 0.06473
+    },
+    {
+     "name": "esp32_test_clean_esp38.png",
+     "psnr": 24.948,
+     "ssim": 0.95606,
+     "lpips": 0.08332
+    },
+    {
+     "name": "esp32_test_clean_esp44.png",
+     "psnr": 23.0836,
+     "ssim": 0.89723,
+     "lpips": 0.24141
+    },
+    {
+     "name": "gt_506.png",
+     "psnr": 21.7806,
+     "ssim": 0.83089,
+     "lpips": 0.28538
+    },
+    {
+     "name": "gt_516.png",
+     "psnr": 23.5092,
+     "ssim": 0.91699,
+     "lpips": 0.11893
+    },
+    {
+     "name": "gt_517.png",
+     "psnr": 21.9545,
+     "ssim": 0.89352,
+     "lpips": 0.15164
+    },
+    {
+     "name": "gt_530.png",
+     "psnr": 22.5513,
+     "ssim": 0.87733,
+     "lpips": 0.18874
+    },
+    {
+     "name": "gt_534.png",
+     "psnr": 18.8058,
+     "ssim": 0.73521,
+     "lpips": 0.38762
+    },
+    {
+     "name": "gt_540.png",
+     "psnr": 20.3217,
+     "ssim": 0.84634,
+     "lpips": 0.24213
+    },
+    {
+     "name": "gt_602.png",
+     "psnr": 28.6323,
+     "ssim": 0.94107,
+     "lpips": 0.10187
+    },
+    {
+     "name": "gt_638.png",
+     "psnr": 22.7689,
+     "ssim": 0.87528,
+     "lpips": 0.21016
+    },
+    {
+     "name": "gt_670.png",
+     "psnr": 23.8111,
+     "ssim": 0.86408,
+     "lpips": 0.227
+    },
+    {
+     "name": "gt_687.png",
+     "psnr": 22.9032,
+     "ssim": 0.85604,
+     "lpips": 0.19002
+    },
+    {
+     "name": "gt_696.png",
+     "psnr": 22.9287,
+     "ssim": 0.84859,
+     "lpips": 0.26527
+    },
+    {
+     "name": "gt_708.png",
+     "psnr": 23.6023,
+     "ssim": 0.84187,
+     "lpips": 0.21586
+    },
+    {
+     "name": "gt_712.png",
+     "psnr": 21.9084,
+     "ssim": 0.89833,
+     "lpips": 0.16141
+    },
+    {
+     "name": "gt_717.png",
+     "psnr": 23.9094,
+     "ssim": 0.81039,
+     "lpips": 0.27677
+    },
+    {
+     "name": "gt_754.png",
+     "psnr": 23.3993,
+     "ssim": 0.8952,
+     "lpips": 0.15284
+    },
+    {
+     "name": "gt_759.png",
+     "psnr": 21.8235,
+     "ssim": 0.88254,
+     "lpips": 0.20999
+    },
+    {
+     "name": "gt_770.png",
+     "psnr": 24.2153,
+     "ssim": 0.91765,
+     "lpips": 0.10724
+    },
+    {
+     "name": "gt_771.png",
+     "psnr": 24.7391,
+     "ssim": 0.91246,
+     "lpips": 0.12398
+    },
+    {
+     "name": "gt_775.png",
+     "psnr": 22.5258,
+     "ssim": 0.89338,
+     "lpips": 0.1428
+    },
+    {
+     "name": "gt_783.png",
+     "psnr": 22.9409,
+     "ssim": 0.87444,
+     "lpips": 0.17864
+    },
+    {
+     "name": "gt_811.png",
+     "psnr": 23.4317,
+     "ssim": 0.88573,
+     "lpips": 0.19015
+    },
+    {
+     "name": "gt_834.png",
+     "psnr": 22.069,
+     "ssim": 0.80953,
+     "lpips": 0.27362
+    },
+    {
+     "name": "gt_837.png",
+     "psnr": 22.7295,
+     "ssim": 0.87721,
+     "lpips": 0.21548
+    },
+    {
+     "name": "gt_840.png",
+     "psnr": 23.8214,
+     "ssim": 0.81959,
+     "lpips": 0.28506
+    },
+    {
+     "name": "gt_843.png",
+     "psnr": 22.8656,
+     "ssim": 0.78662,
+     "lpips": 0.29446
+    },
+    {
+     "name": "gt_849.png",
+     "psnr": 21.3687,
+     "ssim": 0.8541,
+     "lpips": 0.18277
+    },
+    {
+     "name": "gt_880.png",
+     "psnr": 25.4387,
+     "ssim": 0.9408,
+     "lpips": 0.10514
+    },
+    {
+     "name": "gt_926.png",
+     "psnr": 22.3155,
+     "ssim": 0.92169,
+     "lpips": 0.14635
+    },
+    {
+     "name": "gt_927.png",
+     "psnr": 25.2791,
+     "ssim": 0.94071,
+     "lpips": 0.0979
+    },
+    {
+     "name": "gt_959.png",
+     "psnr": 21.8779,
+     "ssim": 0.80415,
+     "lpips": 0.29452
+    },
+    {
+     "name": "gt_970.png",
+     "psnr": 20.95,
+     "ssim": 0.85615,
+     "lpips": 0.26611
+    },
+    {
+     "name": "gt_972.png",
+     "psnr": 21.2022,
+     "ssim": 0.82626,
+     "lpips": 0.3815
+    },
+    {
+     "name": "gt_973.png",
+     "psnr": 23.0554,
+     "ssim": 0.90699,
+     "lpips": 0.14864
+    },
+    {
+     "name": "gt_974.png",
+     "psnr": 21.7071,
+     "ssim": 0.89405,
+     "lpips": 0.21102
+    },
+    {
+     "name": "gt_975.png",
+     "psnr": 21.1374,
+     "ssim": 0.81498,
+     "lpips": 0.25782
+    },
+    {
+     "name": "gt_976.png",
+     "psnr": 25.6582,
+     "ssim": 0.90021,
+     "lpips": 0.12187
+    },
+    {
+     "name": "gt_977.png",
+     "psnr": 21.35,
+     "ssim": 0.85406,
+     "lpips": 0.25018
+    },
+    {
+     "name": "gt_978.png",
+     "psnr": 25.8492,
+     "ssim": 0.93424,
+     "lpips": 0.10605
+    },
+    {
+     "name": "gt_980.png",
+     "psnr": 26.0914,
+     "ssim": 0.96044,
+     "lpips": 0.09362
+    },
+    {
+     "name": "gt_982.png",
+     "psnr": 24.4429,
+     "ssim": 0.85279,
+     "lpips": 0.28795
+    },
+    {
+     "name": "gt_983.png",
+     "psnr": 28.6514,
+     "ssim": 0.9678,
+     "lpips": 0.0543
+    },
+    {
+     "name": "gt_986.png",
+     "psnr": 24.2056,
+     "ssim": 0.91313,
+     "lpips": 0.13773
+    },
+    {
+     "name": "gt_987.png",
+     "psnr": 21.931,
+     "ssim": 0.87837,
+     "lpips": 0.15249
+    },
+    {
+     "name": "gt_988.png",
+     "psnr": 23.669,
+     "ssim": 0.85215,
+     "lpips": 0.19758
+    },
+    {
+     "name": "gt_989.png",
+     "psnr": 26.0369,
+     "ssim": 0.9253,
+     "lpips": 0.13536
+    },
+    {
+     "name": "gt_992.png",
+     "psnr": 23.5012,
+     "ssim": 0.90468,
+     "lpips": 0.25323
+    },
+    {
+     "name": "gt_994.png",
+     "psnr": 24.8332,
+     "ssim": 0.92962,
+     "lpips": 0.09942
+    },
+    {
+     "name": "gt_995.png",
+     "psnr": 22.4955,
+     "ssim": 0.89689,
+     "lpips": 0.19435
+    },
+    {
+     "name": "gt_996.png",
+     "psnr": 27.6776,
+     "ssim": 0.97268,
+     "lpips": 0.05567
+    },
+    {
+     "name": "gt_999.png",
+     "psnr": 24.9545,
+     "ssim": 0.87075,
+     "lpips": 0.28991
+    }
+   ]
+  },
+  "blur/L3": {
+   "n": 60,
+   "mean": {
+    "psnr": 22.3294,
+    "ssim": 0.8496,
+    "lpips": 0.2211
+   },
+   "sec_per_image": 0.0447,
+   "resized": 0,
+   "images": [
+    {
+     "name": "esp32_test_clean_esp03.png",
+     "psnr": 24.2525,
+     "ssim": 0.95044,
+     "lpips": 0.08556
+    },
+    {
+     "name": "esp32_test_clean_esp04.png",
+     "psnr": 23.0277,
+     "ssim": 0.93292,
+     "lpips": 0.1142
+    },
+    {
+     "name": "esp32_test_clean_esp07.png",
+     "psnr": 21.634,
+     "ssim": 0.90759,
+     "lpips": 0.14066
+    },
+    {
+     "name": "esp32_test_clean_esp09.png",
+     "psnr": 22.8099,
+     "ssim": 0.92659,
+     "lpips": 0.13607
+    },
+    {
+     "name": "esp32_test_clean_esp11.png",
+     "psnr": 22.8991,
+     "ssim": 0.88733,
+     "lpips": 0.21203
+    },
+    {
+     "name": "esp32_test_clean_esp14.png",
+     "psnr": 26.5866,
+     "ssim": 0.96328,
+     "lpips": 0.07433
+    },
+    {
+     "name": "esp32_test_clean_esp25.png",
+     "psnr": 23.1353,
+     "ssim": 0.92603,
+     "lpips": 0.14485
+    },
+    {
+     "name": "esp32_test_clean_esp32.png",
+     "psnr": 21.2795,
+     "ssim": 0.91028,
+     "lpips": 0.17383
+    },
+    {
+     "name": "esp32_test_clean_esp38.png",
+     "psnr": 22.0345,
+     "ssim": 0.9117,
+     "lpips": 0.13169
+    },
+    {
+     "name": "esp32_test_clean_esp44.png",
+     "psnr": 22.1667,
+     "ssim": 0.86845,
+     "lpips": 0.12515
+    },
+    {
+     "name": "gt_506.png",
+     "psnr": 20.3095,
+     "ssim": 0.71728,
+     "lpips": 0.36112
+    },
+    {
+     "name": "gt_516.png",
+     "psnr": 22.7282,
+     "ssim": 0.89243,
+     "lpips": 0.15128
+    },
+    {
+     "name": "gt_517.png",
+     "psnr": 20.9807,
+     "ssim": 0.85834,
+     "lpips": 0.19609
+    },
+    {
+     "name": "gt_530.png",
+     "psnr": 20.8019,
+     "ssim": 0.81256,
+     "lpips": 0.26311
+    },
+    {
+     "name": "gt_534.png",
+     "psnr": 18.4844,
+     "ssim": 0.69621,
+     "lpips": 0.43583
+    },
+    {
+     "name": "gt_540.png",
+     "psnr": 18.6535,
+     "ssim": 0.76717,
+     "lpips": 0.32221
+    },
+    {
+     "name": "gt_602.png",
+     "psnr": 26.9359,
+     "ssim": 0.90636,
+     "lpips": 0.16728
+    },
+    {
+     "name": "gt_638.png",
+     "psnr": 22.331,
+     "ssim": 0.85472,
+     "lpips": 0.24426
+    },
+    {
+     "name": "gt_670.png",
+     "psnr": 22.8607,
+     "ssim": 0.83009,
+     "lpips": 0.25284
+    },
+    {
+     "name": "gt_687.png",
+     "psnr": 23.4913,
+     "ssim": 0.85996,
+     "lpips": 0.18991
+    },
+    {
+     "name": "gt_696.png",
+     "psnr": 21.0525,
+     "ssim": 0.75756,
+     "lpips": 0.29186
+    },
+    {
+     "name": "gt_708.png",
+     "psnr": 22.9414,
+     "ssim": 0.8103,
+     "lpips": 0.25005
+    },
+    {
+     "name": "gt_712.png",
+     "psnr": 19.8908,
+     "ssim": 0.82822,
+     "lpips": 0.24555
+    },
+    {
+     "name": "gt_717.png",
+     "psnr": 22.673,
+     "ssim": 0.7501,
+     "lpips": 0.32733
+    },
+    {
+     "name": "gt_754.png",
+     "psnr": 22.0145,
+     "ssim": 0.855,
+     "lpips": 0.1878
+    },
+    {
+     "name": "gt_759.png",
+     "psnr": 19.603,
+     "ssim": 0.80278,
+     "lpips": 0.2589
+    },
+    {
+     "name": "gt_770.png",
+     "psnr": 22.732,
+     "ssim": 0.87621,
+     "lpips": 0.13718
+    },
+    {
+     "name": "gt_771.png",
+     "psnr": 23.3453,
+     "ssim": 0.86066,
+     "lpips": 0.17062
+    },
+    {
+     "name": "gt_775.png",
+     "psnr": 19.8176,
+     "ssim": 0.78392,
+     "lpips": 0.23445
+    },
+    {
+     "name": "gt_783.png",
+     "psnr": 22.2866,
+     "ssim": 0.84207,
+     "lpips": 0.21171
+    },
+    {
+     "name": "gt_811.png",
+     "psnr": 22.2696,
+     "ssim": 0.83044,
+     "lpips": 0.25973
+    },
+    {
+     "name": "gt_834.png",
+     "psnr": 21.4059,
+     "ssim": 0.77768,
+     "lpips": 0.29597
+    },
+    {
+     "name": "gt_837.png",
+     "psnr": 20.7295,
+     "ssim": 0.79778,
+     "lpips": 0.28546
+    },
+    {
+     "name": "gt_840.png",
+     "psnr": 23.6315,
+     "ssim": 0.79717,
+     "lpips": 0.32747
+    },
+    {
+     "name": "gt_843.png",
+     "psnr": 22.9126,
+     "ssim": 0.78513,
+     "lpips": 0.3114
+    },
+    {
+     "name": "gt_849.png",
+     "psnr": 21.2913,
+     "ssim": 0.84537,
+     "lpips": 0.1923
+    },
+    {
+     "name": "gt_880.png",
+     "psnr": 23.5288,
+     "ssim": 0.90592,
+     "lpips": 0.16556
+    },
+    {
+     "name": "gt_926.png",
+     "psnr": 20.6961,
+     "ssim": 0.88029,
+     "lpips": 0.19331
+    },
+    {
+     "name": "gt_927.png",
+     "psnr": 23.8805,
+     "ssim": 0.90897,
+     "lpips": 0.12952
+    },
+    {
+     "name": "gt_959.png",
+     "psnr": 20.9012,
+     "ssim": 0.74412,
+     "lpips": 0.3627
+    },
+    {
+     "name": "gt_970.png",
+     "psnr": 19.6973,
+     "ssim": 0.79371,
+     "lpips": 0.32966
+    },
+    {
+     "name": "gt_972.png",
+     "psnr": 20.4875,
+     "ssim": 0.76599,
+     "lpips": 0.4694
+    },
+    {
+     "name": "gt_973.png",
+     "psnr": 21.1345,
+     "ssim": 0.86826,
+     "lpips": 0.19622
+    },
+    {
+     "name": "gt_974.png",
+     "psnr": 19.1808,
+     "ssim": 0.7996,
+     "lpips": 0.25998
+    },
+    {
+     "name": "gt_975.png",
+     "psnr": 21.5681,
+     "ssim": 0.80629,
+     "lpips": 0.27265
+    },
+    {
+     "name": "gt_976.png",
+     "psnr": 24.7639,
+     "ssim": 0.86935,
+     "lpips": 0.16599
+    },
+    {
+     "name": "gt_977.png",
+     "psnr": 19.2778,
+     "ssim": 0.77865,
+     "lpips": 0.28794
+    },
+    {
+     "name": "gt_978.png",
+     "psnr": 24.2824,
+     "ssim": 0.89932,
+     "lpips": 0.17046
+    },
+    {
+     "name": "gt_980.png",
+     "psnr": 24.7955,
+     "ssim": 0.94547,
+     "lpips": 0.11025
+    },
+    {
+     "name": "gt_982.png",
+     "psnr": 21.8016,
+     "ssim": 0.7922,
+     "lpips": 0.37257
+    },
+    {
+     "name": "gt_983.png",
+     "psnr": 27.0136,
+     "ssim": 0.95173,
+     "lpips": 0.0749
+    },
+    {
+     "name": "gt_986.png",
+     "psnr": 23.1136,
+     "ssim": 0.88123,
+     "lpips": 0.17394
+    },
+    {
+     "name": "gt_987.png",
+     "psnr": 22.1153,
+     "ssim": 0.8693,
+     "lpips": 0.15773
+    },
+    {
+     "name": "gt_988.png",
+     "psnr": 23.1664,
+     "ssim": 0.82588,
+     "lpips": 0.28236
+    },
+    {
+     "name": "gt_989.png",
+     "psnr": 24.3718,
+     "ssim": 0.88093,
+     "lpips": 0.18062
+    },
+    {
+     "name": "gt_992.png",
+     "psnr": 22.9233,
+     "ssim": 0.87264,
+     "lpips": 0.27703
+    },
+    {
+     "name": "gt_994.png",
+     "psnr": 24.1211,
+     "ssim": 0.90884,
+     "lpips": 0.11682
+    },
+    {
+     "name": "gt_995.png",
+     "psnr": 21.479,
+     "ssim": 0.8639,
+     "lpips": 0.20552
+    },
+    {
+     "name": "gt_996.png",
+     "psnr": 26.0518,
+     "ssim": 0.95549,
+     "lpips": 0.08171
+    },
+    {
+     "name": "gt_999.png",
+     "psnr": 23.4129,
+     "ssim": 0.82641,
+     "lpips": 0.31694
+    }
+   ]
+  },
+  "color/L1": {
+   "n": 60,
+   "mean": {
+    "psnr": 31.7527,
+    "ssim": 0.9844,
+    "lpips": 0.0277
+   },
+   "sec_per_image": 0.0447,
+   "resized": 0,
+   "images": [
+    {
+     "name": "esp32_test_clean_esp03.png",
+     "psnr": 41.2585,
+     "ssim": 0.99894,
+     "lpips": 0.00349
+    },
+    {
+     "name": "esp32_test_clean_esp04.png",
+     "psnr": 40.4919,
+     "ssim": 0.99736,
+     "lpips": 0.00917
+    },
+    {
+     "name": "esp32_test_clean_esp07.png",
+     "psnr": 37.2106,
+     "ssim": 0.99684,
+     "lpips": 0.0072
+    },
+    {
+     "name": "esp32_test_clean_esp09.png",
+     "psnr": 38.459,
+     "ssim": 0.99749,
+     "lpips": 0.00608
+    },
+    {
+     "name": "esp32_test_clean_esp11.png",
+     "psnr": 36.7717,
+     "ssim": 0.9952,
+     "lpips": 0.01133
+    },
+    {
+     "name": "esp32_test_clean_esp14.png",
+     "psnr": 43.227,
+     "ssim": 0.99866,
+     "lpips": 0.00314
+    },
+    {
+     "name": "esp32_test_clean_esp25.png",
+     "psnr": 40.1042,
+     "ssim": 0.99742,
+     "lpips": 0.00491
+    },
+    {
+     "name": "esp32_test_clean_esp32.png",
+     "psnr": 41.1074,
+     "ssim": 0.99815,
+     "lpips": 0.00287
+    },
+    {
+     "name": "esp32_test_clean_esp38.png",
+     "psnr": 39.038,
+     "ssim": 0.99687,
+     "lpips": 0.00428
+    },
+    {
+     "name": "esp32_test_clean_esp44.png",
+     "psnr": 36.1518,
+     "ssim": 0.9953,
+     "lpips": 0.0071
+    },
+    {
+     "name": "gt_506.png",
+     "psnr": 25.7883,
+     "ssim": 0.96322,
+     "lpips": 0.06783
+    },
+    {
+     "name": "gt_516.png",
+     "psnr": 35.5559,
+     "ssim": 0.99656,
+     "lpips": 0.00865
+    },
+    {
+     "name": "gt_517.png",
+     "psnr": 36.9542,
+     "ssim": 0.99674,
+     "lpips": 0.00493
+    },
+    {
+     "name": "gt_530.png",
+     "psnr": 34.3129,
+     "ssim": 0.99628,
+     "lpips": 0.01118
+    },
+    {
+     "name": "gt_534.png",
+     "psnr": 28.9743,
+     "ssim": 0.98096,
+     "lpips": 0.01834
+    },
+    {
+     "name": "gt_540.png",
+     "psnr": 32.5626,
+     "ssim": 0.99209,
+     "lpips": 0.01
+    },
+    {
+     "name": "gt_602.png",
+     "psnr": 24.8154,
+     "ssim": 0.95158,
+     "lpips": 0.056
+    },
+    {
+     "name": "gt_638.png",
+     "psnr": 32.7782,
+     "ssim": 0.99225,
+     "lpips": 0.0285
+    },
+    {
+     "name": "gt_670.png",
+     "psnr": 34.3751,
+     "ssim": 0.99421,
+     "lpips": 0.01881
+    },
+    {
+     "name": "gt_687.png",
+     "psnr": 31.5373,
+     "ssim": 0.99025,
+     "lpips": 0.01661
+    },
+    {
+     "name": "gt_696.png",
+     "psnr": 32.0296,
+     "ssim": 0.99295,
+     "lpips": 0.02028
+    },
+    {
+     "name": "gt_708.png",
+     "psnr": 29.5075,
+     "ssim": 0.98531,
+     "lpips": 0.02246
+    },
+    {
+     "name": "gt_712.png",
+     "psnr": 33.4117,
+     "ssim": 0.99539,
+     "lpips": 0.00809
+    },
+    {
+     "name": "gt_717.png",
+     "psnr": 29.5413,
+     "ssim": 0.97045,
+     "lpips": 0.0392
+    },
+    {
+     "name": "gt_754.png",
+     "psnr": 32.2956,
+     "ssim": 0.9909,
+     "lpips": 0.01875
+    },
+    {
+     "name": "gt_759.png",
+     "psnr": 30.1341,
+     "ssim": 0.9926,
+     "lpips": 0.01973
+    },
+    {
+     "name": "gt_770.png",
+     "psnr": 33.1256,
+     "ssim": 0.9953,
+     "lpips": 0.01192
+    },
+    {
+     "name": "gt_771.png",
+     "psnr": 29.9081,
+     "ssim": 0.98502,
+     "lpips": 0.02724
+    },
+    {
+     "name": "gt_775.png",
+     "psnr": 25.4877,
+     "ssim": 0.98263,
+     "lpips": 0.02404
+    },
+    {
+     "name": "gt_783.png",
+     "psnr": 25.8078,
+     "ssim": 0.96001,
+     "lpips": 0.04648
+    },
+    {
+     "name": "gt_811.png",
+     "psnr": 22.1149,
+     "ssim": 0.91227,
+     "lpips": 0.05224
+    },
+    {
+     "name": "gt_834.png",
+     "psnr": 26.7889,
+     "ssim": 0.96631,
+     "lpips": 0.07161
+    },
+    {
+     "name": "gt_837.png",
+     "psnr": 32.0014,
+     "ssim": 0.98689,
+     "lpips": 0.02223
+    },
+    {
+     "name": "gt_840.png",
+     "psnr": 26.4191,
+     "ssim": 0.983,
+     "lpips": 0.03814
+    },
+    {
+     "name": "gt_843.png",
+     "psnr": 22.8818,
+     "ssim": 0.92962,
+     "lpips": 0.09236
+    },
+    {
+     "name": "gt_849.png",
+     "psnr": 33.3562,
+     "ssim": 0.99097,
+     "lpips": 0.01234
+    },
+    {
+     "name": "gt_880.png",
+     "psnr": 33.0396,
+     "ssim": 0.99358,
+     "lpips": 0.02222
+    },
+    {
+     "name": "gt_926.png",
+     "psnr": 36.8565,
+     "ssim": 0.99653,
+     "lpips": 0.00598
+    },
+    {
+     "name": "gt_927.png",
+     "psnr": 36.0593,
+     "ssim": 0.99569,
+     "lpips": 0.00952
+    },
+    {
+     "name": "gt_959.png",
+     "psnr": 22.8411,
+     "ssim": 0.96874,
+     "lpips": 0.06096
+    },
+    {
+     "name": "gt_970.png",
+     "psnr": 22.8314,
+     "ssim": 0.97664,
+     "lpips": 0.0724
+    },
+    {
+     "name": "gt_972.png",
+     "psnr": 23.9155,
+     "ssim": 0.97115,
+     "lpips": 0.11455
+    },
+    {
+     "name": "gt_973.png",
+     "psnr": 32.5496,
+     "ssim": 0.9946,
+     "lpips": 0.00594
+    },
+    {
+     "name": "gt_974.png",
+     "psnr": 33.2037,
+     "ssim": 0.99092,
+     "lpips": 0.01435
+    },
+    {
+     "name": "gt_975.png",
+     "psnr": 33.9605,
+     "ssim": 0.99388,
+     "lpips": 0.0139
+    },
+    {
+     "name": "gt_976.png",
+     "psnr": 31.5619,
+     "ssim": 0.9898,
+     "lpips": 0.0146
+    },
+    {
+     "name": "gt_977.png",
+     "psnr": 29.9895,
+     "ssim": 0.98861,
+     "lpips": 0.02807
+    },
+    {
+     "name": "gt_978.png",
+     "psnr": 36.5082,
+     "ssim": 0.99557,
+     "lpips": 0.00904
+    },
+    {
+     "name": "gt_980.png",
+     "psnr": 35.3786,
+     "ssim": 0.9957,
+     "lpips": 0.01242
+    },
+    {
+     "name": "gt_982.png",
+     "psnr": 28.2723,
+     "ssim": 0.98473,
+     "lpips": 0.03909
+    },
+    {
+     "name": "gt_983.png",
+     "psnr": 35.7273,
+     "ssim": 0.99582,
+     "lpips": 0.00957
+    },
+    {
+     "name": "gt_986.png",
+     "psnr": 33.1191,
+     "ssim": 0.99491,
+     "lpips": 0.01092
+    },
+    {
+     "name": "gt_987.png",
+     "psnr": 31.4011,
+     "ssim": 0.99047,
+     "lpips": 0.02196
+    },
+    {
+     "name": "gt_988.png",
+     "psnr": 29.6487,
+     "ssim": 0.98505,
+     "lpips": 0.02998
+    },
+    {
+     "name": "gt_989.png",
+     "psnr": 27.9899,
+     "ssim": 0.98125,
+     "lpips": 0.0366
+    },
+    {
+     "name": "gt_992.png",
+     "psnr": 21.8789,
+     "ssim": 0.96557,
+     "lpips": 0.14002
+    },
+    {
+     "name": "gt_994.png",
+     "psnr": 33.345,
+     "ssim": 0.9954,
+     "lpips": 0.01201
+    },
+    {
+     "name": "gt_995.png",
+     "psnr": 25.1226,
+     "ssim": 0.95905,
+     "lpips": 0.06604
+    },
+    {
+     "name": "gt_996.png",
+     "psnr": 28.7918,
+     "ssim": 0.95844,
+     "lpips": 0.01861
+    },
+    {
+     "name": "gt_999.png",
+     "psnr": 24.8858,
+     "ssim": 0.95494,
+     "lpips": 0.06752
+    }
+   ]
+  },
+  "color/L2": {
+   "n": 60,
+   "mean": {
+    "psnr": 30.2789,
+    "ssim": 0.9814,
+    "lpips": 0.0396
+   },
+   "sec_per_image": 0.0448,
+   "resized": 0,
+   "images": [
+    {
+     "name": "esp32_test_clean_esp03.png",
+     "psnr": 40.5667,
+     "ssim": 0.99886,
+     "lpips": 0.00417
+    },
+    {
+     "name": "esp32_test_clean_esp04.png",
+     "psnr": 41.779,
+     "ssim": 0.99804,
+     "lpips": 0.00435
+    },
+    {
+     "name": "esp32_test_clean_esp07.png",
+     "psnr": 32.3451,
+     "ssim": 0.993,
+     "lpips": 0.01428
+    },
+    {
+     "name": "esp32_test_clean_esp09.png",
+     "psnr": 39.6439,
+     "ssim": 0.99797,
+     "lpips": 0.0036
+    },
+    {
+     "name": "esp32_test_clean_esp11.png",
+     "psnr": 34.4897,
+     "ssim": 0.9937,
+     "lpips": 0.01828
+    },
+    {
+     "name": "esp32_test_clean_esp14.png",
+     "psnr": 36.5161,
+     "ssim": 0.99482,
+     "lpips": 0.01554
+    },
+    {
+     "name": "esp32_test_clean_esp25.png",
+     "psnr": 35.5774,
+     "ssim": 0.99349,
+     "lpips": 0.01871
+    },
+    {
+     "name": "esp32_test_clean_esp32.png",
+     "psnr": 40.917,
+     "ssim": 0.9981,
+     "lpips": 0.00303
+    },
+    {
+     "name": "esp32_test_clean_esp38.png",
+     "psnr": 36.023,
+     "ssim": 0.99576,
+     "lpips": 0.01901
+    },
+    {
+     "name": "esp32_test_clean_esp44.png",
+     "psnr": 29.7478,
+     "ssim": 0.98543,
+     "lpips": 0.03926
+    },
+    {
+     "name": "gt_506.png",
+     "psnr": 33.5091,
+     "ssim": 0.99263,
+     "lpips": 0.0187
+    },
+    {
+     "name": "gt_516.png",
+     "psnr": 36.6733,
+     "ssim": 0.99646,
+     "lpips": 0.00644
+    },
+    {
+     "name": "gt_517.png",
+     "psnr": 36.2604,
+     "ssim": 0.99644,
+     "lpips": 0.00634
+    },
+    {
+     "name": "gt_530.png",
+     "psnr": 33.7203,
+     "ssim": 0.99592,
+     "lpips": 0.01427
+    },
+    {
+     "name": "gt_534.png",
+     "psnr": 26.3652,
+     "ssim": 0.96746,
+     "lpips": 0.04771
+    },
+    {
+     "name": "gt_540.png",
+     "psnr": 30.576,
+     "ssim": 0.99166,
+     "lpips": 0.01494
+    },
+    {
+     "name": "gt_602.png",
+     "psnr": 25.1101,
+     "ssim": 0.95687,
+     "lpips": 0.0645
+    },
+    {
+     "name": "gt_638.png",
+     "psnr": 26.6742,
+     "ssim": 0.98049,
+     "lpips": 0.068
+    },
+    {
+     "name": "gt_670.png",
+     "psnr": 29.5944,
+     "ssim": 0.99142,
+     "lpips": 0.06561
+    },
+    {
+     "name": "gt_687.png",
+     "psnr": 26.0267,
+     "ssim": 0.97505,
+     "lpips": 0.08296
+    },
+    {
+     "name": "gt_696.png",
+     "psnr": 25.3285,
+     "ssim": 0.96684,
+     "lpips": 0.06174
+    },
+    {
+     "name": "gt_708.png",
+     "psnr": 21.369,
+     "ssim": 0.89807,
+     "lpips": 0.09417
+    },
+    {
+     "name": "gt_712.png",
+     "psnr": 30.8661,
+     "ssim": 0.99349,
+     "lpips": 0.01946
+    },
+    {
+     "name": "gt_717.png",
+     "psnr": 23.2948,
+     "ssim": 0.87586,
+     "lpips": 0.12616
+    },
+    {
+     "name": "gt_754.png",
+     "psnr": 33.6714,
+     "ssim": 0.9944,
+     "lpips": 0.01276
+    },
+    {
+     "name": "gt_759.png",
+     "psnr": 27.3021,
+     "ssim": 0.9849,
+     "lpips": 0.04396
+    },
+    {
+     "name": "gt_770.png",
+     "psnr": 31.3879,
+     "ssim": 0.99468,
+     "lpips": 0.01688
+    },
+    {
+     "name": "gt_771.png",
+     "psnr": 29.0317,
+     "ssim": 0.98441,
+     "lpips": 0.03689
+    },
+    {
+     "name": "gt_775.png",
+     "psnr": 26.7286,
+     "ssim": 0.99043,
+     "lpips": 0.0228
+    },
+    {
+     "name": "gt_783.png",
+     "psnr": 25.9871,
+     "ssim": 0.98829,
+     "lpips": 0.07048
+    },
+    {
+     "name": "gt_811.png",
+     "psnr": 30.7484,
+     "ssim": 0.9926,
+     "lpips": 0.02039
+    },
+    {
+     "name": "gt_834.png",
+     "psnr": 31.7058,
+     "ssim": 0.99126,
+     "lpips": 0.02745
+    },
+    {
+     "name": "gt_837.png",
+     "psnr": 31.4928,
+     "ssim": 0.98759,
+     "lpips": 0.02627
+    },
+    {
+     "name": "gt_840.png",
+     "psnr": 22.5644,
+     "ssim": 0.93726,
+     "lpips": 0.09978
+    },
+    {
+     "name": "gt_843.png",
+     "psnr": 23.4016,
+     "ssim": 0.89963,
+     "lpips": 0.09618
+    },
+    {
+     "name": "gt_849.png",
+     "psnr": 29.3404,
+     "ssim": 0.98177,
+     "lpips": 0.03136
+    },
+    {
+     "name": "gt_880.png",
+     "psnr": 36.7885,
+     "ssim": 0.9952,
+     "lpips": 0.00998
+    },
+    {
+     "name": "gt_926.png",
+     "psnr": 32.2769,
+     "ssim": 0.9935,
+     "lpips": 0.02528
+    },
+    {
+     "name": "gt_927.png",
+     "psnr": 34.565,
+     "ssim": 0.99442,
+     "lpips": 0.01344
+    },
+    {
+     "name": "gt_959.png",
+     "psnr": 24.1524,
+     "ssim": 0.96859,
+     "lpips": 0.05563
+    },
+    {
+     "name": "gt_970.png",
+     "psnr": 24.0906,
+     "ssim": 0.96995,
+     "lpips": 0.06757
+    },
+    {
+     "name": "gt_972.png",
+     "psnr": 19.6473,
+     "ssim": 0.94858,
+     "lpips": 0.19495
+    },
+    {
+     "name": "gt_973.png",
+     "psnr": 30.4537,
+     "ssim": 0.98254,
+     "lpips": 0.02345
+    },
+    {
+     "name": "gt_974.png",
+     "psnr": 28.0281,
+     "ssim": 0.98403,
+     "lpips": 0.05238
+    },
+    {
+     "name": "gt_975.png",
+     "psnr": 31.6599,
+     "ssim": 0.99268,
+     "lpips": 0.02305
+    },
+    {
+     "name": "gt_976.png",
+     "psnr": 29.5605,
+     "ssim": 0.99062,
+     "lpips": 0.0177
+    },
+    {
+     "name": "gt_977.png",
+     "psnr": 27.6995,
+     "ssim": 0.99068,
+     "lpips": 0.04247
+    },
+    {
+     "name": "gt_978.png",
+     "psnr": 35.4495,
+     "ssim": 0.99631,
+     "lpips": 0.01156
+    },
+    {
+     "name": "gt_980.png",
+     "psnr": 31.174,
+     "ssim": 0.99176,
+     "lpips": 0.03244
+    },
+    {
+     "name": "gt_982.png",
+     "psnr": 24.9949,
+     "ssim": 0.97665,
+     "lpips": 0.06832
+    },
+    {
+     "name": "gt_983.png",
+     "psnr": 32.9225,
+     "ssim": 0.99118,
+     "lpips": 0.01977
+    },
+    {
+     "name": "gt_986.png",
+     "psnr": 28.9337,
+     "ssim": 0.9893,
+     "lpips": 0.03241
+    },
+    {
+     "name": "gt_987.png",
+     "psnr": 32.8221,
+     "ssim": 0.99474,
+     "lpips": 0.01176
+    },
+    {
+     "name": "gt_988.png",
+     "psnr": 30.7652,
+     "ssim": 0.98782,
+     "lpips": 0.02775
+    },
+    {
+     "name": "gt_989.png",
+     "psnr": 28.0288,
+     "ssim": 0.98817,
+     "lpips": 0.06522
+    },
+    {
+     "name": "gt_992.png",
+     "psnr": 23.7508,
+     "ssim": 0.96742,
+     "lpips": 0.10051
+    },
+    {
+     "name": "gt_994.png",
+     "psnr": 32.7638,
+     "ssim": 0.99463,
+     "lpips": 0.01376
+    },
+    {
+     "name": "gt_995.png",
+     "psnr": 24.7797,
+     "ssim": 0.95806,
+     "lpips": 0.07319
+    },
+    {
+     "name": "gt_996.png",
+     "psnr": 30.4331,
+     "ssim": 0.99266,
+     "lpips": 0.01051
+    },
+    {
+     "name": "gt_999.png",
+     "psnr": 24.655,
+     "ssim": 0.9893,
+     "lpips": 0.04366
+    }
+   ]
+  },
+  "color/L3": {
+   "n": 60,
+   "mean": {
+    "psnr": 28.9055,
+    "ssim": 0.9805,
+    "lpips": 0.0496
+   },
+   "sec_per_image": 0.0448,
+   "resized": 0,
+   "images": [
+    {
+     "name": "esp32_test_clean_esp03.png",
+     "psnr": 40.2236,
+     "ssim": 0.99875,
+     "lpips": 0.00465
+    },
+    {
+     "name": "esp32_test_clean_esp04.png",
+     "psnr": 36.876,
+     "ssim": 0.99799,
+     "lpips": 0.01507
+    },
+    {
+     "name": "esp32_test_clean_esp07.png",
+     "psnr": 37.2582,
+     "ssim": 0.99687,
+     "lpips": 0.00693
+    },
+    {
+     "name": "esp32_test_clean_esp09.png",
+     "psnr": 33.7182,
+     "ssim": 0.9954,
+     "lpips": 0.01963
+    },
+    {
+     "name": "esp32_test_clean_esp11.png",
+     "psnr": 31.8577,
+     "ssim": 0.99028,
+     "lpips": 0.02099
+    },
+    {
+     "name": "esp32_test_clean_esp14.png",
+     "psnr": 35.7908,
+     "ssim": 0.99246,
+     "lpips": 0.02128
+    },
+    {
+     "name": "esp32_test_clean_esp25.png",
+     "psnr": 31.0277,
+     "ssim": 0.98589,
+     "lpips": 0.03418
+    },
+    {
+     "name": "esp32_test_clean_esp32.png",
+     "psnr": 39.3436,
+     "ssim": 0.99722,
+     "lpips": 0.00452
+    },
+    {
+     "name": "esp32_test_clean_esp38.png",
+     "psnr": 38.8312,
+     "ssim": 0.99653,
+     "lpips": 0.00304
+    },
+    {
+     "name": "esp32_test_clean_esp44.png",
+     "psnr": 33.6603,
+     "ssim": 0.99351,
+     "lpips": 0.02314
+    },
+    {
+     "name": "gt_506.png",
+     "psnr": 28.1502,
+     "ssim": 0.99071,
+     "lpips": 0.04748
+    },
+    {
+     "name": "gt_516.png",
+     "psnr": 35.2399,
+     "ssim": 0.99651,
+     "lpips": 0.00945
+    },
+    {
+     "name": "gt_517.png",
+     "psnr": 33.1818,
+     "ssim": 0.9943,
+     "lpips": 0.01797
+    },
+    {
+     "name": "gt_530.png",
+     "psnr": 31.5652,
+     "ssim": 0.99506,
+     "lpips": 0.02459
+    },
+    {
+     "name": "gt_534.png",
+     "psnr": 25.3522,
+     "ssim": 0.97495,
+     "lpips": 0.03648
+    },
+    {
+     "name": "gt_540.png",
+     "psnr": 28.1785,
+     "ssim": 0.99034,
+     "lpips": 0.02383
+    },
+    {
+     "name": "gt_602.png",
+     "psnr": 25.2069,
+     "ssim": 0.955,
+     "lpips": 0.06473
+    },
+    {
+     "name": "gt_638.png",
+     "psnr": 24.5329,
+     "ssim": 0.93112,
+     "lpips": 0.06952
+    },
+    {
+     "name": "gt_670.png",
+     "psnr": 25.9806,
+     "ssim": 0.98779,
+     "lpips": 0.12011
+    },
+    {
+     "name": "gt_687.png",
+     "psnr": 30.144,
+     "ssim": 0.9921,
+     "lpips": 0.03543
+    },
+    {
+     "name": "gt_696.png",
+     "psnr": 28.02,
+     "ssim": 0.97759,
+     "lpips": 0.05169
+    },
+    {
+     "name": "gt_708.png",
+     "psnr": 20.8704,
+     "ssim": 0.90008,
+     "lpips": 0.13025
+    },
+    {
+     "name": "gt_712.png",
+     "psnr": 29.107,
+     "ssim": 0.99382,
+     "lpips": 0.02006
+    },
+    {
+     "name": "gt_717.png",
+     "psnr": 28.3545,
+     "ssim": 0.98569,
+     "lpips": 0.06251
+    },
+    {
+     "name": "gt_754.png",
+     "psnr": 31.2775,
+     "ssim": 0.99019,
+     "lpips": 0.0239
+    },
+    {
+     "name": "gt_759.png",
+     "psnr": 28.0306,
+     "ssim": 0.98899,
+     "lpips": 0.02697
+    },
+    {
+     "name": "gt_770.png",
+     "psnr": 30.472,
+     "ssim": 0.9942,
+     "lpips": 0.02025
+    },
+    {
+     "name": "gt_771.png",
+     "psnr": 28.1979,
+     "ssim": 0.98688,
+     "lpips": 0.05138
+    },
+    {
+     "name": "gt_775.png",
+     "psnr": 24.0163,
+     "ssim": 0.96636,
+     "lpips": 0.0405
+    },
+    {
+     "name": "gt_783.png",
+     "psnr": 30.5061,
+     "ssim": 0.99366,
+     "lpips": 0.02652
+    },
+    {
+     "name": "gt_811.png",
+     "psnr": 24.2356,
+     "ssim": 0.94969,
+     "lpips": 0.05795
+    },
+    {
+     "name": "gt_834.png",
+     "psnr": 29.1602,
+     "ssim": 0.99023,
+     "lpips": 0.04527
+    },
+    {
+     "name": "gt_837.png",
+     "psnr": 29.6187,
+     "ssim": 0.98609,
+     "lpips": 0.03066
+    },
+    {
+     "name": "gt_840.png",
+     "psnr": 20.3572,
+     "ssim": 0.95458,
+     "lpips": 0.09664
+    },
+    {
+     "name": "gt_843.png",
+     "psnr": 21.4819,
+     "ssim": 0.91608,
+     "lpips": 0.11379
+    },
+    {
+     "name": "gt_849.png",
+     "psnr": 27.4584,
+     "ssim": 0.98892,
+     "lpips": 0.02207
+    },
+    {
+     "name": "gt_880.png",
+     "psnr": 33.9395,
+     "ssim": 0.99407,
+     "lpips": 0.01641
+    },
+    {
+     "name": "gt_926.png",
+     "psnr": 33.9447,
+     "ssim": 0.99548,
+     "lpips": 0.01176
+    },
+    {
+     "name": "gt_927.png",
+     "psnr": 34.3193,
+     "ssim": 0.99488,
+     "lpips": 0.01558
+    },
+    {
+     "name": "gt_959.png",
+     "psnr": 23.7178,
+     "ssim": 0.9613,
+     "lpips": 0.07145
+    },
+    {
+     "name": "gt_970.png",
+     "psnr": 18.5508,
+     "ssim": 0.96764,
+     "lpips": 0.17572
+    },
+    {
+     "name": "gt_972.png",
+     "psnr": 21.7579,
+     "ssim": 0.93835,
+     "lpips": 0.1878
+    },
+    {
+     "name": "gt_973.png",
+     "psnr": 29.3961,
+     "ssim": 0.97693,
+     "lpips": 0.03442
+    },
+    {
+     "name": "gt_974.png",
+     "psnr": 29.8472,
+     "ssim": 0.98808,
+     "lpips": 0.02513
+    },
+    {
+     "name": "gt_975.png",
+     "psnr": 29.8434,
+     "ssim": 0.99195,
+     "lpips": 0.03038
+    },
+    {
+     "name": "gt_976.png",
+     "psnr": 30.0177,
+     "ssim": 0.98963,
+     "lpips": 0.02056
+    },
+    {
+     "name": "gt_977.png",
+     "psnr": 27.5917,
+     "ssim": 0.99286,
+     "lpips": 0.03551
+    },
+    {
+     "name": "gt_978.png",
+     "psnr": 34.3481,
+     "ssim": 0.99461,
+     "lpips": 0.01462
+    },
+    {
+     "name": "gt_980.png",
+     "psnr": 29.4838,
+     "ssim": 0.99343,
+     "lpips": 0.0261
+    },
+    {
+     "name": "gt_982.png",
+     "psnr": 19.7686,
+     "ssim": 0.95953,
+     "lpips": 0.14636
+    },
+    {
+     "name": "gt_983.png",
+     "psnr": 31.208,
+     "ssim": 0.98605,
+     "lpips": 0.02542
+    },
+    {
+     "name": "gt_986.png",
+     "psnr": 28.3976,
+     "ssim": 0.99278,
+     "lpips": 0.02191
+    },
+    {
+     "name": "gt_987.png",
+     "psnr": 30.8428,
+     "ssim": 0.99355,
+     "lpips": 0.01683
+    },
+    {
+     "name": "gt_988.png",
+     "psnr": 24.9182,
+     "ssim": 0.94949,
+     "lpips": 0.06654
+    },
+    {
+     "name": "gt_989.png",
+     "psnr": 29.9894,
+     "ssim": 0.99321,
+     "lpips": 0.03683
+    },
+    {
+     "name": "gt_992.png",
+     "psnr": 15.2036,
+     "ssim": 0.94334,
+     "lpips": 0.27432
+    },
+    {
+     "name": "gt_994.png",
+     "psnr": 31.2872,
+     "ssim": 0.9945,
+     "lpips": 0.01835
+    },
+    {
+     "name": "gt_995.png",
+     "psnr": 23.7939,
+     "ssim": 0.95819,
+     "lpips": 0.08753
+    },
+    {
+     "name": "gt_996.png",
+     "psnr": 24.5798,
+     "ssim": 0.98636,
+     "lpips": 0.04754
+    },
+    {
+     "name": "gt_999.png",
+     "psnr": 20.2986,
+     "ssim": 0.98056,
+     "lpips": 0.14489
+    }
+   ]
+  },
+  "jpeg/L1": {
+   "n": 60,
+   "mean": {
+    "psnr": 29.6391,
+    "ssim": 0.9617,
+    "lpips": 0.0408
+   },
+   "sec_per_image": 0.0447,
+   "resized": 0,
+   "images": [
+    {
+     "name": "esp32_test_clean_esp03.png",
+     "psnr": 36.1288,
+     "ssim": 0.99481,
+     "lpips": 0.00567
+    },
+    {
+     "name": "esp32_test_clean_esp04.png",
+     "psnr": 37.7059,
+     "ssim": 0.99626,
+     "lpips": 0.00389
+    },
+    {
+     "name": "esp32_test_clean_esp07.png",
+     "psnr": 34.0382,
+     "ssim": 0.99117,
+     "lpips": 0.0065
+    },
+    {
+     "name": "esp32_test_clean_esp09.png",
+     "psnr": 34.8235,
+     "ssim": 0.99299,
+     "lpips": 0.0064
+    },
+    {
+     "name": "esp32_test_clean_esp11.png",
+     "psnr": 34.0903,
+     "ssim": 0.97907,
+     "lpips": 0.02898
+    },
+    {
+     "name": "esp32_test_clean_esp14.png",
+     "psnr": 38.1996,
+     "ssim": 0.9949,
+     "lpips": 0.00573
+    },
+    {
+     "name": "esp32_test_clean_esp25.png",
+     "psnr": 35.233,
+     "ssim": 0.99167,
+     "lpips": 0.00772
+    },
+    {
+     "name": "esp32_test_clean_esp32.png",
+     "psnr": 35.6554,
+     "ssim": 0.99241,
+     "lpips": 0.0066
+    },
+    {
+     "name": "esp32_test_clean_esp38.png",
+     "psnr": 34.5151,
+     "ssim": 0.99127,
+     "lpips": 0.0072
+    },
+    {
+     "name": "esp32_test_clean_esp44.png",
+     "psnr": 33.724,
+     "ssim": 0.98045,
+     "lpips": 0.01869
+    },
+    {
+     "name": "gt_506.png",
+     "psnr": 28.6333,
+     "ssim": 0.95429,
+     "lpips": 0.04119
+    },
+    {
+     "name": "gt_516.png",
+     "psnr": 30.8717,
+     "ssim": 0.98334,
+     "lpips": 0.0134
+    },
+    {
+     "name": "gt_517.png",
+     "psnr": 31.7859,
+     "ssim": 0.97903,
+     "lpips": 0.01433
+    },
+    {
+     "name": "gt_530.png",
+     "psnr": 30.2958,
+     "ssim": 0.97607,
+     "lpips": 0.02164
+    },
+    {
+     "name": "gt_534.png",
+     "psnr": 26.0783,
+     "ssim": 0.95003,
+     "lpips": 0.03864
+    },
+    {
+     "name": "gt_540.png",
+     "psnr": 29.494,
+     "ssim": 0.9649,
+     "lpips": 0.02246
+    },
+    {
+     "name": "gt_602.png",
+     "psnr": 27.626,
+     "ssim": 0.95213,
+     "lpips": 0.04578
+    },
+    {
+     "name": "gt_638.png",
+     "psnr": 29.5426,
+     "ssim": 0.95056,
+     "lpips": 0.06211
+    },
+    {
+     "name": "gt_670.png",
+     "psnr": 30.4177,
+     "ssim": 0.95182,
+     "lpips": 0.05127
+    },
+    {
+     "name": "gt_687.png",
+     "psnr": 27.9302,
+     "ssim": 0.95549,
+     "lpips": 0.03699
+    },
+    {
+     "name": "gt_696.png",
+     "psnr": 28.5842,
+     "ssim": 0.95167,
+     "lpips": 0.03901
+    },
+    {
+     "name": "gt_708.png",
+     "psnr": 24.8272,
+     "ssim": 0.92449,
+     "lpips": 0.0533
+    },
+    {
+     "name": "gt_712.png",
+     "psnr": 30.4144,
+     "ssim": 0.9802,
+     "lpips": 0.01753
+    },
+    {
+     "name": "gt_717.png",
+     "psnr": 24.2866,
+     "ssim": 0.85682,
+     "lpips": 0.0934
+    },
+    {
+     "name": "gt_754.png",
+     "psnr": 30.3194,
+     "ssim": 0.97603,
+     "lpips": 0.0198
+    },
+    {
+     "name": "gt_759.png",
+     "psnr": 29.1091,
+     "ssim": 0.96057,
+     "lpips": 0.02844
+    },
+    {
+     "name": "gt_770.png",
+     "psnr": 30.1887,
+     "ssim": 0.98167,
+     "lpips": 0.01774
+    },
+    {
+     "name": "gt_771.png",
+     "psnr": 22.6005,
+     "ssim": 0.91714,
+     "lpips": 0.06881
+    },
+    {
+     "name": "gt_775.png",
+     "psnr": 25.5663,
+     "ssim": 0.96126,
+     "lpips": 0.03867
+    },
+    {
+     "name": "gt_783.png",
+     "psnr": 29.3333,
+     "ssim": 0.9685,
+     "lpips": 0.02717
+    },
+    {
+     "name": "gt_811.png",
+     "psnr": 27.7879,
+     "ssim": 0.96266,
+     "lpips": 0.03075
+    },
+    {
+     "name": "gt_834.png",
+     "psnr": 27.7058,
+     "ssim": 0.94659,
+     "lpips": 0.06121
+    },
+    {
+     "name": "gt_837.png",
+     "psnr": 28.9023,
+     "ssim": 0.95929,
+     "lpips": 0.05666
+    },
+    {
+     "name": "gt_840.png",
+     "psnr": 24.9702,
+     "ssim": 0.93399,
+     "lpips": 0.07147
+    },
+    {
+     "name": "gt_843.png",
+     "psnr": 22.1739,
+     "ssim": 0.86572,
+     "lpips": 0.12135
+    },
+    {
+     "name": "gt_849.png",
+     "psnr": 30.0592,
+     "ssim": 0.95757,
+     "lpips": 0.03265
+    },
+    {
+     "name": "gt_880.png",
+     "psnr": 33.803,
+     "ssim": 0.97719,
+     "lpips": 0.03071
+    },
+    {
+     "name": "gt_926.png",
+     "psnr": 32.8594,
+     "ssim": 0.98425,
+     "lpips": 0.01334
+    },
+    {
+     "name": "gt_927.png",
+     "psnr": 32.8177,
+     "ssim": 0.98323,
+     "lpips": 0.01505
+    },
+    {
+     "name": "gt_959.png",
+     "psnr": 23.9983,
+     "ssim": 0.92607,
+     "lpips": 0.07214
+    },
+    {
+     "name": "gt_970.png",
+     "psnr": 21.8112,
+     "ssim": 0.92206,
+     "lpips": 0.12102
+    },
+    {
+     "name": "gt_972.png",
+     "psnr": 22.1436,
+     "ssim": 0.90851,
+     "lpips": 0.19938
+    },
+    {
+     "name": "gt_973.png",
+     "psnr": 29.8702,
+     "ssim": 0.96955,
+     "lpips": 0.0173
+    },
+    {
+     "name": "gt_974.png",
+     "psnr": 29.661,
+     "ssim": 0.97569,
+     "lpips": 0.02366
+    },
+    {
+     "name": "gt_975.png",
+     "psnr": 29.9145,
+     "ssim": 0.96735,
+     "lpips": 0.0272
+    },
+    {
+     "name": "gt_976.png",
+     "psnr": 28.6949,
+     "ssim": 0.95555,
+     "lpips": 0.0371
+    },
+    {
+     "name": "gt_977.png",
+     "psnr": 26.8474,
+     "ssim": 0.96834,
+     "lpips": 0.04584
+    },
+    {
+     "name": "gt_978.png",
+     "psnr": 33.2559,
+     "ssim": 0.98264,
+     "lpips": 0.01708
+    },
+    {
+     "name": "gt_980.png",
+     "psnr": 33.972,
+     "ssim": 0.98761,
+     "lpips": 0.02143
+    },
+    {
+     "name": "gt_982.png",
+     "psnr": 27.4015,
+     "ssim": 0.93646,
+     "lpips": 0.0976
+    },
+    {
+     "name": "gt_983.png",
+     "psnr": 33.9867,
+     "ssim": 0.99042,
+     "lpips": 0.01462
+    },
+    {
+     "name": "gt_986.png",
+     "psnr": 31.4506,
+     "ssim": 0.97578,
+     "lpips": 0.02496
+    },
+    {
+     "name": "gt_987.png",
+     "psnr": 30.3564,
+     "ssim": 0.98524,
+     "lpips": 0.0166
+    },
+    {
+     "name": "gt_988.png",
+     "psnr": 26.0265,
+     "ssim": 0.94219,
+     "lpips": 0.04961
+    },
+    {
+     "name": "gt_989.png",
+     "psnr": 30.7939,
+     "ssim": 0.96785,
+     "lpips": 0.04237
+    },
+    {
+     "name": "gt_992.png",
+     "psnr": 24.1558,
+     "ssim": 0.95475,
+     "lpips": 0.10681
+    },
+    {
+     "name": "gt_994.png",
+     "psnr": 31.9153,
+     "ssim": 0.9851,
+     "lpips": 0.018
+    },
+    {
+     "name": "gt_995.png",
+     "psnr": 23.0804,
+     "ssim": 0.94573,
+     "lpips": 0.08884
+    },
+    {
+     "name": "gt_996.png",
+     "psnr": 31.0585,
+     "ssim": 0.99105,
+     "lpips": 0.01843
+    },
+    {
+     "name": "gt_999.png",
+     "psnr": 24.8533,
+     "ssim": 0.89461,
+     "lpips": 0.10449
+    }
+   ]
+  },
+  "jpeg/L2": {
+   "n": 60,
+   "mean": {
+    "psnr": 28.8122,
+    "ssim": 0.9547,
+    "lpips": 0.0501
+   },
+   "sec_per_image": 0.0447,
+   "resized": 0,
+   "images": [
+    {
+     "name": "esp32_test_clean_esp03.png",
+     "psnr": 34.4244,
+     "ssim": 0.99213,
+     "lpips": 0.00919
+    },
+    {
+     "name": "esp32_test_clean_esp04.png",
+     "psnr": 35.8689,
+     "ssim": 0.99388,
+     "lpips": 0.00681
+    },
+    {
+     "name": "esp32_test_clean_esp07.png",
+     "psnr": 32.3545,
+     "ssim": 0.98813,
+     "lpips": 0.0096
+    },
+    {
+     "name": "esp32_test_clean_esp09.png",
+     "psnr": 32.6794,
+     "ssim": 0.98964,
+     "lpips": 0.01008
+    },
+    {
+     "name": "esp32_test_clean_esp11.png",
+     "psnr": 32.4461,
+     "ssim": 0.97085,
+     "lpips": 0.04067
+    },
+    {
+     "name": "esp32_test_clean_esp14.png",
+     "psnr": 36.3768,
+     "ssim": 0.99262,
+     "lpips": 0.00838
+    },
+    {
+     "name": "esp32_test_clean_esp25.png",
+     "psnr": 32.7597,
+     "ssim": 0.98643,
+     "lpips": 0.01225
+    },
+    {
+     "name": "esp32_test_clean_esp32.png",
+     "psnr": 33.8917,
+     "ssim": 0.99008,
+     "lpips": 0.01018
+    },
+    {
+     "name": "esp32_test_clean_esp38.png",
+     "psnr": 32.5626,
+     "ssim": 0.98776,
+     "lpips": 0.01113
+    },
+    {
+     "name": "esp32_test_clean_esp44.png",
+     "psnr": 32.6131,
+     "ssim": 0.97556,
+     "lpips": 0.02356
+    },
+    {
+     "name": "gt_506.png",
+     "psnr": 27.8201,
+     "ssim": 0.94407,
+     "lpips": 0.05322
+    },
+    {
+     "name": "gt_516.png",
+     "psnr": 30.0592,
+     "ssim": 0.97806,
+     "lpips": 0.01799
+    },
+    {
+     "name": "gt_517.png",
+     "psnr": 30.356,
+     "ssim": 0.97285,
+     "lpips": 0.02008
+    },
+    {
+     "name": "gt_530.png",
+     "psnr": 28.8214,
+     "ssim": 0.96634,
+     "lpips": 0.03107
+    },
+    {
+     "name": "gt_534.png",
+     "psnr": 25.2658,
+     "ssim": 0.93767,
+     "lpips": 0.04806
+    },
+    {
+     "name": "gt_540.png",
+     "psnr": 27.6796,
+     "ssim": 0.95155,
+     "lpips": 0.03429
+    },
+    {
+     "name": "gt_602.png",
+     "psnr": 27.6365,
+     "ssim": 0.94736,
+     "lpips": 0.05293
+    },
+    {
+     "name": "gt_638.png",
+     "psnr": 28.9962,
+     "ssim": 0.94211,
+     "lpips": 0.07662
+    },
+    {
+     "name": "gt_670.png",
+     "psnr": 29.7608,
+     "ssim": 0.94152,
+     "lpips": 0.07274
+    },
+    {
+     "name": "gt_687.png",
+     "psnr": 28.3887,
+     "ssim": 0.95106,
+     "lpips": 0.04291
+    },
+    {
+     "name": "gt_696.png",
+     "psnr": 27.1338,
+     "ssim": 0.9314,
+     "lpips": 0.05957
+    },
+    {
+     "name": "gt_708.png",
+     "psnr": 25.5116,
+     "ssim": 0.92139,
+     "lpips": 0.06186
+    },
+    {
+     "name": "gt_712.png",
+     "psnr": 28.9666,
+     "ssim": 0.97308,
+     "lpips": 0.02446
+    },
+    {
+     "name": "gt_717.png",
+     "psnr": 24.5838,
+     "ssim": 0.86205,
+     "lpips": 0.10126
+    },
+    {
+     "name": "gt_754.png",
+     "psnr": 29.0555,
+     "ssim": 0.96693,
+     "lpips": 0.02845
+    },
+    {
+     "name": "gt_759.png",
+     "psnr": 28.311,
+     "ssim": 0.95234,
+     "lpips": 0.03844
+    },
+    {
+     "name": "gt_770.png",
+     "psnr": 29.4129,
+     "ssim": 0.97604,
+     "lpips": 0.02269
+    },
+    {
+     "name": "gt_771.png",
+     "psnr": 23.6807,
+     "ssim": 0.92198,
+     "lpips": 0.06681
+    },
+    {
+     "name": "gt_775.png",
+     "psnr": 25.0855,
+     "ssim": 0.94901,
+     "lpips": 0.0551
+    },
+    {
+     "name": "gt_783.png",
+     "psnr": 29.1368,
+     "ssim": 0.96202,
+     "lpips": 0.0359
+    },
+    {
+     "name": "gt_811.png",
+     "psnr": 27.549,
+     "ssim": 0.95677,
+     "lpips": 0.03655
+    },
+    {
+     "name": "gt_834.png",
+     "psnr": 27.3682,
+     "ssim": 0.93933,
+     "lpips": 0.07576
+    },
+    {
+     "name": "gt_837.png",
+     "psnr": 27.8343,
+     "ssim": 0.94944,
+     "lpips": 0.07372
+    },
+    {
+     "name": "gt_840.png",
+     "psnr": 24.7332,
+     "ssim": 0.92229,
+     "lpips": 0.08941
+    },
+    {
+     "name": "gt_843.png",
+     "psnr": 22.1252,
+     "ssim": 0.85723,
+     "lpips": 0.1257
+    },
+    {
+     "name": "gt_849.png",
+     "psnr": 28.8181,
+     "ssim": 0.94611,
+     "lpips": 0.04625
+    },
+    {
+     "name": "gt_880.png",
+     "psnr": 32.3475,
+     "ssim": 0.97216,
+     "lpips": 0.03978
+    },
+    {
+     "name": "gt_926.png",
+     "psnr": 31.4096,
+     "ssim": 0.98052,
+     "lpips": 0.01537
+    },
+    {
+     "name": "gt_927.png",
+     "psnr": 31.4675,
+     "ssim": 0.97808,
+     "lpips": 0.02001
+    },
+    {
+     "name": "gt_959.png",
+     "psnr": 23.7523,
+     "ssim": 0.91253,
+     "lpips": 0.09019
+    },
+    {
+     "name": "gt_970.png",
+     "psnr": 21.419,
+     "ssim": 0.90421,
+     "lpips": 0.14295
+    },
+    {
+     "name": "gt_972.png",
+     "psnr": 21.8472,
+     "ssim": 0.89067,
+     "lpips": 0.22434
+    },
+    {
+     "name": "gt_973.png",
+     "psnr": 29.121,
+     "ssim": 0.96194,
+     "lpips": 0.0244
+    },
+    {
+     "name": "gt_974.png",
+     "psnr": 28.2494,
+     "ssim": 0.96725,
+     "lpips": 0.03214
+    },
+    {
+     "name": "gt_975.png",
+     "psnr": 28.4301,
+     "ssim": 0.95373,
+     "lpips": 0.04047
+    },
+    {
+     "name": "gt_976.png",
+     "psnr": 28.9303,
+     "ssim": 0.95124,
+     "lpips": 0.04715
+    },
+    {
+     "name": "gt_977.png",
+     "psnr": 25.9611,
+     "ssim": 0.95887,
+     "lpips": 0.05419
+    },
+    {
+     "name": "gt_978.png",
+     "psnr": 31.8375,
+     "ssim": 0.97689,
+     "lpips": 0.02321
+    },
+    {
+     "name": "gt_980.png",
+     "psnr": 33.3262,
+     "ssim": 0.98399,
+     "lpips": 0.02842
+    },
+    {
+     "name": "gt_982.png",
+     "psnr": 26.9546,
+     "ssim": 0.92244,
+     "lpips": 0.11968
+    },
+    {
+     "name": "gt_983.png",
+     "psnr": 33.4771,
+     "ssim": 0.98786,
+     "lpips": 0.01734
+    },
+    {
+     "name": "gt_986.png",
+     "psnr": 30.781,
+     "ssim": 0.97174,
+     "lpips": 0.02966
+    },
+    {
+     "name": "gt_987.png",
+     "psnr": 29.5382,
+     "ssim": 0.98092,
+     "lpips": 0.0202
+    },
+    {
+     "name": "gt_988.png",
+     "psnr": 26.4417,
+     "ssim": 0.93909,
+     "lpips": 0.05332
+    },
+    {
+     "name": "gt_989.png",
+     "psnr": 30.1124,
+     "ssim": 0.96124,
+     "lpips": 0.05441
+    },
+    {
+     "name": "gt_992.png",
+     "psnr": 23.9731,
+     "ssim": 0.9471,
+     "lpips": 0.12029
+    },
+    {
+     "name": "gt_994.png",
+     "psnr": 31.1408,
+     "ssim": 0.98206,
+     "lpips": 0.02188
+    },
+    {
+     "name": "gt_995.png",
+     "psnr": 22.9817,
+     "ssim": 0.94089,
+     "lpips": 0.09799
+    },
+    {
+     "name": "gt_996.png",
+     "psnr": 30.3166,
+     "ssim": 0.98836,
+     "lpips": 0.02209
+    },
+    {
+     "name": "gt_999.png",
+     "psnr": 24.8484,
+     "ssim": 0.88326,
+     "lpips": 0.13095
+    }
+   ]
+  },
+  "jpeg/L3": {
+   "n": 60,
+   "mean": {
+    "psnr": 27.3025,
+    "ssim": 0.9397,
+    "lpips": 0.0711
+   },
+   "sec_per_image": 0.0447,
+   "resized": 0,
+   "images": [
+    {
+     "name": "esp32_test_clean_esp03.png",
+     "psnr": 31.6518,
+     "ssim": 0.98762,
+     "lpips": 0.01522
+    },
+    {
+     "name": "esp32_test_clean_esp04.png",
+     "psnr": 33.5791,
+     "ssim": 0.99123,
+     "lpips": 0.01044
+    },
+    {
+     "name": "esp32_test_clean_esp07.png",
+     "psnr": 29.3972,
+     "ssim": 0.98013,
+     "lpips": 0.0194
+    },
+    {
+     "name": "esp32_test_clean_esp09.png",
+     "psnr": 29.6312,
+     "ssim": 0.98188,
+     "lpips": 0.01983
+    },
+    {
+     "name": "esp32_test_clean_esp11.png",
+     "psnr": 30.3216,
+     "ssim": 0.95679,
+     "lpips": 0.05942
+    },
+    {
+     "name": "esp32_test_clean_esp14.png",
+     "psnr": 33.6482,
+     "ssim": 0.98861,
+     "lpips": 0.01488
+    },
+    {
+     "name": "esp32_test_clean_esp25.png",
+     "psnr": 30.4396,
+     "ssim": 0.98034,
+     "lpips": 0.02023
+    },
+    {
+     "name": "esp32_test_clean_esp32.png",
+     "psnr": 31.1446,
+     "ssim": 0.98481,
+     "lpips": 0.01753
+    },
+    {
+     "name": "esp32_test_clean_esp38.png",
+     "psnr": 30.0949,
+     "ssim": 0.98148,
+     "lpips": 0.01888
+    },
+    {
+     "name": "esp32_test_clean_esp44.png",
+     "psnr": 29.9357,
+     "ssim": 0.9621,
+     "lpips": 0.04025
+    },
+    {
+     "name": "gt_506.png",
+     "psnr": 25.9824,
+     "ssim": 0.91726,
+     "lpips": 0.08719
+    },
+    {
+     "name": "gt_516.png",
+     "psnr": 27.6425,
+     "ssim": 0.96236,
+     "lpips": 0.03209
+    },
+    {
+     "name": "gt_517.png",
+     "psnr": 27.0034,
+     "ssim": 0.95051,
+     "lpips": 0.04153
+    },
+    {
+     "name": "gt_530.png",
+     "psnr": 26.1263,
+     "ssim": 0.93872,
+     "lpips": 0.06269
+    },
+    {
+     "name": "gt_534.png",
+     "psnr": 23.3411,
+     "ssim": 0.90084,
+     "lpips": 0.07296
+    },
+    {
+     "name": "gt_540.png",
+     "psnr": 25.4018,
+     "ssim": 0.92759,
+     "lpips": 0.05725
+    },
+    {
+     "name": "gt_602.png",
+     "psnr": 29.1127,
+     "ssim": 0.94504,
+     "lpips": 0.06642
+    },
+    {
+     "name": "gt_638.png",
+     "psnr": 27.574,
+     "ssim": 0.92435,
+     "lpips": 0.10555
+    },
+    {
+     "name": "gt_670.png",
+     "psnr": 27.7439,
+     "ssim": 0.91545,
+     "lpips": 0.1221
+    },
+    {
+     "name": "gt_687.png",
+     "psnr": 28.0684,
+     "ssim": 0.94076,
+     "lpips": 0.05918
+    },
+    {
+     "name": "gt_696.png",
+     "psnr": 25.7597,
+     "ssim": 0.90975,
+     "lpips": 0.09414
+    },
+    {
+     "name": "gt_708.png",
+     "psnr": 26.1533,
+     "ssim": 0.91336,
+     "lpips": 0.0865
+    },
+    {
+     "name": "gt_712.png",
+     "psnr": 26.5215,
+     "ssim": 0.95586,
+     "lpips": 0.04246
+    },
+    {
+     "name": "gt_717.png",
+     "psnr": 24.6917,
+     "ssim": 0.85957,
+     "lpips": 0.14078
+    },
+    {
+     "name": "gt_754.png",
+     "psnr": 27.5886,
+     "ssim": 0.95435,
+     "lpips": 0.0427
+    },
+    {
+     "name": "gt_759.png",
+     "psnr": 26.9745,
+     "ssim": 0.93863,
+     "lpips": 0.05816
+    },
+    {
+     "name": "gt_770.png",
+     "psnr": 27.5615,
+     "ssim": 0.96092,
+     "lpips": 0.0364
+    },
+    {
+     "name": "gt_771.png",
+     "psnr": 25.4095,
+     "ssim": 0.92941,
+     "lpips": 0.06868
+    },
+    {
+     "name": "gt_775.png",
+     "psnr": 24.4315,
+     "ssim": 0.93381,
+     "lpips": 0.07485
+    },
+    {
+     "name": "gt_783.png",
+     "psnr": 27.7475,
+     "ssim": 0.94761,
+     "lpips": 0.05636
+    },
+    {
+     "name": "gt_811.png",
+     "psnr": 26.5657,
+     "ssim": 0.94139,
+     "lpips": 0.05177
+    },
+    {
+     "name": "gt_834.png",
+     "psnr": 26.3644,
+     "ssim": 0.92026,
+     "lpips": 0.1154
+    },
+    {
+     "name": "gt_837.png",
+     "psnr": 26.0833,
+     "ssim": 0.92943,
+     "lpips": 0.1123
+    },
+    {
+     "name": "gt_840.png",
+     "psnr": 24.3871,
+     "ssim": 0.89907,
+     "lpips": 0.12166
+    },
+    {
+     "name": "gt_843.png",
+     "psnr": 21.9147,
+     "ssim": 0.84018,
+     "lpips": 0.13645
+    },
+    {
+     "name": "gt_849.png",
+     "psnr": 27.0412,
+     "ssim": 0.92707,
+     "lpips": 0.07349
+    },
+    {
+     "name": "gt_880.png",
+     "psnr": 30.3073,
+     "ssim": 0.96356,
+     "lpips": 0.05209
+    },
+    {
+     "name": "gt_926.png",
+     "psnr": 28.2122,
+     "ssim": 0.96626,
+     "lpips": 0.02896
+    },
+    {
+     "name": "gt_927.png",
+     "psnr": 29.5054,
+     "ssim": 0.96564,
+     "lpips": 0.03637
+    },
+    {
+     "name": "gt_959.png",
+     "psnr": 23.2943,
+     "ssim": 0.8879,
+     "lpips": 0.11784
+    },
+    {
+     "name": "gt_970.png",
+     "psnr": 20.9044,
+     "ssim": 0.87853,
+     "lpips": 0.16885
+    },
+    {
+     "name": "gt_972.png",
+     "psnr": 21.3451,
+     "ssim": 0.86283,
+     "lpips": 0.25697
+    },
+    {
+     "name": "gt_973.png",
+     "psnr": 27.0935,
+     "ssim": 0.94195,
+     "lpips": 0.04641
+    },
+    {
+     "name": "gt_974.png",
+     "psnr": 25.987,
+     "ssim": 0.94802,
+     "lpips": 0.04951
+    },
+    {
+     "name": "gt_975.png",
+     "psnr": 26.2486,
+     "ssim": 0.92769,
+     "lpips": 0.07152
+    },
+    {
+     "name": "gt_976.png",
+     "psnr": 28.0102,
+     "ssim": 0.93414,
+     "lpips": 0.07582
+    },
+    {
+     "name": "gt_977.png",
+     "psnr": 24.2416,
+     "ssim": 0.93448,
+     "lpips": 0.0795
+    },
+    {
+     "name": "gt_978.png",
+     "psnr": 29.4408,
+     "ssim": 0.9618,
+     "lpips": 0.03791
+    },
+    {
+     "name": "gt_980.png",
+     "psnr": 31.7157,
+     "ssim": 0.97792,
+     "lpips": 0.04395
+    },
+    {
+     "name": "gt_982.png",
+     "psnr": 26.149,
+     "ssim": 0.89377,
+     "lpips": 0.17247
+    },
+    {
+     "name": "gt_983.png",
+     "psnr": 31.9642,
+     "ssim": 0.98261,
+     "lpips": 0.02524
+    },
+    {
+     "name": "gt_986.png",
+     "psnr": 28.8403,
+     "ssim": 0.95774,
+     "lpips": 0.04683
+    },
+    {
+     "name": "gt_987.png",
+     "psnr": 27.5466,
+     "ssim": 0.96816,
+     "lpips": 0.03281
+    },
+    {
+     "name": "gt_988.png",
+     "psnr": 26.0995,
+     "ssim": 0.92317,
+     "lpips": 0.07495
+    },
+    {
+     "name": "gt_989.png",
+     "psnr": 28.2284,
+     "ssim": 0.94136,
+     "lpips": 0.09014
+    },
+    {
+     "name": "gt_992.png",
+     "psnr": 23.6251,
+     "ssim": 0.93196,
+     "lpips": 0.16213
+    },
+    {
+     "name": "gt_994.png",
+     "psnr": 29.6041,
+     "ssim": 0.97345,
+     "lpips": 0.03166
+    },
+    {
+     "name": "gt_995.png",
+     "psnr": 22.7058,
+     "ssim": 0.93035,
+     "lpips": 0.11814
+    },
+    {
+     "name": "gt_996.png",
+     "psnr": 29.4072,
+     "ssim": 0.9828,
+     "lpips": 0.02943
+    },
+    {
+     "name": "gt_999.png",
+     "psnr": 24.6399,
+     "ssim": 0.86619,
+     "lpips": 0.16276
+    }
+   ]
+  },
+  "lowlight/L1": {
+   "n": 60,
+   "mean": {
+    "psnr": 30.8295,
+    "ssim": 0.9855,
+    "lpips": 0.0252
+   },
+   "sec_per_image": 0.0447,
+   "resized": 0,
+   "images": [
+    {
+     "name": "esp32_test_clean_esp03.png",
+     "psnr": 34.9873,
+     "ssim": 0.99762,
+     "lpips": 0.00458
+    },
+    {
+     "name": "esp32_test_clean_esp04.png",
+     "psnr": 40.8399,
+     "ssim": 0.99906,
+     "lpips": 0.00237
+    },
+    {
+     "name": "esp32_test_clean_esp07.png",
+     "psnr": 37.1403,
+     "ssim": 0.99661,
+     "lpips": 0.00545
+    },
+    {
+     "name": "esp32_test_clean_esp09.png",
+     "psnr": 38.4199,
+     "ssim": 0.9976,
+     "lpips": 0.00471
+    },
+    {
+     "name": "esp32_test_clean_esp11.png",
+     "psnr": 36.5719,
+     "ssim": 0.99287,
+     "lpips": 0.00994
+    },
+    {
+     "name": "esp32_test_clean_esp14.png",
+     "psnr": 42.1163,
+     "ssim": 0.99831,
+     "lpips": 0.00305
+    },
+    {
+     "name": "esp32_test_clean_esp25.png",
+     "psnr": 38.822,
+     "ssim": 0.99701,
+     "lpips": 0.00501
+    },
+    {
+     "name": "esp32_test_clean_esp32.png",
+     "psnr": 36.8923,
+     "ssim": 0.99727,
+     "lpips": 0.00485
+    },
+    {
+     "name": "esp32_test_clean_esp38.png",
+     "psnr": 34.9122,
+     "ssim": 0.99452,
+     "lpips": 0.00494
+    },
+    {
+     "name": "esp32_test_clean_esp44.png",
+     "psnr": 34.8128,
+     "ssim": 0.99353,
+     "lpips": 0.00769
+    },
+    {
+     "name": "gt_506.png",
+     "psnr": 28.7977,
+     "ssim": 0.98769,
+     "lpips": 0.03384
+    },
+    {
+     "name": "gt_516.png",
+     "psnr": 34.5043,
+     "ssim": 0.99493,
+     "lpips": 0.01146
+    },
+    {
+     "name": "gt_517.png",
+     "psnr": 35.1881,
+     "ssim": 0.99478,
+     "lpips": 0.00988
+    },
+    {
+     "name": "gt_530.png",
+     "psnr": 31.5897,
+     "ssim": 0.99372,
+     "lpips": 0.02218
+    },
+    {
+     "name": "gt_534.png",
+     "psnr": 26.6292,
+     "ssim": 0.98232,
+     "lpips": 0.02559
+    },
+    {
+     "name": "gt_540.png",
+     "psnr": 30.4175,
+     "ssim": 0.97414,
+     "lpips": 0.01722
+    },
+    {
+     "name": "gt_602.png",
+     "psnr": 35.2343,
+     "ssim": 0.99086,
+     "lpips": 0.02075
+    },
+    {
+     "name": "gt_638.png",
+     "psnr": 28.9237,
+     "ssim": 0.98598,
+     "lpips": 0.0314
+    },
+    {
+     "name": "gt_670.png",
+     "psnr": 34.0371,
+     "ssim": 0.99045,
+     "lpips": 0.01866
+    },
+    {
+     "name": "gt_687.png",
+     "psnr": 33.702,
+     "ssim": 0.99117,
+     "lpips": 0.01766
+    },
+    {
+     "name": "gt_696.png",
+     "psnr": 27.9046,
+     "ssim": 0.9821,
+     "lpips": 0.0332
+    },
+    {
+     "name": "gt_708.png",
+     "psnr": 25.5896,
+     "ssim": 0.97493,
+     "lpips": 0.02735
+    },
+    {
+     "name": "gt_712.png",
+     "psnr": 29.9222,
+     "ssim": 0.99195,
+     "lpips": 0.01656
+    },
+    {
+     "name": "gt_717.png",
+     "psnr": 28.2659,
+     "ssim": 0.96671,
+     "lpips": 0.03433
+    },
+    {
+     "name": "gt_754.png",
+     "psnr": 34.4503,
+     "ssim": 0.99189,
+     "lpips": 0.01127
+    },
+    {
+     "name": "gt_759.png",
+     "psnr": 30.9906,
+     "ssim": 0.98695,
+     "lpips": 0.01807
+    },
+    {
+     "name": "gt_770.png",
+     "psnr": 29.7299,
+     "ssim": 0.98871,
+     "lpips": 0.01649
+    },
+    {
+     "name": "gt_771.png",
+     "psnr": 29.6109,
+     "ssim": 0.98498,
+     "lpips": 0.02482
+    },
+    {
+     "name": "gt_775.png",
+     "psnr": 26.3454,
+     "ssim": 0.98762,
+     "lpips": 0.02248
+    },
+    {
+     "name": "gt_783.png",
+     "psnr": 31.7514,
+     "ssim": 0.99142,
+     "lpips": 0.01678
+    },
+    {
+     "name": "gt_811.png",
+     "psnr": 30.963,
+     "ssim": 0.98935,
+     "lpips": 0.01862
+    },
+    {
+     "name": "gt_834.png",
+     "psnr": 29.4291,
+     "ssim": 0.98719,
+     "lpips": 0.03068
+    },
+    {
+     "name": "gt_837.png",
+     "psnr": 31.6034,
+     "ssim": 0.98656,
+     "lpips": 0.0341
+    },
+    {
+     "name": "gt_840.png",
+     "psnr": 25.0377,
+     "ssim": 0.96575,
+     "lpips": 0.04899
+    },
+    {
+     "name": "gt_843.png",
+     "psnr": 23.3375,
+     "ssim": 0.95501,
+     "lpips": 0.07546
+    },
+    {
+     "name": "gt_849.png",
+     "psnr": 31.9185,
+     "ssim": 0.98979,
+     "lpips": 0.01427
+    },
+    {
+     "name": "gt_880.png",
+     "psnr": 34.3655,
+     "ssim": 0.98896,
+     "lpips": 0.01486
+    },
+    {
+     "name": "gt_926.png",
+     "psnr": 32.8855,
+     "ssim": 0.9928,
+     "lpips": 0.00871
+    },
+    {
+     "name": "gt_927.png",
+     "psnr": 33.8588,
+     "ssim": 0.99251,
+     "lpips": 0.0165
+    },
+    {
+     "name": "gt_959.png",
+     "psnr": 22.538,
+     "ssim": 0.96388,
+     "lpips": 0.04627
+    },
+    {
+     "name": "gt_970.png",
+     "psnr": 22.3276,
+     "ssim": 0.96988,
+     "lpips": 0.06847
+    },
+    {
+     "name": "gt_972.png",
+     "psnr": 22.2923,
+     "ssim": 0.95761,
+     "lpips": 0.12831
+    },
+    {
+     "name": "gt_973.png",
+     "psnr": 31.8416,
+     "ssim": 0.99176,
+     "lpips": 0.01142
+    },
+    {
+     "name": "gt_974.png",
+     "psnr": 31.9738,
+     "ssim": 0.98419,
+     "lpips": 0.0176
+    },
+    {
+     "name": "gt_975.png",
+     "psnr": 31.512,
+     "ssim": 0.98195,
+     "lpips": 0.02043
+    },
+    {
+     "name": "gt_976.png",
+     "psnr": 32.3476,
+     "ssim": 0.98537,
+     "lpips": 0.01761
+    },
+    {
+     "name": "gt_977.png",
+     "psnr": 28.6549,
+     "ssim": 0.98248,
+     "lpips": 0.03145
+    },
+    {
+     "name": "gt_978.png",
+     "psnr": 35.795,
+     "ssim": 0.99355,
+     "lpips": 0.00972
+    },
+    {
+     "name": "gt_980.png",
+     "psnr": 31.9762,
+     "ssim": 0.99411,
+     "lpips": 0.01549
+    },
+    {
+     "name": "gt_982.png",
+     "psnr": 20.3211,
+     "ssim": 0.96186,
+     "lpips": 0.06679
+    },
+    {
+     "name": "gt_983.png",
+     "psnr": 29.8586,
+     "ssim": 0.99045,
+     "lpips": 0.01722
+    },
+    {
+     "name": "gt_986.png",
+     "psnr": 32.546,
+     "ssim": 0.9915,
+     "lpips": 0.01492
+    },
+    {
+     "name": "gt_987.png",
+     "psnr": 31.7662,
+     "ssim": 0.99017,
+     "lpips": 0.01335
+    },
+    {
+     "name": "gt_988.png",
+     "psnr": 27.9768,
+     "ssim": 0.98289,
+     "lpips": 0.03259
+    },
+    {
+     "name": "gt_989.png",
+     "psnr": 32.6167,
+     "ssim": 0.99225,
+     "lpips": 0.02394
+    },
+    {
+     "name": "gt_992.png",
+     "psnr": 20.6449,
+     "ssim": 0.96316,
+     "lpips": 0.08883
+    },
+    {
+     "name": "gt_994.png",
+     "psnr": 31.7306,
+     "ssim": 0.99404,
+     "lpips": 0.01333
+    },
+    {
+     "name": "gt_995.png",
+     "psnr": 20.9756,
+     "ssim": 0.96577,
+     "lpips": 0.06518
+    },
+    {
+     "name": "gt_996.png",
+     "psnr": 29.2286,
+     "ssim": 0.99122,
+     "lpips": 0.02274
+    },
+    {
+     "name": "gt_999.png",
+     "psnr": 18.3464,
+     "ssim": 0.95554,
+     "lpips": 0.04207
+    }
+   ]
+  },
+  "lowlight/L2": {
+   "n": 60,
+   "mean": {
+    "psnr": 29.5767,
+    "ssim": 0.9811,
+    "lpips": 0.0331
+   },
+   "sec_per_image": 0.0447,
+   "resized": 0,
+   "images": [
+    {
+     "name": "esp32_test_clean_esp03.png",
+     "psnr": 36.9262,
+     "ssim": 0.99772,
+     "lpips": 0.00557
+    },
+    {
+     "name": "esp32_test_clean_esp04.png",
+     "psnr": 38.5869,
+     "ssim": 0.99852,
+     "lpips": 0.00328
+    },
+    {
+     "name": "esp32_test_clean_esp07.png",
+     "psnr": 34.4346,
+     "ssim": 0.99532,
+     "lpips": 0.00631
+    },
+    {
+     "name": "esp32_test_clean_esp09.png",
+     "psnr": 35.91,
+     "ssim": 0.99674,
+     "lpips": 0.00565
+    },
+    {
+     "name": "esp32_test_clean_esp11.png",
+     "psnr": 33.0784,
+     "ssim": 0.99052,
+     "lpips": 0.01177
+    },
+    {
+     "name": "esp32_test_clean_esp14.png",
+     "psnr": 39.888,
+     "ssim": 0.9977,
+     "lpips": 0.00434
+    },
+    {
+     "name": "esp32_test_clean_esp25.png",
+     "psnr": 37.6649,
+     "ssim": 0.99643,
+     "lpips": 0.00656
+    },
+    {
+     "name": "esp32_test_clean_esp32.png",
+     "psnr": 38.2696,
+     "ssim": 0.9973,
+     "lpips": 0.00513
+    },
+    {
+     "name": "esp32_test_clean_esp38.png",
+     "psnr": 33.3531,
+     "ssim": 0.99313,
+     "lpips": 0.00646
+    },
+    {
+     "name": "esp32_test_clean_esp44.png",
+     "psnr": 35.7916,
+     "ssim": 0.99265,
+     "lpips": 0.00929
+    },
+    {
+     "name": "gt_506.png",
+     "psnr": 29.3828,
+     "ssim": 0.98452,
+     "lpips": 0.04032
+    },
+    {
+     "name": "gt_516.png",
+     "psnr": 33.2292,
+     "ssim": 0.99251,
+     "lpips": 0.01364
+    },
+    {
+     "name": "gt_517.png",
+     "psnr": 32.4764,
+     "ssim": 0.98916,
+     "lpips": 0.01608
+    },
+    {
+     "name": "gt_530.png",
+     "psnr": 28.9677,
+     "ssim": 0.98913,
+     "lpips": 0.03184
+    },
+    {
+     "name": "gt_534.png",
+     "psnr": 24.8927,
+     "ssim": 0.97725,
+     "lpips": 0.03513
+    },
+    {
+     "name": "gt_540.png",
+     "psnr": 27.353,
+     "ssim": 0.95735,
+     "lpips": 0.03015
+    },
+    {
+     "name": "gt_602.png",
+     "psnr": 30.8827,
+     "ssim": 0.98544,
+     "lpips": 0.03415
+    },
+    {
+     "name": "gt_638.png",
+     "psnr": 30.7144,
+     "ssim": 0.98281,
+     "lpips": 0.03516
+    },
+    {
+     "name": "gt_670.png",
+     "psnr": 31.4344,
+     "ssim": 0.98057,
+     "lpips": 0.0314
+    },
+    {
+     "name": "gt_687.png",
+     "psnr": 28.7903,
+     "ssim": 0.98242,
+     "lpips": 0.02504
+    },
+    {
+     "name": "gt_696.png",
+     "psnr": 26.8118,
+     "ssim": 0.96999,
+     "lpips": 0.04383
+    },
+    {
+     "name": "gt_708.png",
+     "psnr": 24.4668,
+     "ssim": 0.96264,
+     "lpips": 0.04316
+    },
+    {
+     "name": "gt_712.png",
+     "psnr": 29.1779,
+     "ssim": 0.98893,
+     "lpips": 0.01993
+    },
+    {
+     "name": "gt_717.png",
+     "psnr": 30.2516,
+     "ssim": 0.96962,
+     "lpips": 0.04684
+    },
+    {
+     "name": "gt_754.png",
+     "psnr": 29.9267,
+     "ssim": 0.97731,
+     "lpips": 0.02029
+    },
+    {
+     "name": "gt_759.png",
+     "psnr": 27.8979,
+     "ssim": 0.9668,
+     "lpips": 0.03177
+    },
+    {
+     "name": "gt_770.png",
+     "psnr": 29.2962,
+     "ssim": 0.98955,
+     "lpips": 0.02343
+    },
+    {
+     "name": "gt_771.png",
+     "psnr": 29.5839,
+     "ssim": 0.98358,
+     "lpips": 0.02885
+    },
+    {
+     "name": "gt_775.png",
+     "psnr": 25.8828,
+     "ssim": 0.98226,
+     "lpips": 0.03072
+    },
+    {
+     "name": "gt_783.png",
+     "psnr": 29.6974,
+     "ssim": 0.98803,
+     "lpips": 0.02193
+    },
+    {
+     "name": "gt_811.png",
+     "psnr": 29.1126,
+     "ssim": 0.98483,
+     "lpips": 0.0272
+    },
+    {
+     "name": "gt_834.png",
+     "psnr": 27.6731,
+     "ssim": 0.9811,
+     "lpips": 0.03904
+    },
+    {
+     "name": "gt_837.png",
+     "psnr": 29.4481,
+     "ssim": 0.9779,
+     "lpips": 0.04863
+    },
+    {
+     "name": "gt_840.png",
+     "psnr": 24.3368,
+     "ssim": 0.9539,
+     "lpips": 0.06609
+    },
+    {
+     "name": "gt_843.png",
+     "psnr": 22.4635,
+     "ssim": 0.9564,
+     "lpips": 0.08116
+    },
+    {
+     "name": "gt_849.png",
+     "psnr": 30.4595,
+     "ssim": 0.98465,
+     "lpips": 0.01908
+    },
+    {
+     "name": "gt_880.png",
+     "psnr": 34.2904,
+     "ssim": 0.98717,
+     "lpips": 0.01857
+    },
+    {
+     "name": "gt_926.png",
+     "psnr": 33.5879,
+     "ssim": 0.99263,
+     "lpips": 0.01004
+    },
+    {
+     "name": "gt_927.png",
+     "psnr": 29.4322,
+     "ssim": 0.98051,
+     "lpips": 0.02841
+    },
+    {
+     "name": "gt_959.png",
+     "psnr": 21.331,
+     "ssim": 0.95442,
+     "lpips": 0.05819
+    },
+    {
+     "name": "gt_970.png",
+     "psnr": 21.9066,
+     "ssim": 0.97051,
+     "lpips": 0.08809
+    },
+    {
+     "name": "gt_972.png",
+     "psnr": 21.4935,
+     "ssim": 0.95039,
+     "lpips": 0.14758
+    },
+    {
+     "name": "gt_973.png",
+     "psnr": 28.423,
+     "ssim": 0.98737,
+     "lpips": 0.01598
+    },
+    {
+     "name": "gt_974.png",
+     "psnr": 29.5749,
+     "ssim": 0.97445,
+     "lpips": 0.02379
+    },
+    {
+     "name": "gt_975.png",
+     "psnr": 30.9993,
+     "ssim": 0.97107,
+     "lpips": 0.02453
+    },
+    {
+     "name": "gt_976.png",
+     "psnr": 28.1602,
+     "ssim": 0.97483,
+     "lpips": 0.0319
+    },
+    {
+     "name": "gt_977.png",
+     "psnr": 26.7073,
+     "ssim": 0.97588,
+     "lpips": 0.04111
+    },
+    {
+     "name": "gt_978.png",
+     "psnr": 35.299,
+     "ssim": 0.9934,
+     "lpips": 0.01207
+    },
+    {
+     "name": "gt_980.png",
+     "psnr": 30.2116,
+     "ssim": 0.99245,
+     "lpips": 0.02129
+    },
+    {
+     "name": "gt_982.png",
+     "psnr": 23.6115,
+     "ssim": 0.95571,
+     "lpips": 0.08935
+    },
+    {
+     "name": "gt_983.png",
+     "psnr": 30.9485,
+     "ssim": 0.9908,
+     "lpips": 0.02251
+    },
+    {
+     "name": "gt_986.png",
+     "psnr": 31.1191,
+     "ssim": 0.98923,
+     "lpips": 0.0208
+    },
+    {
+     "name": "gt_987.png",
+     "psnr": 29.6992,
+     "ssim": 0.98612,
+     "lpips": 0.0195
+    },
+    {
+     "name": "gt_988.png",
+     "psnr": 29.3854,
+     "ssim": 0.98351,
+     "lpips": 0.03795
+    },
+    {
+     "name": "gt_989.png",
+     "psnr": 32.6163,
+     "ssim": 0.99037,
+     "lpips": 0.02892
+    },
+    {
+     "name": "gt_992.png",
+     "psnr": 21.1278,
+     "ssim": 0.96045,
+     "lpips": 0.09711
+    },
+    {
+     "name": "gt_994.png",
+     "psnr": 30.0846,
+     "ssim": 0.99047,
+     "lpips": 0.01897
+    },
+    {
+     "name": "gt_995.png",
+     "psnr": 17.5734,
+     "ssim": 0.96548,
+     "lpips": 0.11164
+    },
+    {
+     "name": "gt_996.png",
+     "psnr": 27.2808,
+     "ssim": 0.9864,
+     "lpips": 0.03187
+    },
+    {
+     "name": "gt_999.png",
+     "psnr": 21.2245,
+     "ssim": 0.96705,
+     "lpips": 0.03925
+    }
+   ]
+  },
+  "lowlight/L3": {
+   "n": 60,
+   "mean": {
+    "psnr": 27.9664,
+    "ssim": 0.9687,
+    "lpips": 0.0544
+   },
+   "sec_per_image": 0.0447,
+   "resized": 0,
+   "images": [
+    {
+     "name": "esp32_test_clean_esp03.png",
+     "psnr": 35.5347,
+     "ssim": 0.99623,
+     "lpips": 0.00978
+    },
+    {
+     "name": "esp32_test_clean_esp04.png",
+     "psnr": 37.5392,
+     "ssim": 0.99764,
+     "lpips": 0.00493
+    },
+    {
+     "name": "esp32_test_clean_esp07.png",
+     "psnr": 33.8098,
+     "ssim": 0.99315,
+     "lpips": 0.01064
+    },
+    {
+     "name": "esp32_test_clean_esp09.png",
+     "psnr": 33.7497,
+     "ssim": 0.99424,
+     "lpips": 0.0104
+    },
+    {
+     "name": "esp32_test_clean_esp11.png",
+     "psnr": 32.3459,
+     "ssim": 0.9867,
+     "lpips": 0.01793
+    },
+    {
+     "name": "esp32_test_clean_esp14.png",
+     "psnr": 38.0832,
+     "ssim": 0.99593,
+     "lpips": 0.00746
+    },
+    {
+     "name": "esp32_test_clean_esp25.png",
+     "psnr": 35.0536,
+     "ssim": 0.99399,
+     "lpips": 0.01033
+    },
+    {
+     "name": "esp32_test_clean_esp32.png",
+     "psnr": 35.4577,
+     "ssim": 0.99491,
+     "lpips": 0.00842
+    },
+    {
+     "name": "esp32_test_clean_esp38.png",
+     "psnr": 33.4233,
+     "ssim": 0.99106,
+     "lpips": 0.01095
+    },
+    {
+     "name": "esp32_test_clean_esp44.png",
+     "psnr": 34.6583,
+     "ssim": 0.99007,
+     "lpips": 0.01163
+    },
+    {
+     "name": "gt_506.png",
+     "psnr": 26.7476,
+     "ssim": 0.96606,
+     "lpips": 0.06883
+    },
+    {
+     "name": "gt_516.png",
+     "psnr": 31.2789,
+     "ssim": 0.98818,
+     "lpips": 0.01913
+    },
+    {
+     "name": "gt_517.png",
+     "psnr": 31.6354,
+     "ssim": 0.98365,
+     "lpips": 0.02288
+    },
+    {
+     "name": "gt_530.png",
+     "psnr": 27.9391,
+     "ssim": 0.98079,
+     "lpips": 0.04451
+    },
+    {
+     "name": "gt_534.png",
+     "psnr": 23.1618,
+     "ssim": 0.9595,
+     "lpips": 0.05199
+    },
+    {
+     "name": "gt_540.png",
+     "psnr": 24.8603,
+     "ssim": 0.93242,
+     "lpips": 0.04973
+    },
+    {
+     "name": "gt_602.png",
+     "psnr": 28.9968,
+     "ssim": 0.97519,
+     "lpips": 0.05222
+    },
+    {
+     "name": "gt_638.png",
+     "psnr": 29.3889,
+     "ssim": 0.96902,
+     "lpips": 0.05107
+    },
+    {
+     "name": "gt_670.png",
+     "psnr": 29.9382,
+     "ssim": 0.96138,
+     "lpips": 0.06568
+    },
+    {
+     "name": "gt_687.png",
+     "psnr": 27.5384,
+     "ssim": 0.96492,
+     "lpips": 0.04735
+    },
+    {
+     "name": "gt_696.png",
+     "psnr": 24.7569,
+     "ssim": 0.9451,
+     "lpips": 0.08477
+    },
+    {
+     "name": "gt_708.png",
+     "psnr": 25.774,
+     "ssim": 0.95736,
+     "lpips": 0.06974
+    },
+    {
+     "name": "gt_712.png",
+     "psnr": 27.6134,
+     "ssim": 0.98077,
+     "lpips": 0.03084
+    },
+    {
+     "name": "gt_717.png",
+     "psnr": 27.8681,
+     "ssim": 0.94236,
+     "lpips": 0.08602
+    },
+    {
+     "name": "gt_754.png",
+     "psnr": 29.9357,
+     "ssim": 0.9749,
+     "lpips": 0.03008
+    },
+    {
+     "name": "gt_759.png",
+     "psnr": 25.8128,
+     "ssim": 0.96405,
+     "lpips": 0.05085
+    },
+    {
+     "name": "gt_770.png",
+     "psnr": 27.2675,
+     "ssim": 0.98307,
+     "lpips": 0.03689
+    },
+    {
+     "name": "gt_771.png",
+     "psnr": 27.1481,
+     "ssim": 0.97099,
+     "lpips": 0.05114
+    },
+    {
+     "name": "gt_775.png",
+     "psnr": 24.6386,
+     "ssim": 0.9617,
+     "lpips": 0.05458
+    },
+    {
+     "name": "gt_783.png",
+     "psnr": 28.374,
+     "ssim": 0.97752,
+     "lpips": 0.0426
+    },
+    {
+     "name": "gt_811.png",
+     "psnr": 27.5645,
+     "ssim": 0.97409,
+     "lpips": 0.04531
+    },
+    {
+     "name": "gt_834.png",
+     "psnr": 28.2798,
+     "ssim": 0.96939,
+     "lpips": 0.07108
+    },
+    {
+     "name": "gt_837.png",
+     "psnr": 27.1255,
+     "ssim": 0.95347,
+     "lpips": 0.08783
+    },
+    {
+     "name": "gt_840.png",
+     "psnr": 21.6502,
+     "ssim": 0.93186,
+     "lpips": 0.09831
+    },
+    {
+     "name": "gt_843.png",
+     "psnr": 20.0377,
+     "ssim": 0.93394,
+     "lpips": 0.12287
+    },
+    {
+     "name": "gt_849.png",
+     "psnr": 27.6934,
+     "ssim": 0.96961,
+     "lpips": 0.0346
+    },
+    {
+     "name": "gt_880.png",
+     "psnr": 31.3241,
+     "ssim": 0.97363,
+     "lpips": 0.03545
+    },
+    {
+     "name": "gt_926.png",
+     "psnr": 30.4146,
+     "ssim": 0.98434,
+     "lpips": 0.01785
+    },
+    {
+     "name": "gt_927.png",
+     "psnr": 28.9652,
+     "ssim": 0.97482,
+     "lpips": 0.04021
+    },
+    {
+     "name": "gt_959.png",
+     "psnr": 19.6748,
+     "ssim": 0.91591,
+     "lpips": 0.10221
+    },
+    {
+     "name": "gt_970.png",
+     "psnr": 18.8021,
+     "ssim": 0.93857,
+     "lpips": 0.18204
+    },
+    {
+     "name": "gt_972.png",
+     "psnr": 20.6646,
+     "ssim": 0.93268,
+     "lpips": 0.20474
+    },
+    {
+     "name": "gt_973.png",
+     "psnr": 28.2131,
+     "ssim": 0.97901,
+     "lpips": 0.02268
+    },
+    {
+     "name": "gt_974.png",
+     "psnr": 27.6296,
+     "ssim": 0.95529,
+     "lpips": 0.03781
+    },
+    {
+     "name": "gt_975.png",
+     "psnr": 27.0436,
+     "ssim": 0.93423,
+     "lpips": 0.04459
+    },
+    {
+     "name": "gt_976.png",
+     "psnr": 26.2984,
+     "ssim": 0.96171,
+     "lpips": 0.04945
+    },
+    {
+     "name": "gt_977.png",
+     "psnr": 24.6093,
+     "ssim": 0.95372,
+     "lpips": 0.06578
+    },
+    {
+     "name": "gt_978.png",
+     "psnr": 33.1433,
+     "ssim": 0.98724,
+     "lpips": 0.01937
+    },
+    {
+     "name": "gt_980.png",
+     "psnr": 31.1745,
+     "ssim": 0.98849,
+     "lpips": 0.0273
+    },
+    {
+     "name": "gt_982.png",
+     "psnr": 20.0482,
+     "ssim": 0.9314,
+     "lpips": 0.14178
+    },
+    {
+     "name": "gt_983.png",
+     "psnr": 30.3425,
+     "ssim": 0.98725,
+     "lpips": 0.02786
+    },
+    {
+     "name": "gt_986.png",
+     "psnr": 28.8667,
+     "ssim": 0.98078,
+     "lpips": 0.03128
+    },
+    {
+     "name": "gt_987.png",
+     "psnr": 27.8531,
+     "ssim": 0.97808,
+     "lpips": 0.02841
+    },
+    {
+     "name": "gt_988.png",
+     "psnr": 26.2613,
+     "ssim": 0.96478,
+     "lpips": 0.0838
+    },
+    {
+     "name": "gt_989.png",
+     "psnr": 29.4073,
+     "ssim": 0.9785,
+     "lpips": 0.05569
+    },
+    {
+     "name": "gt_992.png",
+     "psnr": 20.9134,
+     "ssim": 0.95319,
+     "lpips": 0.12675
+    },
+    {
+     "name": "gt_994.png",
+     "psnr": 29.8346,
+     "ssim": 0.98771,
+     "lpips": 0.02937
+    },
+    {
+     "name": "gt_995.png",
+     "psnr": 15.9161,
+     "ssim": 0.95316,
+     "lpips": 0.19922
+    },
+    {
+     "name": "gt_996.png",
+     "psnr": 24.4259,
+     "ssim": 0.96626,
+     "lpips": 0.04405
+    },
+    {
+     "name": "gt_999.png",
+     "psnr": 23.4786,
+     "ssim": 0.95626,
+     "lpips": 0.07355
+    }
+   ]
+  },
+  "mix/L1": {
+   "n": 60,
+   "mean": {
+    "psnr": 26.0499,
+    "ssim": 0.9225,
+    "lpips": 0.1046
+   },
+   "sec_per_image": 0.0447,
+   "resized": 0,
+   "images": [
+    {
+     "name": "esp32_test_clean_esp03.png",
+     "psnr": 34.9918,
+     "ssim": 0.9939,
+     "lpips": 0.00784
+    },
+    {
+     "name": "esp32_test_clean_esp04.png",
+     "psnr": 26.1169,
+     "ssim": 0.97124,
+     "lpips": 0.06696
+    },
+    {
+     "name": "esp32_test_clean_esp07.png",
+     "psnr": 31.6667,
+     "ssim": 0.98593,
+     "lpips": 0.01735
+    },
+    {
+     "name": "esp32_test_clean_esp09.png",
+     "psnr": 33.7106,
+     "ssim": 0.99233,
+     "lpips": 0.00859
+    },
+    {
+     "name": "esp32_test_clean_esp11.png",
+     "psnr": 27.7458,
+     "ssim": 0.96063,
+     "lpips": 0.1025
+    },
+    {
+     "name": "esp32_test_clean_esp14.png",
+     "psnr": 37.8377,
+     "ssim": 0.99763,
+     "lpips": 0.00436
+    },
+    {
+     "name": "esp32_test_clean_esp25.png",
+     "psnr": 35.026,
+     "ssim": 0.98742,
+     "lpips": 0.01058
+    },
+    {
+     "name": "esp32_test_clean_esp32.png",
+     "psnr": 29.0256,
+     "ssim": 0.98432,
+     "lpips": 0.03524
+    },
+    {
+     "name": "esp32_test_clean_esp38.png",
+     "psnr": 27.7128,
+     "ssim": 0.97826,
+     "lpips": 0.0492
+    },
+    {
+     "name": "esp32_test_clean_esp44.png",
+     "psnr": 26.0843,
+     "ssim": 0.92785,
+     "lpips": 0.08633
+    },
+    {
+     "name": "gt_506.png",
+     "psnr": 22.1194,
+     "ssim": 0.85757,
+     "lpips": 0.2089
+    },
+    {
+     "name": "gt_516.png",
+     "psnr": 28.7758,
+     "ssim": 0.97092,
+     "lpips": 0.03315
+    },
+    {
+     "name": "gt_517.png",
+     "psnr": 29.6721,
+     "ssim": 0.96692,
+     "lpips": 0.02627
+    },
+    {
+     "name": "gt_530.png",
+     "psnr": 28.7217,
+     "ssim": 0.96019,
+     "lpips": 0.04618
+    },
+    {
+     "name": "gt_534.png",
+     "psnr": 19.7028,
+     "ssim": 0.78294,
+     "lpips": 0.22795
+    },
+    {
+     "name": "gt_540.png",
+     "psnr": 28.301,
+     "ssim": 0.9514,
+     "lpips": 0.02647
+    },
+    {
+     "name": "gt_602.png",
+     "psnr": 27.5731,
+     "ssim": 0.92997,
+     "lpips": 0.09739
+    },
+    {
+     "name": "gt_638.png",
+     "psnr": 27.8277,
+     "ssim": 0.98281,
+     "lpips": 0.04045
+    },
+    {
+     "name": "gt_670.png",
+     "psnr": 24.4172,
+     "ssim": 0.8916,
+     "lpips": 0.16577
+    },
+    {
+     "name": "gt_687.png",
+     "psnr": 26.6689,
+     "ssim": 0.932,
+     "lpips": 0.07791
+    },
+    {
+     "name": "gt_696.png",
+     "psnr": 25.6716,
+     "ssim": 0.91431,
+     "lpips": 0.07689
+    },
+    {
+     "name": "gt_708.png",
+     "psnr": 25.3978,
+     "ssim": 0.89203,
+     "lpips": 0.07775
+    },
+    {
+     "name": "gt_712.png",
+     "psnr": 22.4905,
+     "ssim": 0.91956,
+     "lpips": 0.11225
+    },
+    {
+     "name": "gt_717.png",
+     "psnr": 25.5984,
+     "ssim": 0.85965,
+     "lpips": 0.15338
+    },
+    {
+     "name": "gt_754.png",
+     "psnr": 29.144,
+     "ssim": 0.96418,
+     "lpips": 0.0304
+    },
+    {
+     "name": "gt_759.png",
+     "psnr": 21.3437,
+     "ssim": 0.86542,
+     "lpips": 0.17853
+    },
+    {
+     "name": "gt_770.png",
+     "psnr": 24.3996,
+     "ssim": 0.91342,
+     "lpips": 0.09765
+    },
+    {
+     "name": "gt_771.png",
+     "psnr": 22.974,
+     "ssim": 0.87272,
+     "lpips": 0.14419
+    },
+    {
+     "name": "gt_775.png",
+     "psnr": 22.9951,
+     "ssim": 0.87063,
+     "lpips": 0.10884
+    },
+    {
+     "name": "gt_783.png",
+     "psnr": 29.1912,
+     "ssim": 0.95595,
+     "lpips": 0.04495
+    },
+    {
+     "name": "gt_811.png",
+     "psnr": 22.6916,
+     "ssim": 0.87531,
+     "lpips": 0.18336
+    },
+    {
+     "name": "gt_834.png",
+     "psnr": 23.4097,
+     "ssim": 0.88413,
+     "lpips": 0.21308
+    },
+    {
+     "name": "gt_837.png",
+     "psnr": 27.5035,
+     "ssim": 0.94155,
+     "lpips": 0.06896
+    },
+    {
+     "name": "gt_840.png",
+     "psnr": 23.875,
+     "ssim": 0.82179,
+     "lpips": 0.22004
+    },
+    {
+     "name": "gt_843.png",
+     "psnr": 20.011,
+     "ssim": 0.96065,
+     "lpips": 0.08787
+    },
+    {
+     "name": "gt_849.png",
+     "psnr": 27.4734,
+     "ssim": 0.92606,
+     "lpips": 0.06017
+    },
+    {
+     "name": "gt_880.png",
+     "psnr": 33.339,
+     "ssim": 0.96946,
+     "lpips": 0.0224
+    },
+    {
+     "name": "gt_926.png",
+     "psnr": 20.7491,
+     "ssim": 0.8811,
+     "lpips": 0.16364
+    },
+    {
+     "name": "gt_927.png",
+     "psnr": 24.624,
+     "ssim": 0.93219,
+     "lpips": 0.09098
+    },
+    {
+     "name": "gt_959.png",
+     "psnr": 22.0291,
+     "ssim": 0.82939,
+     "lpips": 0.25948
+    },
+    {
+     "name": "gt_970.png",
+     "psnr": 18.9827,
+     "ssim": 0.86666,
+     "lpips": 0.18903
+    },
+    {
+     "name": "gt_972.png",
+     "psnr": 20.3134,
+     "ssim": 0.81277,
+     "lpips": 0.33215
+    },
+    {
+     "name": "gt_973.png",
+     "psnr": 23.7996,
+     "ssim": 0.90891,
+     "lpips": 0.11744
+    },
+    {
+     "name": "gt_974.png",
+     "psnr": 21.0035,
+     "ssim": 0.85727,
+     "lpips": 0.14598
+    },
+    {
+     "name": "gt_975.png",
+     "psnr": 27.2654,
+     "ssim": 0.94877,
+     "lpips": 0.04321
+    },
+    {
+     "name": "gt_976.png",
+     "psnr": 25.858,
+     "ssim": 0.92012,
+     "lpips": 0.08809
+    },
+    {
+     "name": "gt_977.png",
+     "psnr": 20.8323,
+     "ssim": 0.86426,
+     "lpips": 0.20062
+    },
+    {
+     "name": "gt_978.png",
+     "psnr": 31.5217,
+     "ssim": 0.96892,
+     "lpips": 0.03074
+    },
+    {
+     "name": "gt_980.png",
+     "psnr": 33.7028,
+     "ssim": 0.97561,
+     "lpips": 0.02953
+    },
+    {
+     "name": "gt_982.png",
+     "psnr": 22.3026,
+     "ssim": 0.88079,
+     "lpips": 0.14735
+    },
+    {
+     "name": "gt_983.png",
+     "psnr": 30.0293,
+     "ssim": 0.97888,
+     "lpips": 0.04082
+    },
+    {
+     "name": "gt_986.png",
+     "psnr": 25.2042,
+     "ssim": 0.92293,
+     "lpips": 0.10144
+    },
+    {
+     "name": "gt_987.png",
+     "psnr": 22.8978,
+     "ssim": 0.91321,
+     "lpips": 0.12229
+    },
+    {
+     "name": "gt_988.png",
+     "psnr": 22.1083,
+     "ssim": 0.83009,
+     "lpips": 0.19165
+    },
+    {
+     "name": "gt_989.png",
+     "psnr": 30.035,
+     "ssim": 0.98934,
+     "lpips": 0.03353
+    },
+    {
+     "name": "gt_992.png",
+     "psnr": 22.2104,
+     "ssim": 0.91604,
+     "lpips": 0.26352
+    },
+    {
+     "name": "gt_994.png",
+     "psnr": 24.8565,
+     "ssim": 0.94115,
+     "lpips": 0.10419
+    },
+    {
+     "name": "gt_995.png",
+     "psnr": 19.6737,
+     "ssim": 0.92566,
+     "lpips": 0.17328
+    },
+    {
+     "name": "gt_996.png",
+     "psnr": 29.5491,
+     "ssim": 0.97841,
+     "lpips": 0.03514
+    },
+    {
+     "name": "gt_999.png",
+     "psnr": 22.2357,
+     "ssim": 0.89708,
+     "lpips": 0.15114
+    }
+   ]
+  },
+  "mix/L2": {
+   "n": 60,
+   "mean": {
+    "psnr": 23.4111,
+    "ssim": 0.8857,
+    "lpips": 0.1616
+   },
+   "sec_per_image": 0.0449,
+   "resized": 0,
+   "images": [
+    {
+     "name": "esp32_test_clean_esp03.png",
+     "psnr": 22.8941,
+     "ssim": 0.93107,
+     "lpips": 0.08426
+    },
+    {
+     "name": "esp32_test_clean_esp04.png",
+     "psnr": 24.8024,
+     "ssim": 0.95085,
+     "lpips": 0.05697
+    },
+    {
+     "name": "esp32_test_clean_esp07.png",
+     "psnr": 26.6044,
+     "ssim": 0.96682,
+     "lpips": 0.03817
+    },
+    {
+     "name": "esp32_test_clean_esp09.png",
+     "psnr": 30.7447,
+     "ssim": 0.98399,
+     "lpips": 0.01567
+    },
+    {
+     "name": "esp32_test_clean_esp11.png",
+     "psnr": 30.2743,
+     "ssim": 0.94991,
+     "lpips": 0.06076
+    },
+    {
+     "name": "esp32_test_clean_esp14.png",
+     "psnr": 31.5918,
+     "ssim": 0.97646,
+     "lpips": 0.03497
+    },
+    {
+     "name": "esp32_test_clean_esp25.png",
+     "psnr": 26.7444,
+     "ssim": 0.9608,
+     "lpips": 0.04231
+    },
+    {
+     "name": "esp32_test_clean_esp32.png",
+     "psnr": 22.1918,
+     "ssim": 0.91615,
+     "lpips": 0.14792
+    },
+    {
+     "name": "esp32_test_clean_esp38.png",
+     "psnr": 29.9597,
+     "ssim": 0.97859,
+     "lpips": 0.027
+    },
+    {
+     "name": "esp32_test_clean_esp44.png",
+     "psnr": 30.4457,
+     "ssim": 0.9672,
+     "lpips": 0.03007
+    },
+    {
+     "name": "gt_506.png",
+     "psnr": 23.4173,
+     "ssim": 0.92206,
+     "lpips": 0.12007
+    },
+    {
+     "name": "gt_516.png",
+     "psnr": 29.8511,
+     "ssim": 0.98416,
+     "lpips": 0.02952
+    },
+    {
+     "name": "gt_517.png",
+     "psnr": 21.4754,
+     "ssim": 0.87935,
+     "lpips": 0.16007
+    },
+    {
+     "name": "gt_530.png",
+     "psnr": 25.1554,
+     "ssim": 0.981,
+     "lpips": 0.06641
+    },
+    {
+     "name": "gt_534.png",
+     "psnr": 18.7829,
+     "ssim": 0.72692,
+     "lpips": 0.37715
+    },
+    {
+     "name": "gt_540.png",
+     "psnr": 24.4861,
+     "ssim": 0.89437,
+     "lpips": 0.08362
+    },
+    {
+     "name": "gt_602.png",
+     "psnr": 25.9318,
+     "ssim": 0.89339,
+     "lpips": 0.17685
+    },
+    {
+     "name": "gt_638.png",
+     "psnr": 26.4882,
+     "ssim": 0.90537,
+     "lpips": 0.12782
+    },
+    {
+     "name": "gt_670.png",
+     "psnr": 22.1906,
+     "ssim": 0.82054,
+     "lpips": 0.25298
+    },
+    {
+     "name": "gt_687.png",
+     "psnr": 22.521,
+     "ssim": 0.85761,
+     "lpips": 0.14101
+    },
+    {
+     "name": "gt_696.png",
+     "psnr": 19.7099,
+     "ssim": 0.70755,
+     "lpips": 0.35372
+    },
+    {
+     "name": "gt_708.png",
+     "psnr": 20.9008,
+     "ssim": 0.77213,
+     "lpips": 0.27325
+    },
+    {
+     "name": "gt_712.png",
+     "psnr": 20.0264,
+     "ssim": 0.81857,
+     "lpips": 0.19925
+    },
+    {
+     "name": "gt_717.png",
+     "psnr": 19.2625,
+     "ssim": 0.82348,
+     "lpips": 0.36724
+    },
+    {
+     "name": "gt_754.png",
+     "psnr": 28.2713,
+     "ssim": 0.95654,
+     "lpips": 0.04292
+    },
+    {
+     "name": "gt_759.png",
+     "psnr": 22.2048,
+     "ssim": 0.87994,
+     "lpips": 0.14211
+    },
+    {
+     "name": "gt_770.png",
+     "psnr": 22.0316,
+     "ssim": 0.85047,
+     "lpips": 0.1645
+    },
+    {
+     "name": "gt_771.png",
+     "psnr": 22.5649,
+     "ssim": 0.8722,
+     "lpips": 0.16798
+    },
+    {
+     "name": "gt_775.png",
+     "psnr": 23.7575,
+     "ssim": 0.96968,
+     "lpips": 0.054
+    },
+    {
+     "name": "gt_783.png",
+     "psnr": 21.702,
+     "ssim": 0.85273,
+     "lpips": 0.20077
+    },
+    {
+     "name": "gt_811.png",
+     "psnr": 21.3684,
+     "ssim": 0.78759,
+     "lpips": 0.24573
+    },
+    {
+     "name": "gt_834.png",
+     "psnr": 21.4306,
+     "ssim": 0.75136,
+     "lpips": 0.27798
+    },
+    {
+     "name": "gt_837.png",
+     "psnr": 20.6923,
+     "ssim": 0.79432,
+     "lpips": 0.27654
+    },
+    {
+     "name": "gt_840.png",
+     "psnr": 20.993,
+     "ssim": 0.8103,
+     "lpips": 0.3329
+    },
+    {
+     "name": "gt_843.png",
+     "psnr": 19.7912,
+     "ssim": 0.93773,
+     "lpips": 0.11578
+    },
+    {
+     "name": "gt_849.png",
+     "psnr": 19.4221,
+     "ssim": 0.8321,
+     "lpips": 0.22348
+    },
+    {
+     "name": "gt_880.png",
+     "psnr": 22.8965,
+     "ssim": 0.88704,
+     "lpips": 0.1398
+    },
+    {
+     "name": "gt_926.png",
+     "psnr": 24.5378,
+     "ssim": 0.94019,
+     "lpips": 0.06349
+    },
+    {
+     "name": "gt_927.png",
+     "psnr": 22.5171,
+     "ssim": 0.8762,
+     "lpips": 0.1591
+    },
+    {
+     "name": "gt_959.png",
+     "psnr": 19.4337,
+     "ssim": 0.77919,
+     "lpips": 0.2756
+    },
+    {
+     "name": "gt_970.png",
+     "psnr": 18.5654,
+     "ssim": 0.84946,
+     "lpips": 0.27191
+    },
+    {
+     "name": "gt_972.png",
+     "psnr": 18.4522,
+     "ssim": 0.82512,
+     "lpips": 0.35812
+    },
+    {
+     "name": "gt_973.png",
+     "psnr": 19.6604,
+     "ssim": 0.83226,
+     "lpips": 0.19572
+    },
+    {
+     "name": "gt_974.png",
+     "psnr": 25.8785,
+     "ssim": 0.94582,
+     "lpips": 0.05768
+    },
+    {
+     "name": "gt_975.png",
+     "psnr": 19.6582,
+     "ssim": 0.70858,
+     "lpips": 0.3143
+    },
+    {
+     "name": "gt_976.png",
+     "psnr": 27.6551,
+     "ssim": 0.92321,
+     "lpips": 0.08502
+    },
+    {
+     "name": "gt_977.png",
+     "psnr": 20.116,
+     "ssim": 0.81876,
+     "lpips": 0.26342
+    },
+    {
+     "name": "gt_978.png",
+     "psnr": 32.8195,
+     "ssim": 0.98824,
+     "lpips": 0.02063
+    },
+    {
+     "name": "gt_980.png",
+     "psnr": 24.1293,
+     "ssim": 0.95026,
+     "lpips": 0.11183
+    },
+    {
+     "name": "gt_982.png",
+     "psnr": 22.3285,
+     "ssim": 0.86442,
+     "lpips": 0.15736
+    },
+    {
+     "name": "gt_983.png",
+     "psnr": 26.8792,
+     "ssim": 0.95066,
+     "lpips": 0.07262
+    },
+    {
+     "name": "gt_986.png",
+     "psnr": 22.257,
+     "ssim": 0.90977,
+     "lpips": 0.14461
+    },
+    {
+     "name": "gt_987.png",
+     "psnr": 21.6752,
+     "ssim": 0.86233,
+     "lpips": 0.14705
+    },
+    {
+     "name": "gt_988.png",
+     "psnr": 23.0366,
+     "ssim": 0.85999,
+     "lpips": 0.19934
+    },
+    {
+     "name": "gt_989.png",
+     "psnr": 26.2797,
+     "ssim": 0.91415,
+     "lpips": 0.11237
+    },
+    {
+     "name": "gt_992.png",
+     "psnr": 19.9047,
+     "ssim": 0.83736,
+     "lpips": 0.3703
+    },
+    {
+     "name": "gt_994.png",
+     "psnr": 30.143,
+     "ssim": 0.98928,
+     "lpips": 0.02625
+    },
+    {
+     "name": "gt_995.png",
+     "psnr": 13.3068,
+     "ssim": 0.86704,
+     "lpips": 0.37413
+    },
+    {
+     "name": "gt_996.png",
+     "psnr": 21.5472,
+     "ssim": 0.94346,
+     "lpips": 0.1114
+    },
+    {
+     "name": "gt_999.png",
+     "psnr": 20.3065,
+     "ssim": 0.95305,
+     "lpips": 0.15513
+    }
+   ]
+  },
+  "mix/L3": {
+   "n": 60,
+   "mean": {
+    "psnr": 19.9258,
+    "ssim": 0.7905,
+    "lpips": 0.2897
+   },
+   "sec_per_image": 0.0448,
+   "resized": 0,
+   "images": [
+    {
+     "name": "esp32_test_clean_esp03.png",
+     "psnr": 21.632,
+     "ssim": 0.91642,
+     "lpips": 0.10865
+    },
+    {
+     "name": "esp32_test_clean_esp04.png",
+     "psnr": 24.1268,
+     "ssim": 0.94047,
+     "lpips": 0.09541
+    },
+    {
+     "name": "esp32_test_clean_esp07.png",
+     "psnr": 29.9375,
+     "ssim": 0.97807,
+     "lpips": 0.02333
+    },
+    {
+     "name": "esp32_test_clean_esp09.png",
+     "psnr": 28.6172,
+     "ssim": 0.9773,
+     "lpips": 0.0226
+    },
+    {
+     "name": "esp32_test_clean_esp11.png",
+     "psnr": 19.2696,
+     "ssim": 0.7668,
+     "lpips": 0.34597
+    },
+    {
+     "name": "esp32_test_clean_esp14.png",
+     "psnr": 22.7113,
+     "ssim": 0.91527,
+     "lpips": 0.13811
+    },
+    {
+     "name": "esp32_test_clean_esp25.png",
+     "psnr": 18.8886,
+     "ssim": 0.8066,
+     "lpips": 0.20058
+    },
+    {
+     "name": "esp32_test_clean_esp32.png",
+     "psnr": 19.6468,
+     "ssim": 0.84893,
+     "lpips": 0.18526
+    },
+    {
+     "name": "esp32_test_clean_esp38.png",
+     "psnr": 18.0188,
+     "ssim": 0.77079,
+     "lpips": 0.3193
+    },
+    {
+     "name": "esp32_test_clean_esp44.png",
+     "psnr": 19.2232,
+     "ssim": 0.75591,
+     "lpips": 0.30627
+    },
+    {
+     "name": "gt_506.png",
+     "psnr": 19.3289,
+     "ssim": 0.75017,
+     "lpips": 0.37874
+    },
+    {
+     "name": "gt_516.png",
+     "psnr": 27.4442,
+     "ssim": 0.95323,
+     "lpips": 0.05321
+    },
+    {
+     "name": "gt_517.png",
+     "psnr": 19.2271,
+     "ssim": 0.76759,
+     "lpips": 0.30006
+    },
+    {
+     "name": "gt_530.png",
+     "psnr": 23.799,
+     "ssim": 0.91394,
+     "lpips": 0.09849
+    },
+    {
+     "name": "gt_534.png",
+     "psnr": 12.5921,
+     "ssim": 0.45313,
+     "lpips": 0.72937
+    },
+    {
+     "name": "gt_540.png",
+     "psnr": 23.5791,
+     "ssim": 0.88743,
+     "lpips": 0.09164
+    },
+    {
+     "name": "gt_602.png",
+     "psnr": 17.1179,
+     "ssim": 0.7016,
+     "lpips": 0.5095
+    },
+    {
+     "name": "gt_638.png",
+     "psnr": 23.2474,
+     "ssim": 0.86364,
+     "lpips": 0.17659
+    },
+    {
+     "name": "gt_670.png",
+     "psnr": 21.5474,
+     "ssim": 0.72556,
+     "lpips": 0.35097
+    },
+    {
+     "name": "gt_687.png",
+     "psnr": 15.2499,
+     "ssim": 0.6673,
+     "lpips": 0.39907
+    },
+    {
+     "name": "gt_696.png",
+     "psnr": 14.1139,
+     "ssim": 0.52801,
+     "lpips": 0.53328
+    },
+    {
+     "name": "gt_708.png",
+     "psnr": 19.0238,
+     "ssim": 0.74305,
+     "lpips": 0.35224
+    },
+    {
+     "name": "gt_712.png",
+     "psnr": 17.3095,
+     "ssim": 0.72101,
+     "lpips": 0.30842
+    },
+    {
+     "name": "gt_717.png",
+     "psnr": 16.8396,
+     "ssim": 0.56362,
+     "lpips": 0.51833
+    },
+    {
+     "name": "gt_754.png",
+     "psnr": 25.4179,
+     "ssim": 0.92389,
+     "lpips": 0.07497
+    },
+    {
+     "name": "gt_759.png",
+     "psnr": 15.3085,
+     "ssim": 0.56053,
+     "lpips": 0.56757
+    },
+    {
+     "name": "gt_770.png",
+     "psnr": 27.3672,
+     "ssim": 0.95122,
+     "lpips": 0.05372
+    },
+    {
+     "name": "gt_771.png",
+     "psnr": 19.6586,
+     "ssim": 0.77233,
+     "lpips": 0.30414
+    },
+    {
+     "name": "gt_775.png",
+     "psnr": 21.4291,
+     "ssim": 0.82565,
+     "lpips": 0.17995
+    },
+    {
+     "name": "gt_783.png",
+     "psnr": 24.383,
+     "ssim": 0.91929,
+     "lpips": 0.104
+    },
+    {
+     "name": "gt_811.png",
+     "psnr": 20.2584,
+     "ssim": 0.72673,
+     "lpips": 0.36036
+    },
+    {
+     "name": "gt_834.png",
+     "psnr": 19.2083,
+     "ssim": 0.86197,
+     "lpips": 0.19089
+    },
+    {
+     "name": "gt_837.png",
+     "psnr": 19.307,
+     "ssim": 0.71352,
+     "lpips": 0.34851
+    },
+    {
+     "name": "gt_840.png",
+     "psnr": 18.585,
+     "ssim": 0.56899,
+     "lpips": 0.55049
+    },
+    {
+     "name": "gt_843.png",
+     "psnr": 16.1341,
+     "ssim": 0.54151,
+     "lpips": 0.60755
+    },
+    {
+     "name": "gt_849.png",
+     "psnr": 16.0238,
+     "ssim": 0.62592,
+     "lpips": 0.40752
+    },
+    {
+     "name": "gt_880.png",
+     "psnr": 21.3604,
+     "ssim": 0.84693,
+     "lpips": 0.23781
+    },
+    {
+     "name": "gt_926.png",
+     "psnr": 25.6907,
+     "ssim": 0.92979,
+     "lpips": 0.08534
+    },
+    {
+     "name": "gt_927.png",
+     "psnr": 22.0901,
+     "ssim": 0.83272,
+     "lpips": 0.21247
+    },
+    {
+     "name": "gt_959.png",
+     "psnr": 21.0838,
+     "ssim": 0.80014,
+     "lpips": 0.16642
+    },
+    {
+     "name": "gt_970.png",
+     "psnr": 15.6669,
+     "ssim": 0.89071,
+     "lpips": 0.29225
+    },
+    {
+     "name": "gt_972.png",
+     "psnr": 12.6332,
+     "ssim": 0.61926,
+     "lpips": 0.63072
+    },
+    {
+     "name": "gt_973.png",
+     "psnr": 18.3819,
+     "ssim": 0.79223,
+     "lpips": 0.26287
+    },
+    {
+     "name": "gt_974.png",
+     "psnr": 17.3964,
+     "ssim": 0.72036,
+     "lpips": 0.36697
+    },
+    {
+     "name": "gt_975.png",
+     "psnr": 19.7974,
+     "ssim": 0.72306,
+     "lpips": 0.31822
+    },
+    {
+     "name": "gt_976.png",
+     "psnr": 18.2593,
+     "ssim": 0.73029,
+     "lpips": 0.39391
+    },
+    {
+     "name": "gt_977.png",
+     "psnr": 18.1407,
+     "ssim": 0.72169,
+     "lpips": 0.34023
+    },
+    {
+     "name": "gt_978.png",
+     "psnr": 21.6996,
+     "ssim": 0.83391,
+     "lpips": 0.23667
+    },
+    {
+     "name": "gt_980.png",
+     "psnr": 21.4864,
+     "ssim": 0.87847,
+     "lpips": 0.22666
+    },
+    {
+     "name": "gt_982.png",
+     "psnr": 13.7801,
+     "ssim": 0.6476,
+     "lpips": 0.67231
+    },
+    {
+     "name": "gt_983.png",
+     "psnr": 19.3919,
+     "ssim": 0.82424,
+     "lpips": 0.42044
+    },
+    {
+     "name": "gt_986.png",
+     "psnr": 22.0972,
+     "ssim": 0.91069,
+     "lpips": 0.12666
+    },
+    {
+     "name": "gt_987.png",
+     "psnr": 22.4394,
+     "ssim": 0.94033,
+     "lpips": 0.07307
+    },
+    {
+     "name": "gt_988.png",
+     "psnr": 18.1342,
+     "ssim": 0.74241,
+     "lpips": 0.40602
+    },
+    {
+     "name": "gt_989.png",
+     "psnr": 25.3277,
+     "ssim": 0.88879,
+     "lpips": 0.16608
+    },
+    {
+     "name": "gt_992.png",
+     "psnr": 19.0058,
+     "ssim": 0.84966,
+     "lpips": 0.37677
+    },
+    {
+     "name": "gt_994.png",
+     "psnr": 20.3956,
+     "ssim": 0.93722,
+     "lpips": 0.11613
+    },
+    {
+     "name": "gt_995.png",
+     "psnr": 10.428,
+     "ssim": 0.76723,
+     "lpips": 0.4351
+    },
+    {
+     "name": "gt_996.png",
+     "psnr": 18.0881,
+     "ssim": 0.84869,
+     "lpips": 0.26683
+    },
+    {
+     "name": "gt_999.png",
+     "psnr": 17.2027,
+     "ssim": 0.84765,
+     "lpips": 0.25914
+    }
+   ]
+  },
+  "noise/L1": {
+   "n": 60,
+   "mean": {
+    "psnr": 31.7832,
+    "ssim": 0.9565,
+    "lpips": 0.0383
+   },
+   "sec_per_image": 0.0448,
+   "resized": 0,
+   "images": [
+    {
+     "name": "esp32_test_clean_esp03.png",
+     "psnr": 38.0097,
+     "ssim": 0.99422,
+     "lpips": 0.00655
+    },
+    {
+     "name": "esp32_test_clean_esp04.png",
+     "psnr": 39.4165,
+     "ssim": 0.99532,
+     "lpips": 0.0041
+    },
+    {
+     "name": "esp32_test_clean_esp07.png",
+     "psnr": 35.6578,
+     "ssim": 0.9913,
+     "lpips": 0.00907
+    },
+    {
+     "name": "esp32_test_clean_esp09.png",
+     "psnr": 36.4357,
+     "ssim": 0.99277,
+     "lpips": 0.00602
+    },
+    {
+     "name": "esp32_test_clean_esp11.png",
+     "psnr": 34.6058,
+     "ssim": 0.97131,
+     "lpips": 0.03125
+    },
+    {
+     "name": "esp32_test_clean_esp14.png",
+     "psnr": 39.564,
+     "ssim": 0.99275,
+     "lpips": 0.00898
+    },
+    {
+     "name": "esp32_test_clean_esp25.png",
+     "psnr": 36.582,
+     "ssim": 0.98897,
+     "lpips": 0.00814
+    },
+    {
+     "name": "esp32_test_clean_esp32.png",
+     "psnr": 37.321,
+     "ssim": 0.99225,
+     "lpips": 0.0067
+    },
+    {
+     "name": "esp32_test_clean_esp38.png",
+     "psnr": 36.0196,
+     "ssim": 0.99058,
+     "lpips": 0.00722
+    },
+    {
+     "name": "esp32_test_clean_esp44.png",
+     "psnr": 34.9251,
+     "ssim": 0.97863,
+     "lpips": 0.0191
+    },
+    {
+     "name": "gt_506.png",
+     "psnr": 30.7558,
+     "ssim": 0.9635,
+     "lpips": 0.0321
+    },
+    {
+     "name": "gt_516.png",
+     "psnr": 34.3369,
+     "ssim": 0.9853,
+     "lpips": 0.01376
+    },
+    {
+     "name": "gt_517.png",
+     "psnr": 34.1088,
+     "ssim": 0.97742,
+     "lpips": 0.01802
+    },
+    {
+     "name": "gt_530.png",
+     "psnr": 31.9695,
+     "ssim": 0.97634,
+     "lpips": 0.02344
+    },
+    {
+     "name": "gt_534.png",
+     "psnr": 27.4262,
+     "ssim": 0.93617,
+     "lpips": 0.04073
+    },
+    {
+     "name": "gt_540.png",
+     "psnr": 31.4915,
+     "ssim": 0.96198,
+     "lpips": 0.01963
+    },
+    {
+     "name": "gt_602.png",
+     "psnr": 34.072,
+     "ssim": 0.96387,
+     "lpips": 0.04518
+    },
+    {
+     "name": "gt_638.png",
+     "psnr": 31.1416,
+     "ssim": 0.93873,
+     "lpips": 0.06046
+    },
+    {
+     "name": "gt_670.png",
+     "psnr": 33.0517,
+     "ssim": 0.95745,
+     "lpips": 0.03903
+    },
+    {
+     "name": "gt_687.png",
+     "psnr": 32.1651,
+     "ssim": 0.95431,
+     "lpips": 0.03744
+    },
+    {
+     "name": "gt_696.png",
+     "psnr": 30.4816,
+     "ssim": 0.95688,
+     "lpips": 0.03029
+    },
+    {
+     "name": "gt_708.png",
+     "psnr": 30.2609,
+     "ssim": 0.9459,
+     "lpips": 0.03189
+    },
+    {
+     "name": "gt_712.png",
+     "psnr": 32.0281,
+     "ssim": 0.97453,
+     "lpips": 0.01918
+    },
+    {
+     "name": "gt_717.png",
+     "psnr": 31.1654,
+     "ssim": 0.93957,
+     "lpips": 0.04961
+    },
+    {
+     "name": "gt_754.png",
+     "psnr": 32.8306,
+     "ssim": 0.97657,
+     "lpips": 0.01718
+    },
+    {
+     "name": "gt_759.png",
+     "psnr": 30.9284,
+     "ssim": 0.94881,
+     "lpips": 0.02846
+    },
+    {
+     "name": "gt_770.png",
+     "psnr": 33.289,
+     "ssim": 0.98198,
+     "lpips": 0.01199
+    },
+    {
+     "name": "gt_771.png",
+     "psnr": 30.062,
+     "ssim": 0.94759,
+     "lpips": 0.04924
+    },
+    {
+     "name": "gt_775.png",
+     "psnr": 26.6988,
+     "ssim": 0.94122,
+     "lpips": 0.03784
+    },
+    {
+     "name": "gt_783.png",
+     "psnr": 32.67,
+     "ssim": 0.9628,
+     "lpips": 0.03288
+    },
+    {
+     "name": "gt_811.png",
+     "psnr": 31.0872,
+     "ssim": 0.96687,
+     "lpips": 0.02465
+    },
+    {
+     "name": "gt_834.png",
+     "psnr": 30.982,
+     "ssim": 0.94977,
+     "lpips": 0.04275
+    },
+    {
+     "name": "gt_837.png",
+     "psnr": 30.9888,
+     "ssim": 0.96402,
+     "lpips": 0.03399
+    },
+    {
+     "name": "gt_840.png",
+     "psnr": 26.6947,
+     "ssim": 0.90563,
+     "lpips": 0.0717
+    },
+    {
+     "name": "gt_843.png",
+     "psnr": 23.4895,
+     "ssim": 0.7623,
+     "lpips": 0.19569
+    },
+    {
+     "name": "gt_849.png",
+     "psnr": 31.4429,
+     "ssim": 0.95351,
+     "lpips": 0.03318
+    },
+    {
+     "name": "gt_880.png",
+     "psnr": 35.3694,
+     "ssim": 0.97402,
+     "lpips": 0.0174
+    },
+    {
+     "name": "gt_926.png",
+     "psnr": 34.2116,
+     "ssim": 0.97596,
+     "lpips": 0.02318
+    },
+    {
+     "name": "gt_927.png",
+     "psnr": 33.9208,
+     "ssim": 0.97419,
+     "lpips": 0.0321
+    },
+    {
+     "name": "gt_959.png",
+     "psnr": 24.706,
+     "ssim": 0.90664,
+     "lpips": 0.0702
+    },
+    {
+     "name": "gt_970.png",
+     "psnr": 22.05,
+     "ssim": 0.90092,
+     "lpips": 0.07711
+    },
+    {
+     "name": "gt_972.png",
+     "psnr": 21.9931,
+     "ssim": 0.88644,
+     "lpips": 0.14449
+    },
+    {
+     "name": "gt_973.png",
+     "psnr": 31.3862,
+     "ssim": 0.965,
+     "lpips": 0.02066
+    },
+    {
+     "name": "gt_974.png",
+     "psnr": 31.8531,
+     "ssim": 0.97847,
+     "lpips": 0.01856
+    },
+    {
+     "name": "gt_975.png",
+     "psnr": 31.9169,
+     "ssim": 0.97097,
+     "lpips": 0.02227
+    },
+    {
+     "name": "gt_976.png",
+     "psnr": 32.3613,
+     "ssim": 0.95375,
+     "lpips": 0.03408
+    },
+    {
+     "name": "gt_977.png",
+     "psnr": 28.9816,
+     "ssim": 0.97033,
+     "lpips": 0.0454
+    },
+    {
+     "name": "gt_978.png",
+     "psnr": 35.6308,
+     "ssim": 0.98281,
+     "lpips": 0.01538
+    },
+    {
+     "name": "gt_980.png",
+     "psnr": 35.0255,
+     "ssim": 0.97718,
+     "lpips": 0.0258
+    },
+    {
+     "name": "gt_982.png",
+     "psnr": 28.509,
+     "ssim": 0.91104,
+     "lpips": 0.07367
+    },
+    {
+     "name": "gt_983.png",
+     "psnr": 35.1962,
+     "ssim": 0.98496,
+     "lpips": 0.01268
+    },
+    {
+     "name": "gt_986.png",
+     "psnr": 32.7848,
+     "ssim": 0.96798,
+     "lpips": 0.02326
+    },
+    {
+     "name": "gt_987.png",
+     "psnr": 32.4493,
+     "ssim": 0.98355,
+     "lpips": 0.01281
+    },
+    {
+     "name": "gt_988.png",
+     "psnr": 30.41,
+     "ssim": 0.95027,
+     "lpips": 0.04306
+    },
+    {
+     "name": "gt_989.png",
+     "psnr": 32.0737,
+     "ssim": 0.95107,
+     "lpips": 0.05036
+    },
+    {
+     "name": "gt_992.png",
+     "psnr": 23.8485,
+     "ssim": 0.93156,
+     "lpips": 0.13886
+    },
+    {
+     "name": "gt_994.png",
+     "psnr": 34.0386,
+     "ssim": 0.98245,
+     "lpips": 0.01179
+    },
+    {
+     "name": "gt_995.png",
+     "psnr": 22.9658,
+     "ssim": 0.92503,
+     "lpips": 0.10338
+    },
+    {
+     "name": "gt_996.png",
+     "psnr": 32.7092,
+     "ssim": 0.97925,
+     "lpips": 0.02278
+    },
+    {
+     "name": "gt_999.png",
+     "psnr": 28.4433,
+     "ssim": 0.82492,
+     "lpips": 0.11341
+    }
+   ]
+  },
+  "noise/L2": {
+   "n": 60,
+   "mean": {
+    "psnr": 30.3827,
+    "ssim": 0.9437,
+    "lpips": 0.0538
+   },
+   "sec_per_image": 0.0447,
+   "resized": 0,
+   "images": [
+    {
+     "name": "esp32_test_clean_esp03.png",
+     "psnr": 35.9794,
+     "ssim": 0.99138,
+     "lpips": 0.00981
+    },
+    {
+     "name": "esp32_test_clean_esp04.png",
+     "psnr": 37.4948,
+     "ssim": 0.99308,
+     "lpips": 0.00638
+    },
+    {
+     "name": "esp32_test_clean_esp07.png",
+     "psnr": 33.5677,
+     "ssim": 0.98764,
+     "lpips": 0.01448
+    },
+    {
+     "name": "esp32_test_clean_esp09.png",
+     "psnr": 34.3323,
+     "ssim": 0.98986,
+     "lpips": 0.00954
+    },
+    {
+     "name": "esp32_test_clean_esp11.png",
+     "psnr": 32.8702,
+     "ssim": 0.96018,
+     "lpips": 0.04733
+    },
+    {
+     "name": "esp32_test_clean_esp14.png",
+     "psnr": 37.6137,
+     "ssim": 0.98927,
+     "lpips": 0.01567
+    },
+    {
+     "name": "esp32_test_clean_esp25.png",
+     "psnr": 34.4046,
+     "ssim": 0.98442,
+     "lpips": 0.01407
+    },
+    {
+     "name": "esp32_test_clean_esp32.png",
+     "psnr": 35.1684,
+     "ssim": 0.98852,
+     "lpips": 0.011
+    },
+    {
+     "name": "esp32_test_clean_esp38.png",
+     "psnr": 33.9867,
+     "ssim": 0.98595,
+     "lpips": 0.01245
+    },
+    {
+     "name": "esp32_test_clean_esp44.png",
+     "psnr": 33.2002,
+     "ssim": 0.97028,
+     "lpips": 0.02485
+    },
+    {
+     "name": "gt_506.png",
+     "psnr": 29.0694,
+     "ssim": 0.94346,
+     "lpips": 0.04742
+    },
+    {
+     "name": "gt_516.png",
+     "psnr": 32.5841,
+     "ssim": 0.97779,
+     "lpips": 0.0239
+    },
+    {
+     "name": "gt_517.png",
+     "psnr": 32.0997,
+     "ssim": 0.96784,
+     "lpips": 0.03008
+    },
+    {
+     "name": "gt_530.png",
+     "psnr": 30.2952,
+     "ssim": 0.96537,
+     "lpips": 0.0354
+    },
+    {
+     "name": "gt_534.png",
+     "psnr": 26.3533,
+     "ssim": 0.91247,
+     "lpips": 0.05612
+    },
+    {
+     "name": "gt_540.png",
+     "psnr": 29.8109,
+     "ssim": 0.9391,
+     "lpips": 0.03202
+    },
+    {
+     "name": "gt_602.png",
+     "psnr": 32.2442,
+     "ssim": 0.94807,
+     "lpips": 0.07309
+    },
+    {
+     "name": "gt_638.png",
+     "psnr": 30.099,
+     "ssim": 0.92424,
+     "lpips": 0.09016
+    },
+    {
+     "name": "gt_670.png",
+     "psnr": 31.2021,
+     "ssim": 0.93735,
+     "lpips": 0.06794
+    },
+    {
+     "name": "gt_687.png",
+     "psnr": 30.7983,
+     "ssim": 0.9419,
+     "lpips": 0.05094
+    },
+    {
+     "name": "gt_696.png",
+     "psnr": 28.7959,
+     "ssim": 0.93546,
+     "lpips": 0.04708
+    },
+    {
+     "name": "gt_708.png",
+     "psnr": 29.2711,
+     "ssim": 0.92623,
+     "lpips": 0.04603
+    },
+    {
+     "name": "gt_712.png",
+     "psnr": 30.2442,
+     "ssim": 0.96451,
+     "lpips": 0.0292
+    },
+    {
+     "name": "gt_717.png",
+     "psnr": 29.4576,
+     "ssim": 0.91908,
+     "lpips": 0.07526
+    },
+    {
+     "name": "gt_754.png",
+     "psnr": 31.1554,
+     "ssim": 0.96489,
+     "lpips": 0.02773
+    },
+    {
+     "name": "gt_759.png",
+     "psnr": 29.3399,
+     "ssim": 0.93223,
+     "lpips": 0.04474
+    },
+    {
+     "name": "gt_770.png",
+     "psnr": 31.8622,
+     "ssim": 0.97411,
+     "lpips": 0.01776
+    },
+    {
+     "name": "gt_771.png",
+     "psnr": 30.2047,
+     "ssim": 0.94592,
+     "lpips": 0.0567
+    },
+    {
+     "name": "gt_775.png",
+     "psnr": 26.2027,
+     "ssim": 0.92016,
+     "lpips": 0.05553
+    },
+    {
+     "name": "gt_783.png",
+     "psnr": 31.041,
+     "ssim": 0.95256,
+     "lpips": 0.04268
+    },
+    {
+     "name": "gt_811.png",
+     "psnr": 29.9254,
+     "ssim": 0.95369,
+     "lpips": 0.03647
+    },
+    {
+     "name": "gt_834.png",
+     "psnr": 29.3743,
+     "ssim": 0.93164,
+     "lpips": 0.05919
+    },
+    {
+     "name": "gt_837.png",
+     "psnr": 29.246,
+     "ssim": 0.94772,
+     "lpips": 0.05051
+    },
+    {
+     "name": "gt_840.png",
+     "psnr": 26.7083,
+     "ssim": 0.88897,
+     "lpips": 0.1019
+    },
+    {
+     "name": "gt_843.png",
+     "psnr": 23.7606,
+     "ssim": 0.73883,
+     "lpips": 0.22136
+    },
+    {
+     "name": "gt_849.png",
+     "psnr": 29.7376,
+     "ssim": 0.93693,
+     "lpips": 0.0453
+    },
+    {
+     "name": "gt_880.png",
+     "psnr": 33.3905,
+     "ssim": 0.96255,
+     "lpips": 0.02986
+    },
+    {
+     "name": "gt_926.png",
+     "psnr": 32.1384,
+     "ssim": 0.96651,
+     "lpips": 0.03631
+    },
+    {
+     "name": "gt_927.png",
+     "psnr": 31.957,
+     "ssim": 0.96163,
+     "lpips": 0.05071
+    },
+    {
+     "name": "gt_959.png",
+     "psnr": 23.9194,
+     "ssim": 0.87503,
+     "lpips": 0.08895
+    },
+    {
+     "name": "gt_970.png",
+     "psnr": 21.4971,
+     "ssim": 0.8763,
+     "lpips": 0.10447
+    },
+    {
+     "name": "gt_972.png",
+     "psnr": 21.4487,
+     "ssim": 0.85397,
+     "lpips": 0.19721
+    },
+    {
+     "name": "gt_973.png",
+     "psnr": 30.6693,
+     "ssim": 0.95377,
+     "lpips": 0.02729
+    },
+    {
+     "name": "gt_974.png",
+     "psnr": 30.2676,
+     "ssim": 0.96909,
+     "lpips": 0.02538
+    },
+    {
+     "name": "gt_975.png",
+     "psnr": 30.0942,
+     "ssim": 0.95258,
+     "lpips": 0.03194
+    },
+    {
+     "name": "gt_976.png",
+     "psnr": 30.6126,
+     "ssim": 0.9379,
+     "lpips": 0.05186
+    },
+    {
+     "name": "gt_977.png",
+     "psnr": 27.9961,
+     "ssim": 0.95909,
+     "lpips": 0.05383
+    },
+    {
+     "name": "gt_978.png",
+     "psnr": 33.8575,
+     "ssim": 0.97479,
+     "lpips": 0.0253
+    },
+    {
+     "name": "gt_980.png",
+     "psnr": 33.7737,
+     "ssim": 0.96937,
+     "lpips": 0.03991
+    },
+    {
+     "name": "gt_982.png",
+     "psnr": 27.4185,
+     "ssim": 0.88722,
+     "lpips": 0.1122
+    },
+    {
+     "name": "gt_983.png",
+     "psnr": 34.0929,
+     "ssim": 0.97854,
+     "lpips": 0.01941
+    },
+    {
+     "name": "gt_986.png",
+     "psnr": 31.5455,
+     "ssim": 0.95522,
+     "lpips": 0.03929
+    },
+    {
+     "name": "gt_987.png",
+     "psnr": 30.9702,
+     "ssim": 0.97599,
+     "lpips": 0.0173
+    },
+    {
+     "name": "gt_988.png",
+     "psnr": 29.0933,
+     "ssim": 0.93437,
+     "lpips": 0.05654
+    },
+    {
+     "name": "gt_989.png",
+     "psnr": 30.3788,
+     "ssim": 0.93518,
+     "lpips": 0.07372
+    },
+    {
+     "name": "gt_992.png",
+     "psnr": 23.224,
+     "ssim": 0.91108,
+     "lpips": 0.19389
+    },
+    {
+     "name": "gt_994.png",
+     "psnr": 32.6208,
+     "ssim": 0.97495,
+     "lpips": 0.01617
+    },
+    {
+     "name": "gt_995.png",
+     "psnr": 22.0898,
+     "ssim": 0.90149,
+     "lpips": 0.15727
+    },
+    {
+     "name": "gt_996.png",
+     "psnr": 31.6266,
+     "ssim": 0.97058,
+     "lpips": 0.03483
+    },
+    {
+     "name": "gt_999.png",
+     "psnr": 28.78,
+     "ssim": 0.85455,
+     "lpips": 0.1119
+    }
+   ]
+  },
+  "noise/L3": {
+   "n": 60,
+   "mean": {
+    "psnr": 29.045,
+    "ssim": 0.9302,
+    "lpips": 0.0708
+   },
+   "sec_per_image": 0.0447,
+   "resized": 0,
+   "images": [
+    {
+     "name": "esp32_test_clean_esp03.png",
+     "psnr": 34.345,
+     "ssim": 0.98813,
+     "lpips": 0.01348
+    },
+    {
+     "name": "esp32_test_clean_esp04.png",
+     "psnr": 35.8608,
+     "ssim": 0.99029,
+     "lpips": 0.01005
+    },
+    {
+     "name": "esp32_test_clean_esp07.png",
+     "psnr": 31.9,
+     "ssim": 0.9837,
+     "lpips": 0.02061
+    },
+    {
+     "name": "esp32_test_clean_esp09.png",
+     "psnr": 32.6439,
+     "ssim": 0.98629,
+     "lpips": 0.01407
+    },
+    {
+     "name": "esp32_test_clean_esp11.png",
+     "psnr": 31.3508,
+     "ssim": 0.94921,
+     "lpips": 0.06064
+    },
+    {
+     "name": "esp32_test_clean_esp14.png",
+     "psnr": 35.8676,
+     "ssim": 0.9859,
+     "lpips": 0.02053
+    },
+    {
+     "name": "esp32_test_clean_esp25.png",
+     "psnr": 32.6721,
+     "ssim": 0.97995,
+     "lpips": 0.02004
+    },
+    {
+     "name": "esp32_test_clean_esp32.png",
+     "psnr": 33.5132,
+     "ssim": 0.98516,
+     "lpips": 0.01416
+    },
+    {
+     "name": "esp32_test_clean_esp38.png",
+     "psnr": 32.3314,
+     "ssim": 0.981,
+     "lpips": 0.0176
+    },
+    {
+     "name": "esp32_test_clean_esp44.png",
+     "psnr": 31.6055,
+     "ssim": 0.96139,
+     "lpips": 0.03198
+    },
+    {
+     "name": "gt_506.png",
+     "psnr": 27.5803,
+     "ssim": 0.92317,
+     "lpips": 0.06326
+    },
+    {
+     "name": "gt_516.png",
+     "psnr": 30.9755,
+     "ssim": 0.96892,
+     "lpips": 0.03407
+    },
+    {
+     "name": "gt_517.png",
+     "psnr": 30.2732,
+     "ssim": 0.95653,
+     "lpips": 0.04481
+    },
+    {
+     "name": "gt_530.png",
+     "psnr": 28.8304,
+     "ssim": 0.9542,
+     "lpips": 0.04823
+    },
+    {
+     "name": "gt_534.png",
+     "psnr": 25.3732,
+     "ssim": 0.89131,
+     "lpips": 0.07231
+    },
+    {
+     "name": "gt_540.png",
+     "psnr": 28.3299,
+     "ssim": 0.91838,
+     "lpips": 0.04595
+    },
+    {
+     "name": "gt_602.png",
+     "psnr": 30.6216,
+     "ssim": 0.92863,
+     "lpips": 0.10951
+    },
+    {
+     "name": "gt_638.png",
+     "psnr": 29.1273,
+     "ssim": 0.90684,
+     "lpips": 0.11785
+    },
+    {
+     "name": "gt_670.png",
+     "psnr": 29.5464,
+     "ssim": 0.91635,
+     "lpips": 0.0998
+    },
+    {
+     "name": "gt_687.png",
+     "psnr": 29.1579,
+     "ssim": 0.92382,
+     "lpips": 0.07298
+    },
+    {
+     "name": "gt_696.png",
+     "psnr": 27.4155,
+     "ssim": 0.91395,
+     "lpips": 0.06752
+    },
+    {
+     "name": "gt_708.png",
+     "psnr": 27.9515,
+     "ssim": 0.90559,
+     "lpips": 0.06751
+    },
+    {
+     "name": "gt_712.png",
+     "psnr": 28.7767,
+     "ssim": 0.95405,
+     "lpips": 0.04024
+    },
+    {
+     "name": "gt_717.png",
+     "psnr": 27.9881,
+     "ssim": 0.89413,
+     "lpips": 0.10727
+    },
+    {
+     "name": "gt_754.png",
+     "psnr": 29.5541,
+     "ssim": 0.95088,
+     "lpips": 0.04198
+    },
+    {
+     "name": "gt_759.png",
+     "psnr": 27.9241,
+     "ssim": 0.91348,
+     "lpips": 0.06413
+    },
+    {
+     "name": "gt_770.png",
+     "psnr": 30.4652,
+     "ssim": 0.96567,
+     "lpips": 0.02519
+    },
+    {
+     "name": "gt_771.png",
+     "psnr": 28.6364,
+     "ssim": 0.93106,
+     "lpips": 0.0804
+    },
+    {
+     "name": "gt_775.png",
+     "psnr": 25.4188,
+     "ssim": 0.8991,
+     "lpips": 0.07466
+    },
+    {
+     "name": "gt_783.png",
+     "psnr": 29.3722,
+     "ssim": 0.93785,
+     "lpips": 0.05991
+    },
+    {
+     "name": "gt_811.png",
+     "psnr": 28.5881,
+     "ssim": 0.93691,
+     "lpips": 0.0507
+    },
+    {
+     "name": "gt_834.png",
+     "psnr": 27.8672,
+     "ssim": 0.91117,
+     "lpips": 0.08238
+    },
+    {
+     "name": "gt_837.png",
+     "psnr": 27.7982,
+     "ssim": 0.93044,
+     "lpips": 0.0724
+    },
+    {
+     "name": "gt_840.png",
+     "psnr": 26.2783,
+     "ssim": 0.86749,
+     "lpips": 0.1367
+    },
+    {
+     "name": "gt_843.png",
+     "psnr": 23.5653,
+     "ssim": 0.75283,
+     "lpips": 0.21468
+    },
+    {
+     "name": "gt_849.png",
+     "psnr": 28.0843,
+     "ssim": 0.92377,
+     "lpips": 0.05286
+    },
+    {
+     "name": "gt_880.png",
+     "psnr": 31.714,
+     "ssim": 0.94893,
+     "lpips": 0.04522
+    },
+    {
+     "name": "gt_926.png",
+     "psnr": 30.2796,
+     "ssim": 0.95603,
+     "lpips": 0.05004
+    },
+    {
+     "name": "gt_927.png",
+     "psnr": 30.1853,
+     "ssim": 0.94626,
+     "lpips": 0.0717
+    },
+    {
+     "name": "gt_959.png",
+     "psnr": 23.143,
+     "ssim": 0.85118,
+     "lpips": 0.10862
+    },
+    {
+     "name": "gt_970.png",
+     "psnr": 21.0441,
+     "ssim": 0.85882,
+     "lpips": 0.13104
+    },
+    {
+     "name": "gt_972.png",
+     "psnr": 21.0778,
+     "ssim": 0.82939,
+     "lpips": 0.22917
+    },
+    {
+     "name": "gt_973.png",
+     "psnr": 29.9433,
+     "ssim": 0.94569,
+     "lpips": 0.03268
+    },
+    {
+     "name": "gt_974.png",
+     "psnr": 28.9622,
+     "ssim": 0.95875,
+     "lpips": 0.03258
+    },
+    {
+     "name": "gt_975.png",
+     "psnr": 28.5549,
+     "ssim": 0.93346,
+     "lpips": 0.04564
+    },
+    {
+     "name": "gt_976.png",
+     "psnr": 29.2798,
+     "ssim": 0.92114,
+     "lpips": 0.06947
+    },
+    {
+     "name": "gt_977.png",
+     "psnr": 27.0375,
+     "ssim": 0.94705,
+     "lpips": 0.06131
+    },
+    {
+     "name": "gt_978.png",
+     "psnr": 32.1542,
+     "ssim": 0.96465,
+     "lpips": 0.0388
+    },
+    {
+     "name": "gt_980.png",
+     "psnr": 32.3457,
+     "ssim": 0.96093,
+     "lpips": 0.05318
+    },
+    {
+     "name": "gt_982.png",
+     "psnr": 26.2892,
+     "ssim": 0.86242,
+     "lpips": 0.14758
+    },
+    {
+     "name": "gt_983.png",
+     "psnr": 33.0118,
+     "ssim": 0.97162,
+     "lpips": 0.02597
+    },
+    {
+     "name": "gt_986.png",
+     "psnr": 30.2373,
+     "ssim": 0.94261,
+     "lpips": 0.05602
+    },
+    {
+     "name": "gt_987.png",
+     "psnr": 29.6228,
+     "ssim": 0.96761,
+     "lpips": 0.02385
+    },
+    {
+     "name": "gt_988.png",
+     "psnr": 27.7218,
+     "ssim": 0.91565,
+     "lpips": 0.07264
+    },
+    {
+     "name": "gt_989.png",
+     "psnr": 28.8846,
+     "ssim": 0.91894,
+     "lpips": 0.10319
+    },
+    {
+     "name": "gt_992.png",
+     "psnr": 22.7869,
+     "ssim": 0.88994,
+     "lpips": 0.24055
+    },
+    {
+     "name": "gt_994.png",
+     "psnr": 31.3337,
+     "ssim": 0.96746,
+     "lpips": 0.02149
+    },
+    {
+     "name": "gt_995.png",
+     "psnr": 21.2842,
+     "ssim": 0.87788,
+     "lpips": 0.21866
+    },
+    {
+     "name": "gt_996.png",
+     "psnr": 30.5215,
+     "ssim": 0.96042,
+     "lpips": 0.04738
+    },
+    {
+     "name": "gt_999.png",
+     "psnr": 27.6967,
+     "ssim": 0.84973,
+     "lpips": 0.15197
+    }
+   ]
+  },
+  "shading/L1": {
+   "n": 60,
+   "mean": {
+    "psnr": 30.2238,
+    "ssim": 0.9822,
+    "lpips": 0.0247
+   },
+   "sec_per_image": 0.0447,
+   "resized": 0,
+   "images": [
+    {
+     "name": "esp32_test_clean_esp03.png",
+     "psnr": 40.0759,
+     "ssim": 0.99868,
+     "lpips": 0.00328
+    },
+    {
+     "name": "esp32_test_clean_esp04.png",
+     "psnr": 42.2098,
+     "ssim": 0.99898,
+     "lpips": 0.00192
+    },
+    {
+     "name": "esp32_test_clean_esp07.png",
+     "psnr": 38.9485,
+     "ssim": 0.9972,
+     "lpips": 0.00329
+    },
+    {
+     "name": "esp32_test_clean_esp09.png",
+     "psnr": 40.1819,
+     "ssim": 0.9979,
+     "lpips": 0.00311
+    },
+    {
+     "name": "esp32_test_clean_esp11.png",
+     "psnr": 33.3387,
+     "ssim": 0.99442,
+     "lpips": 0.01287
+    },
+    {
+     "name": "esp32_test_clean_esp14.png",
+     "psnr": 42.53,
+     "ssim": 0.99814,
+     "lpips": 0.00411
+    },
+    {
+     "name": "esp32_test_clean_esp25.png",
+     "psnr": 39.5254,
+     "ssim": 0.99707,
+     "lpips": 0.00371
+    },
+    {
+     "name": "esp32_test_clean_esp32.png",
+     "psnr": 39.6357,
+     "ssim": 0.99786,
+     "lpips": 0.00354
+    },
+    {
+     "name": "esp32_test_clean_esp38.png",
+     "psnr": 40.2661,
+     "ssim": 0.99759,
+     "lpips": 0.00261
+    },
+    {
+     "name": "esp32_test_clean_esp44.png",
+     "psnr": 35.2343,
+     "ssim": 0.99561,
+     "lpips": 0.00595
+    },
+    {
+     "name": "gt_506.png",
+     "psnr": 27.6227,
+     "ssim": 0.98748,
+     "lpips": 0.02724
+    },
+    {
+     "name": "gt_516.png",
+     "psnr": 28.164,
+     "ssim": 0.9823,
+     "lpips": 0.0144
+    },
+    {
+     "name": "gt_517.png",
+     "psnr": 35.0593,
+     "ssim": 0.99542,
+     "lpips": 0.00592
+    },
+    {
+     "name": "gt_530.png",
+     "psnr": 31.4326,
+     "ssim": 0.99441,
+     "lpips": 0.01038
+    },
+    {
+     "name": "gt_534.png",
+     "psnr": 26.8411,
+     "ssim": 0.9832,
+     "lpips": 0.01914
+    },
+    {
+     "name": "gt_540.png",
+     "psnr": 33.0679,
+     "ssim": 0.99041,
+     "lpips": 0.0082
+    },
+    {
+     "name": "gt_602.png",
+     "psnr": 26.2864,
+     "ssim": 0.97921,
+     "lpips": 0.02899
+    },
+    {
+     "name": "gt_638.png",
+     "psnr": 25.6746,
+     "ssim": 0.97431,
+     "lpips": 0.04149
+    },
+    {
+     "name": "gt_670.png",
+     "psnr": 27.5008,
+     "ssim": 0.96763,
+     "lpips": 0.03508
+    },
+    {
+     "name": "gt_687.png",
+     "psnr": 30.6736,
+     "ssim": 0.98806,
+     "lpips": 0.01855
+    },
+    {
+     "name": "gt_696.png",
+     "psnr": 30.4758,
+     "ssim": 0.99066,
+     "lpips": 0.02354
+    },
+    {
+     "name": "gt_708.png",
+     "psnr": 21.6566,
+     "ssim": 0.9238,
+     "lpips": 0.04803
+    },
+    {
+     "name": "gt_712.png",
+     "psnr": 30.6356,
+     "ssim": 0.9933,
+     "lpips": 0.01114
+    },
+    {
+     "name": "gt_717.png",
+     "psnr": 25.9259,
+     "ssim": 0.91342,
+     "lpips": 0.05521
+    },
+    {
+     "name": "gt_754.png",
+     "psnr": 30.8904,
+     "ssim": 0.9915,
+     "lpips": 0.01004
+    },
+    {
+     "name": "gt_759.png",
+     "psnr": 27.5248,
+     "ssim": 0.97832,
+     "lpips": 0.02104
+    },
+    {
+     "name": "gt_770.png",
+     "psnr": 31.7201,
+     "ssim": 0.99249,
+     "lpips": 0.0084
+    },
+    {
+     "name": "gt_771.png",
+     "psnr": 24.3481,
+     "ssim": 0.95391,
+     "lpips": 0.04594
+    },
+    {
+     "name": "gt_775.png",
+     "psnr": 24.7546,
+     "ssim": 0.98048,
+     "lpips": 0.02143
+    },
+    {
+     "name": "gt_783.png",
+     "psnr": 26.3749,
+     "ssim": 0.97659,
+     "lpips": 0.02537
+    },
+    {
+     "name": "gt_811.png",
+     "psnr": 28.3975,
+     "ssim": 0.98773,
+     "lpips": 0.01515
+    },
+    {
+     "name": "gt_834.png",
+     "psnr": 26.214,
+     "ssim": 0.98135,
+     "lpips": 0.03953
+    },
+    {
+     "name": "gt_837.png",
+     "psnr": 31.9276,
+     "ssim": 0.98633,
+     "lpips": 0.02349
+    },
+    {
+     "name": "gt_840.png",
+     "psnr": 23.6261,
+     "ssim": 0.97074,
+     "lpips": 0.03371
+    },
+    {
+     "name": "gt_843.png",
+     "psnr": 22.1671,
+     "ssim": 0.90566,
+     "lpips": 0.09691
+    },
+    {
+     "name": "gt_849.png",
+     "psnr": 32.9258,
+     "ssim": 0.99224,
+     "lpips": 0.01023
+    },
+    {
+     "name": "gt_880.png",
+     "psnr": 35.5069,
+     "ssim": 0.9948,
+     "lpips": 0.00717
+    },
+    {
+     "name": "gt_926.png",
+     "psnr": 33.7774,
+     "ssim": 0.99371,
+     "lpips": 0.00601
+    },
+    {
+     "name": "gt_927.png",
+     "psnr": 32.6913,
+     "ssim": 0.99342,
+     "lpips": 0.01091
+    },
+    {
+     "name": "gt_959.png",
+     "psnr": 24.3401,
+     "ssim": 0.97292,
+     "lpips": 0.04279
+    },
+    {
+     "name": "gt_970.png",
+     "psnr": 21.2827,
+     "ssim": 0.96417,
+     "lpips": 0.09674
+    },
+    {
+     "name": "gt_972.png",
+     "psnr": 22.9009,
+     "ssim": 0.96593,
+     "lpips": 0.10762
+    },
+    {
+     "name": "gt_973.png",
+     "psnr": 28.6912,
+     "ssim": 0.9928,
+     "lpips": 0.00637
+    },
+    {
+     "name": "gt_974.png",
+     "psnr": 33.8855,
+     "ssim": 0.99328,
+     "lpips": 0.01052
+    },
+    {
+     "name": "gt_975.png",
+     "psnr": 30.323,
+     "ssim": 0.98969,
+     "lpips": 0.01405
+    },
+    {
+     "name": "gt_976.png",
+     "psnr": 24.1598,
+     "ssim": 0.95634,
+     "lpips": 0.02664
+    },
+    {
+     "name": "gt_977.png",
+     "psnr": 28.8578,
+     "ssim": 0.9877,
+     "lpips": 0.02641
+    },
+    {
+     "name": "gt_978.png",
+     "psnr": 34.5718,
+     "ssim": 0.99412,
+     "lpips": 0.00782
+    },
+    {
+     "name": "gt_980.png",
+     "psnr": 33.9281,
+     "ssim": 0.99527,
+     "lpips": 0.01099
+    },
+    {
+     "name": "gt_982.png",
+     "psnr": 22.3152,
+     "ssim": 0.97725,
+     "lpips": 0.04766
+    },
+    {
+     "name": "gt_983.png",
+     "psnr": 33.4844,
+     "ssim": 0.99464,
+     "lpips": 0.00982
+    },
+    {
+     "name": "gt_986.png",
+     "psnr": 27.8908,
+     "ssim": 0.98521,
+     "lpips": 0.01607
+    },
+    {
+     "name": "gt_987.png",
+     "psnr": 32.533,
+     "ssim": 0.99374,
+     "lpips": 0.01033
+    },
+    {
+     "name": "gt_988.png",
+     "psnr": 25.9123,
+     "ssim": 0.97125,
+     "lpips": 0.03912
+    },
+    {
+     "name": "gt_989.png",
+     "psnr": 30.4817,
+     "ssim": 0.98941,
+     "lpips": 0.0205
+    },
+    {
+     "name": "gt_992.png",
+     "psnr": 22.9731,
+     "ssim": 0.97431,
+     "lpips": 0.08769
+    },
+    {
+     "name": "gt_994.png",
+     "psnr": 31.137,
+     "ssim": 0.99389,
+     "lpips": 0.00954
+    },
+    {
+     "name": "gt_995.png",
+     "psnr": 22.7463,
+     "ssim": 0.9625,
+     "lpips": 0.06018
+    },
+    {
+     "name": "gt_996.png",
+     "psnr": 33.1258,
+     "ssim": 0.9942,
+     "lpips": 0.00991
+    },
+    {
+     "name": "gt_999.png",
+     "psnr": 22.0751,
+     "ssim": 0.96524,
+     "lpips": 0.05484
+    }
+   ]
+  },
+  "shading/L2": {
+   "n": 60,
+   "mean": {
+    "psnr": 29.9047,
+    "ssim": 0.9848,
+    "lpips": 0.0251
+   },
+   "sec_per_image": 0.0447,
+   "resized": 0,
+   "images": [
+    {
+     "name": "esp32_test_clean_esp03.png",
+     "psnr": 41.4899,
+     "ssim": 0.9986,
+     "lpips": 0.003
+    },
+    {
+     "name": "esp32_test_clean_esp04.png",
+     "psnr": 39.1788,
+     "ssim": 0.99791,
+     "lpips": 0.00418
+    },
+    {
+     "name": "esp32_test_clean_esp07.png",
+     "psnr": 37.3061,
+     "ssim": 0.9965,
+     "lpips": 0.00488
+    },
+    {
+     "name": "esp32_test_clean_esp09.png",
+     "psnr": 39.136,
+     "ssim": 0.99754,
+     "lpips": 0.00441
+    },
+    {
+     "name": "esp32_test_clean_esp11.png",
+     "psnr": 34.4376,
+     "ssim": 0.99357,
+     "lpips": 0.01394
+    },
+    {
+     "name": "esp32_test_clean_esp14.png",
+     "psnr": 39.4646,
+     "ssim": 0.99743,
+     "lpips": 0.00415
+    },
+    {
+     "name": "esp32_test_clean_esp25.png",
+     "psnr": 38.4255,
+     "ssim": 0.99652,
+     "lpips": 0.00495
+    },
+    {
+     "name": "esp32_test_clean_esp32.png",
+     "psnr": 39.5045,
+     "ssim": 0.99758,
+     "lpips": 0.00398
+    },
+    {
+     "name": "esp32_test_clean_esp38.png",
+     "psnr": 38.0816,
+     "ssim": 0.99666,
+     "lpips": 0.00423
+    },
+    {
+     "name": "esp32_test_clean_esp44.png",
+     "psnr": 35.0522,
+     "ssim": 0.99527,
+     "lpips": 0.00569
+    },
+    {
+     "name": "gt_506.png",
+     "psnr": 29.5302,
+     "ssim": 0.98756,
+     "lpips": 0.02912
+    },
+    {
+     "name": "gt_516.png",
+     "psnr": 34.7022,
+     "ssim": 0.9954,
+     "lpips": 0.00771
+    },
+    {
+     "name": "gt_517.png",
+     "psnr": 35.3632,
+     "ssim": 0.99556,
+     "lpips": 0.00585
+    },
+    {
+     "name": "gt_530.png",
+     "psnr": 29.5205,
+     "ssim": 0.99301,
+     "lpips": 0.01553
+    },
+    {
+     "name": "gt_534.png",
+     "psnr": 26.1807,
+     "ssim": 0.97452,
+     "lpips": 0.02622
+    },
+    {
+     "name": "gt_540.png",
+     "psnr": 31.3473,
+     "ssim": 0.98789,
+     "lpips": 0.00948
+    },
+    {
+     "name": "gt_602.png",
+     "psnr": 31.2105,
+     "ssim": 0.98748,
+     "lpips": 0.02326
+    },
+    {
+     "name": "gt_638.png",
+     "psnr": 22.0371,
+     "ssim": 0.97896,
+     "lpips": 0.03665
+    },
+    {
+     "name": "gt_670.png",
+     "psnr": 31.0363,
+     "ssim": 0.98629,
+     "lpips": 0.02337
+    },
+    {
+     "name": "gt_687.png",
+     "psnr": 24.522,
+     "ssim": 0.97895,
+     "lpips": 0.0261
+    },
+    {
+     "name": "gt_696.png",
+     "psnr": 30.0408,
+     "ssim": 0.98984,
+     "lpips": 0.02432
+    },
+    {
+     "name": "gt_708.png",
+     "psnr": 23.7947,
+     "ssim": 0.97456,
+     "lpips": 0.02686
+    },
+    {
+     "name": "gt_712.png",
+     "psnr": 30.0667,
+     "ssim": 0.99204,
+     "lpips": 0.01297
+    },
+    {
+     "name": "gt_717.png",
+     "psnr": 24.1851,
+     "ssim": 0.97011,
+     "lpips": 0.0388
+    },
+    {
+     "name": "gt_754.png",
+     "psnr": 30.5567,
+     "ssim": 0.99179,
+     "lpips": 0.00985
+    },
+    {
+     "name": "gt_759.png",
+     "psnr": 28.0179,
+     "ssim": 0.98685,
+     "lpips": 0.01703
+    },
+    {
+     "name": "gt_770.png",
+     "psnr": 30.4875,
+     "ssim": 0.99097,
+     "lpips": 0.0098
+    },
+    {
+     "name": "gt_771.png",
+     "psnr": 25.4949,
+     "ssim": 0.96902,
+     "lpips": 0.03777
+    },
+    {
+     "name": "gt_775.png",
+     "psnr": 25.8727,
+     "ssim": 0.98716,
+     "lpips": 0.01927
+    },
+    {
+     "name": "gt_783.png",
+     "psnr": 29.1124,
+     "ssim": 0.98694,
+     "lpips": 0.02166
+    },
+    {
+     "name": "gt_811.png",
+     "psnr": 27.3914,
+     "ssim": 0.98619,
+     "lpips": 0.01842
+    },
+    {
+     "name": "gt_834.png",
+     "psnr": 26.3074,
+     "ssim": 0.97681,
+     "lpips": 0.03956
+    },
+    {
+     "name": "gt_837.png",
+     "psnr": 31.9896,
+     "ssim": 0.98902,
+     "lpips": 0.02129
+    },
+    {
+     "name": "gt_840.png",
+     "psnr": 21.5302,
+     "ssim": 0.962,
+     "lpips": 0.04175
+    },
+    {
+     "name": "gt_843.png",
+     "psnr": 21.4713,
+     "ssim": 0.92896,
+     "lpips": 0.09187
+    },
+    {
+     "name": "gt_849.png",
+     "psnr": 29.2709,
+     "ssim": 0.98902,
+     "lpips": 0.01545
+    },
+    {
+     "name": "gt_880.png",
+     "psnr": 37.5183,
+     "ssim": 0.99487,
+     "lpips": 0.00709
+    },
+    {
+     "name": "gt_926.png",
+     "psnr": 32.6508,
+     "ssim": 0.9921,
+     "lpips": 0.00655
+    },
+    {
+     "name": "gt_927.png",
+     "psnr": 30.1369,
+     "ssim": 0.99082,
+     "lpips": 0.01386
+    },
+    {
+     "name": "gt_959.png",
+     "psnr": 23.626,
+     "ssim": 0.9641,
+     "lpips": 0.04364
+    },
+    {
+     "name": "gt_970.png",
+     "psnr": 20.9271,
+     "ssim": 0.95905,
+     "lpips": 0.10005
+    },
+    {
+     "name": "gt_972.png",
+     "psnr": 21.8752,
+     "ssim": 0.95818,
+     "lpips": 0.13091
+    },
+    {
+     "name": "gt_973.png",
+     "psnr": 30.6585,
+     "ssim": 0.99108,
+     "lpips": 0.0098
+    },
+    {
+     "name": "gt_974.png",
+     "psnr": 33.2294,
+     "ssim": 0.99153,
+     "lpips": 0.01306
+    },
+    {
+     "name": "gt_975.png",
+     "psnr": 30.11,
+     "ssim": 0.98841,
+     "lpips": 0.0143
+    },
+    {
+     "name": "gt_976.png",
+     "psnr": 28.5298,
+     "ssim": 0.98759,
+     "lpips": 0.0156
+    },
+    {
+     "name": "gt_977.png",
+     "psnr": 26.945,
+     "ssim": 0.98398,
+     "lpips": 0.02814
+    },
+    {
+     "name": "gt_978.png",
+     "psnr": 35.3533,
+     "ssim": 0.99447,
+     "lpips": 0.00808
+    },
+    {
+     "name": "gt_980.png",
+     "psnr": 31.2824,
+     "ssim": 0.99067,
+     "lpips": 0.02233
+    },
+    {
+     "name": "gt_982.png",
+     "psnr": 20.413,
+     "ssim": 0.97073,
+     "lpips": 0.05741
+    },
+    {
+     "name": "gt_983.png",
+     "psnr": 32.9749,
+     "ssim": 0.99347,
+     "lpips": 0.01133
+    },
+    {
+     "name": "gt_986.png",
+     "psnr": 29.0414,
+     "ssim": 0.98953,
+     "lpips": 0.01383
+    },
+    {
+     "name": "gt_987.png",
+     "psnr": 31.8327,
+     "ssim": 0.99305,
+     "lpips": 0.01177
+    },
+    {
+     "name": "gt_988.png",
+     "psnr": 27.6925,
+     "ssim": 0.98332,
+     "lpips": 0.03125
+    },
+    {
+     "name": "gt_989.png",
+     "psnr": 31.574,
+     "ssim": 0.99119,
+     "lpips": 0.02208
+    },
+    {
+     "name": "gt_992.png",
+     "psnr": 20.5105,
+     "ssim": 0.96689,
+     "lpips": 0.09008
+    },
+    {
+     "name": "gt_994.png",
+     "psnr": 32.6554,
+     "ssim": 0.99489,
+     "lpips": 0.0093
+    },
+    {
+     "name": "gt_995.png",
+     "psnr": 19.3347,
+     "ssim": 0.95247,
+     "lpips": 0.07722
+    },
+    {
+     "name": "gt_996.png",
+     "psnr": 31.9785,
+     "ssim": 0.9932,
+     "lpips": 0.01109
+    },
+    {
+     "name": "gt_999.png",
+     "psnr": 20.3161,
+     "ssim": 0.96527,
+     "lpips": 0.05122
+    }
+   ]
+  },
+  "shading/L3": {
+   "n": 60,
+   "mean": {
+    "psnr": 27.7733,
+    "ssim": 0.9787,
+    "lpips": 0.0335
+   },
+   "sec_per_image": 0.0447,
+   "resized": 0,
+   "images": [
+    {
+     "name": "esp32_test_clean_esp03.png",
+     "psnr": 37.9145,
+     "ssim": 0.99826,
+     "lpips": 0.00463
+    },
+    {
+     "name": "esp32_test_clean_esp04.png",
+     "psnr": 38.1724,
+     "ssim": 0.99641,
+     "lpips": 0.00434
+    },
+    {
+     "name": "esp32_test_clean_esp07.png",
+     "psnr": 35.3402,
+     "ssim": 0.99527,
+     "lpips": 0.00729
+    },
+    {
+     "name": "esp32_test_clean_esp09.png",
+     "psnr": 37.7784,
+     "ssim": 0.99678,
+     "lpips": 0.00628
+    },
+    {
+     "name": "esp32_test_clean_esp11.png",
+     "psnr": 30.1987,
+     "ssim": 0.98636,
+     "lpips": 0.03511
+    },
+    {
+     "name": "esp32_test_clean_esp14.png",
+     "psnr": 35.7449,
+     "ssim": 0.99587,
+     "lpips": 0.00716
+    },
+    {
+     "name": "esp32_test_clean_esp25.png",
+     "psnr": 32.6275,
+     "ssim": 0.9941,
+     "lpips": 0.00866
+    },
+    {
+     "name": "esp32_test_clean_esp32.png",
+     "psnr": 37.2531,
+     "ssim": 0.99575,
+     "lpips": 0.005
+    },
+    {
+     "name": "esp32_test_clean_esp38.png",
+     "psnr": 36.2883,
+     "ssim": 0.99577,
+     "lpips": 0.00427
+    },
+    {
+     "name": "esp32_test_clean_esp44.png",
+     "psnr": 33.8525,
+     "ssim": 0.99213,
+     "lpips": 0.00812
+    },
+    {
+     "name": "gt_506.png",
+     "psnr": 25.3062,
+     "ssim": 0.9854,
+     "lpips": 0.02978
+    },
+    {
+     "name": "gt_516.png",
+     "psnr": 32.952,
+     "ssim": 0.99463,
+     "lpips": 0.00729
+    },
+    {
+     "name": "gt_517.png",
+     "psnr": 33.6468,
+     "ssim": 0.99364,
+     "lpips": 0.00815
+    },
+    {
+     "name": "gt_530.png",
+     "psnr": 28.3692,
+     "ssim": 0.98851,
+     "lpips": 0.02098
+    },
+    {
+     "name": "gt_534.png",
+     "psnr": 25.3387,
+     "ssim": 0.97592,
+     "lpips": 0.02169
+    },
+    {
+     "name": "gt_540.png",
+     "psnr": 29.697,
+     "ssim": 0.98601,
+     "lpips": 0.01314
+    },
+    {
+     "name": "gt_602.png",
+     "psnr": 25.3898,
+     "ssim": 0.98241,
+     "lpips": 0.02466
+    },
+    {
+     "name": "gt_638.png",
+     "psnr": 28.4285,
+     "ssim": 0.98267,
+     "lpips": 0.03936
+    },
+    {
+     "name": "gt_670.png",
+     "psnr": 28.5637,
+     "ssim": 0.986,
+     "lpips": 0.02167
+    },
+    {
+     "name": "gt_687.png",
+     "psnr": 24.4196,
+     "ssim": 0.98012,
+     "lpips": 0.02563
+    },
+    {
+     "name": "gt_696.png",
+     "psnr": 24.8759,
+     "ssim": 0.97708,
+     "lpips": 0.03107
+    },
+    {
+     "name": "gt_708.png",
+     "psnr": 21.1288,
+     "ssim": 0.95715,
+     "lpips": 0.03298
+    },
+    {
+     "name": "gt_712.png",
+     "psnr": 27.245,
+     "ssim": 0.98759,
+     "lpips": 0.01644
+    },
+    {
+     "name": "gt_717.png",
+     "psnr": 24.657,
+     "ssim": 0.97815,
+     "lpips": 0.03332
+    },
+    {
+     "name": "gt_754.png",
+     "psnr": 30.1557,
+     "ssim": 0.99038,
+     "lpips": 0.01339
+    },
+    {
+     "name": "gt_759.png",
+     "psnr": 24.0123,
+     "ssim": 0.97444,
+     "lpips": 0.02502
+    },
+    {
+     "name": "gt_770.png",
+     "psnr": 30.5458,
+     "ssim": 0.99122,
+     "lpips": 0.01171
+    },
+    {
+     "name": "gt_771.png",
+     "psnr": 27.8544,
+     "ssim": 0.97892,
+     "lpips": 0.03548
+    },
+    {
+     "name": "gt_775.png",
+     "psnr": 22.7926,
+     "ssim": 0.97539,
+     "lpips": 0.02482
+    },
+    {
+     "name": "gt_783.png",
+     "psnr": 29.075,
+     "ssim": 0.98337,
+     "lpips": 0.02605
+    },
+    {
+     "name": "gt_811.png",
+     "psnr": 28.8491,
+     "ssim": 0.98698,
+     "lpips": 0.01803
+    },
+    {
+     "name": "gt_834.png",
+     "psnr": 25.278,
+     "ssim": 0.98186,
+     "lpips": 0.03965
+    },
+    {
+     "name": "gt_837.png",
+     "psnr": 27.4609,
+     "ssim": 0.97067,
+     "lpips": 0.04052
+    },
+    {
+     "name": "gt_840.png",
+     "psnr": 19.1608,
+     "ssim": 0.95582,
+     "lpips": 0.05358
+    },
+    {
+     "name": "gt_843.png",
+     "psnr": 18.8237,
+     "ssim": 0.95131,
+     "lpips": 0.06897
+    },
+    {
+     "name": "gt_849.png",
+     "psnr": 23.3446,
+     "ssim": 0.97439,
+     "lpips": 0.04157
+    },
+    {
+     "name": "gt_880.png",
+     "psnr": 31.5119,
+     "ssim": 0.98694,
+     "lpips": 0.0148
+    },
+    {
+     "name": "gt_926.png",
+     "psnr": 28.5899,
+     "ssim": 0.98492,
+     "lpips": 0.01341
+    },
+    {
+     "name": "gt_927.png",
+     "psnr": 27.4392,
+     "ssim": 0.98682,
+     "lpips": 0.02179
+    },
+    {
+     "name": "gt_959.png",
+     "psnr": 21.8303,
+     "ssim": 0.9507,
+     "lpips": 0.04844
+    },
+    {
+     "name": "gt_970.png",
+     "psnr": 18.5533,
+     "ssim": 0.93556,
+     "lpips": 0.15322
+    },
+    {
+     "name": "gt_972.png",
+     "psnr": 16.9666,
+     "ssim": 0.86569,
+     "lpips": 0.30047
+    },
+    {
+     "name": "gt_973.png",
+     "psnr": 30.2009,
+     "ssim": 0.98998,
+     "lpips": 0.01142
+    },
+    {
+     "name": "gt_974.png",
+     "psnr": 32.4546,
+     "ssim": 0.98922,
+     "lpips": 0.01458
+    },
+    {
+     "name": "gt_975.png",
+     "psnr": 29.1156,
+     "ssim": 0.98473,
+     "lpips": 0.02093
+    },
+    {
+     "name": "gt_976.png",
+     "psnr": 21.1462,
+     "ssim": 0.96881,
+     "lpips": 0.02289
+    },
+    {
+     "name": "gt_977.png",
+     "psnr": 28.4514,
+     "ssim": 0.98089,
+     "lpips": 0.03684
+    },
+    {
+     "name": "gt_978.png",
+     "psnr": 34.6135,
+     "ssim": 0.99384,
+     "lpips": 0.00804
+    },
+    {
+     "name": "gt_980.png",
+     "psnr": 28.9252,
+     "ssim": 0.98833,
+     "lpips": 0.02307
+    },
+    {
+     "name": "gt_982.png",
+     "psnr": 18.8299,
+     "ssim": 0.96384,
+     "lpips": 0.05631
+    },
+    {
+     "name": "gt_983.png",
+     "psnr": 28.991,
+     "ssim": 0.98831,
+     "lpips": 0.01904
+    },
+    {
+     "name": "gt_986.png",
+     "psnr": 26.1148,
+     "ssim": 0.98431,
+     "lpips": 0.01954
+    },
+    {
+     "name": "gt_987.png",
+     "psnr": 30.9106,
+     "ssim": 0.99031,
+     "lpips": 0.01645
+    },
+    {
+     "name": "gt_988.png",
+     "psnr": 27.1929,
+     "ssim": 0.98225,
+     "lpips": 0.03025
+    },
+    {
+     "name": "gt_989.png",
+     "psnr": 28.5991,
+     "ssim": 0.98518,
+     "lpips": 0.02785
+    },
+    {
+     "name": "gt_992.png",
+     "psnr": 16.97,
+     "ssim": 0.9413,
+     "lpips": 0.13445
+    },
+    {
+     "name": "gt_994.png",
+     "psnr": 31.3035,
+     "ssim": 0.99259,
+     "lpips": 0.01293
+    },
+    {
+     "name": "gt_995.png",
+     "psnr": 15.6503,
+     "ssim": 0.92477,
+     "lpips": 0.12562
+    },
+    {
+     "name": "gt_996.png",
+     "psnr": 31.6775,
+     "ssim": 0.9931,
+     "lpips": 0.01254
+    },
+    {
+     "name": "gt_999.png",
+     "psnr": 17.8206,
+     "ssim": 0.95463,
+     "lpips": 0.04822
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,9 @@
+run,PSNR ảnh ra so với ảnh sạch (dB)
+m4_s0,28.26
+m4_s1,27.978
+m4_s2,27.61
+m5_all_s0,30.033
+m5_all_s1,30.784
+m5_all_s2,28.923
+m5d_color50,29.236
+m5e_color50_noedge,29.088

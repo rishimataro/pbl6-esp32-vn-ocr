@@ -1,0 +1,71 @@
+{
+ "ckpt": "models\\retrain\\m2_unet_all\\best.pt",
+ "mean": {
+  "psnr": 17.3811,
+  "ssim": 0.8131,
+  "psnr_input": 5.7858,
+  "ssim_input": 0.5712
+ },
+ "pages": {
+  "3": {
+   "psnr": 19.625,
+   "ssim": 0.9023,
+   "psnr_input": 4.029,
+   "ssim_input": 0.5195
+  },
+  "4": {
+   "psnr": 18.398,
+   "ssim": 0.8728,
+   "psnr_input": 3.932,
+   "ssim_input": 0.5272
+  },
+  "7": {
+   "psnr": 16.368,
+   "ssim": 0.7858,
+   "psnr_input": 7.4,
+   "ssim_input": 0.6067
+  },
+  "9": {
+   "psnr": 15.624,
+   "ssim": 0.7677,
+   "psnr_input": 7.252,
+   "ssim_input": 0.6218
+  },
+  "11": {
+   "psnr": 15.577,
+   "ssim": 0.7109,
+   "psnr_input": 6.094,
+   "ssim_input": 0.5189
+  },
+  "14": {
+   "psnr": 20.74,
+   "ssim": 0.9061,
+   "psnr_input": 6.128,
+   "ssim_input": 0.6976
+  },
+  "25": {
+   "psnr": 18.732,
+   "ssim": 0.8484,
+   "psnr_input": 6.236,
+   "ssim_input": 0.6027
+  },
+  "32": {
+   "psnr": 18.186,
+   "ssim": 0.8669,
+   "psnr_input": 5.979,
+   "ssim_input": 0.6124
+  },
+  "38": {
+   "psnr": 14.495,
+   "ssim": 0.7218,
+   "psnr_input": 6.286,
+   "ssim_input": 0.5498
+  },
+  "44": {
+   "psnr": 16.066,
+   "ssim": 0.7488,
+   "psnr_input": 4.522,
+   "ssim_input": 0.4558
+  }
+ }
+}

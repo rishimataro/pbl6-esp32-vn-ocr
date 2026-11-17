@@ -1,0 +1,71 @@
+{
+ "ckpt": "/content/drive/MyDrive/PBL6/checkpoints/retrain/m2_unet_all/best.pt",
+ "mean": {
+  "psnr": 17.3826,
+  "ssim": 0.8129,
+  "psnr_input": 5.7858,
+  "ssim_input": 0.5713
+ },
+ "pages": {
+  "3": {
+   "psnr": 19.619,
+   "ssim": 0.9016,
+   "psnr_input": 4.029,
+   "ssim_input": 0.5196
+  },
+  "4": {
+   "psnr": 18.401,
+   "ssim": 0.8724,
+   "psnr_input": 3.932,
+   "ssim_input": 0.5273
+  },
+  "7": {
+   "psnr": 16.368,
+   "ssim": 0.786,
+   "psnr_input": 7.4,
+   "ssim_input": 0.6067
+  },
+  "9": {
+   "psnr": 15.62,
+   "ssim": 0.7679,
+   "psnr_input": 7.252,
+   "ssim_input": 0.6218
+  },
+  "11": {
+   "psnr": 15.582,
+   "ssim": 0.7108,
+   "psnr_input": 6.094,
+   "ssim_input": 0.5189
+  },
+  "14": {
+   "psnr": 20.744,
+   "ssim": 0.9057,
+   "psnr_input": 6.128,
+   "ssim_input": 0.6976
+  },
+  "25": {
+   "psnr": 18.736,
+   "ssim": 0.8482,
+   "psnr_input": 6.236,
+   "ssim_input": 0.6028
+  },
+  "32": {
+   "psnr": 18.189,
+   "ssim": 0.8668,
+   "psnr_input": 5.979,
+   "ssim_input": 0.6124
+  },
+  "38": {
+   "psnr": 14.496,
+   "ssim": 0.7215,
+   "psnr_input": 6.286,
+   "ssim_input": 0.5499
+  },
+  "44": {
+   "psnr": 16.071,
+   "ssim": 0.7483,
+   "psnr_input": 4.522,
+   "ssim_input": 0.4558
+  }
+ }
+}

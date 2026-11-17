@@ -1,0 +1,382 @@
+{
+ "set": "/content/clean_identity",
+ "method": "identity",
+ "ckpt": "",
+ "params": null,
+ "tile": 0,
+ "device": "cuda",
+ "groups": {
+  ".": {
+   "n": 60,
+   "mean": {
+    "psnr": 100.0,
+    "ssim": 1.0,
+    "lpips": 0.0
+   },
+   "sec_per_image": 0.0,
+   "resized": 0,
+   "images": [
+    {
+     "name": "506.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "516.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "517.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "530.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "534.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "540.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "602.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "638.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "670.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "687.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "696.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "708.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "712.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "717.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "754.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "759.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "770.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "771.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "775.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "783.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "811.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "834.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "837.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "840.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "843.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "849.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "880.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "926.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "927.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "959.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "970.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "972.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "973.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "974.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "975.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "976.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "977.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "978.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "980.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "982.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "983.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "986.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "987.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "988.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "989.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "992.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "994.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "995.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "996.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "999.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "ACCV2016_11.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "ACCV2016_14.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "cmdd_planar_surface16.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "cmdd_planar_surface21.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "docunet_10_1copy.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "docunet_2_1copy.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "docunet_2_2copy.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "docunet_31_1copy.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "docunet_50_2copy.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    },
+    {
+     "name": "ocrreal_00017.png",
+     "psnr": 100.0,
+     "ssim": 1.0,
+     "lpips": 0.0
+    }
+   ]
+  }
+ }
+}

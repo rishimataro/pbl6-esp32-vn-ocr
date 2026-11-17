@@ -1,0 +1,79 @@
+[
+ {
+  "variant": "esp_raw",
+  "lines": 317,
+  "cer": 0.2102,
+  "cer_no_accent": 0.1717,
+  "accent_part": 0.0385,
+  "better_vs_raw": 0,
+  "worse_vs_raw": 0,
+  "psnr": null,
+  "ssim": null
+ },
+ {
+  "variant": "esp_1a",
+  "lines": 317,
+  "cer": 0.1978,
+  "cer_no_accent": 0.1586,
+  "accent_part": 0.0392,
+  "better_vs_raw": 119,
+  "worse_vs_raw": 128,
+  "psnr": null,
+  "ssim": null
+ },
+ {
+  "variant": "esp_1b_v1_cpu",
+  "lines": 317,
+  "cer": 0.1223,
+  "cer_no_accent": 0.0696,
+  "accent_part": 0.0527,
+  "better_vs_raw": 207,
+  "worse_vs_raw": 64,
+  "psnr": 17.0601,
+  "ssim": 0.7997
+ },
+ {
+  "variant": "r0_nafnet_esp",
+  "lines": 317,
+  "cer": 0.1241,
+  "cer_no_accent": 0.0712,
+  "accent_part": 0.0529,
+  "better_vs_raw": 203,
+  "worse_vs_raw": 56,
+  "psnr": 17.5104,
+  "ssim": 0.8184
+ },
+ {
+  "variant": "m2_unet_all",
+  "lines": 317,
+  "cer": 0.1435,
+  "cer_no_accent": 0.1027,
+  "accent_part": 0.0408,
+  "better_vs_raw": 193,
+  "worse_vs_raw": 79,
+  "psnr": 17.3811,
+  "ssim": 0.8131
+ },
+ {
+  "variant": "m4_nafnet_all",
+  "lines": 317,
+  "cer": 0.1374,
+  "cer_no_accent": 0.0866,
+  "accent_part": 0.0507,
+  "better_vs_raw": 195,
+  "worse_vs_raw": 74,
+  "psnr": 17.0919,
+  "ssim": 0.8127
+ },
+ {
+  "variant": "scan",
+  "lines": 317,
+  "cer": 0.0275,
+  "cer_no_accent": 0.0259,
+  "accent_part": 0.0016,
+  "better_vs_raw": 289,
+  "worse_vs_raw": 6,
+  "psnr": null,
+  "ssim": null
+ }
+]

@@ -1,0 +1,5 @@
+run,RealDAE test,Tổng hợp (TB các ô),DocAligner,Jung,ESP32 10 trang
+m5a_edge,0.134,0.167,0.011,0.133,0.147
+m5b_color,-0.003,-0.461,-0.033,0.064,0.0
+m5c_identity,0.109,0.435,0.043,0.025,-0.115
+m5_all,-0.048,0.052,-0.139,0.091,0.244

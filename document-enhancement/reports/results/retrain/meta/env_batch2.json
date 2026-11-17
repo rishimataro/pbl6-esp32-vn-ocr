@@ -1,0 +1,7 @@
+{
+ "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition, 97887 MiB, 580.82.07",
+ "vcpu": 48,
+ "torch": "2.14.1+cu130",
+ "cuda": "13.0",
+ "started_utc": "2026-11-11 10:17:11"
+}

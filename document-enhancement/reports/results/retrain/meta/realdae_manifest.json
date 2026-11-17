@@ -1,0 +1,6012 @@
+{
+ "counts": {
+  "test": 150,
+  "train": 400,
+  "val": 50
+ },
+ "long_side": 1024,
+ "seed": 0,
+ "resized_inp_to_gt": 0,
+ "items": [
+  {
+   "name": "506",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/506_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/506_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "516",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/516_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/516_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "517",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/517_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/517_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "530",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/530_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/530_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "534",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/534_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/534_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "540",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/540_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/540_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "602",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/602_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/602_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "638",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/638_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/638_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "670",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/670_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/670_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "687",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/687_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/687_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "696",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/696_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/696_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "708",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/708_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/708_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "712",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/712_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/712_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "717",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/717_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/717_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "754",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/754_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/754_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "759",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/759_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/759_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "770",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/770_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/770_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "771",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/771_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/771_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "775",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/775_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/775_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "783",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/783_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/783_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "811",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/811_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/811_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "834",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/834_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/834_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "837",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/837_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/837_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "840",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/840_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/840_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "843",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/843_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/843_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "849",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/849_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/849_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "880",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/880_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/880_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "926",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/926_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/926_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "927",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/927_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/927_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "959",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/959_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/959_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "970",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/970_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/970_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "972",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/972_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/972_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "973",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/973_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/973_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "974",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/974_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/974_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "975",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/975_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/975_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "976",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/976_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/976_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "977",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/977_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/977_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "978",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/978_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/978_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "980",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/980_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/980_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "982",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/982_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/982_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "983",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/983_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/983_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "986",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/986_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/986_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "987",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/987_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/987_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "988",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/988_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/988_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "989",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/989_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/989_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "992",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/992_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/992_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "994",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/994_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/994_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "995",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/995_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/995_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "996",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/996_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/996_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "999",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_color_test/999_in.jpg",
+   "gt": "/content/realdae_raw/task_color_test/999_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "ACCV2016_11",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/ACCV2016_11_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/ACCV2016_11_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "ACCV2016_14",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/ACCV2016_14_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/ACCV2016_14_gt.jpg",
+   "size": [
+    583,
+    1024
+   ]
+  },
+  {
+   "name": "cmdd_planar_surface16",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/cmdd_planar_surface16_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/cmdd_planar_surface16_gt.jpg",
+   "size": [
+    979,
+    734
+   ]
+  },
+  {
+   "name": "cmdd_planar_surface21",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/cmdd_planar_surface21_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/cmdd_planar_surface21_gt.jpg",
+   "size": [
+    979,
+    734
+   ]
+  },
+  {
+   "name": "docunet_10_1copy",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/docunet_10_1copy_in.png",
+   "gt": "/content/realdae_raw/task_shadow_test/docunet_10_1copy_gt.png",
+   "size": [
+    737,
+    1024
+   ]
+  },
+  {
+   "name": "docunet_2_1copy",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/docunet_2_1copy_in.png",
+   "gt": "/content/realdae_raw/task_shadow_test/docunet_2_1copy_gt.png",
+   "size": [
+    948,
+    618
+   ]
+  },
+  {
+   "name": "docunet_2_2copy",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/docunet_2_2copy_in.png",
+   "gt": "/content/realdae_raw/task_shadow_test/docunet_2_2copy_gt.png",
+   "size": [
+    1024,
+    577
+   ]
+  },
+  {
+   "name": "docunet_31_1copy",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/docunet_31_1copy_in.png",
+   "gt": "/content/realdae_raw/task_shadow_test/docunet_31_1copy_gt.png",
+   "size": [
+    1024,
+    650
+   ]
+  },
+  {
+   "name": "docunet_50_2copy",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/docunet_50_2copy_in.png",
+   "gt": "/content/realdae_raw/task_shadow_test/docunet_50_2copy_gt.png",
+   "size": [
+    1024,
+    805
+   ]
+  },
+  {
+   "name": "ocrreal_00017",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/ocrreal_00017_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/ocrreal_00017_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "ocrreal_00023",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/ocrreal_00023_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/ocrreal_00023_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "origin1000_105",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_105_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_105_gt.jpg",
+   "size": [
+    1024,
+    682
+   ]
+  },
+  {
+   "name": "origin1000_110",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_110_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_110_gt.jpg",
+   "size": [
+    1024,
+    681
+   ]
+  },
+  {
+   "name": "origin1000_131",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_131_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_131_gt.jpg",
+   "size": [
+    1024,
+    717
+   ]
+  },
+  {
+   "name": "origin1000_144",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_144_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_144_gt.jpg",
+   "size": [
+    1024,
+    655
+   ]
+  },
+  {
+   "name": "origin1000_15",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_15_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_15_gt.jpg",
+   "size": [
+    1024,
+    682
+   ]
+  },
+  {
+   "name": "origin1000_172",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_172_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_172_gt.jpg",
+   "size": [
+    1024,
+    706
+   ]
+  },
+  {
+   "name": "origin1000_181",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_181_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_181_gt.jpg",
+   "size": [
+    1024,
+    694
+   ]
+  },
+  {
+   "name": "origin1000_206",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_206_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_206_gt.jpg",
+   "size": [
+    1024,
+    677
+   ]
+  },
+  {
+   "name": "origin1000_238",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_238_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_238_gt.jpg",
+   "size": [
+    1024,
+    684
+   ]
+  },
+  {
+   "name": "origin1000_24",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_24_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_24_gt.jpg",
+   "size": [
+    1024,
+    675
+   ]
+  },
+  {
+   "name": "origin1000_248",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_248_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_248_gt.jpg",
+   "size": [
+    1024,
+    687
+   ]
+  },
+  {
+   "name": "origin1000_261",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_261_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_261_gt.jpg",
+   "size": [
+    1024,
+    759
+   ]
+  },
+  {
+   "name": "origin1000_273",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_273_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_273_gt.jpg",
+   "size": [
+    1024,
+    720
+   ]
+  },
+  {
+   "name": "origin1000_284",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_284_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_284_gt.jpg",
+   "size": [
+    1024,
+    679
+   ]
+  },
+  {
+   "name": "origin1000_31",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_31_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_31_gt.jpg",
+   "size": [
+    1024,
+    710
+   ]
+  },
+  {
+   "name": "origin1000_314",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_314_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_314_gt.jpg",
+   "size": [
+    1024,
+    670
+   ]
+  },
+  {
+   "name": "origin1000_344",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_344_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_344_gt.jpg",
+   "size": [
+    1024,
+    749
+   ]
+  },
+  {
+   "name": "origin1000_360",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_360_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_360_gt.jpg",
+   "size": [
+    1024,
+    691
+   ]
+  },
+  {
+   "name": "origin1000_379",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_379_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_379_gt.jpg",
+   "size": [
+    1024,
+    682
+   ]
+  },
+  {
+   "name": "origin1000_421",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_421_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_421_gt.jpg",
+   "size": [
+    1024,
+    701
+   ]
+  },
+  {
+   "name": "origin1000_45",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_45_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_45_gt.jpg",
+   "size": [
+    1024,
+    677
+   ]
+  },
+  {
+   "name": "origin1000_473",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_473_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_473_gt.jpg",
+   "size": [
+    1024,
+    741
+   ]
+  },
+  {
+   "name": "origin1000_499",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_499_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_499_gt.jpg",
+   "size": [
+    1024,
+    677
+   ]
+  },
+  {
+   "name": "origin1000_6",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_6_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_6_gt.jpg",
+   "size": [
+    1024,
+    690
+   ]
+  },
+  {
+   "name": "origin1000_68",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_68_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_68_gt.jpg",
+   "size": [
+    1024,
+    694
+   ]
+  },
+  {
+   "name": "origin1000_77",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_77_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_77_gt.jpg",
+   "size": [
+    1024,
+    694
+   ]
+  },
+  {
+   "name": "origin1000_84",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_84_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_84_gt.jpg",
+   "size": [
+    1024,
+    718
+   ]
+  },
+  {
+   "name": "origin1000_96",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/origin1000_96_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/origin1000_96_gt.jpg",
+   "size": [
+    1024,
+    678
+   ]
+  },
+  {
+   "name": "prcv_052d793bdd713764807afde87d9802ca",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/prcv_052d793bdd713764807afde87d9802ca_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/prcv_052d793bdd713764807afde87d9802ca_gt.jpg",
+   "size": [
+    287,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_053cfc8944cc755fe8e6e8388d349e66",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/prcv_053cfc8944cc755fe8e6e8388d349e66_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/prcv_053cfc8944cc755fe8e6e8388d349e66_gt.jpg",
+   "size": [
+    1024,
+    725
+   ]
+  },
+  {
+   "name": "prcv_091f3f3e35407d6182a63c6557df8728",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/prcv_091f3f3e35407d6182a63c6557df8728_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/prcv_091f3f3e35407d6182a63c6557df8728_gt.jpg",
+   "size": [
+    744,
+    863
+   ]
+  },
+  {
+   "name": "prcv_0df7a45ae7c33ce224e8edf3b407a283",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/prcv_0df7a45ae7c33ce224e8edf3b407a283_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/prcv_0df7a45ae7c33ce224e8edf3b407a283_gt.jpg",
+   "size": [
+    974,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_0f17876cf4e356aee159b60a677ed1fb",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/prcv_0f17876cf4e356aee159b60a677ed1fb_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/prcv_0f17876cf4e356aee159b60a677ed1fb_gt.jpg",
+   "size": [
+    658,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_1619020567539834578279466123264_0",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/prcv_1619020567539834578279466123264_0_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/prcv_1619020567539834578279466123264_0_gt.jpg",
+   "size": [
+    395,
+    801
+   ]
+  },
+  {
+   "name": "prcv_1622563065682849436593597280256_0",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/prcv_1622563065682849436593597280256_0_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/prcv_1622563065682849436593597280256_0_gt.jpg",
+   "size": [
+    520,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_1a5e792730242a1e4f1237cce0708f4f",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/prcv_1a5e792730242a1e4f1237cce0708f4f_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/prcv_1a5e792730242a1e4f1237cce0708f4f_gt.jpg",
+   "size": [
+    388,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_20d2b3f89fb619f88ce7f86c0dd481e8",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/prcv_20d2b3f89fb619f88ce7f86c0dd481e8_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/prcv_20d2b3f89fb619f88ce7f86c0dd481e8_gt.jpg",
+   "size": [
+    595,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_238a4719feb7740beeb4e3cf1129dea1",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/prcv_238a4719feb7740beeb4e3cf1129dea1_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/prcv_238a4719feb7740beeb4e3cf1129dea1_gt.jpg",
+   "size": [
+    606,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_2d7086226edd2396d719c3049afeaf28",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/prcv_2d7086226edd2396d719c3049afeaf28_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/prcv_2d7086226edd2396d719c3049afeaf28_gt.jpg",
+   "size": [
+    1024,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_32f8d629b296c7c04b252f18421b7dfb",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/prcv_32f8d629b296c7c04b252f18421b7dfb_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/prcv_32f8d629b296c7c04b252f18421b7dfb_gt.jpg",
+   "size": [
+    456,
+    970
+   ]
+  },
+  {
+   "name": "prcv_3b87e3459a57ceff529a0be8e7c6d547",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/prcv_3b87e3459a57ceff529a0be8e7c6d547_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/prcv_3b87e3459a57ceff529a0be8e7c6d547_gt.jpg",
+   "size": [
+    945,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_5dbe6f2be581253097bd1d0d6745f5dd",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/prcv_5dbe6f2be581253097bd1d0d6745f5dd_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/prcv_5dbe6f2be581253097bd1d0d6745f5dd_gt.jpg",
+   "size": [
+    527,
+    1012
+   ]
+  },
+  {
+   "name": "prcv_5e28e1c85861e4c9b6492a442200c6b5",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/prcv_5e28e1c85861e4c9b6492a442200c6b5_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/prcv_5e28e1c85861e4c9b6492a442200c6b5_gt.jpg",
+   "size": [
+    639,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_7276e975c421a9e6abf4ac5da14e7707",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/prcv_7276e975c421a9e6abf4ac5da14e7707_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/prcv_7276e975c421a9e6abf4ac5da14e7707_gt.jpg",
+   "size": [
+    573,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_73eb82137b9e86e3be439c9b59a4c290",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/prcv_73eb82137b9e86e3be439c9b59a4c290_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/prcv_73eb82137b9e86e3be439c9b59a4c290_gt.jpg",
+   "size": [
+    1024,
+    828
+   ]
+  },
+  {
+   "name": "prcv_7e18e64b4c840d45e78f6738d66b3e5b",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/prcv_7e18e64b4c840d45e78f6738d66b3e5b_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/prcv_7e18e64b4c840d45e78f6738d66b3e5b_gt.jpg",
+   "size": [
+    1024,
+    1016
+   ]
+  },
+  {
+   "name": "prcv_83a72d3c68cd6f22f85a2fa184e32906",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/prcv_83a72d3c68cd6f22f85a2fa184e32906_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/prcv_83a72d3c68cd6f22f85a2fa184e32906_gt.jpg",
+   "size": [
+    1024,
+    864
+   ]
+  },
+  {
+   "name": "prcv_857af4877fad8daa31ae6ffe5e838e1d",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/prcv_857af4877fad8daa31ae6ffe5e838e1d_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/prcv_857af4877fad8daa31ae6ffe5e838e1d_gt.jpg",
+   "size": [
+    764,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_8737e618a764c953a345282c39a678a7",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/prcv_8737e618a764c953a345282c39a678a7_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/prcv_8737e618a764c953a345282c39a678a7_gt.jpg",
+   "size": [
+    831,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_9df7456cf959fadbb906efe174e8818a",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/prcv_9df7456cf959fadbb906efe174e8818a_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/prcv_9df7456cf959fadbb906efe174e8818a_gt.jpg",
+   "size": [
+    667,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_b82daada96aea55bc9744d30ea0b0ecf",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/prcv_b82daada96aea55bc9744d30ea0b0ecf_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/prcv_b82daada96aea55bc9744d30ea0b0ecf_gt.jpg",
+   "size": [
+    825,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_d06209107a7fe9b24c14329fff96d1cf",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/prcv_d06209107a7fe9b24c14329fff96d1cf_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/prcv_d06209107a7fe9b24c14329fff96d1cf_gt.jpg",
+   "size": [
+    846,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_f02df23b0c6037dc2a8f1229db179ae2",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/prcv_f02df23b0c6037dc2a8f1229db179ae2_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/prcv_f02df23b0c6037dc2a8f1229db179ae2_gt.jpg",
+   "size": [
+    490,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_f72ad996964c743a5137c7d322c38509",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/prcv_f72ad996964c743a5137c7d322c38509_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/prcv_f72ad996964c743a5137c7d322c38509_gt.jpg",
+   "size": [
+    644,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_fd80c6b9b2080a4a227ccab97709e581",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/prcv_fd80c6b9b2080a4a227ccab97709e581_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/prcv_fd80c6b9b2080a4a227ccab97709e581_gt.jpg",
+   "size": [
+    1024,
+    961
+   ]
+  },
+  {
+   "name": "prcv_jj_1530097477815761333997_1",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/prcv_jj_1530097477815761333997_1_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/prcv_jj_1530097477815761333997_1_gt.jpg",
+   "size": [
+    198,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_jj_16610_1",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/prcv_jj_16610_1_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/prcv_jj_16610_1_gt.jpg",
+   "size": [
+    437,
+    1007
+   ]
+  },
+  {
+   "name": "prcv_shijuan_0000847_2",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/prcv_shijuan_0000847_2_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/prcv_shijuan_0000847_2_gt.jpg",
+   "size": [
+    342,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_souti_3693-_1",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/prcv_souti_3693-_1_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/prcv_souti_3693-_1_gt.jpg",
+   "size": [
+    294,
+    664
+   ]
+  },
+  {
+   "name": "selfcollect_2_146",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/selfcollect_2_146_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/selfcollect_2_146_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "selfcollect_IMG_2726",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/selfcollect_IMG_2726_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/selfcollect_IMG_2726_gt.jpg",
+   "size": [
+    768,
+    1024
+   ]
+  },
+  {
+   "name": "web_15094497937_4d7ce8eb64_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/web_15094497937_4d7ce8eb64_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/web_15094497937_4d7ce8eb64_o_gt.jpg",
+   "size": [
+    704,
+    398
+   ]
+  },
+  {
+   "name": "web_21040955909_6b4900ca5b_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/web_21040955909_6b4900ca5b_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/web_21040955909_6b4900ca5b_o_gt.jpg",
+   "size": [
+    1024,
+    649
+   ]
+  },
+  {
+   "name": "web_22257827891_78ebeac8bb_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/web_22257827891_78ebeac8bb_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/web_22257827891_78ebeac8bb_o_gt.jpg",
+   "size": [
+    1024,
+    989
+   ]
+  },
+  {
+   "name": "web_22421963018_402090a216_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/web_22421963018_402090a216_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/web_22421963018_402090a216_o_gt.jpg",
+   "size": [
+    768,
+    1024
+   ]
+  },
+  {
+   "name": "web_2371743193_51e26b5e3a_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/web_2371743193_51e26b5e3a_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/web_2371743193_51e26b5e3a_o_gt.jpg",
+   "size": [
+    855,
+    1024
+   ]
+  },
+  {
+   "name": "web_24883973480_e722158122_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/web_24883973480_e722158122_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/web_24883973480_e722158122_o_gt.jpg",
+   "size": [
+    1024,
+    709
+   ]
+  },
+  {
+   "name": "web_25156839616_2f8e4f9a74_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/web_25156839616_2f8e4f9a74_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/web_25156839616_2f8e4f9a74_o_gt.jpg",
+   "size": [
+    1024,
+    765
+   ]
+  },
+  {
+   "name": "web_25684437420_c93b1856c0_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/web_25684437420_c93b1856c0_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/web_25684437420_c93b1856c0_o_gt.jpg",
+   "size": [
+    1024,
+    600
+   ]
+  },
+  {
+   "name": "web_27354745534_fcb3c3fd57_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/web_27354745534_fcb3c3fd57_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/web_27354745534_fcb3c3fd57_o_gt.jpg",
+   "size": [
+    1024,
+    801
+   ]
+  },
+  {
+   "name": "web_27875098582_190f0473df_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/web_27875098582_190f0473df_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/web_27875098582_190f0473df_o_gt.jpg",
+   "size": [
+    1024,
+    762
+   ]
+  },
+  {
+   "name": "web_28458968820_53e141dbfa_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/web_28458968820_53e141dbfa_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/web_28458968820_53e141dbfa_o_gt.jpg",
+   "size": [
+    1024,
+    814
+   ]
+  },
+  {
+   "name": "web_28671654695_c542e9fa7f_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_bleed_test/web_28671654695_c542e9fa7f_o_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_test/web_28671654695_c542e9fa7f_o_gt.jpg",
+   "size": [
+    1024,
+    794
+   ]
+  },
+  {
+   "name": "web_2_145",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/web_2_145_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/web_2_145_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "web_30491764964_c60605ae92_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/web_30491764964_c60605ae92_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/web_30491764964_c60605ae92_o_gt.jpg",
+   "size": [
+    1024,
+    668
+   ]
+  },
+  {
+   "name": "web_31840812921_ff5e13e225_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/web_31840812921_ff5e13e225_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/web_31840812921_ff5e13e225_o_gt.jpg",
+   "size": [
+    1024,
+    586
+   ]
+  },
+  {
+   "name": "web_8912910491_219800494c_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/web_8912910491_219800494c_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/web_8912910491_219800494c_o_gt.jpg",
+   "size": [
+    768,
+    1024
+   ]
+  },
+  {
+   "name": "web_9651114107_62c97514b6_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/web_9651114107_62c97514b6_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/web_9651114107_62c97514b6_o_gt.jpg",
+   "size": [
+    1024,
+    719
+   ]
+  },
+  {
+   "name": "webnosource_14014568249_d3e2934665_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/webnosource_14014568249_d3e2934665_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/webnosource_14014568249_d3e2934665_o_gt.jpg",
+   "size": [
+    1024,
+    906
+   ]
+  },
+  {
+   "name": "webnosource_14671895192_5d0c569f05_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/webnosource_14671895192_5d0c569f05_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/webnosource_14671895192_5d0c569f05_o_gt.jpg",
+   "size": [
+    768,
+    1024
+   ]
+  },
+  {
+   "name": "webnosource_22492759202_6e44c4edf0_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/webnosource_22492759202_6e44c4edf0_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/webnosource_22492759202_6e44c4edf0_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "webnosource_25610899702_af6772136e_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/webnosource_25610899702_af6772136e_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/webnosource_25610899702_af6772136e_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "webnosource_26096104622_fb5f575eac_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/webnosource_26096104622_fb5f575eac_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/webnosource_26096104622_fb5f575eac_o_gt.jpg",
+   "size": [
+    1024,
+    678
+   ]
+  },
+  {
+   "name": "webnosource_26935473164_4405308025_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/webnosource_26935473164_4405308025_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/webnosource_26935473164_4405308025_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "webnosource_32298191451_fdbae97943_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/webnosource_32298191451_fdbae97943_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/webnosource_32298191451_fdbae97943_o_gt.jpg",
+   "size": [
+    1024,
+    576
+   ]
+  },
+  {
+   "name": "webnosource_6054841972_d71e2cf599_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/webnosource_6054841972_d71e2cf599_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/webnosource_6054841972_d71e2cf599_o_gt.jpg",
+   "size": [
+    768,
+    1024
+   ]
+  },
+  {
+   "name": "webnosource_6609402043_15c1ef0634_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/webnosource_6609402043_15c1ef0634_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/webnosource_6609402043_15c1ef0634_o_gt.jpg",
+   "size": [
+    1024,
+    765
+   ]
+  },
+  {
+   "name": "webnosource_8283502885_7eefd28d70_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/webnosource_8283502885_7eefd28d70_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/webnosource_8283502885_7eefd28d70_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "webnosource_8284560094_bf5c398fcc_o",
+   "split": "test",
+   "inp": "/content/realdae_raw/task_shadow_test/webnosource_8284560094_bf5c398fcc_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_test/webnosource_8284560094_bf5c398fcc_o_gt.jpg",
+   "size": [
+    768,
+    1024
+   ]
+  },
+  {
+   "name": "1000",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/1000_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/1000_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "503",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/503_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/503_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "504",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_color_train/504_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/504_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "515",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/515_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/515_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "522",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/522_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/522_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "524",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_color_train/524_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/524_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "525",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/525_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/525_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "529",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/529_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/529_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "535",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/535_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/535_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "537",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/537_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/537_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "548",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/548_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/548_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "549",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/549_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/549_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "556",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/556_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/556_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "561",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/561_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/561_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "564",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/564_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/564_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "567",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/567_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/567_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "568",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/568_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/568_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "569",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/569_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/569_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "570",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_color_train/570_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/570_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "571",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/571_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/571_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "572",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/572_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/572_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "573",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/573_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/573_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "583",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/583_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/583_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "584",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/584_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/584_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "585",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/585_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/585_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "586",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/586_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/586_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "587",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/587_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/587_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "589",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_color_train/589_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/589_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "591",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/591_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/591_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "592",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/592_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/592_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "594",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/594_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/594_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "595",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/595_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/595_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "596",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/596_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/596_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "597",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/597_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/597_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "598",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/598_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/598_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "599",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/599_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/599_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "600",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/600_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/600_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "603",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/603_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/603_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "604",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/604_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/604_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "605",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_color_train/605_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/605_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "613",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/613_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/613_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "614",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_color_train/614_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/614_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "615",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/615_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/615_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "616",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/616_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/616_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "617",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/617_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/617_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "621",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/621_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/621_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "624",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/624_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/624_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "626",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/626_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/626_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "627",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/627_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/627_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "629",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/629_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/629_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "630",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/630_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/630_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "632",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/632_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/632_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "635",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/635_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/635_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "636",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/636_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/636_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "639",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_color_train/639_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/639_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "645",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/645_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/645_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "648",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/648_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/648_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "658",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/658_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/658_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "661",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/661_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/661_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "664",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/664_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/664_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "673",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/673_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/673_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "697",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/697_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/697_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "701",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/701_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/701_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "729",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_color_train/729_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/729_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "760",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/760_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/760_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "761",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/761_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/761_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "762",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/762_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/762_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "763",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/763_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/763_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "765",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/765_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/765_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "768",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/768_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/768_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "769",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/769_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/769_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "774",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_color_train/774_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/774_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "777",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/777_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/777_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "778",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/778_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/778_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "779",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/779_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/779_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "786",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_color_train/786_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/786_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "788",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/788_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/788_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "795",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/795_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/795_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "796",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/796_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/796_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "801",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/801_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/801_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "812",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/812_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/812_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "813",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/813_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/813_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "815",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/815_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/815_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "816",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/816_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/816_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "818",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/818_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/818_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "823",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/823_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/823_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "824",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/824_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/824_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "830",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/830_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/830_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "832",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/832_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/832_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "838",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_color_train/838_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/838_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "839",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/839_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/839_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "841",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/841_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/841_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "846",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/846_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/846_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "855",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/855_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/855_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "858",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/858_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/858_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "862",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/862_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/862_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "863",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/863_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/863_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "867",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/867_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/867_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "870",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/870_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/870_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "874",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/874_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/874_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "878",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/878_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/878_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "882",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/882_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/882_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "887",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/887_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/887_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "890",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/890_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/890_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "892",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/892_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/892_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "893",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/893_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/893_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "894",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/894_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/894_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "895",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/895_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/895_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "896",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/896_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/896_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "897",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/897_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/897_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "898",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/898_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/898_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "902",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/902_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/902_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "903",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/903_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/903_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "906",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/906_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/906_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "909",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/909_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/909_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "910",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/910_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/910_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "911",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/911_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/911_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "912",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/912_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/912_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "913",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/913_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/913_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "914",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/914_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/914_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "915",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/915_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/915_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "918",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/918_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/918_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "919",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/919_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/919_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "921",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/921_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/921_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "922",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/922_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/922_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "924",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/924_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/924_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "925",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/925_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/925_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "928",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/928_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/928_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "939",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/939_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/939_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "940",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/940_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/940_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "942",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/942_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/942_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "943",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/943_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/943_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "944",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/944_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/944_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "946",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_color_train/946_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/946_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "947",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/947_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/947_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "950",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/950_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/950_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "951",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_color_train/951_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/951_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "952",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/952_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/952_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "953",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/953_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/953_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "955",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/955_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/955_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "956",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/956_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/956_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "960",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/960_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/960_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "961",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/961_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/961_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "962",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/962_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/962_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "963",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/963_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/963_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "964",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_color_train/964_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/964_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "966",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/966_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/966_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "968",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/968_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/968_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "969",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/969_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/969_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "981",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_color_train/981_in.jpg",
+   "gt": "/content/realdae_raw/task_color_train/981_gt.jpg",
+   "size": [
+    1024,
+    766
+   ]
+  },
+  {
+   "name": "ACCV2016_08",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/ACCV2016_08_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/ACCV2016_08_gt.jpg",
+   "size": [
+    768,
+    1024
+   ]
+  },
+  {
+   "name": "ACCV2016_10",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/ACCV2016_10_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/ACCV2016_10_gt.jpg",
+   "size": [
+    513,
+    1024
+   ]
+  },
+  {
+   "name": "ACCV2016_15",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/ACCV2016_15_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/ACCV2016_15_gt.jpg",
+   "size": [
+    768,
+    1024
+   ]
+  },
+  {
+   "name": "cmdd_planar_surface10",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/cmdd_planar_surface10_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/cmdd_planar_surface10_gt.jpg",
+   "size": [
+    979,
+    734
+   ]
+  },
+  {
+   "name": "cmdd_planar_surface14",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/cmdd_planar_surface14_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/cmdd_planar_surface14_gt.jpg",
+   "size": [
+    979,
+    734
+   ]
+  },
+  {
+   "name": "cmdd_planar_surface19",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_shadow_train/cmdd_planar_surface19_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/cmdd_planar_surface19_gt.jpg",
+   "size": [
+    979,
+    734
+   ]
+  },
+  {
+   "name": "cmdd_planar_surface20",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/cmdd_planar_surface20_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/cmdd_planar_surface20_gt.jpg",
+   "size": [
+    979,
+    734
+   ]
+  },
+  {
+   "name": "cmdd_planar_surface22",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/cmdd_planar_surface22_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/cmdd_planar_surface22_gt.jpg",
+   "size": [
+    979,
+    734
+   ]
+  },
+  {
+   "name": "cmdd_planar_surface23",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/cmdd_planar_surface23_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/cmdd_planar_surface23_gt.jpg",
+   "size": [
+    979,
+    734
+   ]
+  },
+  {
+   "name": "cmdd_planar_surface24",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/cmdd_planar_surface24_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/cmdd_planar_surface24_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "cmdd_planar_surface26",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/cmdd_planar_surface26_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/cmdd_planar_surface26_gt.jpg",
+   "size": [
+    979,
+    734
+   ]
+  },
+  {
+   "name": "docunet_10_2copy",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/docunet_10_2copy_in.png",
+   "gt": "/content/realdae_raw/task_shadow_train/docunet_10_2copy_gt.png",
+   "size": [
+    463,
+    1024
+   ]
+  },
+  {
+   "name": "docunet_32_1copy",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/docunet_32_1copy_in.png",
+   "gt": "/content/realdae_raw/task_shadow_train/docunet_32_1copy_gt.png",
+   "size": [
+    1024,
+    717
+   ]
+  },
+  {
+   "name": "docunet_32_2copy",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/docunet_32_2copy_in.png",
+   "gt": "/content/realdae_raw/task_shadow_train/docunet_32_2copy_gt.png",
+   "size": [
+    1024,
+    792
+   ]
+  },
+  {
+   "name": "docunet_33_2copy",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/docunet_33_2copy_in.png",
+   "gt": "/content/realdae_raw/task_shadow_train/docunet_33_2copy_gt.png",
+   "size": [
+    1024,
+    707
+   ]
+  },
+  {
+   "name": "docunet_34_1copy",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/docunet_34_1copy_in.png",
+   "gt": "/content/realdae_raw/task_shadow_train/docunet_34_1copy_gt.png",
+   "size": [
+    987,
+    940
+   ]
+  },
+  {
+   "name": "docunet_3_1copy",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/docunet_3_1copy_in.png",
+   "gt": "/content/realdae_raw/task_shadow_train/docunet_3_1copy_gt.png",
+   "size": [
+    1024,
+    672
+   ]
+  },
+  {
+   "name": "docunet_51_2copy",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_shadow_train/docunet_51_2copy_in.png",
+   "gt": "/content/realdae_raw/task_shadow_train/docunet_51_2copy_gt.png",
+   "size": [
+    1024,
+    846
+   ]
+  },
+  {
+   "name": "docunet_52_2copy",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/docunet_52_2copy_in.png",
+   "gt": "/content/realdae_raw/task_shadow_train/docunet_52_2copy_gt.png",
+   "size": [
+    1024,
+    845
+   ]
+  },
+  {
+   "name": "docunet_53_2copy",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/docunet_53_2copy_in.png",
+   "gt": "/content/realdae_raw/task_shadow_train/docunet_53_2copy_gt.png",
+   "size": [
+    1024,
+    784
+   ]
+  },
+  {
+   "name": "docunet_5_1copy",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/docunet_5_1copy_in.png",
+   "gt": "/content/realdae_raw/task_shadow_train/docunet_5_1copy_gt.png",
+   "size": [
+    1024,
+    567
+   ]
+  },
+  {
+   "name": "docunet_5_2copy",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/docunet_5_2copy_in.png",
+   "gt": "/content/realdae_raw/task_shadow_train/docunet_5_2copy_gt.png",
+   "size": [
+    1024,
+    592
+   ]
+  },
+  {
+   "name": "docunet_63_2copy",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/docunet_63_2copy_in.png",
+   "gt": "/content/realdae_raw/task_shadow_train/docunet_63_2copy_gt.png",
+   "size": [
+    1024,
+    840
+   ]
+  },
+  {
+   "name": "ocrreal_00003",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/ocrreal_00003_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/ocrreal_00003_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "ocrreal_00004",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/ocrreal_00004_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/ocrreal_00004_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "ocrreal_00009",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/ocrreal_00009_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/ocrreal_00009_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "ocrreal_00014",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/ocrreal_00014_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/ocrreal_00014_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "ocrreal_00019",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/ocrreal_00019_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/ocrreal_00019_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "ocrreal_00021",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/ocrreal_00021_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/ocrreal_00021_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "ocrreal_00024",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/ocrreal_00024_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/ocrreal_00024_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "ocrreal_00028",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/ocrreal_00028_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/ocrreal_00028_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "ocrreal_00029",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/ocrreal_00029_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/ocrreal_00029_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "ocrreal_00037",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/ocrreal_00037_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/ocrreal_00037_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "ocrreal_00038",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/ocrreal_00038_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/ocrreal_00038_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "ocrreal_00039",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/ocrreal_00039_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/ocrreal_00039_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "ocrreal_00040",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/ocrreal_00040_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/ocrreal_00040_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "ocrreal_00044",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/ocrreal_00044_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/ocrreal_00044_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "ocrreal_00047",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/ocrreal_00047_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/ocrreal_00047_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "ocrreal_00048",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/ocrreal_00048_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/ocrreal_00048_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "ocrreal_00049",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/ocrreal_00049_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/ocrreal_00049_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "origin1000_103",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_103_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_103_gt.jpg",
+   "size": [
+    1024,
+    683
+   ]
+  },
+  {
+   "name": "origin1000_104",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_104_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_104_gt.jpg",
+   "size": [
+    1024,
+    661
+   ]
+  },
+  {
+   "name": "origin1000_106",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_106_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_106_gt.jpg",
+   "size": [
+    1024,
+    667
+   ]
+  },
+  {
+   "name": "origin1000_108",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_108_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_108_gt.jpg",
+   "size": [
+    1024,
+    669
+   ]
+  },
+  {
+   "name": "origin1000_109",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_109_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_109_gt.jpg",
+   "size": [
+    1024,
+    675
+   ]
+  },
+  {
+   "name": "origin1000_119",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_119_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_119_gt.jpg",
+   "size": [
+    1024,
+    675
+   ]
+  },
+  {
+   "name": "origin1000_121",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_121_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_121_gt.jpg",
+   "size": [
+    1024,
+    669
+   ]
+  },
+  {
+   "name": "origin1000_122",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_122_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_122_gt.jpg",
+   "size": [
+    1024,
+    685
+   ]
+  },
+  {
+   "name": "origin1000_132",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_132_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_132_gt.jpg",
+   "size": [
+    1024,
+    664
+   ]
+  },
+  {
+   "name": "origin1000_135",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_135_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_135_gt.jpg",
+   "size": [
+    1024,
+    652
+   ]
+  },
+  {
+   "name": "origin1000_138",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_138_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_138_gt.jpg",
+   "size": [
+    1024,
+    677
+   ]
+  },
+  {
+   "name": "origin1000_152",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_152_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_152_gt.jpg",
+   "size": [
+    1024,
+    694
+   ]
+  },
+  {
+   "name": "origin1000_158",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_158_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_158_gt.jpg",
+   "size": [
+    1024,
+    687
+   ]
+  },
+  {
+   "name": "origin1000_16",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_16_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_16_gt.jpg",
+   "size": [
+    1024,
+    634
+   ]
+  },
+  {
+   "name": "origin1000_168",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_168_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_168_gt.jpg",
+   "size": [
+    1024,
+    696
+   ]
+  },
+  {
+   "name": "origin1000_173",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_173_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_173_gt.jpg",
+   "size": [
+    1024,
+    695
+   ]
+  },
+  {
+   "name": "origin1000_174",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_174_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_174_gt.jpg",
+   "size": [
+    1024,
+    691
+   ]
+  },
+  {
+   "name": "origin1000_175",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_175_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_175_gt.jpg",
+   "size": [
+    1024,
+    685
+   ]
+  },
+  {
+   "name": "origin1000_18",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_18_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_18_gt.jpg",
+   "size": [
+    1024,
+    687
+   ]
+  },
+  {
+   "name": "origin1000_186",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_186_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_186_gt.jpg",
+   "size": [
+    1024,
+    675
+   ]
+  },
+  {
+   "name": "origin1000_195",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_195_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_195_gt.jpg",
+   "size": [
+    1024,
+    657
+   ]
+  },
+  {
+   "name": "origin1000_203",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_203_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_203_gt.jpg",
+   "size": [
+    1024,
+    651
+   ]
+  },
+  {
+   "name": "origin1000_22",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_22_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_22_gt.jpg",
+   "size": [
+    1024,
+    681
+   ]
+  },
+  {
+   "name": "origin1000_228",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_228_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_228_gt.jpg",
+   "size": [
+    1024,
+    724
+   ]
+  },
+  {
+   "name": "origin1000_231",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_231_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_231_gt.jpg",
+   "size": [
+    1024,
+    711
+   ]
+  },
+  {
+   "name": "origin1000_232",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_232_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_232_gt.jpg",
+   "size": [
+    1024,
+    721
+   ]
+  },
+  {
+   "name": "origin1000_241",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_241_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_241_gt.jpg",
+   "size": [
+    1024,
+    674
+   ]
+  },
+  {
+   "name": "origin1000_242",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_242_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_242_gt.jpg",
+   "size": [
+    1024,
+    698
+   ]
+  },
+  {
+   "name": "origin1000_244",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_244_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_244_gt.jpg",
+   "size": [
+    1024,
+    688
+   ]
+  },
+  {
+   "name": "origin1000_249",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_249_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_249_gt.jpg",
+   "size": [
+    1024,
+    677
+   ]
+  },
+  {
+   "name": "origin1000_25",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_25_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_25_gt.jpg",
+   "size": [
+    1024,
+    695
+   ]
+  },
+  {
+   "name": "origin1000_250",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_250_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_250_gt.jpg",
+   "size": [
+    1024,
+    692
+   ]
+  },
+  {
+   "name": "origin1000_259",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_259_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_259_gt.jpg",
+   "size": [
+    1024,
+    741
+   ]
+  },
+  {
+   "name": "origin1000_26",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_26_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_26_gt.jpg",
+   "size": [
+    1024,
+    683
+   ]
+  },
+  {
+   "name": "origin1000_265",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_265_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_265_gt.jpg",
+   "size": [
+    1024,
+    736
+   ]
+  },
+  {
+   "name": "origin1000_266",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_266_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_266_gt.jpg",
+   "size": [
+    1024,
+    743
+   ]
+  },
+  {
+   "name": "origin1000_27",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_27_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_27_gt.jpg",
+   "size": [
+    1024,
+    696
+   ]
+  },
+  {
+   "name": "origin1000_270",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_270_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_270_gt.jpg",
+   "size": [
+    1024,
+    732
+   ]
+  },
+  {
+   "name": "origin1000_279",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_279_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_279_gt.jpg",
+   "size": [
+    1024,
+    695
+   ]
+  },
+  {
+   "name": "origin1000_280",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_280_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_280_gt.jpg",
+   "size": [
+    1024,
+    673
+   ]
+  },
+  {
+   "name": "origin1000_283",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_283_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_283_gt.jpg",
+   "size": [
+    1024,
+    729
+   ]
+  },
+  {
+   "name": "origin1000_294",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_294_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_294_gt.jpg",
+   "size": [
+    1024,
+    711
+   ]
+  },
+  {
+   "name": "origin1000_303",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_303_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_303_gt.jpg",
+   "size": [
+    1024,
+    696
+   ]
+  },
+  {
+   "name": "origin1000_312",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_312_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_312_gt.jpg",
+   "size": [
+    1024,
+    680
+   ]
+  },
+  {
+   "name": "origin1000_320",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_320_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_320_gt.jpg",
+   "size": [
+    1024,
+    697
+   ]
+  },
+  {
+   "name": "origin1000_34",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_34_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_34_gt.jpg",
+   "size": [
+    1024,
+    682
+   ]
+  },
+  {
+   "name": "origin1000_342",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_342_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_342_gt.jpg",
+   "size": [
+    1024,
+    719
+   ]
+  },
+  {
+   "name": "origin1000_343",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_343_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_343_gt.jpg",
+   "size": [
+    1024,
+    742
+   ]
+  },
+  {
+   "name": "origin1000_35",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_35_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_35_gt.jpg",
+   "size": [
+    1024,
+    693
+   ]
+  },
+  {
+   "name": "origin1000_355",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_355_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_355_gt.jpg",
+   "size": [
+    1024,
+    682
+   ]
+  },
+  {
+   "name": "origin1000_357",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_357_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_357_gt.jpg",
+   "size": [
+    1024,
+    670
+   ]
+  },
+  {
+   "name": "origin1000_359",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_359_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_359_gt.jpg",
+   "size": [
+    1024,
+    690
+   ]
+  },
+  {
+   "name": "origin1000_362",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_362_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_362_gt.jpg",
+   "size": [
+    1024,
+    702
+   ]
+  },
+  {
+   "name": "origin1000_365",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_365_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_365_gt.jpg",
+   "size": [
+    1024,
+    672
+   ]
+  },
+  {
+   "name": "origin1000_372",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_372_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_372_gt.jpg",
+   "size": [
+    1024,
+    676
+   ]
+  },
+  {
+   "name": "origin1000_397",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_397_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_397_gt.jpg",
+   "size": [
+    1024,
+    702
+   ]
+  },
+  {
+   "name": "origin1000_398",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_398_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_398_gt.jpg",
+   "size": [
+    1024,
+    712
+   ]
+  },
+  {
+   "name": "origin1000_402",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_402_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_402_gt.jpg",
+   "size": [
+    1024,
+    674
+   ]
+  },
+  {
+   "name": "origin1000_42",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_42_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_42_gt.jpg",
+   "size": [
+    1024,
+    674
+   ]
+  },
+  {
+   "name": "origin1000_449",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_449_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_449_gt.jpg",
+   "size": [
+    1024,
+    680
+   ]
+  },
+  {
+   "name": "origin1000_461",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_461_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_461_gt.jpg",
+   "size": [
+    1024,
+    708
+   ]
+  },
+  {
+   "name": "origin1000_462",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_462_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_462_gt.jpg",
+   "size": [
+    1024,
+    718
+   ]
+  },
+  {
+   "name": "origin1000_475",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_475_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_475_gt.jpg",
+   "size": [
+    1024,
+    733
+   ]
+  },
+  {
+   "name": "origin1000_492",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_492_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_492_gt.jpg",
+   "size": [
+    1024,
+    658
+   ]
+  },
+  {
+   "name": "origin1000_493",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_493_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_493_gt.jpg",
+   "size": [
+    1024,
+    688
+   ]
+  },
+  {
+   "name": "origin1000_5",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_5_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_5_gt.jpg",
+   "size": [
+    1024,
+    702
+   ]
+  },
+  {
+   "name": "origin1000_500",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_500_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_500_gt.jpg",
+   "size": [
+    1024,
+    684
+   ]
+  },
+  {
+   "name": "origin1000_51",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_51_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_51_gt.jpg",
+   "size": [
+    1024,
+    651
+   ]
+  },
+  {
+   "name": "origin1000_66",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_66_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_66_gt.jpg",
+   "size": [
+    1024,
+    648
+   ]
+  },
+  {
+   "name": "origin1000_67",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_67_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_67_gt.jpg",
+   "size": [
+    1024,
+    711
+   ]
+  },
+  {
+   "name": "origin1000_69",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_69_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_69_gt.jpg",
+   "size": [
+    1024,
+    717
+   ]
+  },
+  {
+   "name": "origin1000_7",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_7_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_7_gt.jpg",
+   "size": [
+    1024,
+    689
+   ]
+  },
+  {
+   "name": "origin1000_74",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_74_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_74_gt.jpg",
+   "size": [
+    1024,
+    720
+   ]
+  },
+  {
+   "name": "origin1000_75",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_75_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_75_gt.jpg",
+   "size": [
+    1024,
+    700
+   ]
+  },
+  {
+   "name": "origin1000_78",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_78_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_78_gt.jpg",
+   "size": [
+    1024,
+    698
+   ]
+  },
+  {
+   "name": "origin1000_79",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_79_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_79_gt.jpg",
+   "size": [
+    1024,
+    686
+   ]
+  },
+  {
+   "name": "origin1000_8",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_8_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_8_gt.jpg",
+   "size": [
+    1024,
+    704
+   ]
+  },
+  {
+   "name": "origin1000_82",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_82_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_82_gt.jpg",
+   "size": [
+    1024,
+    677
+   ]
+  },
+  {
+   "name": "origin1000_9",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_9_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_9_gt.jpg",
+   "size": [
+    1024,
+    691
+   ]
+  },
+  {
+   "name": "origin1000_90",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_90_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_90_gt.jpg",
+   "size": [
+    1024,
+    669
+   ]
+  },
+  {
+   "name": "origin1000_91",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_91_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_91_gt.jpg",
+   "size": [
+    1024,
+    676
+   ]
+  },
+  {
+   "name": "origin1000_95",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_95_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_95_gt.jpg",
+   "size": [
+    1024,
+    661
+   ]
+  },
+  {
+   "name": "origin1000_98",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/origin1000_98_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/origin1000_98_gt.jpg",
+   "size": [
+    1024,
+    682
+   ]
+  },
+  {
+   "name": "prcv_0147d632dd90ccd14509084f6e829779",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_0147d632dd90ccd14509084f6e829779_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_0147d632dd90ccd14509084f6e829779_gt.jpg",
+   "size": [
+    521,
+    560
+   ]
+  },
+  {
+   "name": "prcv_01567e08858b5ac3376503a27061ca12",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_01567e08858b5ac3376503a27061ca12_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_01567e08858b5ac3376503a27061ca12_gt.jpg",
+   "size": [
+    850,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_017afddaa424556c876bd507910b943c",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_017afddaa424556c876bd507910b943c_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_017afddaa424556c876bd507910b943c_gt.jpg",
+   "size": [
+    1024,
+    790
+   ]
+  },
+  {
+   "name": "prcv_054f7f560937fb8384acae5c40a0e88e",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_054f7f560937fb8384acae5c40a0e88e_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_054f7f560937fb8384acae5c40a0e88e_gt.jpg",
+   "size": [
+    774,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_062e24b6211083bb63c98b0389683eea",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_062e24b6211083bb63c98b0389683eea_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_062e24b6211083bb63c98b0389683eea_gt.jpg",
+   "size": [
+    1024,
+    692
+   ]
+  },
+  {
+   "name": "prcv_09fbb6b175c9a72aa9de0d41cc04907d",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_09fbb6b175c9a72aa9de0d41cc04907d_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_09fbb6b175c9a72aa9de0d41cc04907d_gt.jpg",
+   "size": [
+    785,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_0ac02571dd77f0c88e8e88477d95d637",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_0ac02571dd77f0c88e8e88477d95d637_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_0ac02571dd77f0c88e8e88477d95d637_gt.jpg",
+   "size": [
+    854,
+    720
+   ]
+  },
+  {
+   "name": "prcv_0cc43e2da110dab9c2d98197f6f735ab",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_0cc43e2da110dab9c2d98197f6f735ab_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_0cc43e2da110dab9c2d98197f6f735ab_gt.jpg",
+   "size": [
+    595,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_130f2db9679f92f82ae004d651bcd849",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_130f2db9679f92f82ae004d651bcd849_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_130f2db9679f92f82ae004d651bcd849_gt.jpg",
+   "size": [
+    352,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_144cb756aeab53d62dc017fef22fa461",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_144cb756aeab53d62dc017fef22fa461_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_144cb756aeab53d62dc017fef22fa461_gt.jpg",
+   "size": [
+    712,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_1622649348707849798490834214912_0",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_1622649348707849798490834214912_0_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_1622649348707849798490834214912_0_gt.jpg",
+   "size": [
+    784,
+    438
+   ]
+  },
+  {
+   "name": "prcv_1785b12e8d9ce89e5b7328cfff2b15b2",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_1785b12e8d9ce89e5b7328cfff2b15b2_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_1785b12e8d9ce89e5b7328cfff2b15b2_gt.jpg",
+   "size": [
+    551,
+    1005
+   ]
+  },
+  {
+   "name": "prcv_1b694681164e17b9d34aea91c02f92a7",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_1b694681164e17b9d34aea91c02f92a7_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_1b694681164e17b9d34aea91c02f92a7_gt.jpg",
+   "size": [
+    355,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_1e0c9d27d01aa0f33dae994047d9a74a",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_1e0c9d27d01aa0f33dae994047d9a74a_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_1e0c9d27d01aa0f33dae994047d9a74a_gt.jpg",
+   "size": [
+    481,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_1e0f04aea840f8f7dee8b091475a1eab",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_1e0f04aea840f8f7dee8b091475a1eab_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_1e0f04aea840f8f7dee8b091475a1eab_gt.jpg",
+   "size": [
+    720,
+    907
+   ]
+  },
+  {
+   "name": "prcv_20d91fd93884df8952f698b630484c22",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_20d91fd93884df8952f698b630484c22_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_20d91fd93884df8952f698b630484c22_gt.jpg",
+   "size": [
+    720,
+    995
+   ]
+  },
+  {
+   "name": "prcv_220f475a054e56e8ee4a333dbbedcdfb",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_220f475a054e56e8ee4a333dbbedcdfb_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_220f475a054e56e8ee4a333dbbedcdfb_gt.jpg",
+   "size": [
+    913,
+    762
+   ]
+  },
+  {
+   "name": "prcv_227c4765d0d6614b9e2defaa2e6d88b1",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_227c4765d0d6614b9e2defaa2e6d88b1_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_227c4765d0d6614b9e2defaa2e6d88b1_gt.jpg",
+   "size": [
+    784,
+    661
+   ]
+  },
+  {
+   "name": "prcv_25d67861d5920fe636b516c2ad19b3b5",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_25d67861d5920fe636b516c2ad19b3b5_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_25d67861d5920fe636b516c2ad19b3b5_gt.jpg",
+   "size": [
+    1024,
+    963
+   ]
+  },
+  {
+   "name": "prcv_28706fe8c629f42a36cf0db0d23606d8",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_28706fe8c629f42a36cf0db0d23606d8_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_28706fe8c629f42a36cf0db0d23606d8_gt.jpg",
+   "size": [
+    643,
+    643
+   ]
+  },
+  {
+   "name": "prcv_28b43aafb17daf68686d542428149ae1",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_28b43aafb17daf68686d542428149ae1_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_28b43aafb17daf68686d542428149ae1_gt.jpg",
+   "size": [
+    476,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_2c4fe6bcb62878e2cc58b94d77e3883c",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_2c4fe6bcb62878e2cc58b94d77e3883c_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_2c4fe6bcb62878e2cc58b94d77e3883c_gt.jpg",
+   "size": [
+    725,
+    815
+   ]
+  },
+  {
+   "name": "prcv_2d10721f60c3d46cfe5867923dad206f",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_2d10721f60c3d46cfe5867923dad206f_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_2d10721f60c3d46cfe5867923dad206f_gt.jpg",
+   "size": [
+    686,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_2d5c53da2c2caf84e1d057f8e5e06dc0",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_2d5c53da2c2caf84e1d057f8e5e06dc0_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_2d5c53da2c2caf84e1d057f8e5e06dc0_gt.jpg",
+   "size": [
+    873,
+    1012
+   ]
+  },
+  {
+   "name": "prcv_2fed01c8b1e05ea37305a2a7114cdbff",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_2fed01c8b1e05ea37305a2a7114cdbff_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_2fed01c8b1e05ea37305a2a7114cdbff_gt.jpg",
+   "size": [
+    764,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_315bdc2fc0145dc78d2aa058782057d5",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_315bdc2fc0145dc78d2aa058782057d5_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_315bdc2fc0145dc78d2aa058782057d5_gt.jpg",
+   "size": [
+    758,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_32dc6520a154b81fcbc2ff53554f7d74",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_32dc6520a154b81fcbc2ff53554f7d74_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_32dc6520a154b81fcbc2ff53554f7d74_gt.jpg",
+   "size": [
+    456,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_352ebd385b7699d5943461476bac7934",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_352ebd385b7699d5943461476bac7934_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_352ebd385b7699d5943461476bac7934_gt.jpg",
+   "size": [
+    327,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_3799bc74b1272a2449981e6d662bb5d0",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_3799bc74b1272a2449981e6d662bb5d0_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_3799bc74b1272a2449981e6d662bb5d0_gt.jpg",
+   "size": [
+    403,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_3a711011d704b06ef457875a29746b25",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_3a711011d704b06ef457875a29746b25_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_3a711011d704b06ef457875a29746b25_gt.jpg",
+   "size": [
+    1024,
+    707
+   ]
+  },
+  {
+   "name": "prcv_3a786ca7e768ae745d8a4c7b647d0d62",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_3a786ca7e768ae745d8a4c7b647d0d62_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_3a786ca7e768ae745d8a4c7b647d0d62_gt.jpg",
+   "size": [
+    280,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_3abf10359db9970d99a29db269ac11e0",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_3abf10359db9970d99a29db269ac11e0_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_3abf10359db9970d99a29db269ac11e0_gt.jpg",
+   "size": [
+    435,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_3afb5a1c530d514822fa0f26c687d04f",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_3afb5a1c530d514822fa0f26c687d04f_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_3afb5a1c530d514822fa0f26c687d04f_gt.jpg",
+   "size": [
+    516,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_3cac8eedec2abe4aaf4bf2f3061118aa",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_3cac8eedec2abe4aaf4bf2f3061118aa_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_3cac8eedec2abe4aaf4bf2f3061118aa_gt.jpg",
+   "size": [
+    772,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_3cde447b916f4d5ba5bbcfa8407026e5",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_3cde447b916f4d5ba5bbcfa8407026e5_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_3cde447b916f4d5ba5bbcfa8407026e5_gt.jpg",
+   "size": [
+    344,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_3e89a7ee14a61dfbdb3cb5a5dcbfc86c",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_3e89a7ee14a61dfbdb3cb5a5dcbfc86c_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_3e89a7ee14a61dfbdb3cb5a5dcbfc86c_gt.jpg",
+   "size": [
+    415,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_3f784c54f73027590d07a37b3b363eaa",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_3f784c54f73027590d07a37b3b363eaa_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_3f784c54f73027590d07a37b3b363eaa_gt.jpg",
+   "size": [
+    909,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_40bb2fa980f414041d8285f5cf0f8af0",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_40bb2fa980f414041d8285f5cf0f8af0_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_40bb2fa980f414041d8285f5cf0f8af0_gt.jpg",
+   "size": [
+    527,
+    847
+   ]
+  },
+  {
+   "name": "prcv_444e0b78f3f6b5a08052b19486bd29da",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_444e0b78f3f6b5a08052b19486bd29da_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_444e0b78f3f6b5a08052b19486bd29da_gt.jpg",
+   "size": [
+    581,
+    1007
+   ]
+  },
+  {
+   "name": "prcv_44f528ad0311aac41c2988ed245e5cb8",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_44f528ad0311aac41c2988ed245e5cb8_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_44f528ad0311aac41c2988ed245e5cb8_gt.jpg",
+   "size": [
+    773,
+    812
+   ]
+  },
+  {
+   "name": "prcv_49f25f56cafa2eb7a6a1c3b8de0c0ad2",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_49f25f56cafa2eb7a6a1c3b8de0c0ad2_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_49f25f56cafa2eb7a6a1c3b8de0c0ad2_gt.jpg",
+   "size": [
+    1016,
+    778
+   ]
+  },
+  {
+   "name": "prcv_50bdae9a9af1e0d8d893b6e3a671ca62",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_50bdae9a9af1e0d8d893b6e3a671ca62_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_50bdae9a9af1e0d8d893b6e3a671ca62_gt.jpg",
+   "size": [
+    1024,
+    980
+   ]
+  },
+  {
+   "name": "prcv_5643ea37dcb6954bcbbf991cfc67f736",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_5643ea37dcb6954bcbbf991cfc67f736_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_5643ea37dcb6954bcbbf991cfc67f736_gt.jpg",
+   "size": [
+    486,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_5724b6a64abb074ef16ba1b553014b5c",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_5724b6a64abb074ef16ba1b553014b5c_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_5724b6a64abb074ef16ba1b553014b5c_gt.jpg",
+   "size": [
+    658,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_573056fad8e6cece32fd22430ba6957e",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_573056fad8e6cece32fd22430ba6957e_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_573056fad8e6cece32fd22430ba6957e_gt.jpg",
+   "size": [
+    543,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_5bb73184df7c03bf3f8f5c14e396cdb0",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_5bb73184df7c03bf3f8f5c14e396cdb0_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_5bb73184df7c03bf3f8f5c14e396cdb0_gt.jpg",
+   "size": [
+    382,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_5d49090e69e269e564c38c38a5e9e4d7",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_5d49090e69e269e564c38c38a5e9e4d7_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_5d49090e69e269e564c38c38a5e9e4d7_gt.jpg",
+   "size": [
+    523,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_5fc24b7a1c82738d6305063081d7cdb7",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_5fc24b7a1c82738d6305063081d7cdb7_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_5fc24b7a1c82738d6305063081d7cdb7_gt.jpg",
+   "size": [
+    961,
+    720
+   ]
+  },
+  {
+   "name": "prcv_615a92a9f3a45acbbff72d423c1c312f",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_615a92a9f3a45acbbff72d423c1c312f_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_615a92a9f3a45acbbff72d423c1c312f_gt.jpg",
+   "size": [
+    727,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_62e92e9ca38704cefad5775f64b74108",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_62e92e9ca38704cefad5775f64b74108_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_62e92e9ca38704cefad5775f64b74108_gt.jpg",
+   "size": [
+    671,
+    759
+   ]
+  },
+  {
+   "name": "prcv_68eb457221041a7f181159ff9052f49b",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_68eb457221041a7f181159ff9052f49b_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_68eb457221041a7f181159ff9052f49b_gt.jpg",
+   "size": [
+    671,
+    596
+   ]
+  },
+  {
+   "name": "prcv_6a02e06889cf1f19e7354c98f828ff2e",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_6a02e06889cf1f19e7354c98f828ff2e_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_6a02e06889cf1f19e7354c98f828ff2e_gt.jpg",
+   "size": [
+    873,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_6e5bed86ad8d481b0a82c1cc73ea8ad3",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_6e5bed86ad8d481b0a82c1cc73ea8ad3_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_6e5bed86ad8d481b0a82c1cc73ea8ad3_gt.jpg",
+   "size": [
+    910,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_70dae3c889b7594a87384e8ae009489c",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_70dae3c889b7594a87384e8ae009489c_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_70dae3c889b7594a87384e8ae009489c_gt.jpg",
+   "size": [
+    935,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_71ab5ee50d96cbe1e7bf08dfcf4b5da7",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_71ab5ee50d96cbe1e7bf08dfcf4b5da7_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_71ab5ee50d96cbe1e7bf08dfcf4b5da7_gt.jpg",
+   "size": [
+    629,
+    593
+   ]
+  },
+  {
+   "name": "prcv_74e8fc11e6c45942806dc69586896daa",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_74e8fc11e6c45942806dc69586896daa_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_74e8fc11e6c45942806dc69586896daa_gt.jpg",
+   "size": [
+    553,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_7a54f29fe91c25abcb2c1662c04a848d",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_7a54f29fe91c25abcb2c1662c04a848d_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_7a54f29fe91c25abcb2c1662c04a848d_gt.jpg",
+   "size": [
+    851,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_7b26c0b3be028ccf27d28d9f6e846d83",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_7b26c0b3be028ccf27d28d9f6e846d83_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_7b26c0b3be028ccf27d28d9f6e846d83_gt.jpg",
+   "size": [
+    575,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_7db1946fedd55c062c157ba22d29945c",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_7db1946fedd55c062c157ba22d29945c_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_7db1946fedd55c062c157ba22d29945c_gt.jpg",
+   "size": [
+    434,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_80d72741e3128226fb615fba6590a83c",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_80d72741e3128226fb615fba6590a83c_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_80d72741e3128226fb615fba6590a83c_gt.jpg",
+   "size": [
+    995,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_81a55740768c946f676584595d128958",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_81a55740768c946f676584595d128958_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_81a55740768c946f676584595d128958_gt.jpg",
+   "size": [
+    772,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_82ae7b881e2d3c69f10a1547e2e1be3d",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_82ae7b881e2d3c69f10a1547e2e1be3d_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_82ae7b881e2d3c69f10a1547e2e1be3d_gt.jpg",
+   "size": [
+    574,
+    714
+   ]
+  },
+  {
+   "name": "prcv_82bc1c1e78a8ced3b3798d67092e14f4",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_82bc1c1e78a8ced3b3798d67092e14f4_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_82bc1c1e78a8ced3b3798d67092e14f4_gt.jpg",
+   "size": [
+    1024,
+    947
+   ]
+  },
+  {
+   "name": "prcv_82e4b1b02eed5b2f00f1812573010e3d",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_82e4b1b02eed5b2f00f1812573010e3d_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_82e4b1b02eed5b2f00f1812573010e3d_gt.jpg",
+   "size": [
+    945,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_86f7623a74db8d68cc6d01d2b2ac9c8d",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_86f7623a74db8d68cc6d01d2b2ac9c8d_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_86f7623a74db8d68cc6d01d2b2ac9c8d_gt.jpg",
+   "size": [
+    744,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_88137e67af51ebb991d634c896d594c8",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_88137e67af51ebb991d634c896d594c8_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_88137e67af51ebb991d634c896d594c8_gt.jpg",
+   "size": [
+    471,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_8ba28546166dcd26b267b5a29272a076",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_8ba28546166dcd26b267b5a29272a076_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_8ba28546166dcd26b267b5a29272a076_gt.jpg",
+   "size": [
+    681,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_8d5c13c1d535831a0f848e384c23b5eb",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_8d5c13c1d535831a0f848e384c23b5eb_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_8d5c13c1d535831a0f848e384c23b5eb_gt.jpg",
+   "size": [
+    734,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_9c8e748682be7bf4b8f4dc07264bbbcf",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_9c8e748682be7bf4b8f4dc07264bbbcf_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_9c8e748682be7bf4b8f4dc07264bbbcf_gt.jpg",
+   "size": [
+    433,
+    889
+   ]
+  },
+  {
+   "name": "prcv_9dca0fed050fc118ab37f8b31ec8fbca",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_9dca0fed050fc118ab37f8b31ec8fbca_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_9dca0fed050fc118ab37f8b31ec8fbca_gt.jpg",
+   "size": [
+    828,
+    720
+   ]
+  },
+  {
+   "name": "prcv_9fc3dbb7521fba43e754719ea60452f5",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_9fc3dbb7521fba43e754719ea60452f5_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_9fc3dbb7521fba43e754719ea60452f5_gt.jpg",
+   "size": [
+    1024,
+    982
+   ]
+  },
+  {
+   "name": "prcv_a5206003a5178bb661ad7c42a1682de3",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_a5206003a5178bb661ad7c42a1682de3_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_a5206003a5178bb661ad7c42a1682de3_gt.jpg",
+   "size": [
+    551,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_b0ff41bf70243a4d65eab83bd4ea57b2",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_b0ff41bf70243a4d65eab83bd4ea57b2_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_b0ff41bf70243a4d65eab83bd4ea57b2_gt.jpg",
+   "size": [
+    693,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_b808b59b1c58de7f3a09560587e7a63b",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_b808b59b1c58de7f3a09560587e7a63b_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_b808b59b1c58de7f3a09560587e7a63b_gt.jpg",
+   "size": [
+    455,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_c2d1887fb631077b1c7e76b0171ccf91",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_c2d1887fb631077b1c7e76b0171ccf91_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_c2d1887fb631077b1c7e76b0171ccf91_gt.jpg",
+   "size": [
+    793,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_cdfdd0bf8e7f3d4233295e7cc07bbdd9",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_cdfdd0bf8e7f3d4233295e7cc07bbdd9_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_cdfdd0bf8e7f3d4233295e7cc07bbdd9_gt.jpg",
+   "size": [
+    493,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_d1bf994629de0278f49af22f5f5c95bc",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_d1bf994629de0278f49af22f5f5c95bc_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_d1bf994629de0278f49af22f5f5c95bc_gt.jpg",
+   "size": [
+    779,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_df14265eb31eecd889fd7831db309b46",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_df14265eb31eecd889fd7831db309b46_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_df14265eb31eecd889fd7831db309b46_gt.jpg",
+   "size": [
+    670,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_e7d7e094c72ac4cdcb27d78343a1b607",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_e7d7e094c72ac4cdcb27d78343a1b607_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_e7d7e094c72ac4cdcb27d78343a1b607_gt.jpg",
+   "size": [
+    688,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_ebacaf5fbe28dab57909c21fc5f12a19",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_ebacaf5fbe28dab57909c21fc5f12a19_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_ebacaf5fbe28dab57909c21fc5f12a19_gt.jpg",
+   "size": [
+    505,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_ebb09dcf8542497b7b8aa5d2895aaca5",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_ebb09dcf8542497b7b8aa5d2895aaca5_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_ebb09dcf8542497b7b8aa5d2895aaca5_gt.jpg",
+   "size": [
+    1024,
+    976
+   ]
+  },
+  {
+   "name": "prcv_f000044029b90bf39145c4844115e729",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_f000044029b90bf39145c4844115e729_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_f000044029b90bf39145c4844115e729_gt.jpg",
+   "size": [
+    681,
+    901
+   ]
+  },
+  {
+   "name": "prcv_f09d9a6c6e4313661c0568f3dba08da0",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_f09d9a6c6e4313661c0568f3dba08da0_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_f09d9a6c6e4313661c0568f3dba08da0_gt.jpg",
+   "size": [
+    500,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_f8e20402f17848206ef9e7a42db1da7b",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_f8e20402f17848206ef9e7a42db1da7b_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_f8e20402f17848206ef9e7a42db1da7b_gt.jpg",
+   "size": [
+    394,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_jiaoyan_135_1",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_jiaoyan_135_1_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_jiaoyan_135_1_gt.jpg",
+   "size": [
+    410,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_jj_14590_1",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_jj_14590_1_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_jj_14590_1_gt.jpg",
+   "size": [
+    289,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_jj_1529239250163765623511_1",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_jj_1529239250163765623511_1_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_jj_1529239250163765623511_1_gt.jpg",
+   "size": [
+    352,
+    1013
+   ]
+  },
+  {
+   "name": "prcv_jj_1529926994738190153466_4",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_jj_1529926994738190153466_4_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_jj_1529926994738190153466_4_gt.jpg",
+   "size": [
+    208,
+    864
+   ]
+  },
+  {
+   "name": "prcv_jj_1530103257719339467029_1",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_jj_1530103257719339467029_1_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_jj_1530103257719339467029_1_gt.jpg",
+   "size": [
+    240,
+    598
+   ]
+  },
+  {
+   "name": "prcv_jj_1530189507574074257511_1",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_jj_1530189507574074257511_1_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_jj_1530189507574074257511_1_gt.jpg",
+   "size": [
+    164,
+    890
+   ]
+  },
+  {
+   "name": "prcv_jj_161_1",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_jj_161_1_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_jj_161_1_gt.jpg",
+   "size": [
+    538,
+    826
+   ]
+  },
+  {
+   "name": "prcv_jj_20390_1",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_jj_20390_1_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_jj_20390_1_gt.jpg",
+   "size": [
+    281,
+    777
+   ]
+  },
+  {
+   "name": "prcv_shijuan_0000323_2",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_shijuan_0000323_2_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_shijuan_0000323_2_gt.jpg",
+   "size": [
+    202,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_shijuan_0001012_3",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_shijuan_0001012_3_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_shijuan_0001012_3_gt.jpg",
+   "size": [
+    174,
+    1024
+   ]
+  },
+  {
+   "name": "prcv_souti_1696-_1",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_souti_1696-_1_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_souti_1696-_1_gt.jpg",
+   "size": [
+    216,
+    833
+   ]
+  },
+  {
+   "name": "prcv_souti_3011-_2",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/prcv_souti_3011-_2_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/prcv_souti_3011-_2_gt.jpg",
+   "size": [
+    512,
+    626
+   ]
+  },
+  {
+   "name": "prcv_souti_4254-_1",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/prcv_souti_4254-_1_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/prcv_souti_4254-_1_gt.jpg",
+   "size": [
+    373,
+    808
+   ]
+  },
+  {
+   "name": "selfcollect_1_122",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_shadow_train/selfcollect_1_122_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/selfcollect_1_122_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "selfcollect_1_140",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/selfcollect_1_140_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/selfcollect_1_140_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "selfcollect_1_141",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/selfcollect_1_141_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/selfcollect_1_141_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "selfcollect_1_145",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/selfcollect_1_145_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/selfcollect_1_145_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "selfcollect_2_133",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/selfcollect_2_133_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/selfcollect_2_133_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "selfcollect_2_141",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/selfcollect_2_141_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/selfcollect_2_141_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "selfcollect_2_148",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_shadow_train/selfcollect_2_148_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/selfcollect_2_148_gt.jpg",
+   "size": [
+    1024,
+    754
+   ]
+  },
+  {
+   "name": "selfcollect_2_150",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/selfcollect_2_150_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/selfcollect_2_150_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "selfcollect_IMG_2782",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/selfcollect_IMG_2782_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/selfcollect_IMG_2782_gt.jpg",
+   "size": [
+    768,
+    1024
+   ]
+  },
+  {
+   "name": "selfcollect_IMG_2788",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/selfcollect_IMG_2788_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/selfcollect_IMG_2788_gt.jpg",
+   "size": [
+    768,
+    1024
+   ]
+  },
+  {
+   "name": "web_15872613220_1318b0b568_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_15872613220_1318b0b568_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_15872613220_1318b0b568_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "web_16001964272_abcfabd734_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_16001964272_abcfabd734_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_16001964272_abcfabd734_o_gt.jpg",
+   "size": [
+    667,
+    1000
+   ]
+  },
+  {
+   "name": "web_16165680822_3149c2f38e_3k",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_16165680822_3149c2f38e_3k_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_16165680822_3149c2f38e_3k_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "web_16265090267_ed6c233c34_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_16265090267_ed6c233c34_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_16265090267_ed6c233c34_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "web_16593058004_d104caaf91_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_16593058004_d104caaf91_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_16593058004_d104caaf91_o_gt.jpg",
+   "size": [
+    1024,
+    778
+   ]
+  },
+  {
+   "name": "web_17029323659_5df9692390_k",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_17029323659_5df9692390_k_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_17029323659_5df9692390_k_gt.jpg",
+   "size": [
+    1024,
+    772
+   ]
+  },
+  {
+   "name": "web_19301011838_9a274421cb_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_19301011838_9a274421cb_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_19301011838_9a274421cb_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "web_20549783179_1e3fe15669_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_20549783179_1e3fe15669_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_20549783179_1e3fe15669_o_gt.jpg",
+   "size": [
+    1024,
+    719
+   ]
+  },
+  {
+   "name": "web_20563366846_4bcfa31e59_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_20563366846_4bcfa31e59_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_20563366846_4bcfa31e59_o_gt.jpg",
+   "size": [
+    1024,
+    804
+   ]
+  },
+  {
+   "name": "web_20760969964_947574c36c_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_20760969964_947574c36c_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_20760969964_947574c36c_o_gt.jpg",
+   "size": [
+    1024,
+    897
+   ]
+  },
+  {
+   "name": "web_20987103739_d6e75189f6_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_20987103739_d6e75189f6_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_20987103739_d6e75189f6_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "web_21243001025_7ffe23f77d_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_21243001025_7ffe23f77d_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_21243001025_7ffe23f77d_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "web_24120342784_2fbc744786_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_24120342784_2fbc744786_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_24120342784_2fbc744786_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "web_24324403830_6c745ca385_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_24324403830_6c745ca385_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_24324403830_6c745ca385_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "web_24630712432_450b3d2162_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_24630712432_450b3d2162_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_24630712432_450b3d2162_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "web_25235339341_5ee06744fc_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_25235339341_5ee06744fc_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_25235339341_5ee06744fc_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "web_28954999291_1b90ed8feb_k",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/web_28954999291_1b90ed8feb_k_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/web_28954999291_1b90ed8feb_k_gt.jpg",
+   "size": [
+    1024,
+    1024
+   ]
+  },
+  {
+   "name": "web_29425591543_296588df2f_o",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_shadow_train/web_29425591543_296588df2f_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_29425591543_296588df2f_o_gt.jpg",
+   "size": [
+    1024,
+    821
+   ]
+  },
+  {
+   "name": "web_29758567750_d47aa32a49_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_29758567750_d47aa32a49_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_29758567750_d47aa32a49_o_gt.jpg",
+   "size": [
+    1024,
+    798
+   ]
+  },
+  {
+   "name": "web_29958588413_4c7ce7b969_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_29958588413_4c7ce7b969_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_29958588413_4c7ce7b969_o_gt.jpg",
+   "size": [
+    1024,
+    647
+   ]
+  },
+  {
+   "name": "web_30018357956_83e3bc0d7e_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_30018357956_83e3bc0d7e_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_30018357956_83e3bc0d7e_o_gt.jpg",
+   "size": [
+    1024,
+    908
+   ]
+  },
+  {
+   "name": "web_30519295334_80514910d3_o",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_shadow_train/web_30519295334_80514910d3_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_30519295334_80514910d3_o_gt.jpg",
+   "size": [
+    1024,
+    710
+   ]
+  },
+  {
+   "name": "web_31148218843_9d55b3c743_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_31148218843_9d55b3c743_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_31148218843_9d55b3c743_o_gt.jpg",
+   "size": [
+    1024,
+    576
+   ]
+  },
+  {
+   "name": "web_31197620362_9442dd74a2_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_31197620362_9442dd74a2_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_31197620362_9442dd74a2_o_gt.jpg",
+   "size": [
+    623,
+    1024
+   ]
+  },
+  {
+   "name": "web_31277437226_094bc9dcdd_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_31277437226_094bc9dcdd_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_31277437226_094bc9dcdd_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "web_31490595836_39ee6bbf6c_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_31490595836_39ee6bbf6c_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_31490595836_39ee6bbf6c_o_gt.jpg",
+   "size": [
+    1024,
+    595
+   ]
+  },
+  {
+   "name": "web_31569462683_82ce65361a_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_31569462683_82ce65361a_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_31569462683_82ce65361a_o_gt.jpg",
+   "size": [
+    1024,
+    850
+   ]
+  },
+  {
+   "name": "web_31957417405_728d6aa97f_k",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_31957417405_728d6aa97f_k_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_31957417405_728d6aa97f_k_gt.jpg",
+   "size": [
+    1024,
+    663
+   ]
+  },
+  {
+   "name": "web_5622485860_07d9b4756b_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/web_5622485860_07d9b4756b_o_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/web_5622485860_07d9b4756b_o_gt.jpg",
+   "size": [
+    707,
+    1024
+   ]
+  },
+  {
+   "name": "web_6214502162_78e07fef9f_o",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_shadow_train/web_6214502162_78e07fef9f_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_6214502162_78e07fef9f_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "web_8322167372_0a2c83c930_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/web_8322167372_0a2c83c930_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/web_8322167372_0a2c83c930_o_gt.jpg",
+   "size": [
+    1024,
+    888
+   ]
+  },
+  {
+   "name": "webnosource_12341472483_b591914116_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_12341472483_b591914116_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_12341472483_b591914116_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "webnosource_13627838543_ecbb3f5242_o",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_13627838543_ecbb3f5242_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_13627838543_ecbb3f5242_o_gt.jpg",
+   "size": [
+    765,
+    1024
+   ]
+  },
+  {
+   "name": "webnosource_13627907445_090a640b0b_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_13627907445_090a640b0b_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_13627907445_090a640b0b_o_gt.jpg",
+   "size": [
+    1024,
+    765
+   ]
+  },
+  {
+   "name": "webnosource_14526529015_ddfc42c8d7_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_14526529015_ddfc42c8d7_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_14526529015_ddfc42c8d7_o_gt.jpg",
+   "size": [
+    1024,
+    681
+   ]
+  },
+  {
+   "name": "webnosource_15407749067_6f90656d43_o",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_15407749067_6f90656d43_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_15407749067_6f90656d43_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "webnosource_15566191017_e8a4b37191_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_15566191017_e8a4b37191_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_15566191017_e8a4b37191_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "webnosource_15680561933_ee85a9abe3_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_15680561933_ee85a9abe3_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_15680561933_ee85a9abe3_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "webnosource_21383122083_2c4565d4a8_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_21383122083_2c4565d4a8_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_21383122083_2c4565d4a8_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "webnosource_21383547863_1f494382af_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_21383547863_1f494382af_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_21383547863_1f494382af_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "webnosource_21884980583_61cc253d37_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_21884980583_61cc253d37_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_21884980583_61cc253d37_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "webnosource_22094400315_461aae0095_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_22094400315_461aae0095_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_22094400315_461aae0095_o_gt.jpg",
+   "size": [
+    1024,
+    576
+   ]
+  },
+  {
+   "name": "webnosource_22517283931_b685152a2a_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_22517283931_b685152a2a_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_22517283931_b685152a2a_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "webnosource_22753685890_6d8b72123d_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_22753685890_6d8b72123d_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_22753685890_6d8b72123d_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "webnosource_22835607893_30ef98f0bf_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_22835607893_30ef98f0bf_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_22835607893_30ef98f0bf_o_gt.jpg",
+   "size": [
+    1024,
+    576
+   ]
+  },
+  {
+   "name": "webnosource_24241471751_8f96cd842a_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_24241471751_8f96cd842a_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_24241471751_8f96cd842a_o_gt.jpg",
+   "size": [
+    825,
+    1024
+   ]
+  },
+  {
+   "name": "webnosource_24938122526_781ff6b0c8_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_bleed_train/webnosource_24938122526_781ff6b0c8_o_in.jpg",
+   "gt": "/content/realdae_raw/task_bleed_train/webnosource_24938122526_781ff6b0c8_o_gt.jpg",
+   "size": [
+    576,
+    1024
+   ]
+  },
+  {
+   "name": "webnosource_25613233951_b8dfc029ea_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_25613233951_b8dfc029ea_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_25613233951_b8dfc029ea_o_gt.jpg",
+   "size": [
+    1000,
+    750
+   ]
+  },
+  {
+   "name": "webnosource_2618301143_4271780bf6_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_2618301143_4271780bf6_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_2618301143_4271780bf6_o_gt.jpg",
+   "size": [
+    768,
+    1024
+   ]
+  },
+  {
+   "name": "webnosource_26322678061_8c7a06341c_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_26322678061_8c7a06341c_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_26322678061_8c7a06341c_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "webnosource_26607940250_b56c933258_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_26607940250_b56c933258_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_26607940250_b56c933258_o_gt.jpg",
+   "size": [
+    947,
+    1024
+   ]
+  },
+  {
+   "name": "webnosource_29549207876_24c8cabe62_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_29549207876_24c8cabe62_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_29549207876_24c8cabe62_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "webnosource_29604620433_b9cfc7d730_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_29604620433_b9cfc7d730_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_29604620433_b9cfc7d730_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "webnosource_30192282265_fe2e6c85f1_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_30192282265_fe2e6c85f1_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_30192282265_fe2e6c85f1_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "webnosource_30638977774_9c03524e61_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_30638977774_9c03524e61_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_30638977774_9c03524e61_o_gt.jpg",
+   "size": [
+    1024,
+    617
+   ]
+  },
+  {
+   "name": "webnosource_30663417283_5de17b029f_o",
+   "split": "val",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_30663417283_5de17b029f_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_30663417283_5de17b029f_o_gt.jpg",
+   "size": [
+    1024,
+    577
+   ]
+  },
+  {
+   "name": "webnosource_30718951032_43ee154e5a_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_30718951032_43ee154e5a_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_30718951032_43ee154e5a_o_gt.jpg",
+   "size": [
+    768,
+    1024
+   ]
+  },
+  {
+   "name": "webnosource_31197608692_12a279c1c2_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_31197608692_12a279c1c2_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_31197608692_12a279c1c2_o_gt.jpg",
+   "size": [
+    1024,
+    964
+   ]
+  },
+  {
+   "name": "webnosource_6034100570_b3ed65d4d6_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_6034100570_b3ed65d4d6_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_6034100570_b3ed65d4d6_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "webnosource_6459672349_fcfe56ff01_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_6459672349_fcfe56ff01_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_6459672349_fcfe56ff01_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "webnosource_7176138083_77c36f5e36_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_7176138083_77c36f5e36_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_7176138083_77c36f5e36_o_gt.jpg",
+   "size": [
+    1024,
+    765
+   ]
+  },
+  {
+   "name": "webnosource_7414809334_7ac1744f27_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_7414809334_7ac1744f27_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_7414809334_7ac1744f27_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "webnosource_8283491375_c11c92ec08_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_8283491375_c11c92ec08_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_8283491375_c11c92ec08_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "webnosource_8283497277_0e286230f9_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_8283497277_0e286230f9_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_8283497277_0e286230f9_o_gt.jpg",
+   "size": [
+    768,
+    1024
+   ]
+  },
+  {
+   "name": "webnosource_8284529580_c91cfd0a01_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_8284529580_c91cfd0a01_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_8284529580_c91cfd0a01_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  },
+  {
+   "name": "webnosource_8284536436_94fd7294a8_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_8284536436_94fd7294a8_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_8284536436_94fd7294a8_o_gt.jpg",
+   "size": [
+    768,
+    1024
+   ]
+  },
+  {
+   "name": "webnosource_8349823233_c380af6ea5_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_8349823233_c380af6ea5_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_8349823233_c380af6ea5_o_gt.jpg",
+   "size": [
+    768,
+    1024
+   ]
+  },
+  {
+   "name": "webnosource_8463239326_70da89ed54_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_8463239326_70da89ed54_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_8463239326_70da89ed54_o_gt.jpg",
+   "size": [
+    612,
+    612
+   ]
+  },
+  {
+   "name": "webnosource_9740150118_bbdb27270a_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_9740150118_bbdb27270a_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_9740150118_bbdb27270a_o_gt.jpg",
+   "size": [
+    768,
+    1024
+   ]
+  },
+  {
+   "name": "webnosource_9878351315_3eae8dd42f_o",
+   "split": "train",
+   "inp": "/content/realdae_raw/task_shadow_train/webnosource_9878351315_3eae8dd42f_o_in.jpg",
+   "gt": "/content/realdae_raw/task_shadow_train/webnosource_9878351315_3eae8dd42f_o_gt.jpg",
+   "size": [
+    1024,
+    768
+   ]
+  }
+ ]
+}

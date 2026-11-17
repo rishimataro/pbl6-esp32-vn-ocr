@@ -1,0 +1,130 @@
+{
+ "ocr": {
+  "esp_raw": {
+   "all": {
+    "lines": 317,
+    "cer": 0.2102,
+    "wer": 0.4286,
+    "cer_no_accent": 0.1717
+   },
+   "good": {
+    "lines": 269,
+    "cer": 0.1972,
+    "wer": 0.4203,
+    "cer_no_accent": 0.1579
+   },
+   "medium": {
+    "lines": 48,
+    "cer": 0.2704,
+    "wer": 0.4676,
+    "cer_no_accent": 0.2356
+   },
+   "seconds": 353.2
+  },
+  "esp_1a": {
+   "all": {
+    "lines": 317,
+    "cer": 0.1978,
+    "wer": 0.4338,
+    "cer_no_accent": 0.1586
+   },
+   "good": {
+    "lines": 269,
+    "cer": 0.1828,
+    "wer": 0.4228,
+    "cer_no_accent": 0.144
+   },
+   "medium": {
+    "lines": 48,
+    "cer": 0.2672,
+    "wer": 0.4848,
+    "cer_no_accent": 0.2265
+   },
+   "seconds": 211.8
+  },
+  "m4_nafnet_all": {
+   "all": {
+    "lines": 317,
+    "cer": 0.1374,
+    "wer": 0.3752,
+    "cer_no_accent": 0.0866
+   },
+   "good": {
+    "lines": 269,
+    "cer": 0.1245,
+    "wer": 0.3594,
+    "cer_no_accent": 0.0737
+   },
+   "medium": {
+    "lines": 48,
+    "cer": 0.1969,
+    "wer": 0.4491,
+    "cer_no_accent": 0.1464
+   },
+   "seconds": 312.7
+  },
+  "m2_unet_all": {
+   "all": {
+    "lines": 317,
+    "cer": 0.1435,
+    "wer": 0.3719,
+    "cer_no_accent": 0.1027
+   },
+   "good": {
+    "lines": 269,
+    "cer": 0.1315,
+    "wer": 0.3571,
+    "cer_no_accent": 0.0904
+   },
+   "medium": {
+    "lines": 48,
+    "cer": 0.199,
+    "wer": 0.4412,
+    "cer_no_accent": 0.1597
+   },
+   "seconds": 201.8
+  },
+  "r0_nafnet_esp": {
+   "all": {
+    "lines": 317,
+    "cer": 0.1241,
+    "wer": 0.361,
+    "cer_no_accent": 0.0712
+   },
+   "good": {
+    "lines": 269,
+    "cer": 0.1134,
+    "wer": 0.3492,
+    "cer_no_accent": 0.06
+   },
+   "medium": {
+    "lines": 48,
+    "cer": 0.1737,
+    "wer": 0.4161,
+    "cer_no_accent": 0.1231
+   },
+   "seconds": 198.5
+  },
+  "scan": {
+   "all": {
+    "lines": 317,
+    "cer": 0.0275,
+    "wer": 0.0537,
+    "cer_no_accent": 0.0259
+   },
+   "good": {
+    "lines": 269,
+    "cer": 0.0227,
+    "wer": 0.0482,
+    "cer_no_accent": 0.0213
+   },
+   "medium": {
+    "lines": 48,
+    "cer": 0.0497,
+    "wer": 0.0793,
+    "cer_no_accent": 0.0468
+   },
+   "seconds": 202.4
+  }
+ }
+}

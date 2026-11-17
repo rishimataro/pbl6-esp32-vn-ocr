@@ -1,0 +1,9 @@
+# Code trong src/ (nâng chất lượng ảnh). Phiên bản đã dùng trên máy: torch 2.5.1 (CPU), opencv 4.10, numpy 1.26.
+# Trên Colab: torch có sẵn (đã chạy với 2.14.1+cu130), chỉ cần cài thêm lpips.
+torch>=2.1
+numpy>=1.24
+opencv-python>=4.8
+lpips>=0.1.4          # chỉ số LPIPS (eval_sets.py --lpips)
+# Tạo dữ liệu ESP32 từ PDF và đo CER (n1_align.py, n2_build_data.py, n2_eval.py)
+pypdfium2>=4.0
+vietocr==0.3.13

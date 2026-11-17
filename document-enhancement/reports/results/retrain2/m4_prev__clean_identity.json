@@ -1,0 +1,382 @@
+{
+ "set": "/content/clean_identity",
+ "method": "model",
+ "ckpt": "/content/drive/MyDrive/PBL6/checkpoints/retrain/m4_nafnet_all/best.pt",
+ "params": 6816611,
+ "tile": 0,
+ "device": "cuda",
+ "groups": {
+  ".": {
+   "n": 60,
+   "mean": {
+    "psnr": 28.3983,
+    "ssim": 0.977,
+    "lpips": 0.0321
+   },
+   "sec_per_image": 0.059,
+   "resized": 0,
+   "images": [
+    {
+     "name": "506.png",
+     "psnr": 27.6918,
+     "ssim": 0.9803,
+     "lpips": 0.02528
+    },
+    {
+     "name": "516.png",
+     "psnr": 28.6042,
+     "ssim": 0.98509,
+     "lpips": 0.01574
+    },
+    {
+     "name": "517.png",
+     "psnr": 29.3188,
+     "ssim": 0.98433,
+     "lpips": 0.01509
+    },
+    {
+     "name": "530.png",
+     "psnr": 28.4324,
+     "ssim": 0.98784,
+     "lpips": 0.01898
+    },
+    {
+     "name": "534.png",
+     "psnr": 26.3022,
+     "ssim": 0.97603,
+     "lpips": 0.02787
+    },
+    {
+     "name": "540.png",
+     "psnr": 29.9492,
+     "ssim": 0.98144,
+     "lpips": 0.01809
+    },
+    {
+     "name": "602.png",
+     "psnr": 29.0073,
+     "ssim": 0.98457,
+     "lpips": 0.0227
+    },
+    {
+     "name": "638.png",
+     "psnr": 28.5393,
+     "ssim": 0.97375,
+     "lpips": 0.04446
+    },
+    {
+     "name": "670.png",
+     "psnr": 29.1548,
+     "ssim": 0.98233,
+     "lpips": 0.02638
+    },
+    {
+     "name": "687.png",
+     "psnr": 27.1243,
+     "ssim": 0.97133,
+     "lpips": 0.02443
+    },
+    {
+     "name": "696.png",
+     "psnr": 28.5231,
+     "ssim": 0.97236,
+     "lpips": 0.0277
+    },
+    {
+     "name": "708.png",
+     "psnr": 25.4915,
+     "ssim": 0.96618,
+     "lpips": 0.03135
+    },
+    {
+     "name": "712.png",
+     "psnr": 27.4902,
+     "ssim": 0.9842,
+     "lpips": 0.01964
+    },
+    {
+     "name": "717.png",
+     "psnr": 28.103,
+     "ssim": 0.9473,
+     "lpips": 0.04034
+    },
+    {
+     "name": "754.png",
+     "psnr": 27.7229,
+     "ssim": 0.96909,
+     "lpips": 0.01792
+    },
+    {
+     "name": "759.png",
+     "psnr": 28.8055,
+     "ssim": 0.97343,
+     "lpips": 0.02139
+    },
+    {
+     "name": "770.png",
+     "psnr": 27.818,
+     "ssim": 0.98007,
+     "lpips": 0.01633
+    },
+    {
+     "name": "771.png",
+     "psnr": 24.3314,
+     "ssim": 0.95255,
+     "lpips": 0.04474
+    },
+    {
+     "name": "775.png",
+     "psnr": 24.8643,
+     "ssim": 0.97849,
+     "lpips": 0.02175
+    },
+    {
+     "name": "783.png",
+     "psnr": 26.9364,
+     "ssim": 0.9782,
+     "lpips": 0.02328
+    },
+    {
+     "name": "811.png",
+     "psnr": 25.9375,
+     "ssim": 0.97178,
+     "lpips": 0.02381
+    },
+    {
+     "name": "834.png",
+     "psnr": 28.1482,
+     "ssim": 0.97955,
+     "lpips": 0.03782
+    },
+    {
+     "name": "837.png",
+     "psnr": 29.1712,
+     "ssim": 0.97477,
+     "lpips": 0.03082
+    },
+    {
+     "name": "840.png",
+     "psnr": 25.4758,
+     "ssim": 0.97741,
+     "lpips": 0.03211
+    },
+    {
+     "name": "843.png",
+     "psnr": 26.9061,
+     "ssim": 0.9715,
+     "lpips": 0.0406
+    },
+    {
+     "name": "849.png",
+     "psnr": 24.7184,
+     "ssim": 0.9694,
+     "lpips": 0.05394
+    },
+    {
+     "name": "880.png",
+     "psnr": 31.4944,
+     "ssim": 0.98697,
+     "lpips": 0.01349
+    },
+    {
+     "name": "926.png",
+     "psnr": 29.5117,
+     "ssim": 0.98478,
+     "lpips": 0.01039
+    },
+    {
+     "name": "927.png",
+     "psnr": 30.1698,
+     "ssim": 0.98428,
+     "lpips": 0.0148
+    },
+    {
+     "name": "959.png",
+     "psnr": 26.8664,
+     "ssim": 0.95771,
+     "lpips": 0.04342
+    },
+    {
+     "name": "970.png",
+     "psnr": 18.4999,
+     "ssim": 0.91078,
+     "lpips": 0.19391
+    },
+    {
+     "name": "972.png",
+     "psnr": 20.2088,
+     "ssim": 0.92814,
+     "lpips": 0.21347
+    },
+    {
+     "name": "973.png",
+     "psnr": 30.4673,
+     "ssim": 0.98991,
+     "lpips": 0.01323
+    },
+    {
+     "name": "974.png",
+     "psnr": 29.9257,
+     "ssim": 0.9781,
+     "lpips": 0.01741
+    },
+    {
+     "name": "975.png",
+     "psnr": 30.0796,
+     "ssim": 0.97743,
+     "lpips": 0.02305
+    },
+    {
+     "name": "976.png",
+     "psnr": 27.1846,
+     "ssim": 0.97586,
+     "lpips": 0.0212
+    },
+    {
+     "name": "977.png",
+     "psnr": 27.8914,
+     "ssim": 0.98008,
+     "lpips": 0.0495
+    },
+    {
+     "name": "978.png",
+     "psnr": 29.0858,
+     "ssim": 0.97918,
+     "lpips": 0.02277
+    },
+    {
+     "name": "980.png",
+     "psnr": 32.1674,
+     "ssim": 0.9902,
+     "lpips": 0.02181
+    },
+    {
+     "name": "982.png",
+     "psnr": 25.4568,
+     "ssim": 0.97581,
+     "lpips": 0.05776
+    },
+    {
+     "name": "983.png",
+     "psnr": 33.0816,
+     "ssim": 0.992,
+     "lpips": 0.01022
+    },
+    {
+     "name": "986.png",
+     "psnr": 28.6033,
+     "ssim": 0.98547,
+     "lpips": 0.0168
+    },
+    {
+     "name": "987.png",
+     "psnr": 29.8079,
+     "ssim": 0.98597,
+     "lpips": 0.01825
+    },
+    {
+     "name": "988.png",
+     "psnr": 26.0261,
+     "ssim": 0.9682,
+     "lpips": 0.03893
+    },
+    {
+     "name": "989.png",
+     "psnr": 26.7114,
+     "ssim": 0.97355,
+     "lpips": 0.02831
+    },
+    {
+     "name": "992.png",
+     "psnr": 25.2002,
+     "ssim": 0.97033,
+     "lpips": 0.07652
+    },
+    {
+     "name": "994.png",
+     "psnr": 31.1045,
+     "ssim": 0.99212,
+     "lpips": 0.01176
+    },
+    {
+     "name": "995.png",
+     "psnr": 21.9092,
+     "ssim": 0.97446,
+     "lpips": 0.09069
+    },
+    {
+     "name": "996.png",
+     "psnr": 32.343,
+     "ssim": 0.98306,
+     "lpips": 0.00963
+    },
+    {
+     "name": "999.png",
+     "psnr": 25.8333,
+     "ssim": 0.97409,
+     "lpips": 0.03612
+    },
+    {
+     "name": "ACCV2016_11.png",
+     "psnr": 33.7888,
+     "ssim": 0.99122,
+     "lpips": 0.01694
+    },
+    {
+     "name": "ACCV2016_14.png",
+     "psnr": 31.0205,
+     "ssim": 0.99452,
+     "lpips": 0.0141
+    },
+    {
+     "name": "cmdd_planar_surface16.png",
+     "psnr": 32.3909,
+     "ssim": 0.99572,
+     "lpips": 0.00659
+    },
+    {
+     "name": "cmdd_planar_surface21.png",
+     "psnr": 35.1737,
+     "ssim": 0.99635,
+     "lpips": 0.00449
+    },
+    {
+     "name": "docunet_10_1copy.png",
+     "psnr": 28.6066,
+     "ssim": 0.98935,
+     "lpips": 0.01973
+    },
+    {
+     "name": "docunet_2_1copy.png",
+     "psnr": 29.6387,
+     "ssim": 0.99389,
+     "lpips": 0.00666
+    },
+    {
+     "name": "docunet_2_2copy.png",
+     "psnr": 32.3437,
+     "ssim": 0.97306,
+     "lpips": 0.02324
+    },
+    {
+     "name": "docunet_31_1copy.png",
+     "psnr": 29.0574,
+     "ssim": 0.98914,
+     "lpips": 0.01294
+    },
+    {
+     "name": "docunet_50_2copy.png",
+     "psnr": 36.8921,
+     "ssim": 0.98787,
+     "lpips": 0.0064
+    },
+    {
+     "name": "ocrreal_00017.png",
+     "psnr": 30.79,
+     "ssim": 0.95681,
+     "lpips": 0.03822
+    }
+   ]
+  }
+ }
+}
