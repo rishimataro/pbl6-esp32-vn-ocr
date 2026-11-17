@@ -1,6 +1,6 @@
 # Báo cáo PBL6: Nâng chất lượng ảnh tài liệu chụp trong điều kiện xấu
 
-Ngày 17/11/2026. Mọi số liệu lấy từ các tệp trong `reports/results/`; nhật ký chạy ở `docs/NHAT_KY_TRAIN_LAI.md`, mã nguồn ở `src/`, notebook kết quả ở `notebooks/PBL6_Ket_qua_retrain.ipynb`.
+Ngày 17/11/2026. Mọi số liệu lấy từ các tệp trong `reports/results/`; nhật ký chạy ở `docs/NHAT_KY_TRAIN_LAI.md`, mã nguồn ở `src/`, notebook kết quả ở `notebooks/PBL6_Ket_qua_retrain.ipynb`. Các thuật ngữ và chỉ số được định nghĩa ở Phụ lục C.
 
 ## Tóm tắt
 
@@ -510,3 +510,116 @@ python notebooks/make_retrain_notebook.py
 | `reports/results/` | kết quả JSON, CSV, SUMMARY của từng tập |
 | `notebooks/PBL6_Ket_qua_retrain.ipynb` | notebook kết quả có đầu ra |
 | `docs/NHAT_KY_TRAIN_LAI.md` | nhật ký chạy, sự cố, bảng đầy đủ |
+
+## Phụ lục C. Bảng thuật ngữ
+
+Các thuật ngữ được xếp theo nhóm. Cột phải ghi mục đầu tiên dùng đến thuật ngữ đó.
+
+### C.1. Bài toán và dữ liệu
+
+| Thuật ngữ | Định nghĩa | Mục |
+|---|---|---|
+| Nâng chất lượng ảnh tài liệu | Biến ảnh chụp một trang giấy trong điều kiện xấu thành ảnh sạch giống ảnh scan: sáng đều, nền trắng, chữ rõ. | 1 |
+| Ảnh vào, ảnh ra, ảnh chuẩn | Ảnh vào là ảnh bị hỏng đưa cho model; ảnh ra là kết quả của model; ảnh chuẩn (ground truth) là ảnh sạch dùng làm đáp án để so sánh. | 2 |
+| Thiếu sáng (`lowlight`) | Ảnh tối do ánh sáng yếu hoặc thời gian phơi sáng ngắn. | 2.2 |
+| Sáng không đều, bóng đổ (`shading`) | Ánh sáng chiếu lên giấy không đồng đều, hoặc có bóng của tay hay vật che. Vignette là hiện tượng góc ảnh tối hơn tâm. | 2.2 |
+| Ám màu (`color`) | Cả ảnh bị lệch về một màu (thường xanh hoặc vàng) do đèn hoặc camera. | 2.2 |
+| Nhiễu (`noise`) | Các điểm sáng tối ngẫu nhiên trên ảnh, thường rõ ở vùng tối. Nhiễu Poisson phụ thuộc cường độ sáng, nhiễu Gaussian có phân bố chuẩn. | 2.2 |
+| Nhòe, mờ (`blur`) | Mất độ nét do lấy nét sai hoặc rung tay. Motion blur là mờ theo hướng chuyển động. | 2.2 |
+| Nén JPEG (`jpeg`) | Mất chi tiết do nén ảnh với chất lượng thấp, tạo các ô vuông và quầng quanh nét chữ. | 2.2 |
+| Hỗn hợp (`mix`) | Nhiều loại suy biến cùng lúc trên một ảnh. | 2.2 |
+| Suy biến tổng hợp (dữ liệu tổng hợp) | Ảnh sạch bị làm hỏng bằng chương trình `degrade.py` để có thêm cặp ảnh vào/ảnh chuẩn. | 2.2 |
+| Mức L1, L2, L3 | Ba mức cường độ suy biến, tăng dần: 0,33, 0,66, 1,0. | 2.2 |
+| Tập train, val, test | Train: dữ liệu để học. Val (kiểm định): dữ liệu để chọn checkpoint tốt nhất, không dùng để học. Test: dữ liệu chỉ dùng để chấm điểm cuối, không dùng để học hay chọn. | 2.3 |
+| Patch | Mảnh ảnh nhỏ cắt từ ảnh lớn (ở đây 256×256) dùng để huấn luyện. | 2.1 |
+| RealDAE | Bộ 600 cặp ảnh chụp thật và ảnh chuẩn căn khớp từng pixel, do nhóm GCDRNet công bố. | 2.1 |
+| DocAligner, Jung, DocUNet | Ba bộ ảnh ngoài để test: ảnh chụp điện thoại có bản scan tương ứng (DocAligner); ảnh có bóng đổ của tay (Jung); ảnh giấy cong, gập, nhăn (DocUNet). | 2.3 |
+| ESP32-CAM | Mô-đun camera giá rẻ dùng vi điều khiển ESP32, ảnh tối, mờ, ám xanh. | 1 |
+| Căn khớp (alignment) | Biến đổi hình học để hai ảnh của cùng một trang trùng nhau từng pixel. | 2.1 |
+| SIFT | Thuật toán tìm các điểm đặc trưng trong ảnh và mô tả chúng để ghép giữa hai ảnh. | 2.1 |
+| Homography, MAGSAC | Homography là phép biến đổi phối cảnh giữa hai mặt phẳng. MAGSAC là thuật toán ước lượng nó bền vững khi có điểm ghép sai. | 2.1 |
+| ECC | Phương pháp tinh chỉnh căn khớp bằng cách cực đại hóa tương quan giữa hai ảnh. | 2.1 |
+| Template matching | Dịch một mảnh ảnh trên ảnh kia để tìm vị trí tương quan cao nhất. | 2.1 |
+
+### C.2. Model và huấn luyện
+
+| Thuật ngữ | Định nghĩa | Mục |
+|---|---|---|
+| Mạng nơ-ron tích chập, tham số | Model học sâu xử lý ảnh bằng các bộ lọc tích chập. Tham số là các con số được học; model 6,82 triệu tham số có 6,82 triệu số như vậy. | 3.1 |
+| U-Net | Mạng có dạng chữ U: nén ảnh xuống kích thước nhỏ để lấy ngữ cảnh, rồi phóng lại và nối với các tầng nông để giữ chi tiết. | 3.1 |
+| NAFNet | Mạng kiểu U-Net bỏ các hàm kích hoạt phi tuyến thông thường (Chen và cộng sự, 2022), nhẹ và nhanh. "Width" là số kênh ở tầng đầu: 32 cho bản nhỏ, 64 cho bản lớn. | 3.1 |
+| SimpleGate | Phép nhân hai nửa số kênh với nhau, thay cho hàm kích hoạt. | 3.1 |
+| Simplified Channel Attention | Cơ chế tính một trọng số cho từng kênh từ giá trị trung bình toàn ảnh. Vì dùng trung bình toàn ảnh nên model nhạy với việc chia ô (xem tile). | 3.1, 3.4 |
+| LayerNorm | Chuẩn hóa giá trị trong một lớp để huấn luyện ổn định. | 3.1 |
+| Học phần dư | Model chỉ dự đoán phần cần sửa; ảnh ra bằng ảnh vào cộng phần dự đoán. | 3.1 |
+| Hàm mất mát (loss) | Số đo ảnh ra khác ảnh chuẩn bao nhiêu; huấn luyện là giảm số này. | 3.2 |
+| L1 | Trung bình độ lệch tuyệt đối giữa từng pixel của ảnh ra và ảnh chuẩn. | 3.2 |
+| Loss SSIM (1 − SSIM) | Mất mát dựa trên độ giống về cấu trúc, tương phản và độ sáng cục bộ. | 3.2 |
+| Loss gradient Sobel (`--edge-w`) | Mất mát L1 trên đạo hàm ảnh xám (toán tử Sobel), khuyến khích giữ nét mảnh như dấu tiếng Việt. | 5.7 |
+| Vòng lặp (iteration), batch | Một vòng là một lần cập nhật tham số; batch là số mẫu dùng trong một vòng (16). Đề tài dùng 8.000 vòng. | 3.2 |
+| Crop | Mảnh ảnh vuông cắt ngẫu nhiên đưa vào model khi huấn luyện (192×192). | 3.2 |
+| AdamW, learning rate | AdamW là thuật toán tối ưu. Learning rate (lr) là bước cập nhật tham số. | 3.2 |
+| Warmup, cosine | Warmup tăng dần lr trong 500 vòng đầu; cosine giảm dần lr theo đường cong cô-sin về 0. | 3.2 |
+| bf16 | Định dạng số thực 16 bit giúp huấn luyện nhanh và tốn ít bộ nhớ GPU. | 3.2 |
+| Checkpoint (`best.pt`) | Tệp lưu tham số model; "best" là bản có PSNR val cao nhất. | 3.2 |
+| Seed | Số khởi tạo bộ sinh số ngẫu nhiên; cùng cấu hình mà seed khác cho kết quả hơi khác. | 4 |
+| Độ lệch chuẩn (± ) | Mức dao động của kết quả giữa các seed; ở báo cáo là độ lệch chuẩn mẫu (chia n − 1). | 5.7b |
+| Zero-shot | Dùng trọng số có sẵn, không train lại trên dữ liệu của mình. | 5.1b |
+| Fine-tune | Huấn luyện tiếp một model đã có trên dữ liệu mới. | 9 |
+| Ablation (so sánh bỏ từng phần) | Thử tách từng cải tiến ra để xem phần nào thật sự có ích. | 5.7 |
+| Mốc (baseline) | Cấu hình gốc dùng để so với các cải tiến. | 5.7 |
+| Mẫu ảnh sạch → ảnh sạch (`--identity-p`) | Với xác suất cho trước, dùng ảnh sạch cho cả ảnh vào lẫn ảnh chuẩn, để model học không làm hỏng ảnh vốn đã tốt. | 5.7 |
+| Nhuộm màu giấy (`--paper-color`) | Nhân ảnh chuẩn với một màu nhạt ngẫu nhiên để model học rằng nền màu có thể là thật. | 5.7 |
+| Tile (chia ô) | Chia ảnh lớn thành các ô nhỏ để xử lý khi thiếu bộ nhớ. Với NAFNet, ô nhỏ làm kết quả lệch, nên dùng ô ≥ 512 px hoặc không chia. | 3.4 |
+| CPU, GPU | CPU là bộ xử lý thường; GPU là bộ xử lý đồ họa, chạy model học sâu nhanh hơn nhiều lần. | 5.8 |
+| Colab, A100, L4 | Colab là dịch vụ máy ảo của Google; A100 (40 GB) và L4 (23 GB) là hai loại GPU dùng khi huấn luyện. | 3.2 |
+| Hết bộ nhớ GPU (OOM) | Lỗi khi các tiến trình chiếm nhiều hơn bộ nhớ của GPU. | 5.7b |
+
+### C.3. Các model và phương pháp so sánh
+
+| Thuật ngữ | Định nghĩa | Mục |
+|---|---|---|
+| M0 | Ảnh vào, không xử lý. | 3.3 |
+| M1 (cổ điển) | Phương pháp không học: cân bằng trắng, chia nền, khử nhiễu NLM, CLAHE, làm nét unsharp bằng OpenCV. | 3.3 |
+| NLM | Non-local means, thuật toán khử nhiễu dựa trên các mảnh ảnh giống nhau. | 3.3 |
+| CLAHE | Cân bằng histogram thích ứng có giới hạn tương phản, làm rõ chi tiết ở vùng tối. | 3.3 |
+| Unsharp mask | Làm nét bằng cách cộng thêm phần chênh giữa ảnh gốc và ảnh đã làm mờ. | 3.3 |
+| R0, M2, M3, M4, M4-L | R0: NAFNet chỉ train trên ESP32. M2: U-Net trên ba nguồn. M3: NAFNet chỉ trên RealDAE. M4: NAFNet trên ba nguồn (RealDAE, ESP32, tổng hợp), model đề xuất. M4-L: M4 với width 64. | 3.3 |
+| M5 | M4 cộng ba cải tiến: loss gradient, nhuộm màu giấy, mẫu ảnh sạch. | 5.7 |
+| GCDRNet | Model nâng ảnh tài liệu của Zhang và cộng sự (IEEE TAI 2023), gồm hai mạng GC-Net (học bản đồ ánh sáng) và DR-Net (phục hồi chi tiết); đã công bố cùng bộ RealDAE. | 5.1b |
+| DocRes | Một model nâng ảnh tài liệu khác, chỉ được nhắc đến để tham khảo. | 8 |
+
+### C.4. Chỉ số đánh giá
+
+| Thuật ngữ | Định nghĩa | Mục |
+|---|---|---|
+| PSNR (dB) | Tỉ số tín hiệu trên nhiễu đỉnh, đo mức sai lệch pixel so với ảnh chuẩn. Cao hơn là tốt hơn. Tăng 3 dB tương ứng với sai số bình phương trung bình giảm khoảng một nửa. | 4 |
+| SSIM | Độ giống về cấu trúc giữa hai ảnh, từ 0 đến 1. Cao hơn là tốt hơn. Báo cáo tính trên ảnh xám. | 4 |
+| MS-SSIM | SSIM tính ở nhiều tỉ lệ thu nhỏ khác nhau, dùng để đo độ phẳng trên DocUNet. | 4 |
+| LPIPS | Khoảng cách theo cảm nhận, tính bằng đặc trưng của mạng AlexNet đã học sẵn. Thấp hơn là tốt hơn. | 4 |
+| LD (Local Distortion) | Độ dời trung bình (pixel) giữa các điểm tương ứng của ảnh đã làm phẳng và bản scan, tính bằng luồng quang học. Thấp hơn là tốt hơn. | 4 |
+| Luồng quang học (DIS) | Thuật toán ước lượng độ dời của từng điểm giữa hai ảnh; DIS là một thuật toán nhanh trong OpenCV. | 4 |
+| OCR | Nhận dạng ký tự quang học: đọc chữ từ ảnh. | 4 |
+| VietOCR | Model OCR cho tiếng Việt; dùng bản đã train sẵn, không tinh chỉnh. | 4 |
+| CER | Tỉ lệ ký tự sai khi đọc: số ký tự cần sửa, xóa, thêm chia cho tổng số ký tự đúng. Thấp hơn là tốt hơn. | 4 |
+| CER bỏ dấu | CER sau khi xóa dấu thanh và dấu mũ ở cả nhãn lẫn kết quả; chỉ còn đo lỗi chữ cái. | 4 |
+| Lỗi riêng do dấu | CER trừ CER bỏ dấu; phần lỗi chỉ do dấu. | 5.5 |
+| Độ phẳng (flatness) | Sai lệch còn lại sau phép đồng dạng tốt nhất giữa ảnh đã làm phẳng và bản scan, tính theo phần trăm chiều rộng trang. | 4 |
+| Phép đồng dạng | Phép biến đổi chỉ gồm xoay, dịch và co giãn đều. | 4 |
+
+### C.5. Hình học và làm phẳng
+
+| Thuật ngữ | Định nghĩa | Mục |
+|---|---|---|
+| Làm phẳng (dewarp) | Biến ảnh trang giấy cong, nghiêng thành trang phẳng nhìn thẳng. | 3.5 |
+| Biến đổi phối cảnh (4 góc) | Tìm bốn góc của trang rồi kéo thành hình chữ nhật; sửa chụp nghiêng, bỏ nền, không sửa giấy cong. | 3.5 |
+| UVDoc | Model làm phẳng đã train sẵn, dự đoán lưới tọa độ 45×31 rồi kéo ảnh về phẳng (Verhoeven và cộng sự, 2023). | 3.5 |
+| Chế độ tự động (`auto`) | Cắt 4 góc khi trang chiếm dưới 60 % khung ảnh, rồi luôn chạy UVDoc. | 3.5 |
+
+### C.6. Dữ liệu từ ảnh ESP32 và cách chấm
+
+| Thuật ngữ | Định nghĩa | Mục |
+|---|---|---|
+| Dòng chữ, nhãn | Ảnh một dòng chữ cắt từ trang và chuỗi chữ đúng của nó. Nhãn lấy tự động từ lớp text của PDF gốc. | 2.1 |
+| Tốt hơn / kém hơn ảnh vào | Đếm số dòng mà CER của phiên bản đã nâng thấp hơn / cao hơn CER của ảnh ESP32 gốc. | 5.5 |
+| Kết quả âm | Kết quả cho thấy cải tiến không có tác dụng đo được; vẫn được ghi nhận. | 5.7 |
