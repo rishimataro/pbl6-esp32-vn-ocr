@@ -26,16 +26,16 @@ def code(text):
 
 # ---------------------------------------------------------------------------------------------- 0. mô tả
 md("""
-# PBL6: train lại model nâng chất lượng ảnh tài liệu (đợt 2: M5)
+# PBL6: train lại model nâng chất lượng ảnh tài liệu (đợt 2: ENH-M5)
 
 **Bài toán.** Ảnh tài liệu chụp bằng camera bất kỳ (ESP32-CAM, điện thoại) thường thiếu sáng, nhiễu, ám màu, có bóng đổ, mờ, nén JPEG.
 Model nhận ảnh xấu và trả về ảnh sạch kiểu scan, cùng kích thước.
 
 **Model.** NAFNet bản nhỏ (6,8 triệu tham số), train từ trọng số ngẫu nhiên. Loss gốc: L1 + 0,2·(1 − SSIM).
 
-**Vì sao train lại.** Đợt 1 (M4) cho ba điểm yếu, nên đợt này thử ba cải tiến, mỗi cái nhắm vào một lỗi:
+**Vì sao train lại.** Đợt 1 (ENH-M4) cho ba điểm yếu, nên đợt này thử ba cải tiến, mỗi cái nhắm vào một lỗi:
 
-| Lỗi thấy ở M4 | Cải tiến thử | Cờ trong `train_restore.py` |
+| Lỗi thấy ở ENH-M4 | Cải tiến thử | Cờ trong `train_restore.py` |
 |---|---|---|
 | Dấu tiếng Việt bị biến dạng ("Giới" → "Giói"), lỗi dấu tăng sau khi nâng ảnh | thêm loss gradient Sobel để giữ nét mảnh | `--edge-w 1.0` |
 | Trang nền màu (xanh lá, xám) bị tẩy thành trắng; PSNR giảm tới 6 dB | nhuộm màu giấy nhạt cho ảnh chuẩn khi sinh dữ liệu tổng hợp | `--paper-color 0.2` |
@@ -45,12 +45,12 @@ Model nhận ảnh xấu và trả về ảnh sạch kiểu scan, cùng kích th
 
 | Run | Mô tả |
 |---|---|
-| `m4r_baseline` | cấu hình M4 của đợt 1, chạy lại để làm mốc cùng điều kiện |
-| `m5_all` | M4 + cả ba cải tiến (model đề xuất) |
-| `m5a_edge` | M4 + chỉ loss gradient |
-| `m5b_color` | M4 + chỉ nhuộm màu giấy |
-| `m5c_identity` | M4 + chỉ mẫu ảnh sạch |
-| `m5l_nafnet64` (tùy chọn) | M5 với width 64, batch 32, crop 256, 16.000 vòng |
+| `m4r_baseline` | cấu hình ENH-M4 của đợt 1, chạy lại để làm mốc cùng điều kiện |
+| `m5_all` | ENH-M4 + cả ba cải tiến (model đề xuất) |
+| `m5a_edge` | ENH-M4 + chỉ loss gradient |
+| `m5b_color` | ENH-M4 + chỉ nhuộm màu giấy |
+| `m5c_identity` | ENH-M4 + chỉ mẫu ảnh sạch |
+| `m5l_nafnet64` (tùy chọn) | ENH-M5 với width 64, batch 32, crop 256, 16.000 vòng |
 
 Dữ liệu train: RealDAE (400 cặp ảnh chụp thật ↔ ảnh chuẩn), 2.374 patch ESP32 ↔ scan, và ảnh suy biến tổng hợp (xác suất 0,5).
 
@@ -73,7 +73,7 @@ NPROC = os.cpu_count(); print('vCPU:', NPROC)
 from google.colab import drive
 drive.mount('/content/drive')
 D = Path('/content/drive/MyDrive/PBL6')
-CK_OLD = D / 'checkpoints' / 'retrain'       # đợt 1 (M4...), chỉ đọc
+CK_OLD = D / 'checkpoints' / 'retrain'       # đợt 1 (ENH-M4...), chỉ đọc
 CK = D / 'checkpoints' / 'retrain2'          # đợt 2: mỗi run một thư mục con
 RES = D / 'results' / 'retrain2'
 FIG = RES / 'figures'
@@ -321,7 +321,7 @@ else:
 md("""
 ## 4. Đánh giá
 
-Chấm mọi `best.pt` (checkpoint có PSNR val cao nhất, chọn trên tập val, không phải tập test), cùng M4 đợt 1 (`m4_prev`) và hai đối chứng không học
+Chấm mọi `best.pt` (checkpoint có PSNR val cao nhất, chọn trên tập val, không phải tập test), cùng ENH-M4 đợt 1 (`m4_prev`) và hai đối chứng không học
 (ảnh vào, cổ điển). Kết quả JSON ghi vào `MyDrive/PBL6/results/retrain2/`.
 """)
 
@@ -434,7 +434,7 @@ md("""
 ### Phép thử riêng cho từng cải tiến
 
 1. **Ảnh vốn đã sạch (`--identity-p`).** Đưa ảnh scan sạch vào, đo ảnh ra so với chính nó. PSNR càng cao thì model càng ít làm hỏng ảnh tốt.
-2. **Trang nền màu (`--paper-color`).** Trên các ảnh DocAligner có nền màu chủ ý (26_1, 26_2, 8_2) và 20 ảnh tệ nhất của M4 trước đó, so PSNR của từng run.
+2. **Trang nền màu (`--paper-color`).** Trên các ảnh DocAligner có nền màu chủ ý (26_1, 26_2, 8_2) và 20 ảnh tệ nhất của ENH-M4 trước đó, so PSNR của từng run.
 3. **Giữ nét mảnh (`--edge-w`).** Chỉ số gián tiếp: SSIM và LPIPS ở bảng trên; kết luận cuối cùng dựa vào CER OCR (xem mục 7).
 """)
 
@@ -450,14 +450,14 @@ def per_image(run, sname):
 dc = {r: per_image(r, 'docaligner') for r in ORDER if (RES / f'{r}__docaligner.json').exists()}
 bad = ['26_1.png', '26_2.png', '8_2.png']
 worst = sorted(dc['m4_prev' if 'm4_prev' in dc else 'm4r_baseline'], key=lambda k: dc['m4_prev' if 'm4_prev' in dc else 'm4r_baseline'][k] - dc['m0_identity'][k])[:20]
-t2 = pd.DataFrame({r: {'3 ảnh nền màu': np.mean([v[k] for k in bad]), '20 ảnh tệ nhất của M4': np.mean([v[k] for k in worst])} for r, v in dc.items()}).T
+t2 = pd.DataFrame({r: {'3 ảnh nền màu': np.mean([v[k] for k in bad]), '20 ảnh tệ nhất của ENH-M4': np.mean([v[k] for k in worst])} for r, v in dc.items()}).T
 print('Phép thử 2: trang nền màu (PSNR dB)'); display(t2.round(2))
 """)
 
 md("""
 ### Tác động của từng cải tiến (ablation)
 
-Mức chênh PSNR so với `m4r_baseline` (cùng cấu hình, cùng seed). Hai lần chạy M4 ở đợt 1 lệch nhau tới 0,15 dB, nên chênh dưới ~0,3 dB coi như ngang nhau.
+Mức chênh PSNR so với `m4r_baseline` (cùng cấu hình, cùng seed). Hai lần chạy ENH-M4 ở đợt 1 lệch nhau tới 0,15 dB, nên chênh dưới ~0,3 dB coi như ngang nhau.
 """)
 
 code("""
@@ -471,7 +471,7 @@ d.round(3).to_csv(RES / 'ablation_delta.csv')
 md("""
 ## 6. Ảnh trước / sau
 
-Mỗi hàng một ảnh test, cột: ảnh vào, M4 đợt 1, M5 (model đề xuất), ảnh chuẩn. Chọn ảnh có ý nghĩa cho từng lỗi: trang nền màu (DocAligner 26_2), bóng đổ (Jung), trang ESP32, và ảnh chỉ mờ.
+Mỗi hàng một ảnh test, cột: ảnh vào, ENH-M4 đợt 1, ENH-M5 (model đề xuất), ảnh chuẩn. Chọn ảnh có ý nghĩa cho từng lỗi: trang nền màu (DocAligner 26_2), bóng đổ (Jung), trang ESP32, và ảnh chỉ mờ.
 """)
 
 code("""
@@ -537,7 +537,7 @@ best = {s: main[NAMES[s]].drop(['m0_identity', 'm1_classic'], errors='ignore').i
 print('Run tốt nhất theo từng tập:', best)
 if 'm5_all' in main.index and 'm4r_baseline' in main.index:
     dd = (main.loc['m5_all'] - main.loc['m4r_baseline']).round(2)
-    print('\\nM5 so với M4 chạy lại (PSNR dB):'); print(dd.to_string())
+    print('\\nM5 so với ENH-M4 chạy lại (PSNR dB):'); print(dd.to_string())
     for c, v in dd.items():
         print(f'- {c}:', 'tốt hơn' if v > 0.3 else 'kém hơn' if v < -0.3 else 'ngang nhau (trong nhiễu seed)', f'({v:+.2f} dB)')
 print('\\nTệp đã lưu vào', RES)

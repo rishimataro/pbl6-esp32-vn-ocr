@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nâng chất lượng ảnh tài liệu</title>
+<title>Nâng ảnh và đọc chữ tài liệu</title>
 <style>
   :root {
     --bg: #f6f5f2; --panel: #ffffff; --ink: #1d1d1b; --muted: #6b6a66; --line: #e2e0da;
@@ -72,13 +72,38 @@
              border-radius: 50%; animation: spin .8s linear infinite; margin: 0 auto 10px; }
   @keyframes spin { to { transform: rotate(360deg); } }
   a.dl { color: var(--accent); font-weight: 600; text-decoration: none; }
+  label.chk { display: flex; gap: 8px; align-items: center; margin-top: 8px; font-size: 14px; color: var(--ink); }
+  label.chk input { width: auto; }
+  .ocr { display: flex; flex-direction: column; gap: 12px; }
+  .ocr .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .ocr .cols.one { grid-template-columns: 1fr; }
+  @media (max-width: 760px) { .ocr .cols { grid-template-columns: 1fr; } }
+  .ocr .col { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px; min-width: 0; }
+  .ocr h3 { margin: 0 0 6px; font-size: 14px; display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+  .ocr h3 small { color: var(--muted); font-weight: 400; }
+  .ocr ol { margin: 0; padding: 0; list-style: none; font-size: 14px; max-height: 420px; overflow: auto; }
+  .ocr li { padding: 2px 6px; border-radius: 4px; white-space: pre-wrap; word-break: break-word; cursor: default; }
+  .ocr li:hover, .ocr li.hl { background: color-mix(in srgb, var(--accent) 18%, transparent); }
+  .ocr li.empty { color: var(--muted); font-style: italic; }
+  .ocr button.copy { width: auto; padding: 2px 10px; font-size: 13px; cursor: pointer; }
+  .boxes { position: relative; display: inline-block; max-width: 100%; }
+  .boxes img { display: block; max-width: 100%; max-height: 78vh; height: auto; }
+  .boxes svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .boxes rect { fill: none; stroke: var(--accent); stroke-width: 2; vector-effect: non-scaling-stroke; }
+  .boxes rect.blk { stroke-width: 3; fill-opacity: .12; }
+  .boxes rect.t-heading { stroke: #e8830c; fill: #e8830c; } .boxes rect.t-paragraph { stroke: #2e9b4f; fill: #2e9b4f; }
+  .boxes rect.t-list { stroke: #2f6fe4; fill: #2f6fe4; } .boxes rect.t-table { stroke: #8a45d1; fill: #8a45d1; }
+  .boxes rect.t-figure { stroke: #d6417f; fill: #d6417f; }
+  .lay { margin-top: 12px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; font-size: 13px; }
+  .lay .k i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin: 0 4px 0 10px; }
+  .boxes rect.hl { fill: color-mix(in srgb, var(--accent) 25%, transparent); stroke-width: 3; }
   .note { font-size: 13px; color: var(--muted); margin: 0; }
 </style>
 </head>
 <body>
 <header>
-  <h1>Nâng chất lượng ảnh tài liệu</h1>
-  <p>Khử bóng, chỉnh ánh sáng và màu, giảm nhiễu cho ảnh chụp tài liệu. Ảnh chỉ được xử lý trên máy chạy demo.</p>
+  <h1>Nâng ảnh và đọc chữ tài liệu</h1>
+  <p>Tải ảnh chụp tài liệu lên: nâng chất lượng ảnh (khử bóng, chỉnh sáng, giảm nhiễu) rồi đọc chữ tiếng Việt. Ảnh chỉ được xử lý trên máy chạy demo.</p>
 </header>
 <main>
   <section class="controls panel">
@@ -106,6 +131,12 @@
     </div>
     <button id="run" class="primary" disabled>Xử lý ảnh</button>
     <div>
+      <label class="title" for="engine">Đọc chữ</label>
+      <select id="engine"></select>
+      <label class="chk"><input type="checkbox" id="compare" checked> So sánh với ảnh chưa nâng</label>
+    </div>
+    <button id="read" class="primary" disabled>Đọc chữ</button>
+    <div>
       <label class="title">Ảnh mẫu</label>
       <div class="samples" id="samples"></div>
     </div>
@@ -121,17 +152,19 @@
       <div id="info"></div>
     </div>
     <div class="view" id="view"><div class="empty">Chọn một ảnh mẫu hoặc tải ảnh của bạn lên.</div></div>
+    <div id="ocrout"></div>
   </section>
 </main>
 <script>
 const $ = s => document.querySelector(s);
-let blob = null, result = null, mode = "slide";
+let blob = null, result = null, ocrRes = null, mode = "slide";
 try { mode = localStorage.getItem("pbl6-mode") || "slide"; } catch (e) {}
 
 fetch("/api/options").then(r => r.json()).then(o => {
   $("#method").innerHTML = o.methods.map(m =>
     `<option value="${m.key}" ${m.ready ? "" : "disabled"}>${m.label}${m.ready ? "" : " — thiếu checkpoint"}</option>`).join("");
   $("#dewarp").innerHTML = o.dewarp.map(d => `<option value="${d.key}">${d.label}</option>`).join("");
+  $("#engine").innerHTML = o.engines.map(m => `<option value="${m.key}" ${m.ready ? "" : "disabled"}>${m.label}${m.ready ? "" : " — chưa cài"}</option>`).join("");
   $("#samples").innerHTML = o.samples.map(s => `<button data-k="${s.key}">${s.label}</button>`).join("");
   $("#device").textContent = "Đang chạy trên " + (o.device === "cuda" ? "GPU" : "CPU") + ".";
   $("#samples").onclick = async e => {
@@ -142,7 +175,7 @@ fetch("/api/options").then(r => r.json()).then(o => {
 });
 
 function setBlob(b, name) {
-  blob = b; result = null; $("#run").disabled = false;
+  blob = b; result = null; ocrRes = null; $("#ocrout").innerHTML = ""; $("#run").disabled = false; $("#read").disabled = false;
   $("#info").textContent = name ? "Ảnh: " + name : "";
   const url = URL.createObjectURL(b);
   $("#view").innerHTML = `<div class="side" style="grid-template-columns:1fr"><figure><img src="${url}" alt="ảnh vào"><figcaption>Ảnh vào — bấm “Xử lý ảnh”.</figcaption></figure></div>`;
@@ -160,13 +193,14 @@ document.addEventListener("paste", e => {
 });
 
 $("#run").onclick = run;
+$("#read").onclick = readText;
 $("#method").onchange = () => blob && run();
 $("#size").onchange = () => blob && run();
 $("#dewarp").onchange = () => blob && run();
 
 async function run() {
   if (!blob) return;
-  $("#run").disabled = true;
+  $("#run").disabled = true; $("#ocrout").innerHTML = "";
   $("#view").innerHTML = `<div class="empty"><div class="spinner"></div>Đang xử lý… (CPU mất khoảng 1–5 giây)</div>`;
   if (matchMedia("(max-width: 860px)").matches) $(".stage").scrollIntoView({ behavior: "smooth", block: "start" });
   try {
@@ -178,6 +212,66 @@ async function run() {
   } catch (err) {
     $("#view").innerHTML = `<div class="empty err">Lỗi: ${err.message}</div>`;
   } finally { $("#run").disabled = false; }
+}
+
+const esc = t => t.replace(/[&<>]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
+
+async function readText() {
+  if (!blob) return;
+  $("#read").disabled = true; $("#run").disabled = true; $("#ocrout").innerHTML = "";
+  $("#view").innerHTML = `<div class="empty"><div class="spinner"></div>Đang nâng ảnh và đọc chữ… (CPU: VietOCR khoảng 1–3 phút cho một trang 40–70 dòng, OCR-M3 lâu hơn khoảng 3 lần; bỏ tick “So sánh” để nhanh gấp đôi)</div>`;
+  if (matchMedia("(max-width: 860px)").matches) $(".stage").scrollIntoView({ behavior: "smooth", block: "start" });
+  try {
+    const q = new URLSearchParams({ method: $("#method").value, long_side: $("#size").value, dewarp: $("#dewarp").value,
+                                    engine: $("#engine").value, compare: $("#compare").checked ? 1 : 0 });
+    const r = await fetch("/api/ocr?" + q, { method: "POST", body: blob });
+    const j = await r.json();
+    if (!r.ok) throw new Error(j.detail || r.statusText);
+    ocrRes = j; renderOcr(j);
+  } catch (err) {
+    $("#view").innerHTML = `<div class="empty err">Lỗi: ${err.message}</div>`;
+  } finally { $("#read").disabled = false; $("#run").disabled = false; }
+}
+
+function renderOcr(j) {
+  const col = (title, d, sub) => `<div class="col"><h3><span>${title} <small>${sub}</small></span>
+      <button class="copy" data-t="${encodeURIComponent(d.text)}">Sao chép</button></h3>
+      <ol>${d.lines.length ? d.lines.map((l, i) => `<li data-i="${i}" data-s="${title}">${esc(l.text) || "&nbsp;"}</li>`).join("")
+                           : `<li class="empty">Không tìm thấy dòng chữ nào.</li>`}</ol></div>`;
+  const nOut = j.lines.length, nRaw = j.raw ? j.raw.lines.length : 0;
+  $("#info").innerHTML = `<b>${j.method}</b> · ${j.engine} · ${j.size} px · nâng ảnh ${j.seconds_enhance} s · đọc ${j.seconds_ocr} s · <a class="dl" href="${j.output}" download="anh_da_nang.png">Tải ảnh ra</a>`;
+  const rects = j.lines.map((l, i) => `<rect data-i="${i}" x="${l.box[0]}" y="${l.box[1]}" width="${l.box[2] - l.box[0]}" height="${l.box[3] - l.box[1]}"/>`).join("");
+  $("#view").innerHTML = `<div class="boxes"><img src="${j.output}" alt="ảnh đã nâng, có khung dòng"><svg viewBox="0 0 ${j.w} ${j.h}" preserveAspectRatio="none">${rects}</svg></div>`;
+  const L = `<div class="lay"><button id="layBtn">Nhận bố cục và tạo .docx</button>
+    <select id="font"><option>Times New Roman</option><option>Arial</option><option>Calibri</option></select>
+    <label><input type="checkbox" id="layModel" ${j.layout_model ? "checked" : "disabled"}> dùng model PP-DocLayout</label>
+    <span id="layInfo"></span></div>`;
+  $("#ocrout").innerHTML = L + `<div class="ocr"><div class="cols ${j.raw ? "" : "one"}">` +
+    (j.raw ? col("Đọc từ ảnh chưa nâng", j.raw, nRaw + " dòng") : "") +
+    col("Đọc từ ảnh đã nâng", j, nOut + " dòng") + `</div></div>`;
+  $("#layBtn").onclick = async () => {
+    const b = $("#layBtn"), m = $("#layModel").checked ? 1 : 0; b.disabled = true; $("#layInfo").textContent = "Đang nhận bố cục…";
+    try {
+      const r = await fetch(`/api/layout?job=${j.job}&model=${m}`, { method: "POST" });
+      const d = await r.json(); if (!r.ok) throw new Error(d.detail || r.statusText);
+      const names = { heading: "tiêu đề", paragraph: "đoạn", list: "mục danh sách", table: "bảng", figure: "hình" };
+      const cnt = {}; d.blocks.forEach(x => cnt[x.type] = (cnt[x.type] || 0) + 1);
+      document.querySelectorAll(".boxes rect").forEach(x => x.remove());
+      $(".boxes svg").insertAdjacentHTML("beforeend", d.blocks.map(x => `<rect class="blk t-${x.type}" x="${x.box[0]}" y="${x.box[1]}" width="${x.box[2] - x.box[0]}" height="${x.box[3] - x.box[1]}"><title>${names[x.type]}: ${esc(x.text)}</title></rect>`).join(""));
+      const f = encodeURIComponent($("#font").value);
+      $("#layInfo").innerHTML = Object.entries(cnt).map(([k, v]) => `${v} ${names[k]}`).join(", ") + (d.columns > 1 ? `, ${d.columns} cột` : "") +
+        ` (${d.seconds} s${d.model_used ? ", có model" : ", hình học"}) · <a class="dl" href="/api/docx?job=${j.job}&model=${m}&font=${f}">Tải .docx</a>`;
+    } catch (e) { $("#layInfo").innerHTML = `<span class="err">Lỗi: ${e.message}</span>`; }
+    b.disabled = false;
+  };
+  $("#font").onchange = () => { const a = document.querySelector("#layInfo a.dl"); if (a) a.href = a.href.replace(/font=[^&]*/, "font=" + encodeURIComponent($("#font").value)); };
+  const hl = (i, on) => { const r = document.querySelector(`.boxes rect[data-i="${i}"]`); r && r.classList.toggle("hl", on); };
+  document.querySelectorAll('#ocrout li[data-s="Đọc từ ảnh đã nâng"]').forEach(li => {
+    li.onmouseenter = () => hl(li.dataset.i, true); li.onmouseleave = () => hl(li.dataset.i, false);
+  });
+  document.querySelectorAll("#ocrout button.copy").forEach(b => b.onclick = async () => {
+    try { await navigator.clipboard.writeText(decodeURIComponent(b.dataset.t)); b.textContent = "Đã chép"; setTimeout(() => b.textContent = "Sao chép", 1500); } catch (e) { b.textContent = "Không chép được"; }
+  });
 }
 
 document.querySelectorAll(".tabs button").forEach(b => {

@@ -1,4 +1,4 @@
-"""Web demo: tải ảnh tài liệu lên, chọn phương pháp, xem trước/sau.
+"""Web demo: tải ảnh tài liệu lên, chọn phương pháp, xem trước/sau và đọc chữ (phát hiện dòng + nhận dạng).
 
 Chạy (trên máy, CPU):
   .venv-ocr/Scripts/python.exe -X utf8 src/demo_app.py --port 8010
@@ -17,17 +17,19 @@ import cv2
 import numpy as np
 import torch
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import FileResponse, HTMLResponse, JSONResponse
+from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, Response
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import layout_doc  # noqa: E402
 import paths  # noqa: E402
 from dewarp import dewarp_auto, dewarp_corners, dewarp_uvdoc  # noqa: E402
 from enhance import enhance_1a  # noqa: E402
+from ocr_pipeline import ENGINES as OCR_ENGINES, engine_ready, read_page  # noqa: E402
 from restore_model import load_model, restore_image  # noqa: E402
 
 METHODS = {
-    "m4": ("M4 NAFNet (khuyên dùng)", paths.RETRAIN_CKPT / "m4_nafnet_all/best.pt"),
-    "m2": ("M2 U-Net (nhanh hơn)", paths.RETRAIN_CKPT / "m2_unet_all/best.pt"),
+    "m4": ("ENH-M4 NAFNet (khuyên dùng)", paths.RETRAIN_CKPT / "m4_nafnet_all/best.pt"),
+    "m2": ("ENH-M2 U-Net (nhanh hơn)", paths.RETRAIN_CKPT / "m2_unet_all/best.pt"),
     "m4l": ("M4L NAFNet width 64 (lớn, chậm)", paths.RETRAIN_CKPT / "m4l_nafnet64_all/best.pt"),
     "classic": ("Cổ điển 1a (OpenCV)", None),
 }
@@ -85,6 +87,7 @@ def options():
         "device": DEVICE,
         "methods": [{"key": k, "label": v[0], "ready": v[1] is None or v[1].exists()} for k, v in METHODS.items()],
         "dewarp": [{"key": k, "label": v} for k, v in DEWARP.items()],
+        "engines": [{"key": k, "label": v, "ready": engine_ready(k)} for k, v in OCR_ENGINES.items()],
         "samples": [{"key": k, "label": v[0]} for k, v in SAMPLES.items() if v[1].exists()],
     }
 
@@ -96,13 +99,10 @@ def sample(key: str):
     return FileResponse(SAMPLES[key][1])
 
 
-@app.post("/api/enhance")
-async def enhance(request: Request, method: str = "m4", long_side: int = 1024, dewarp: str = "none"):
-    if method not in METHODS:
-        raise HTTPException(400, f"phương pháp không hỗ trợ: {method}")
-    if dewarp not in DEWARP:
-        raise HTTPException(400, f"cách làm phẳng không hỗ trợ: {dewarp}")
-    raw = await request.body()
+NL = chr(10)
+
+
+def _decode(raw: bytes) -> np.ndarray:
     if not raw:
         raise HTTPException(400, "chưa có ảnh")
     if len(raw) > 25 * 1024 * 1024:
@@ -110,7 +110,18 @@ async def enhance(request: Request, method: str = "m4", long_side: int = 1024, d
     img = cv2.imdecode(np.frombuffer(raw, np.uint8), cv2.IMREAD_COLOR)
     if img is None:
         raise HTTPException(400, "không đọc được ảnh (hỗ trợ JPG, PNG, BMP, WEBP)")
-    orig_hw = img.shape[:2]
+    return img
+
+
+def _check(method: str, dewarp: str):
+    if method not in METHODS:
+        raise HTTPException(400, f"phương pháp không hỗ trợ: {method}")
+    if dewarp not in DEWARP:
+        raise HTTPException(400, f"cách làm phẳng không hỗ trợ: {dewarp}")
+
+
+def _pipeline(img: np.ndarray, method: str, long_side: int, dewarp: str):
+    """Làm phẳng (tùy chọn) rồi nâng ảnh. Trả về (ảnh trước nâng, ảnh sau nâng, giây làm phẳng, giây tổng, page_found)."""
     cap = 3000 if long_side <= 0 else min(long_side, 3000)
     # làm phẳng ở độ phân giải gốc (tối đa 3000 px) để trang sau khi cắt còn đủ chi tiết, rồi mới thu nhỏ
     big = resize_long(img, 3000)
@@ -129,9 +140,18 @@ async def enhance(request: Request, method: str = "m4", long_side: int = 1024, d
         out = enhance_1a(flat)
     else:
         out = restore_image(get_model(method), flat, DEVICE)
-    dt = time.perf_counter() - t
+    return flat, out, t_dewarp, time.perf_counter() - t, page_found
+
+
+@app.post("/api/enhance")
+async def enhance(request: Request, method: str = "m4", long_side: int = 1024, dewarp: str = "none"):
+    _check(method, dewarp)
+    img = _decode(await request.body())
+    orig_hw = img.shape[:2]
+    shown = resize_long(img, 3000 if long_side <= 0 else min(long_side, 3000))
+    _, out, t_dewarp, dt, page_found = _pipeline(img, method, long_side, dewarp)
     return JSONResponse({
-        "input": png_b64(img), "output": png_b64(out),
+        "input": png_b64(shown), "output": png_b64(out),
         "seconds": round(dt, 2), "seconds_dewarp": round(t_dewarp, 2), "device": DEVICE,
         "method": METHODS[method][0], "dewarp": DEWARP[dewarp], "page_found": page_found,
         "geometry_changed": dewarp != "none",
@@ -139,14 +159,92 @@ async def enhance(request: Request, method: str = "m4", long_side: int = 1024, d
     })
 
 
+JOBS: dict = {}          # job id -> {"img", "lines", "layout"}; giữ 8 phiên gần nhất
+
+
+def _new_job(img, lines) -> str:
+    import uuid
+    jid = uuid.uuid4().hex[:10]
+    JOBS[jid] = {"img": img, "lines": lines, "layout": None}
+    while len(JOBS) > 8:
+        JOBS.pop(next(iter(JOBS)))
+    return jid
+
+
+def _layout(jid: str, use_model: bool):
+    j = JOBS.get(jid)
+    if j is None:
+        raise HTTPException(404, "không còn phiên này, hãy đọc chữ lại")
+    key = bool(use_model)
+    if j["layout"] is None or j["layout"][0] != key:
+        t = time.perf_counter()
+        mdl = layout_doc.run_model(j["img"]) if use_model else None
+        res = layout_doc.analyse_page(j["img"], j["lines"], model=mdl)
+        j["layout"] = (key, res, mdl is not None, round(time.perf_counter() - t, 2))
+    return j["layout"]
+
+
+@app.post("/api/layout")
+def layout(job: str, model: int = 1):
+    """Nhận bố cục trang đã đọc chữ: trả các khối (tiêu đề, đoạn, danh sách, bảng, hình) để vẽ lên ảnh."""
+    _k, res, used, secs = _layout(job, bool(model))
+    return {"blocks": layout_doc.describe(res), "columns": res.get("columns", 1), "model_used": used, "seconds": secs}
+
+
+@app.get("/api/docx")
+def docx(job: str, model: int = 1, font: str = "Times New Roman"):
+    if font not in ("Times New Roman", "Arial", "Calibri"):
+        raise HTTPException(400, "phông không hỗ trợ")
+    _k, res, _u, _s = _layout(job, bool(model))
+    data = layout_doc.build_docx(res, font=font)
+    return Response(data, media_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                    headers={"Content-Disposition": 'attachment; filename="tai_lieu.docx"'})
+
+
+@app.post("/api/ocr")
+async def ocr(request: Request, method: str = "m4", long_side: int = 1600, dewarp: str = "none",
+              engine: str = "vietocr", compare: int = 1):
+    """Nâng ảnh → phát hiện dòng → nhận dạng. compare=1: đọc cả ảnh trước nâng để so sánh."""
+    _check(method, dewarp)
+    if engine not in OCR_ENGINES:
+        raise HTTPException(400, f"bộ nhận dạng không hỗ trợ: {engine}")
+    if not engine_ready(engine):
+        raise HTTPException(400, f"bộ nhận dạng chưa cài: {OCR_ENGINES[engine]}")
+    img = _decode(await request.body())
+    orig_hw = img.shape[:2]
+    # đọc chữ cần độ phân giải đủ lớn (chữ cao ≥ ~15 px), nên không xuống dưới 1600 px
+    ls = 3000 if long_side <= 0 else max(1600, min(long_side, 3000))
+    before, after, t_dewarp, t_enh, page_found = _pipeline(img, method, ls, dewarp)
+    t = time.perf_counter()
+    after, lines = read_page(after, engine, DEVICE, color_ref=before)
+    t_ocr = time.perf_counter() - t
+    res = {
+        "output": png_b64(after), "size": f"{after.shape[1]}×{after.shape[0]}", "orig_size": f"{orig_hw[1]}×{orig_hw[0]}",
+        "w": int(after.shape[1]), "h": int(after.shape[0]),
+        "method": METHODS[method][0], "engine": OCR_ENGINES[engine], "dewarp": DEWARP[dewarp], "page_found": page_found,
+        "lines": lines, "text": NL.join(l["text"] for l in lines), "job": _new_job(after, lines),
+        "layout_model": layout_doc.model_ready(),
+        "seconds_enhance": round(t_enh, 2), "seconds_ocr": round(t_ocr, 2), "device": DEVICE,
+    }
+    if compare:
+        t = time.perf_counter()
+        before, raw_lines = read_page(before, engine, DEVICE)
+        res["raw"] = {"output": png_b64(before), "w": int(before.shape[1]), "h": int(before.shape[0]),
+                      "lines": raw_lines, "text": NL.join(l["text"] for l in raw_lines),
+                      "seconds_ocr": round(time.perf_counter() - t, 2)}
+    return JSONResponse(res)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--port", type=int, default=8010)
     ap.add_argument("--host", default="127.0.0.1")
-    ap.add_argument("--preload", action="store_true", help="nạp sẵn M4 khi khởi động")
+    ap.add_argument("--preload", action="store_true", help="nạp sẵn ENH-M4 khi khởi động")
     args = ap.parse_args()
     if args.preload:
         get_model("m4")
+        from ocr_pipeline import _vietocr
+        _vietocr(DEVICE)
     import uvicorn
     uvicorn.run(app, host=args.host, port=args.port, log_level="info")
 

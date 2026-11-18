@@ -132,7 +132,7 @@ def main():
     ap.add_argument("--inp", type=Path, required=True, help="một ảnh hoặc thư mục ảnh")
     ap.add_argument("--out", type=Path, required=True)
     ap.add_argument("--method", default="uvdoc", choices=["auto", "uvdoc", "corners", "none"])
-    ap.add_argument("--enhance", type=Path, help="checkpoint nâng chất lượng chạy sau bước làm phẳng (vd. M4)")
+    ap.add_argument("--enhance", type=Path, help="checkpoint nâng chất lượng chạy sau bước làm phẳng (vd. ENH-M4)")
     ap.add_argument("--long-side", type=int, default=0, help="thu nhỏ ảnh vào trước khi xử lý (0 = giữ nguyên)")
     args = ap.parse_args()
     device = "cuda" if torch.cuda.is_available() else "cpu"

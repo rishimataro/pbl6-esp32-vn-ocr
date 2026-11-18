@@ -51,12 +51,12 @@ Tập train trộn ngẫu nhiên nhiều loại cùng lúc.
 
 | Mã | Phương pháp | Trạng thái |
 |---|---|---|
-| M0 | Ảnh vào, không xử lý | — |
-| M1 | Cổ điển: cân bằng trắng, chia nền, NLM, CLAHE, unsharp (`enhance.py`) | có |
-| M2 | U-Net thường, cùng loss và số vòng lặp | cần train |
-| M3 | NAFNet, chỉ RealDAE train | cần train |
-| M4 | NAFNet, RealDAE + tổng hợp + ESP32 train (**model đề xuất**) | cần train |
-| M5 | GCDRNet có trọng số pretrained (MIT), chạy zero-shot | chỉ chạy suy luận |
+| ENH-M0 | Ảnh vào, không xử lý | — |
+| ENH-M1 | Cổ điển: cân bằng trắng, chia nền, NLM, CLAHE, unsharp (`enhance.py`) | có |
+| ENH-M2 | U-Net thường, cùng loss và số vòng lặp | cần train |
+| ENH-M3 | NAFNet, chỉ RealDAE train | cần train |
+| ENH-M4 | NAFNet, RealDAE + tổng hợp + ESP32 train (**model đề xuất**) | cần train |
+| GCDRNet | GCDRNet có trọng số pretrained (MIT), chạy zero-shot | chỉ chạy suy luận |
 
 Kết quả đã công bố trên RealDAE test để đối chiếu (theo repo Recommendations-Document-Image-Processing):
 
@@ -67,7 +67,7 @@ Kết quả đã công bố trên RealDAE test để đối chiếu (theo repo R
 | GCDRNet (TAI'23) | 24,42 | 0,942 |
 | DocRes (CVPR'24) | 24,65 | 0,922 |
 
-Mục tiêu thực tế: M4 vượt DocProj, tiến gần GCDRNet.
+Mục tiêu thực tế: ENH-M4 vượt DocProj, tiến gần GCDRNet.
 Với 450 cặp train và 1 tuần, không hứa vượt SOTA.
 
 Bảng kết quả cuối có 3 phần:
@@ -81,7 +81,7 @@ Bảng kết quả cuối có 3 phần:
 | Ngày | Việc | Kết quả |
 |---|---|---|
 | 1 | Tải RealDAE và trọng số GCDRNet lên Drive. Viết `degrade.py` và tạo các tập test tổng hợp. Sửa `train_restore.py`: đọc nhiều nguồn dữ liệu, sinh ảnh hỏng tổng hợp khi train, thêm `--arch unet`. | dữ liệu + script |
-| 2 | Train trên Colab: M3, M4, M2 (khoảng 4 giờ GPU). Chạy M5 GCDRNet trên các tập test. | checkpoint |
+| 2 | Train trên Colab: ENH-M3, ENH-M4, ENH-M2 (khoảng 4 giờ GPU). Chạy GCDRNet trên các tập test. | checkpoint |
 | 3 | Đánh giá đủ 3 bảng. Hình trước/sau theo từng loại lỗi. Đo tốc độ CPU. | bảng + hình |
 | 4 | Demo web: tải lên ảnh bất kỳ (điện thoại hoặc ESP32), hiện trước/sau, tải ảnh đã nâng về, OCR là tùy chọn. Sửa từ `n9_demo.py`. | demo chạy |
 | 5 | Viết lại báo cáo. Giữ phần căn chỉnh ESP32 làm cách tạo dữ liệu cặp. Bỏ layout, bảng, DOCX. Làm slide. | báo cáo + slide |
@@ -95,5 +95,5 @@ Bảng kết quả cuối có 3 phần:
 ## 7. Rủi ro
 
 - **Link OneDrive của RealDAE không tải được bằng script.** Tải tay bằng trình duyệt rồi đưa lên Drive. Nếu không tải được: dùng dữ liệu tổng hợp + ESP32, và chỉ so với GCDRNet trên tập tổng hợp.
-- **Hết quota Colab.** Thứ tự ưu tiên là M4 > M3 > M2. Rút M2 xuống 4.000 vòng.
-- **M4 thua GCDRNet.** Đây vẫn là kết quả báo cáo được. Nhấn mạnh model nhỏ hơn và chạy CPU được, có đo số tham số và thời gian chạy của cả hai.
+- **Hết quota Colab.** Thứ tự ưu tiên là ENH-M4 > ENH-M3 > ENH-M2. Rút ENH-M2 xuống 4.000 vòng.
+- **ENH-M4 thua GCDRNet.** Đây vẫn là kết quả báo cáo được. Nhấn mạnh model nhỏ hơn và chạy CPU được, có đo số tham số và thời gian chạy của cả hai.

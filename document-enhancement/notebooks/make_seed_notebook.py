@@ -1,4 +1,4 @@
-"""Sinh notebooks/PBL6_Colab_Seeds.ipynb: đợt 3 = thêm seed cho M4 và M5 + thử tăng cường dữ liệu nền màu.
+"""Sinh notebooks/PBL6_Colab_Seeds.ipynb: đợt 3 = thêm seed cho ENH-M4 và ENH-M5 + thử tăng cường dữ liệu nền màu.
 
 Dùng lại các ô dữ liệu/train/đánh giá của make_retrain_notebook.py (cùng giao thức), chỉ thay danh sách run và phần kết quả.
   .venv-ocr/Scripts/python.exe -X utf8 notebooks/make_seed_notebook.py
@@ -59,13 +59,13 @@ cells = []
 cells.append(md("""
 # PBL6: đợt 3 — thêm seed và tăng cường dữ liệu nền màu
 
-**Mục đích.** (1) Đo nhiễu giữa các seed để biết chênh lệch nào giữa M4 và M5 là thật; (2) thử dữ liệu nhuộm màu giấy mạnh hơn để sửa lỗi model tẩy trắng trang nền màu.
+**Mục đích.** (1) Đo nhiễu giữa các seed để biết chênh lệch nào giữa ENH-M4 và ENH-M5 là thật; (2) thử dữ liệu nhuộm màu giấy mạnh hơn để sửa lỗi model tẩy trắng trang nền màu.
 
 | Run | Cấu hình | Seed |
 |---|---|---|
-| `m4_s1`, `m4_s2` | như M4 chạy lại (không cải tiến) | 1, 2 |
+| `m4_s1`, `m4_s2` | như ENH-M4 chạy lại (không cải tiến) | 1, 2 |
 | `m5_all_s1`, `m5_all_s2` | `--edge-w 1.0 --paper-color 0.2 --identity-p 0.1` | 1, 2 |
-| `m5d_color50` | như M5 nhưng `--paper-color 0.5` | 0 |
+| `m5d_color50` | như ENH-M5 nhưng `--paper-color 0.5` | 0 |
 | `m5e_color50_noedge` | `--paper-color 0.5 --identity-p 0.1` (không loss gradient) | 0 |
 
 Seed 0 của `m4r_baseline` và `m5_all` lấy từ đợt 2 (`checkpoints/retrain2`), nên mỗi cấu hình có đủ 3 seed.
@@ -136,7 +136,7 @@ main.round(3).to_csv(RES / 'summary_main_psnr.csv')
 
 # nhóm cấu hình: mean ± std qua seed (std mẫu, n-1)
 def cfg(r):
-    return 'M4' if r.startswith('m4_s') else 'M5 (cả ba)' if r.startswith('m5_all_s') else r
+    return 'ENH-M4' if r.startswith('m4_s') else 'ENH-M5 (cả ba)' if r.startswith('m5_all_s') else r
 g = main.drop(index=[r for r in main.index if r in ('m0_identity', 'm1_classic')], errors='ignore').copy()
 g['cfg'] = [cfg(r) for r in g.index]
 agg = g.groupby('cfg').agg(['mean', 'std', 'count'])

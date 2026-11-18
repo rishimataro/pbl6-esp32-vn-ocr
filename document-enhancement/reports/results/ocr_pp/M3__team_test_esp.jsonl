@@ -1,0 +1,44 @@
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img1_0000.jpg", "ref": "VIỆT NAM 2045", "hyp": "VIỆT NAM 2045", "score": 0.9865394234657288}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img1_0001.jpg", "ref": "NÂNG CAO", "hyp": "NÂNG CAO", "score": 0.9787825345993042}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img1_0002.jpg", "ref": "THẾ THƯƠNG MẠI", "hyp": "THÊ THƯƠNG MẠI", "score": 0.8789266347885132}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img1_0003.jpg", "ref": "TRONG MỘT THE", "hyp": "TRONG MÔT THÊ", "score": 0.9369412064552307}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img1_0004.jpg", "ref": "ĐANG THAY ĐỔI", "hyp": "ĐANG THAY ĐỔI", "score": 0.9578349590301514}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img1_0005.jpg", "ref": "đường tương", "hyp": "đường dẫn đến tương", "score": 0.9614880084991455}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img1_0006.jpg", "ref": "thu nhập của Việt Nam", "hyp": "thu nhập cao của Việt Nam", "score": 0.9934152364730835}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img3_0000.jpg", "ref": "MỤC LỤC", "hyp": "MỤC LỤC", "score": 0.9885490536689758}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img3_0001.jpg", "ref": "Tổng hợp", "hyp": "Tổng hơp", "score": 0.9798178672790527}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img3_0002.jpg", "ref": "và thương mại đã tạo ra những thănh quá phát triển to", "hyp": "v ưn m t  t    t", "score": 0.24215653538703918}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img3_0003.jpg", "ref": "Những hạn chế phát sinh của hình xuất", "hyp": "nưum han h há sa ủ m n u", "score": 0.4502575099468231}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img3_0004.jpg", "ref": "Thương mại cău chuyến dịch vừa là rũi là hội Việt", "hyp": "h m   ", "score": 0.27933406829833984}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img3_0005.jpg", "ref": "Hướng tới Việt Nam năm", "hyp": "Hướng tới Việt Nam năm", "score": 0.9663293957710266}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img3_0006.jpg", "ref": "hợp các khuyến nghị chính", "hyp": "hợp các khuyến nghl chính", "score": 0.9410140514373779}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img4_0000.jpg", "ref": "TỪ VIẾT TẮT", "hyp": "TỪ VIẾT TẮT", "score": 0.9280099868774414}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img6_0000.jpg", "ref": "LỜI ƠN", "hyp": "LỜI CAM ƠN", "score": 0.892109215259552}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img7_0000.jpg", "ref": "TỔNG HỢP", "hyp": "TÔNG HỰP", "score": 0.8801261782646179}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img7_0001.jpg", "ref": "Báo cáo tìm hiểu cách thức Việt Nam có thể khai thác giai đoạn tiếp theo trong", "hyp": "B   ", "score": 0.1649690568447113}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img7_0002.jpg", "ref": "quá trình hội nhập khu vực và hoàn khát vợng trở thành kính tế", "hyp": "gah  ", "score": 0.24631278216838837}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img7_0003.jpg", "ref": "nhập cao vào năm 2045,", "hyp": "nhập cao vào năm 2045.", "score": 0.9452188611030579}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img7_0004.jpg", "ref": "Mặc Nam có năng vươn lẽn vị thế cao hơn trong chuỗi giá trị, nhưng", "hyp": "C V m m ́ ", "score": 0.2796650528907776}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img7_0005.jpg", "ref": "không phải đương nhiên cỏ được.", "hyp": "không phải đương nhiên cổ được.", "score": 0.9439749717712402}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img7_0006.jpg", "ref": "hạ thuế quan chuyến hội nhập thương mại (trong khu vực)", "hyp": "g hố um y  m  ", "score": 0.2617739737033844}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img8_0000.jpg", "ref": "Hình S.1. Chiến ký kết các hiệp định thương mại tự do của Việt Nam", "hyp": "H C c  m  ", "score": 0.2618955969810486}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img8_0001.jpg", "ref": "đến nay vẫn rộng hơn", "hyp": "đến nay vẫn chủ trọng bế rộng hơn", "score": 0.9769134521484375}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img8_0002.jpg", "ref": "Từ năn tế kép sang hội nhập giá", "hyp": "r n     ", "score": 0.3726253807544708}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img9_0000.jpg", "ref": "Hình S.4: Nhu động có kỹ trong các ngành chế tạo chế biển", "hyp": "H N  k ", "score": 0.31983283162117004}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img9_0001.jpg", "ref": "dụng công nghệ", "hyp": "dụng công nghệ", "score": 0.9947977662086487}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img9_0002.jpg", "ref": "chế tạo chế thăm thải các-bon sang xuất các hàng giảm thải các-bơn và", "hyp": "chu c cm", "score": 0.2541610598564148}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img9_0003.jpg", "ref": "khả năng chống T", "hyp": "khu năn chống chịu. Tng rưng xuấ k", "score": 0.7082880139350891}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img10_0000.jpg", "ref": "Hình 5.5: Nến sản xuất xuất khẩu thâm nguy cơ với khí hậu", "hyp": "HSN x ", "score": 0.3179672062397003}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img10_0001.jpg", "ref": "thải ...", "hyp": "thải các-ban ...", "score": 0.9061907529830933}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img10_0002.jpg", "ref": "3. Quá trình Việt Nam chuyến sang tham gia các giá trị gia tăng (GVC) đem lại", "hyp": "3O Vmc  ", "score": 0.17564183473587036}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img10_0003.jpg", "ref": "lại cả cơ hội và ro. số v", "hyp": "lại cá c hi và vủi v. naốu mơ mn và", "score": 0.5651388168334961}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img10_0004.jpg", "ref": "thức hoặc", "hyp": "thức huẫs", "score": 0.8355915546417236}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img10_0005.jpg", "ref": "tương bất", "hyp": "tương lai ba", "score": 0.9371488094329834}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img10_0006.jpg", "ref": "phí n khó khăn để được tiếp", "hyp": "c", "score": 0.15447771549224854}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img10_0007.jpg", "ref": "bằng hơn. canh cău về", "hyp": "băng hơn. Hên canh đã là nhu cầu về", "score": 0.863552987575531}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img10_0008.jpg", "ref": "và cái đảm mạng", "hyp": "x ", "score": 0.13744696974754333}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img10_0009.jpg", "ref": "4, Việt Nam căn hành động ngay lúc này, Việt Nam", "hyp": "Vm m", "score": 0.18677182495594025}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img10_0010.jpg", "ref": "là vất mới", "hyp": "là sưu tình cớ, mả phẩ vất và mái", "score": 0.8437090516090393}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img10_0011.jpg", "ref": "Điều về", "hyp": "Duều này đưn náu tau ư cái cách v", "score": 0.5592974424362183}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img10_0012.jpg", "ref": "khai đầu tư đây T", "hyp": "k ", "score": 0.3257107138633728}
+{"path": "/content/ocr/pack/dataset_multitier/test_esp_images/esp_img10_0013.jpg", "ref": "kết hợp những h", "hyp": "kè hơp nưng cái canh", "score": 0.6274496912956238}

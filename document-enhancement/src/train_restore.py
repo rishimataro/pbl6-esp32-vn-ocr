@@ -10,7 +10,7 @@ Mỗi thư mục trong --data là một nguồn, theo một trong ba dạng:
 Khi train, mỗi mẫu chọn nguồn theo --data-weights (mặc định đều nhau), cắt ngẫu nhiên --crop px.
 Với xác suất --synth, ảnh vào được thay bằng degrade(ảnh chuẩn) với cấu hình suy biến ngẫu nhiên.
 
-Tùy chọn thêm từ M5 (sửa các lỗi thấy khi đánh giá M4):
+Tùy chọn thêm từ ENH-M5 (sửa các lỗi thấy khi đánh giá ENH-M4):
   --edge-w      loss L1 trên gradient Sobel của ảnh xám: giữ nét mảnh, dấu tiếng Việt
   --paper-color xác suất nhuộm ảnh chuẩn (luồng tổng hợp) bằng màu giấy nhạt ngẫu nhiên: học giữ nền màu thật
   --identity-p  xác suất (trong luồng tổng hợp) đưa ảnh sạch vào và đòi ảnh ra y hệt: không làm hỏng ảnh đã tốt
@@ -252,9 +252,9 @@ def main():
     ap.add_argument("--ssim-w", type=float, default=0.2)
     ap.add_argument("--synth", type=float, default=0.0, help="xác suất thay ảnh vào bằng ảnh suy biến tổng hợp")
     ap.add_argument("--synth-val", type=int, default=200, help="số patch val tổng hợp (0 = bỏ)")
-    ap.add_argument("--edge-w", type=float, default=0.0, help="trọng số loss gradient Sobel (M5)")
-    ap.add_argument("--paper-color", type=float, default=0.0, help="xác suất nhuộm màu giấy ảnh chuẩn (M5)")
-    ap.add_argument("--identity-p", type=float, default=0.0, help="xác suất mẫu ảnh sạch → ảnh sạch (M5)")
+    ap.add_argument("--edge-w", type=float, default=0.0, help="trọng số loss gradient Sobel (ENH-M5)")
+    ap.add_argument("--paper-color", type=float, default=0.0, help="xác suất nhuộm màu giấy ảnh chuẩn (ENH-M5)")
+    ap.add_argument("--identity-p", type=float, default=0.0, help="xác suất mẫu ảnh sạch → ảnh sạch (ENH-M5)")
     ap.add_argument("--ocr-loss", type=float, default=0.0)
     ap.add_argument("--vietocr-weights", default="")
     ap.add_argument("--amp", choices=["bf16", "fp16", "none"], default="bf16")

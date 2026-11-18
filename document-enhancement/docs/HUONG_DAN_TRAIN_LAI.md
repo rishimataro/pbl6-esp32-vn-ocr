@@ -130,16 +130,16 @@ Thứ tự ưu tiên (nếu hết quota thì bỏ từ dưới lên):
 | Thứ tự | Run | Lệnh | Thời gian (L4) |
 |---|---|---|---|
 | 0 | **R0: tái lập v1** (chỉ ESP32). Kiểm tra pipeline từ đầu cho lại best val PSNR khoảng 18,6. | ✅ `train_restore.py --data /content/esp32 --out $CK/r0_esp_only --iters 8000 --eval-every 500 --seed 0` | ~75 phút |
-| 1 | **M4: model đề xuất** (RealDAE + ESP32 + tổng hợp) | 🛠 `train_restore.py --data /content/realdae /content/esp32 --synth 0.5 --out $CK/m4_nafnet_all --iters 8000 --eval-every 500 --seed 0` | ~80 phút |
-| 2 | **M3:** NAFNet chỉ RealDAE | 🛠 `train_restore.py --data /content/realdae --out $CK/m3_nafnet_realdae ...` | ~75 phút |
-| 3 | **M2:** U-Net thường, dữ liệu giống M4 | 🛠 `train_restore.py --arch unet --data /content/realdae /content/esp32 --synth 0.5 --out $CK/m2_unet_all ...` | ~60 phút |
+| 1 | **ENH-M4: model đề xuất** (RealDAE + ESP32 + tổng hợp) | 🛠 `train_restore.py --data /content/realdae /content/esp32 --synth 0.5 --out $CK/m4_nafnet_all --iters 8000 --eval-every 500 --seed 0` | ~80 phút |
+| 2 | **ENH-M3:** NAFNet chỉ RealDAE | 🛠 `train_restore.py --data /content/realdae --out $CK/m3_nafnet_realdae ...` | ~75 phút |
+| 3 | **ENH-M2:** U-Net thường, dữ liệu giống ENH-M4 | 🛠 `train_restore.py --arch unet --data /content/realdae /content/esp32 --synth 0.5 --out $CK/m2_unet_all ...` | ~60 phút |
 
 `$CK = /content/drive/MyDrive/PBL6/checkpoints`
 
-- **R0 chỉ cần nếu muốn chứng minh tái lập được.** Nếu thiếu thời gian, bỏ R0 và dùng checkpoint v1 cũ làm M3' (chỉ ESP32).
+- **R0 chỉ cần nếu muốn chứng minh tái lập được.** Nếu thiếu thời gian, bỏ R0 và dùng checkpoint v1 cũ làm ENH-M3' (chỉ ESP32).
 - **Colab ngắt giữa chừng:** chạy lại đúng lệnh đó, thêm `--resume`. Script nạp `last.pt` của chính run đó, không phải checkpoint cũ của đề tài trước, nên vẫn tính là train từ đầu.
 - **Chọn checkpoint:** lấy `best.pt` theo PSNR trên val. Val gồm cả patch val của RealDAE và ESP32. Không nhìn tập test.
-- **Hai model này mới có seed 0.** Nếu dư GPU, chạy thêm seed 1 cho M4 để thấy độ dao động.
+- **Hai model này mới có seed 0.** Nếu dư GPU, chạy thêm seed 1 cho ENH-M4 để thấy độ dao động.
 
 ### 4.1. Trên A100/H100: chạy song song và thêm model lớn
 
@@ -152,17 +152,17 @@ NAFNet width 32, batch 16, crop 192 chỉ dùng vài GB bộ nhớ và không l�
 !tail -n 3 $CK/*.log; nvidia-smi
 ```
 
-**Đợt 1** (khoảng 1,5–2 giờ cho cả ba): M4, M3, M2, giữ đúng thiết lập ở bảng trên để so sánh công bằng.
+**Đợt 1** (khoảng 1,5–2 giờ cho cả ba): ENH-M4, ENH-M3, ENH-M2, giữ đúng thiết lập ở bảng trên để so sánh công bằng.
 
 **Đợt 2** (tùy chọn, khoảng 2 giờ), dùng thêm GPU có sẵn:
 
-| Run | Thay đổi so với M4 | Để trả lời câu hỏi |
+| Run | Thay đổi so với ENH-M4 | Để trả lời câu hỏi |
 |---|---|---|
-| M4-L | `--width 64` (khoảng 27M tham số), batch 32, crop 256, 16.000 vòng | Model lớn hơn và train lâu hơn có tăng PSNR không? |
-| M4-s1 | `--seed 1` | Kết quả dao động bao nhiêu giữa các lần chạy? |
+| ENH-M4-L | `--width 64` (khoảng 27M tham số), batch 32, crop 256, 16.000 vòng | Model lớn hơn và train lâu hơn có tăng PSNR không? |
+| ENH-M4-s1 | `--seed 1` | Kết quả dao động bao nhiêu giữa các lần chạy? |
 
-- **Model chính cho demo vẫn là M4 width 32**, vì chạy được trên CPU.
-- M4-L là cận trên khi có GPU. Báo cáo ghi cả PSNR, số tham số và thời gian/ảnh của hai bản.
+- **Model chính cho demo vẫn là ENH-M4 width 32**, vì chạy được trên CPU.
+- ENH-M4-L là cận trên khi có GPU. Báo cáo ghi cả PSNR, số tham số và thời gian/ảnh của hai bản.
 - Đặt `--num-workers` khoảng 3 cho mỗi tiến trình khi chạy song song, để tổng không vượt số vCPU của runtime (xem bằng `!nproc`).
 
 ## 5. Đánh giá
@@ -172,9 +172,9 @@ NAFNet width 32, batch 16, crop 192 chỉ dùng vài GB bộ nhớ và không l�
 | ESP32 test, cả trang | ✅ `restore_eval.py --data /content/esp32 --ckpt <best.pt> --variant esp_<run>` rồi ✅ `n2_eval.py --data /content/esp32 --skip-labels --variants esp_<run> --device cuda` | PSNR, SSIM, CER, WER |
 | RealDAE test 150 ảnh | 🛠 `eval_sets.py --ckpt <best.pt> --set /content/realdae/pages/test --tile 512 --out results/<run>_realdae.json` | PSNR, SSIM, LPIPS |
 | Tổng hợp theo loại và mức | 🛠 `eval_sets.py --ckpt <best.pt> --set /content/synth_test --out results/<run>_synth.json` | PSNR, SSIM theo từng ô (loại × mức) |
-| M1 cổ điển, M5 GCDRNet | 🛠 `eval_sets.py --method classic` và `--method gcdrnet --gcdr-weights ...` | như trên |
+| ENH-M1 cổ điển, GCDRNet | 🛠 `eval_sets.py --method classic` và `--method gcdrnet --gcdr-weights ...` | như trên |
 
-Cách đo trên RealDAE phải khớp với bài báo GCDRNet (cùng độ phân giải và cùng cách tính PSNR/SSIM) thì mới đặt cạnh số đã công bố được. Nếu không khớp, ghi rõ trong báo cáo và tự chạy GCDRNet (M5) bằng cùng script để so cho công bằng.
+Cách đo trên RealDAE phải khớp với bài báo GCDRNet (cùng độ phân giải và cùng cách tính PSNR/SSIM) thì mới đặt cạnh số đã công bố được. Nếu không khớp, ghi rõ trong báo cáo và tự chạy GCDRNet (ENH-M5) bằng cùng script để so cho công bằng.
 
 ## 6. Code mới (đã viết 11/11)
 
@@ -206,8 +206,8 @@ Cách đo trên RealDAE phải khớp với bài báo GCDRNet (cùng độ phân
 |---|---|---|
 | Kiểm tra nhanh | 3 phút | 3 phút |
 | R0 (tùy chọn) | 75 phút | chạy chung đợt 1 |
-| M4 + M3 + M2 | khoảng 3,5 giờ | khoảng 1,5–2 giờ |
-| M4-L + M4-s1 (tùy chọn) | không đủ thời gian | khoảng 2 giờ |
+| ENH-M4 + ENH-M3 + ENH-M2 | khoảng 3,5 giờ | khoảng 1,5–2 giờ |
+| ENH-M4-L + ENH-M4-s1 (tùy chọn) | không đủ thời gian | khoảng 2 giờ |
 | Đánh giá tất cả | khoảng 30 phút | khoảng 15 phút |
 
 **Tổng:**

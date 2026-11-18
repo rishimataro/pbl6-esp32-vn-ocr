@@ -1,0 +1,155 @@
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p1_0000.jpg", "ref": "VIỆT NAM 2045", "hyp": "VIỆT NAM 2045", "score": 0.9706040024757385}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p1_0001.jpg", "ref": "VỊ THẾ THƯƠNG MẠI", "hyp": "VỊ THÊ THƯƠNG MẠI", "score": 0.9135071039199829}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p1_0002.jpg", "ref": "ĐANG THAY ĐỔI", "hyp": "ĐANG THAY ĐỔI", "score": 0.9141417145729065}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p1_0003.jpg", "ref": "đường dẫn đến tương", "hyp": "đường dẫn đến tương", "score": 0.9827468991279602}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p1_0004.jpg", "ref": "thu nhập của Việt Nam", "hyp": "thu nhập cao của Việt Nam", "score": 0.9996620416641235}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0000.jpg", "ref": "Hình S.5: Nền sản xuất xuất khẩu thâm", "hyp": "Hình S.5: Nền sản xuất xuấ khẩu thâm", "score": 0.9254843592643738}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0001.jpg", "ref": "Lượng khí thải CO2 liên quan đến xuất khẩu", "hyp": "Lượng kí thái C2 iênqun đn xuấ khẩu", "score": 0.7456451654434204}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0002.jpg", "ref": "(% lượng khí thải trong các lĩnh vực sản xuất)", "hyp": "( lượng kh thi tong cá lĩn vc sán xuấ)", "score": 0.6864592432975769}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0003.jpg", "ref": "Dự án Các-bon Toàn cầu, Thế giới của chúng ta bằng", "hyp": "D á Cácbo Toàn cu hế ic hngta bng", "score": 0.3731652796268463}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0004.jpg", "ref": "thải quan đến khí ứng với", "hyp": "thải liên quan đến khí hầu tương ứng với", "score": 0.9204031229019165}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0005.jpg", "ref": "hàm lượng khí thải CO, trong hàng xuất khẩu gộp, trừ đi", "hyp": "hmlợngk th  tơ hn xấ kẩu ốt ", "score": 0.39487722516059875}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0006.jpg", "ref": "lượng trong hàng nhập khẩu", "hyp": "lượng trong hàng nhập khẩu ", "score": 0.9759817719459534}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0007.jpg", "ref": "nhiều nguy cơ với rủi ro khí hậu", "hyp": "nhiểu nguy cơ với rủi ro khí hậu", "score": 0.9922484159469604}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0008.jpg", "ref": "Tỷ lệ các khu công nghiệp tại các tỉnh hải", "hyp": "Tỷlệ ckhu côn nghiệ ạ c tn duyên ải", "score": 0.4978170096874237}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0009.jpg", "ref": "nguy cơ với ngập (%)", "hyp": "nguy cơ với ngập lụt (%)", "score": 0.9899137616157532}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0010.jpg", "ref": "xác suất", "hyp": "xác suất", "score": 0.9932719469070435}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0011.jpg", "ref": "Ngập sông", "hyp": "Ngập lụt ven sông", "score": 0.9541075229644775}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0012.jpg", "ref": "Rentschler và đồng sự. (2020) trên liệu của", "hyp": "Rensche v ồn s (0 ưa r  lcủa", "score": 0.4622289836406708}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0013.jpg", "ref": "hàng Thế giới năm 2020 (địa của các khu công", "hyp": "hng hế gới m  la bá của c khu ông", "score": 0.5553348660469055}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0014.jpg", "ref": "nghiệp), và đồng 2020 liệu ngập lụt vùng ven", "hyp": "ghi  ", "score": 0.34353572130203247}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0015.jpg", "ref": "biến) và Fathom (dữ ngập lụt", "hyp": "biển) và Fathom (dữ liêu ngâp lựt", "score": 0.929760754108429}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0016.jpg", "ref": "Ven biển: ngập lụt 1 trên 20 năm; Ven biến: ngập", "hyp": "Ve biền ngấ lụ tr năm Ven bến ngập", "score": 0.5904563069343567}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0017.jpg", "ref": "3. Quá trình Việt Nam chuyển sang tham gia các chuỗi giá trị gia tăng (GVC) đem lại gia tăng", "hyp": "so V n  ", "score": 0.18218550086021423}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0018.jpg", "ref": "đem lại cả cơ hội và rủi ro. Một số lĩnh vực và ngành nghề sẽ triển, một số sẽ phải thoái dẫn", "hyp": "mlh  ", "score": 0.22867520153522491}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0019.jpg", "ref": "sự dịch chuyển của lao động trong và giữa các ngành cũng địa bàn, hoặc ra vào khu vực chính", "hyp": "sư c  ", "score": 0.25056007504463196}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0020.jpg", "ref": "thức hoặc thậm chí ra vào lực lượng lao động. Để chuyển đổi linh hoạt và bao trùm hơn trong", "hyp": "t", "score": 0.20501087605953217}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0021.jpg", "ref": "tương lai bất định, chính sách cần tập trung đưa thật nhiều người vào vị thế để có thể tận dụng các", "hyp": "gc", "score": 0.2144569754600525}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0022.jpg", "ref": "hội việc làm tốt hơn sẽ phát Điều có thể thực hiện cách loại bỏ những hạn chế tài", "hyp": "Hm", "score": 0.16986024379730225}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0023.jpg", "ref": "và phi tài chính đối với sinh viên có hoàn cảnh khó khăn để đảm bảo họ được tiếp thu kỹ năng thuận lợi", "hyp": "cg s", "score": 0.17027223110198975}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0024.jpg", "ref": "bằng hơn. Bên cạnh đó là nhu cầu về cách chính sách tạo thuận lợi cho người dân dịch chuyển giữa", "hyp": "g", "score": 0.23099809885025024}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0025.jpg", "ref": "các lĩnh vực và địa bàn để nắm bắt các cơ hội việc làm mới tốt hơn, đồng thời đảm bảo có mạng lưới an", "hyp": "ch ", "score": 0.43434014916419983}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0026.jpg", "ref": "sinh xã hội hỗ trợ những người lao động phải chịu ảnh hưởng bất lợi.", "hyp": "sh h  c", "score": 0.2841002345085144}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0027.jpg", "ref": "Việt Nam cần hành động ngay lúc này. Thành công ngoạn mục về phát triển của Việt Nam đến nay", "hyp": "Nm m", "score": 0.2842029631137848}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0028.jpg", "ref": "không phải là sự tình phải vất vả mới có được qua những cải cách cơ từng bước bên cạnh đầu", "hyp": "tt", "score": 0.20408858358860016}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0029.jpg", "ref": "tư về hạ tầng và vốn nhân lực. này được bắt đầu qua cải cách về giá cả và đất trong công cuộc", "hyp": "r ", "score": 0.18501822650432587}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0030.jpg", "ref": "mới từ cuối thập kỷ 1980. Đến nay, Việt Nam đang gặt hái những thành quả của những cách sớm", "hyp": "rưct  ", "score": 0.20588189363479614}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0031.jpg", "ref": "đó. Tuy nhiên, quá trình triển khai và đầu tư chững lại trong những năm gần đây. Việt", "hyp": "N", "score": 0.13117419183254242}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0032.jpg", "ref": "cần lấy lại sức mạnh cải cách để gieo chính sách cho những thành công bền vững của", "hyp": "ch", "score": 0.4247051477432251}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0033.jpg", "ref": "Theo đuổi cách tiếp cận toàn diện, kết hợp những cải cách chính quan được nêu trong", "hyp": "Tc   ", "score": 0.18000257015228271}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0034.jpg", "ref": "báo cáo này có thể mở ra hướng tăng trưởng năng suất, đầu tư của khu vực tư nhân, giúp đưa Việt", "hyp": "cư", "score": 0.15436238050460815}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0035.jpg", "ref": "Nam trở thành quốc gia thu nhập cao vào năm 2045.", "hyp": "Namư thn quốc i t hậpca à ăm 2D", "score": 0.49016785621643066}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p2_0036.jpg", "ref": "đường đến tương nhập cao của ViệtNam 17", "hyp": "đưn dẫ đế ưn li  h ca ủ i m7", "score": 0.3603593707084656}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0000.jpg", "ref": "quan sang", "hyp": "quan sang", "score": 0.9968780875205994}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0001.jpg", "ref": "nhập thương", "hyp": "n nuana", "score": 0.32342806458473206}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0002.jpg", "ref": "(trong khu", "hyp": "(trong khu", "score": 0.9743069410324097}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0003.jpg", "ref": "chính sách", "hyp": "chính sách", "score": 0.9966318011283875}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0004.jpg", "ref": "nền kinh tế kép", "hyp": "nền kinh tế kép", "score": 0.982194721698761}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0005.jpg", "ref": "hội nhập", "hyp": "hội nhập", "score": 0.8807232975959778}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0006.jpg", "ref": "giá trị trong", "hyp": "giá trị trong", "score": 0.9651435613632202}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0007.jpg", "ref": "Bảng 0.1. Các gói chính sách", "hyp": "Bảng 0.1. Các gói chính sách", "score": 0.9717811942100525}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0008.jpg", "ref": "n nghị", "hyp": "1ll", "score": 0.37440720200538635}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0009.jpg", "ref": "Hạ thấp rào cản chính sách thuế quan trong mại qua: đấy", "hyp": "H ", "score": 0.42899075150489807}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0010.jpg", "ref": "tuân thủ các khu vực và quốc hài hòa trong", "hyp": "Nố", "score": 0.15429610013961792}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0011.jpg", "ref": "giảm giới hạn về tỷ lệ sở hữu của nước", "hyp": "giàm giới na v l s nu ch nướcg", "score": 0.35149839520454407}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0012.jpg", "ref": "cao khả năng kết khu vực qua: giảm rào chính sách đối với", "hyp": "ck h", "score": 0.37165260314941406}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0013.jpg", "ref": "lưu chuyển thương mại và đầu tư trong khu vực; tăng cường kết nối số và", "hyp": "N  ", "score": 0.19561481475830078}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0014.jpg", "ref": "kết cơ sở vật chất nhằm giảm phạm Đông Nam Á cũng với", "hyp": "k s", "score": 0.3606325685977936}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0015.jpg", "ref": "Trung Quốc và Nam Á.", "hyp": "trung quốc và Nam A", "score": 0.8636155128479004}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0016.jpg", "ref": "hình nghị trình hội nhập toàn cầu qua: chủ động phối hợp với các tác", "hyp": "", "score": 0.0}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0017.jpg", "ref": "tế trong ASEAN, RCEP, CPTPP và các khuôn khác, tăng cường", "hyp": "tư ASEACukmug", "score": 0.31336233019828796}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0018.jpg", "ref": "sâu các kết xoay quanh những trình chính như thương mại số,", "hyp": "sc", "score": 0.43315553665161133}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0019.jpg", "ref": "bài hòa tiêu chuẩn, thương mại điện và khả năng kết", "hyp": "hà hó ti huẩnhơmại i h năn t", "score": 0.4078715443611145}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0020.jpg", "ref": "Tiếp tục tăng cường môi trường kinh doanh. Cục soát Thủ tục", "hyp": "N", "score": 0.20911984145641327}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0021.jpg", "ref": "trực thuộc Văn phòng Chính phủ (VPCP) cần phối hợp với các", "hyp": "ố", "score": 0.27368927001953125}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0022.jpg", "ref": "ngành nhằm xây dựng chương trình và kế hoạch hành động tiết về số", "hyp": "ghm  hv h", "score": 0.29182881116867065}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0023.jpg", "ref": "đó bao gồm loại bỏ yêu cầu hồ sơ giấy và cải chất lượng của cơ", "hyp": "", "score": 0.0}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0024.jpg", "ref": "chia sẻ dữ thông trong chính phủ) thông qua các đơn trên nền", "hyp": "c l", "score": 0.49646899104118347}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0025.jpg", "ref": "thống nhất. Hơn nữa, cần cải thiện cơ chế cấp phép và tra qua áp", "hyp": "N", "score": 0.09156172722578049}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0026.jpg", "ref": "cách tiếp cận dựa trên", "hyp": "cách tiếp cận dựa trên", "score": 0.9951778054237366}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0027.jpg", "ref": "nối doanh nghiệp đa quốc gia với doanh nghiệp trong nước qua:", "hyp": "nd  ", "score": 0.2148260474205017}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0028.jpg", "ref": "thác các cơ quan xúc tiến đầu tư tăng cường kết nối giữa các", "hyp": "tc  ", "score": 0.2984190881252289}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0029.jpg", "ref": "nghiệp cung ứng trong nước có nhiều tiềm năng với các nhà đầu tư", "hyp": "g ", "score": 0.5090187788009644}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0030.jpg", "ref": "mới và hiện nay, tổ chức các sự kiện gỡ bên hoặc diễn", "hyp": "m ", "score": 0.5771819353103638}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0031.jpg", "ref": "nhà cấp để giúp các đơn vị ứng tiềm năng hiểu hơn về các tiêu", "hyp": "h ", "score": 0.30287966132164}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0032.jpg", "ref": "chất lượng, phí và giao hàng (QCD) cũng như khoảng cách về công", "hyp": "chh", "score": 0.44922685623168945}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0033.jpg", "ref": "và kỹ năng; công cơ sở dữ liệu trực tuyến có chất", "hyp": "v    ", "score": 0.2624094784259796}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0034.jpg", "ref": "danh bạ các đơn vị ứng trong nước tiếng Anh để giảm thiểu phí", "hyp": "", "score": 0.0}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0035.jpg", "ref": "kiếm cho các nghiệp nước ngoài; và Chương trình phát", "hyp": "kcc ", "score": 0.24909041821956635}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0036.jpg", "ref": "nhà cung ứng (SDP), nâng cao năng lực và khả năng kết nối của các", "hyp": "h", "score": 0.12451629340648651}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0037.jpg", "ref": "nghiệp trong nước, bao gồm những biện pháp hỗ trợ theo chiều", "hyp": "ghi t  mh ", "score": 0.34372180700302124}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0038.jpg", "ref": "theo nhu cầu và các biện pháp theo ngành dọc ở các vực", "hyp": "tệc", "score": 0.25845131278038025}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0039.jpg", "ref": "Triến khai các chính cung ứng (SCF) giữa doanh nghiệp", "hyp": "Tk cp", "score": 0.3944545388221741}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0040.jpg", "ref": "và doanh nghiệp trong nước, ưu hóa vốn lưu động bằng cách", "hyp": "v  uc", "score": 0.295748233795166}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0041.jpg", "ref": "số phải và hàng tồn kho thành tiền và tiếp nhận nguồn tài chính", "hyp": "s t    ", "score": 0.40672963857650757}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0042.jpg", "ref": "qua đó giúp bình ổn giao dịch thương mại giữa các doanh nghiệp", "hyp": "g  p", "score": 0.42674553394317627}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0043.jpg", "ref": "và các nhà cấp trong của họ.", "hyp": "và các nhà cung cp trong nướốc của ho", "score": 0.8254114389419556}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p3_0044.jpg", "ref": "Nam 2045 - Nâng vị thế thương mại trong một giới đang thay", "hyp": "Nm2 N   ", "score": 0.37325143814086914}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0000.jpg", "ref": "Hạ thấp rào cản thương mại dịch vụ ở những lĩnh vực dịch vụ xương sống", "hyp": "H ", "score": 0.4458046555519104}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0001.jpg", "ref": "viễn thông, tài chính và vận tải qua: () xử lý những quy định viễn", "hyp": " ", "score": 0.27381080389022827}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0002.jpg", "ref": "gây hạn chế nhằm đẩy mạnh cạnh tranh; (i) nới những quy định về tỷ", "hyp": "g", "score": 0.6261737942695618}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0003.jpg", "ref": "giá ngoại hối trong tài chính, nhằm nâng cao khả năng tiếp cận vốn và cơ", "hyp": "", "score": 0.0}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0004.jpg", "ref": "phối hợp với đầu tư và ngân hàng nước ngoài cho khu vực ngân hàng", "hyp": "", "score": 0.0}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0005.jpg", "ref": "Việt bỏ những quy định mang tính phân biệt với các", "hyp": "V  Il c", "score": 0.46587255597114563}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0006.jpg", "ref": "nghiệp dịch vụ vận tải nước ngoài có thế làm tăng phí vận tải chỉ", "hyp": "s", "score": 0.14324109256267548}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0007.jpg", "ref": "hạ thấp rào trong các dịch vụ pháp lý thúc đấy hợp", "hyp": "h", "score": 0.23758891224861145}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0008.jpg", "ref": "cáo chuyên gia hành nghề pháp Việt Nam và nước", "hyp": "cácuyế g  n h  m nác", "score": 0.4664553701877594}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0009.jpg", "ref": "ngừa xung đột và đảm bảo đối xử công bằng giữa doanh nghiệp", "hyp": "m", "score": 0.1844101846218109}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0010.jpg", "ref": "nhà nước (DNNN) và khu vực nhân qua: thiết lập cơ quan quản lý chuyên", "hyp": "m", "score": 0.13059762120246887}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0011.jpg", "ref": "ngành độc lập cho một số lĩnh vực dịch vụ quan trọng như viễn thông,", "hyp": "ghố  s", "score": 0.3157176673412323}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0012.jpg", "ref": "chính và vận tải.", "hyp": "chính và vận tải.", "score": 0.9855160713195801}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0013.jpg", "ref": "Hợp lý hóa quy định về lưu chuyển dữ liệu qua biên giới qua: sửa quy", "hyp": "Hýố ", "score": 0.3802524507045746}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0014.jpg", "ref": "định về lưu trữ dữ liệu trong nước và yêu cầu về thiết lập sự hiện diện của", "hyp": "đh t  ", "score": 0.3480835258960724}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0015.jpg", "ref": "doanh nghiệp nước ngoài đang cung dịch vụ", "hyp": "d g ", "score": 0.408528208732605}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0016.jpg", "ref": "khung lý toàn diện về tài sản trí tuệ (IP) qua: tăng cường các", "hyp": "kn h ", "score": 0.26583462953567505}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0017.jpg", "ref": "quan thực hiệu lực của Việt khi các quan này đang gặp khó", "hyp": "g hc c", "score": 0.27679309248924255}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0018.jpg", "ref": "khăn trong việc thích ứng với các quy định mới, khiến cho các doanh nghiệp", "hyp": "k  p", "score": 0.2913890779018402}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0019.jpg", "ref": "phải tìm kiếm các chiến lược phòng vệ thay thế, như dựa vào điều khoản hợp", "hyp": "h c", "score": 0.2893863022327423}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0020.jpg", "ref": "và theo dõi thị", "hyp": "va neo ai mi", "score": 0.507946789264679}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0021.jpg", "ref": "dựng lực lượng lao động công nghệ cao qua: xây dựng chương", "hyp": "dn llợn g", "score": 0.29346397519111633}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0022.jpg", "ref": "ngũ giảng viên đào tạo cải thiện kỹ năng và giáo", "hyp": "glà vê   t ạ", "score": 0.26430293917655945}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0023.jpg", "ref": "vàng với nhu cầu doanh nghiệp; các cơ chế khuyến khích có", "hyp": "v u un s", "score": 0.18208745121955872}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0024.jpg", "ref": "lực tiêu và bổng) cho sinh viên có tiềm", "hyp": "N c", "score": 0.24388481676578522}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0025.jpg", "ref": "lượng lao động có kỹ và nâng cấp cơ sở vật chất đào tạo và nghiên cứu và phát", "hyp": "N ", "score": 0.21414722502231598}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0026.jpg", "ref": "trong các tổ chức giáo dục đại học vực STEM và các viên nghiên", "hyp": "tgt", "score": 0.17553074657917023}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0027.jpg", "ref": "dụng cách dựa trên năng lực và theo cơ chế thị trường trong", "hyp": "d t ", "score": 0.1820404827594757}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0028.jpg", "ref": "giáo dục đại học qua: () các hội đồng kỹ năng theo lĩnh vực, có sự", "hyp": "g", "score": 0.5426263809204102}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0029.jpg", "ref": "tham gia của đơn vị sử dụng lao động khu vực tư nhân và các tổ chức đào", "hyp": "tgc", "score": 0.44682177901268005}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0030.jpg", "ref": "để đảm bảo các sản phẩm giáo dục đáp ứng được luôn thay đối của", "hyp": "đố bcs ", "score": 0.263572096824646}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0031.jpg", "ref": "đơn vị sử dụng lao động, chuẩn bị cho người lao động sẵn sàng với kỹ năng", "hyp": "  ", "score": 0.3721195161342621}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0032.jpg", "ref": "và việc làm mới phát sinh; và khai cách tiếp dựa trên bằng chứng", "hyp": "s", "score": 0.1004687175154686}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0033.jpg", "ref": "và hướng đến kết quả, theo cách sử dụng dữ và các vòng lặp ý kiến", "hyp": "vướn ố k us l", "score": 0.2514176368713379}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0034.jpg", "ref": "hồi liên tục cải thiện về kết quả, đảm bảo thích ứng với những diễn biến", "hyp": "hm ", "score": 0.2772410809993744}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0035.jpg", "ref": "trên thị", "hyp": "trên thị", "score": 0.9658563137054443}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p4_0036.jpg", "ref": "đường dẫn đến tương thu nhập cao của Việt Nam I", "hyp": "đưn dẫ ế ươn l t pc ủ  m ", "score": 0.3531430959701538}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0000.jpg", "ref": "GIỚI THIỆU", "hyp": "GIỚI THIỆU", "score": 0.9530524015426636}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0001.jpg", "ref": "5. mại cầu hết sức quan trọng với công cuộc phát triển của Việt Nam. Việt Nam", "hyp": "L  ", "score": 0.2272985726594925}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0002.jpg", "ref": "là quốc gia nổi bật, ngay cả trong khu vực Đông Á, vốn là khu vực thường được biết đến", "hyp": "l", "score": 0.21005281805992126}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0003.jpg", "ref": "trưởng định hướng xuất khẩu 1). Trong hai mươi năm qua, dòng vốn đầu tư trực tiếp", "hyp": "smhg m", "score": 0.2617931663990021}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0004.jpg", "ref": "nước ngoài (FDI) hàng năm chiếm khoảng 5% GDP, đóng góp với tỷ lệ còn cao hơn cho tống", "hyp": "n", "score": 0.17304673790931702}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0005.jpg", "ref": "đầu tự hơn hầu hết bất kỳ quốc gia nào trong khu vực Đông Cũng trong giai đó, xuất", "hyp": "tư t cu ", "score": 0.18022602796554565}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0006.jpg", "ref": "khẩu tăng trưởng ngoại mục ở mức bình quân 12,7% môi năm, lên đến gần 100% GDP vào năm", "hyp": "kg g  ", "score": 0.22581110894680023}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0007.jpg", "ref": "2023. Khi Việt Nam hội nhập sâu vào các chuỗi giá trị toàn cầu giỏ hàng xuất khẩu của", "hyp": "g ", "score": 0.41578105092048645}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0008.jpg", "ref": "quốc gia dịch dần chuyển từ hàng nông sản và thương phẩm thô trong thập kỷ đến", "hyp": "gố", "score": 0.37547850608825684}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0009.jpg", "ref": "mặt hàng nghiệp nhẹ sử dụng công nghệ thấp trong thập kỷ sang các mặt hàng", "hyp": "gà ", "score": 0.137198343873024}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0010.jpg", "ref": "xuất khẩu công nghệ cao ngày tiên tiến trong thập kỷ qua. Đến nay, lĩnh vực xuất khẩu", "hyp": "xl  ", "score": 0.18441084027290344}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0011.jpg", "ref": "trực tiếp hoặc gián tiếp đóng góp khoảng một nửa GDP của quốc gia và mỗi công việc tiếp theo", "hyp": "c", "score": 0.08657905459403992}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0012.jpg", "ref": "đều phụ thuộc vào xuất khẩu, khiến cho Việt Nam trở thành nền kinh tế dựa vào thương", "hyp": "Nượlh  ", "score": 0.23608948290348053}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0013.jpg", "ref": "nhiều nhất ở Đông Á, ngoại trừ", "hyp": "nhiều nhất ở Đông Á, ngoại trừ", "score": 0.9857580065727234}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0014.jpg", "ref": "6. Nhìn chung, tương lai nền kinh tế Việt Nam chủ yếu phụ thuộc vào khả năng", "hyp": "KN  ", "score": 0.23885905742645264}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0015.jpg", "ref": "dịch sang các lĩnh vực dịch vụ và chế tạo chế biến đem lại giá trị cao hơn. Việt Nam", "hyp": "g á  m  ", "score": 0.23056817054748535}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0016.jpg", "ref": "tiêu trở thành quốc gia thu nhập cao vào năm 2045. Để đạt mục tiêu đó, thu nhập hiện", "hyp": "Nư  gố   ", "score": 0.16379199922084808}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0017.jpg", "ref": "nay của Việt Nam cần tăng gấp ba, nghĩa là duy trì trưởng GDP bình quân theo đầu", "hyp": "c K ", "score": 0.23277181386947632}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0018.jpg", "ref": "ở mức khoảng 6% mỗi năm trong hai mươi tới. Mô hình tăng trưởng dựa vào xuất", "hyp": "mc m ", "score": 0.31045669317245483}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0019.jpg", "ref": "khẩu hiện nay của Việt Nam, tuy là động lực cho thành công trước đây vẫn chủ yếu dựa", "hyp": "H ", "score": 0.30750665068626404}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0020.jpg", "ref": "vào gia công khâu cuối thâm dụng động nhưng đem lại giá trị gia tăng tương đối thấp", "hyp": "v", "score": 0.1108846440911293}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0021.jpg", "ref": "không đủ để đem lại tốc độ tăng trưởng năng suất lao động cần thiết để đạt mục tiêu đó.", "hyp": "N", "score": 0.22998274862766266}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0022.jpg", "ref": "Kinh của Nhật Bản, Hàn Quốc, Sing-ga-po, và hiện nay Trung Quốc cho", "hyp": "K    ", "score": 0.32097575068473816}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0023.jpg", "ref": "oần tiếp tục nâng cao vị thế trong chuỗi trị, chuyển dịch sang các lĩnh vực dịch vụ và", "hyp": "ch ", "score": 0.4255730211734772}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0024.jpg", "ref": "chế tạo chế biến đem lại giá tăng cao hơn, bằng cách cải thiện về công nghệ, kỹ năng", "hyp": "ch b mlc", "score": 0.18302926421165466}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0025.jpg", "ref": "và đổi mới sáng tạo (Hình 2). Ngược lại, nếu Việt Nam không thể chuyển đối như thế, quốc", "hyp": "v   ", "score": 0.170213520526886}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0026.jpg", "ref": "gia phải đối mặt với rủi ro thực tế là tăng trưởng sẽ giảm tốc sớm, có khả năng trở tiến", "hyp": "g", "score": 0.4161563217639923}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0027.jpg", "ref": "trình kinh tế và tạo ra cơ dễ tổn thương với cạnh tranh trên toàn cầu.", "hyp": "th ", "score": 0.3561401665210724}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0028.jpg", "ref": "vốn đầ rực nước ngoài đạt 197 GDP hiện", "hyp": "c  ", "score": 0.12682850658893585}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0029.jpg", "ref": "Xuất khẩu của bằng GDP, góp và 62%", "hyp": "xuc ", "score": 0.4407782554626465}
+{"path": "/content/ocr/pack/dataset_multitier/test_scan_images/scan_p5_0030.jpg", "ref": "1 22 Nâng cao vị thế thương mại trong một thế giới thay đổi", "hyp": "l2 ", "score": 0.3994477689266205}

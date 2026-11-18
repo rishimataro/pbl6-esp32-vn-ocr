@@ -1,4 +1,4 @@
-"""Dựng notebook kết quả train lại đợt 2 (M5) và chạy nó để có đầu ra: notebooks/PBL6_Ket_qua_retrain.ipynb
+"""Dựng notebook kết quả train lại đợt 2 (ENH-M5) và chạy nó để có đầu ra: notebooks/PBL6_Ket_qua_retrain.ipynb
 
 Notebook này KHÔNG train. Nó đọc những gì lần chạy trên Colab A100 (17/11/2026) đã lưu về máy:
   models/retrain2/<run>/{log.jsonl,config.json}   quá trình train
@@ -29,16 +29,16 @@ def code(t):
 
 
 md("""
-# PBL6: kết quả train lại model nâng chất lượng ảnh tài liệu (đợt 2, M5)
+# PBL6: kết quả train lại model nâng chất lượng ảnh tài liệu (đợt 2, ENH-M5)
 
 **Bài toán.** Ảnh tài liệu chụp bằng camera bất kỳ (ESP32-CAM, điện thoại) thường thiếu sáng, nhiễu, ám màu, có bóng đổ, mờ, nén JPEG.
 Model nhận ảnh xấu và trả về ảnh sạch kiểu scan, cùng kích thước.
 
 **Model.** NAFNet bản nhỏ (6,82 triệu tham số), train từ trọng số ngẫu nhiên. Loss gốc: L1 + 0,2·(1 − SSIM).
 
-**Câu hỏi của đợt này.** M4 (đợt 1) còn ba điểm yếu. Ta thử một cải tiến cho mỗi điểm yếu và kiểm tra xem chúng có sửa được không:
+**Câu hỏi của đợt này.** ENH-M4 (đợt 1) còn ba điểm yếu. Ta thử một cải tiến cho mỗi điểm yếu và kiểm tra xem chúng có sửa được không:
 
-| Điểm yếu của M4 | Cải tiến thử | Cờ trong `train_restore.py` |
+| Điểm yếu của ENH-M4 | Cải tiến thử | Cờ trong `train_restore.py` |
 |---|---|---|
 | Dấu tiếng Việt bị biến dạng ("Giới" → "Giói"); lỗi riêng do dấu tăng sau khi nâng ảnh | thêm loss gradient Sobel để giữ nét mảnh | `--edge-w 1.0` |
 | Trang nền màu (xanh lá, xám) bị tẩy thành trắng | nhuộm màu giấy nhạt cho ảnh chuẩn khi sinh dữ liệu tổng hợp | `--paper-color 0.2` |
@@ -67,8 +67,8 @@ plt.rcParams.update({'font.family': ['Segoe UI', 'DejaVu Sans'], 'figure.dpi': 1
 pd.set_option('display.width', 200)
 
 RUNS = ['m4r_baseline', 'm5a_edge', 'm5b_color', 'm5c_identity', 'm5_all']
-LABEL = {'m4r_baseline': 'M4 chạy lại (mốc)', 'm5a_edge': '+ loss gradient', 'm5b_color': '+ nhuộm giấy',
-         'm5c_identity': '+ ảnh sạch', 'm5_all': 'M5 (cả ba)'}
+LABEL = {'m4r_baseline': 'ENH-M4 chạy lại (mốc)', 'm5a_edge': '+ loss gradient', 'm5b_color': '+ nhuộm giấy',
+         'm5c_identity': '+ ảnh sạch', 'm5_all': 'ENH-M5 (cả ba)'}
 COLOR = {'m4r_baseline': '#6b7a8f', 'm5a_edge': '#4f9d69', 'm5b_color': '#c9a227', 'm5c_identity': '#8e5ea2', 'm5_all': '#d9822b'}
 print('thư mục dự án:', ROOT)
 print('kết quả:', len(list(RES.glob('*.json'))), 'file JSON,', len(list(FIG.glob('*.png'))), 'hình Colab')
@@ -143,7 +143,7 @@ md("""
 **Cách đọc hình.**
 
 - Loss giảm đều ở cả năm run và PSNR val tăng đều, không có run nào phân kỳ.
-- Loss L1 train **không so trực tiếp được giữa các run**: hai run có `--paper-color` (`+ nhuộm giấy` và `M5`) kết thúc ở khoảng 0,041, trong khi ba run còn lại ở khoảng 0,031.
+- Loss L1 train **không so trực tiếp được giữa các run**: hai run có `--paper-color` (`+ nhuộm giấy` và `ENH-M5`) kết thúc ở khoảng 0,041, trong khi ba run còn lại ở khoảng 0,031.
   Lý do là ảnh chuẩn của chúng được nhuộm màu nên bài toán khác đi, không phải model học kém hơn: PSNR val của hai run này vẫn ngang các run còn lại.
 - PSNR val dao động vài phần mười dB giữa các lần đo, nên thứ tự các run ở một vòng cụ thể không có ý nghĩa; chỉ đường xu hướng và giá trị cuối là đáng tin.
 
@@ -181,14 +181,14 @@ Sau 8.000 vòng, năm run cách nhau tối đa khoảng 0,2 dB trên tập val: 
 md("""
 ## 3. Kết quả trên tập test
 
-`m4_prev` là M4 của đợt 1 (chạy trước đó, cấu hình giống `m4r_baseline`), chấm cùng lúc để kiểm tra mốc. Chỉ số: PSNR trên RGB, SSIM trên ảnh xám, LPIPS (thấp hơn là tốt hơn).
+`m4_prev` là ENH-M4 của đợt 1 (chạy trước đó, cấu hình giống `m4r_baseline`), chấm cùng lúc để kiểm tra mốc. Chỉ số: PSNR trên RGB, SSIM trên ảnh xám, LPIPS (thấp hơn là tốt hơn).
 """)
 
 code("""
 df = pd.read_csv(RES / 'summary.csv')
 ORDER = ['m0_identity', 'm1_classic', 'm4_prev'] + RUNS
 SETS = {'realdae': 'RealDAE test', 'synth': 'Tổng hợp (TB 21 ô)', 'docaligner': 'DocAligner', 'jung': 'Jung', 'esp32_pages': 'ESP32 10 trang'}
-NAME = {'m0_identity': 'ảnh vào (không xử lý)', 'm1_classic': 'cổ điển (OpenCV)', 'm4_prev': 'M4 đợt 1', **LABEL}
+NAME = {'m0_identity': 'ảnh vào (không xử lý)', 'm1_classic': 'cổ điển (OpenCV)', 'm4_prev': 'ENH-M4 đợt 1', **LABEL}
 
 def overall(s, metric):
     d = df[df['set'] == s]
@@ -213,7 +213,7 @@ print('LPIPS, thấp hơn là tốt hơn')
 table('lpips').round(3).style.highlight_min(axis=0, color='#c6efce')
 """)
 
-md("Biểu đồ cột PSNR từng tập (xám: không học; xanh dương: M4; các màu còn lại: bản M5). Trục tung cắt từ dưới để thấy được chênh lệch nhỏ.")
+md("Biểu đồ cột PSNR từng tập (xám: không học; xanh dương: ENH-M4; các màu còn lại: bản ENH-M5). Trục tung cắt từ dưới để thấy được chênh lệch nhỏ.")
 
 code("""
 cols = list(psnr.columns)
@@ -237,7 +237,7 @@ md("""
 - **Jung:** phương pháp cổ điển đứng đầu (18,4 dB) vì ảnh chuẩn của Jung là ảnh chụp dưới ánh sáng đều (nền giấy xám nhạt), còn model cho nền trắng tinh kiểu scan.
   PSNR ở tập này chủ yếu đo lệch tông màu chứ không đo khả năng khử bóng; phân tích kỹ ở `reports/results/jung/SUMMARY.md`.
 - **ESP32:** không có hai cột đầu vì ảnh ESP32 chưa nắn không so được với scan bằng PSNR trên cả trang (chỉ chấm các phiên bản đã qua model).
-- **Cả 5 tập:** mọi bản M5 cách M4 dưới 0,3 dB (xem bảng ablation ở mục 5), cùng cỡ với nhiễu seed.
+- **Cả 5 tập:** mọi bản ENH-M5 cách ENH-M4 dưới 0,3 dB (xem bảng ablation ở mục 5), cùng cỡ với nhiễu seed.
 
 ### 3.1 Tập tổng hợp theo từng loại suy biến
 
@@ -287,7 +287,7 @@ ci.round(2).to_frame('PSNR (dB)')
 md("""
 ### 4.2 Trang nền màu (`--paper-color`)
 
-DocAligner có 3 trang nền màu chủ ý (ảnh 26_1, 26_2, 8_2) mà M4 tẩy trắng. Ngoài ra lấy 20 ảnh DocAligner mà M4 làm tệ nhất so với ảnh vào.
+DocAligner có 3 trang nền màu chủ ý (ảnh 26_1, 26_2, 8_2) mà ENH-M4 tẩy trắng. Ngoài ra lấy 20 ảnh DocAligner mà ENH-M4 làm tệ nhất so với ảnh vào.
 **Chỉ có 3 ảnh nền màu**, nên đây là phép thử rất nhỏ; xem như gợi ý, không phải kết luận.
 """)
 
@@ -299,7 +299,7 @@ def per_image(run):
 dc = {r: per_image(r) for r in ['m0_identity', 'm1_classic', 'm4_prev'] + RUNS}
 bad3 = ['26_1.png', '26_2.png', '8_2.png']
 worst20 = sorted(dc['m4_prev'], key=lambda k: dc['m4_prev'][k] - dc['m0_identity'][k])[:20]
-t2 = pd.DataFrame({NAME[r]: {'3 ảnh nền màu': np.mean([v[k] for k in bad3]), '20 ảnh M4 làm tệ nhất': np.mean([v[k] for k in worst20]),
+t2 = pd.DataFrame({NAME[r]: {'3 ảnh nền màu': np.mean([v[k] for k in bad3]), '20 ảnh ENH-M4 làm tệ nhất': np.mean([v[k] for k in worst20]),
                               'cả 130 ảnh': np.mean(list(v.values()))} for r, v in dc.items()}).T
 t2.round(2).style.highlight_max(axis=0, color='#c6efce')
 """)
@@ -314,7 +314,7 @@ Cắt từng dòng chữ của 10 trang ESP32 test (317 dòng) từ ảnh đã n
 
 code("""
 cer = pd.read_csv(RES / 'cer_esp32.csv').set_index('phiên bản').reindex(['raw', 'scan', 'm4_prev'] + RUNS)
-cer.index = ['ảnh ESP32 gốc', 'bản scan (giới hạn trên)', 'M4 đợt 1'] + [LABEL[r] for r in RUNS]
+cer.index = ['ảnh ESP32 gốc', 'bản scan (giới hạn trên)', 'ENH-M4 đợt 1'] + [LABEL[r] for r in RUNS]
 display(cer.round(3).style.highlight_min(axis=0, subset=pd.IndexSlice[cer.index[2:], :], color='#c6efce'))
 ax = cer[['CER bỏ dấu', 'lỗi riêng do dấu']].plot.bar(stacked=True, figsize=(10, 4), color=['#7aa6c2', '#d9822b'], rot=25)
 ax.set_ylabel('CER = lỗi chữ cái + lỗi riêng do dấu'); ax.set_title('CER trên 317 dòng ESP32 test (thấp hơn là tốt hơn)')
@@ -335,12 +335,12 @@ Chênh PSNR so với `m4r_baseline` (cùng cấu hình, cùng seed). Chỉ ô n�
 code("""
 abl = pd.read_csv(RES / 'ablation_delta.csv').set_index('run')
 abl.index = [LABEL[i] for i in abl.index]
-print('Chênh PSNR so với M4 chạy lại (dB)')
+print('Chênh PSNR so với ENH-M4 chạy lại (dB)')
 abl.round(2).style.background_gradient(cmap='RdYlGn', vmin=-0.6, vmax=0.6).format('{:+.2f}')
 """)
 
 md("""
-**Ảnh trước/sau** (hình do notebook Colab vẽ): các cột là ảnh vào, M4, M5, ảnh chuẩn; các hàng là trang nền màu (DocAligner 26_2), trang điển hình, bóng đổ (Jung),
+**Ảnh trước/sau** (hình do notebook Colab vẽ): các cột là ảnh vào, ENH-M4, ENH-M5, ảnh chuẩn; các hàng là trang nền màu (DocAligner 26_2), trang điển hình, bóng đổ (Jung),
 ảnh chỉ mờ (tổng hợp) và trang ESP32.
 """)
 
@@ -349,8 +349,8 @@ code("display(Image(filename=str(FIG / 'truoc_sau.png')))")
 md("""
 **Nhận xét hình (nhìn bằng mắt, chỉ 5 ảnh nên chỉ mang tính minh họa):**
 
-- **Hàng 1, trang nền xanh:** M4 tẩy phần lớn nền xanh về trắng, còn M5 giữ được màu xanh nhiều hơn. Khớp với kết quả ở mục 4.2 (M5 khá hơn mốc trên 3 ảnh nền màu). Ảnh chuẩn của trang này có nền xám xanh tối hơn cả hai model.
-- **Hàng 2, 3, 5:** M4 và M5 gần như không phân biệt được bằng mắt, đúng với chênh PSNR dưới 0,3 dB.
+- **Hàng 1, trang nền xanh:** ENH-M4 tẩy phần lớn nền xanh về trắng, còn ENH-M5 giữ được màu xanh nhiều hơn. Khớp với kết quả ở mục 4.2 (ENH-M5 khá hơn mốc trên 3 ảnh nền màu). Ảnh chuẩn của trang này có nền xám xanh tối hơn cả hai model.
+- **Hàng 2, 3, 5:** ENH-M4 và ENH-M5 gần như không phân biệt được bằng mắt, đúng với chênh PSNR dưới 0,3 dB.
 - **Hàng 3 (Jung):** model cho nền trắng tinh, ảnh chuẩn có nền giấy xám nhạt; đây là nguyên nhân PSNR thấp trên tập Jung (mục 3).
 - **Hàng 4 (chỉ mờ):** ảnh ra không rõ nét hơn ảnh vào, phù hợp với việc mọi model xấu hơn ảnh vào ở loại `blur`.
 """)
@@ -360,25 +360,25 @@ md("## 6. Kết luận")
 
 code("""
 d = abl.loc[LABEL['m5_all']]
-print('M5 (cả ba cải tiến) so với M4 chạy lại, PSNR (dB):')
+print('ENH-M5 (cả ba cải tiến) so với ENH-M4 chạy lại, PSNR (dB):')
 for c, v in d.items():
     nhan = 'tốt hơn' if v > 0.3 else 'kém hơn' if v < -0.3 else 'ngang nhau (trong nhiễu seed)'
     print(f'  {c:22s} {v:+.2f}  {nhan}')
 print()
 ci2 = ci.copy(); base = ci2[LABEL['m4r_baseline']]
-print(f'Ảnh sạch: M4 chạy lại {base:.2f} dB; +ảnh sạch {ci2[LABEL[\"m5c_identity\"]]:.2f}; M5 {ci2[LABEL[\"m5_all\"]]:.2f}')
+print(f'Ảnh sạch: ENH-M4 chạy lại {base:.2f} dB; +ảnh sạch {ci2[LABEL[\"m5c_identity\"]]:.2f}; ENH-M5 {ci2[LABEL[\"m5_all\"]]:.2f}')
 dau = cer['lỗi riêng do dấu']
-print(f'Lỗi riêng do dấu (CER): ảnh gốc {dau.iloc[0]:.3f}; M4 chạy lại {dau[LABEL[\"m4r_baseline\"]]:.3f}; +loss gradient {dau[LABEL[\"m5a_edge\"]]:.3f}; M5 {dau[LABEL[\"m5_all\"]]:.3f}')
+print(f'Lỗi riêng do dấu (CER): ảnh gốc {dau.iloc[0]:.3f}; ENH-M4 chạy lại {dau[LABEL[\"m4r_baseline\"]]:.3f}; +loss gradient {dau[LABEL[\"m5a_edge\"]]:.3f}; ENH-M5 {dau[LABEL[\"m5_all\"]]:.3f}')
 """)
 
 md("""
 **Tóm tắt (một seed mỗi cấu hình; chỉ dựa trên số đo ở trên):**
 
-1. **M5 không tốt hơn M4 đo được.** Trên 5 tập test, mọi chênh PSNR giữa M5 và M4 chạy lại đều dưới 0,3 dB, tức trong nhiễu seed. Không có run nào "thắng" rõ rệt ở các tập này.
+1. **ENH-M5 không tốt hơn ENH-M4 đo được.** Trên 5 tập test, mọi chênh PSNR giữa ENH-M5 và ENH-M4 chạy lại đều dưới 0,3 dB, tức trong nhiễu seed. Không có run nào "thắng" rõ rệt ở các tập này.
 2. **Điểm yếu "ảnh sạch bị hỏng": cải thiện rõ.** Hai run có `--identity-p` giữ ảnh sạch tốt hơn mốc khoảng 2 dB (mục 4.1). Model vẫn chưa trả ảnh nguyên vẹn.
 3. **Điểm yếu "nền màu": chưa kết luận được.** Chỉ run gộp cả ba cải tiến khá hơn mốc, trên 3 ảnh. `--paper-color` dùng riêng không giúp, và làm giảm PSNR tập tổng hợp (mục 4.2 và bảng ablation). Mọi model vẫn kém ảnh vào trên 3 ảnh này. Cần thêm dữ liệu nền màu để kiểm tra đàng hoàng.
 4. **Điểm yếu "dấu tiếng Việt": không cải thiện.** Lỗi riêng do dấu của mọi model (0,048–0,051) cao hơn ảnh gốc (0,038). Loss gradient không sửa được. Cả sáu phiên bản chỉ lệch nhau ≤ 0,002 CER (mục 4.3).
-5. **Hướng tiếp theo cho dấu:** thử loss theo vùng chữ hoặc loss OCR (VietOCR đóng băng), tăng độ phân giải xử lý, hoặc fine-tune VietOCR trên ảnh đã nâng. Model lớn (M4-L, đợt 1) đạt PSNR tập tổng hợp cao hơn mọi bản cỡ nhỏ nhưng không giúp ESP32.
+5. **Hướng tiếp theo cho dấu:** thử loss theo vùng chữ hoặc loss OCR (VietOCR đóng băng), tăng độ phân giải xử lý, hoặc fine-tune VietOCR trên ảnh đã nâng. Model lớn (ENH-M4-L, đợt 1) đạt PSNR tập tổng hợp cao hơn mọi bản cỡ nhỏ nhưng không giúp ESP32.
 
 Nên ghi nhận trong báo cáo: đây là **kết quả âm cho ba cải tiến**, trừ `--identity-p`. Chúng không làm hỏng model, nhưng cũng không đem lại lợi ích đo được ở quy mô này.
 """)

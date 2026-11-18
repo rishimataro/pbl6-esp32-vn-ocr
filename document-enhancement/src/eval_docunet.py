@@ -98,7 +98,7 @@ def apply(img, method):
             from restore_model import load_model, restore_image
             _m4 = _m4 or load_model(M4_CKPT)
             h, w = out.shape[:2]
-            s = min(1.0, 1024 / max(h, w))      # M4 được chấm ở cạnh dài 1024
+            s = min(1.0, 1024 / max(h, w))      # ENH-M4 được chấm ở cạnh dài 1024
             small = cv2.resize(out, (round(w * s), round(h * s)), interpolation=cv2.INTER_AREA)
             out = restore_image(_m4, small)
         elif step != "none":
